@@ -1,0 +1,11 @@
+traceroute to start.privatbank.ua (75.2.44.145), 64 hops max, 52 byte packets
+ 1 * * *
+ 2 * * *
+ 3 * * *
+ 4 * * *
+ 5 * * *
+ 6 * * *
+ 7 * * *
+ 8 * * *
+ 9 * * *
+10 75.2.44.145  129.395 ms  129.826 ms  130.291 ms
