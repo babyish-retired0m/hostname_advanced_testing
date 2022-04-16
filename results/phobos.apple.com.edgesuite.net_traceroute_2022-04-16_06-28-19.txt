@@ -1,0 +1,7 @@
+traceroute to phobos.apple.com.edgesuite.net (62.140.236.144), 64 hops max, 52 byte packets
+ 192.168.1.1  1.219 ms * *
+ 192.168.88.1  1.359 ms  1.523 ms  1.504 ms
+ 10.0.255.255  1.868 ms  1.974 ms  2.034 ms
+ 194.33.189.25  2.475 ms  2.521 ms  2.700 ms
+ 62.140.239.18  2.730 ms  2.755 ms  2.825 ms
+ 62.140.236.144  2.640 ms  2.775 ms  2.813 ms
