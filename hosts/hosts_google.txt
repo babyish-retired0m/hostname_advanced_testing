@@ -1,0 +1,16 @@
+www.google.com
+www.google.com.ua
+googleadservices.com
+www.youtube.com
+wf-in-f128.1e100.net
+storage.googleapis.com
+googleapis.com
+commondatastorage.googleapis.com
+storage.mtls.googleapis.com
+appspot.com.storage.googleapis.com
+content-storage.googleapis.com
+content-storage-p2.googleapis.com
+content-storage-upload.googleapis.com
+content-storage-download.googleapis.com
+storage-upload.googleapis.com
+storage-download.googleapis.com
