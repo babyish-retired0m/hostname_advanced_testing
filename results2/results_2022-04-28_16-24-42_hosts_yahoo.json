@@ -1,0 +1,3942 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1651159101.452297,
+        "Public IP Address": "176.0.0.0/32",
+        "Execution time Duration": "102.897"
+    },
+    "advanced_test": {
+        "yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "74.6.143.26",
+                        "98.137.11.163",
+                        "74.6.143.25",
+                        "74.6.231.20",
+                        "74.6.231.21",
+                        "98.137.11.164"
+                    ],
+                    "AAAA": [
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:24:120d::1:0",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:44:3507::8000"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.231.21",
+                            "74.6.231.20",
+                            "74.6.143.26",
+                            "98.137.11.164",
+                            "74.6.143.25",
+                            "98.137.11.163"
+                        ]
+                    },
+                    "MX": [
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\"",
+                        "\"Zoom=13284637\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "74.6.143.25",
+                        "98.137.11.163",
+                        "74.6.143.26",
+                        "74.6.231.21",
+                        "74.6.231.20",
+                        "98.137.11.164"
+                    ],
+                    "AAAA": [
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:24:120d::1:0",
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:124:1507::f001"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "98.137.11.164",
+                            "74.6.231.20",
+                            "74.6.143.25",
+                            "74.6.143.26",
+                            "74.6.231.21",
+                            "98.137.11.163"
+                        ]
+                    },
+                    "MX": [
+                        "mta6.am0.yahoodns.net",
+                        "mta5.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\"",
+                        "\"Zoom=13284637\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "74.6.143.25",
+                        "74.6.143.26",
+                        "74.6.231.20",
+                        "74.6.231.21",
+                        "98.137.11.163",
+                        "98.137.11.164"
+                    ],
+                    "AAAA": [
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:24:120d::1:0"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.231.21",
+                            "98.137.11.163",
+                            "98.137.11.164",
+                            "74.6.143.25",
+                            "74.6.143.26",
+                            "74.6.231.20"
+                        ]
+                    },
+                    "MX": [
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"Zoom=13284637\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "98.137.11.163",
+                        "74.6.143.25",
+                        "74.6.231.20",
+                        "98.137.11.164",
+                        "74.6.143.26",
+                        "74.6.231.21"
+                    ],
+                    "AAAA": [
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:24:120d::1:0",
+                        "2001:4998:44:3507::8000"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.231.20",
+                            "98.137.11.164",
+                            "74.6.231.21",
+                            "74.6.143.25",
+                            "74.6.143.26",
+                            "98.137.11.163"
+                        ]
+                    },
+                    "MX": [
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\"",
+                        "\"Zoom=13284637\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "74.6.143.25",
+                        "98.137.11.164",
+                        "74.6.231.20",
+                        "74.6.231.21",
+                        "98.137.11.163",
+                        "74.6.143.26"
+                    ],
+                    "AAAA": [
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:24:120d::1:0",
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:124:1507::f001"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.143.25",
+                            "74.6.143.26",
+                            "98.137.11.163",
+                            "74.6.231.21",
+                            "74.6.231.20",
+                            "98.137.11.164"
+                        ]
+                    },
+                    "MX": [
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"Zoom=13284637\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "74.6.231.21",
+                        "98.137.11.163",
+                        "98.137.11.164",
+                        "74.6.143.25",
+                        "74.6.143.26",
+                        "74.6.231.20"
+                    ],
+                    "AAAA": [
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:24:120d::1:0"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.143.25",
+                            "74.6.143.26",
+                            "74.6.231.20",
+                            "74.6.231.21",
+                            "98.137.11.163",
+                            "98.137.11.164"
+                        ]
+                    },
+                    "MX": [
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"Zoom=13284637\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "74.6.231.20",
+                        "74.6.231.21",
+                        "74.6.143.26",
+                        "74.6.143.25",
+                        "98.137.11.164",
+                        "98.137.11.163"
+                    ],
+                    "AAAA": [
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:24:120d::1:0"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.231.20",
+                            "74.6.231.21",
+                            "74.6.143.26",
+                            "74.6.143.25",
+                            "98.137.11.164",
+                            "98.137.11.163"
+                        ]
+                    },
+                    "MX": [
+                        "mta7.am0.yahoodns.net",
+                        "mta5.am0.yahoodns.net",
+                        "mta6.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"Zoom=13284637\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "74.6.231.20",
+                        "74.6.231.21",
+                        "74.6.143.26",
+                        "74.6.143.25",
+                        "98.137.11.164",
+                        "98.137.11.163"
+                    ],
+                    "AAAA": [
+                        "2001:4998:24:120d::1:1",
+                        "2001:4998:44:3507::8000",
+                        "2001:4998:124:1507::f001",
+                        "2001:4998:124:1507::f000",
+                        "2001:4998:44:3507::8001",
+                        "2001:4998:24:120d::1:0"
+                    ],
+                    "CNAME": {
+                        "yahoo.com": [
+                            "74.6.231.20",
+                            "74.6.231.21",
+                            "74.6.143.26",
+                            "74.6.143.25",
+                            "98.137.11.164",
+                            "98.137.11.163"
+                        ]
+                    },
+                    "MX": [
+                        "mta6.am0.yahoodns.net",
+                        "mta7.am0.yahoodns.net",
+                        "mta5.am0.yahoodns.net"
+                    ],
+                    "SOA": [
+                        "ns1.yahoo.com. hostmaster.yahoo-inc.com. 2022042803 3600 300 1814400 600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=2b8irRvU5a2h4Mb-H_fdqNrqWjS00qmPfPcWqm8BhxI\"",
+                        "\"_globalsign-domain-verification=8DPEanqC-w2Z26VeL5Sn4zBI7cZPCFqrNU5dMKMKeP\"",
+                        "\"v=spf1 redirect=_spf.mail.yahoo.com\"",
+                        "\"facebook-domain-verification=gysqrcd69g0ej34f4jfn0huivkym1p\"",
+                        "\"edb3bff2c0d64622a9b2250438277a59\"",
+                        "\"Zoom=13284637\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163084.902263,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "yahoo.com",
+                    "ip_address": "74.6.231.20",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163087.540677,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "98.137.11.163",
+                        0,
+                        "186.577 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        1,
+                        "186.99 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        2,
+                        "187.087 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        3,
+                        "186.831 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        4,
+                        "186.945 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        5,
+                        "186.824 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        6,
+                        "187.059 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        7,
+                        "186.811 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        8,
+                        "186.776 ms"
+                    ],
+                    [
+                        64,
+                        "98.137.11.163",
+                        9,
+                        "186.764 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.93 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.391 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "15.159 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.082 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.419 ms"
+                    ],
+                    [
+                        "87.245.233.113",
+                        "ae0-8.rt.tlx.nyc.us.retn.net",
+                        "113.737 ms"
+                    ],
+                    [
+                        "198.32.160.121",
+                        "nyiix.bas1-m.nyc.yahoo.com",
+                        "105.758 ms"
+                    ],
+                    [
+                        "209.191.64.157",
+                        "ae-7.pat1.dcz.yahoo.com",
+                        "114.295 ms"
+                    ],
+                    [
+                        "209.191.64.50",
+                        "et-8-0-0.pat1.che.yahoo.com",
+                        "135.52 ms"
+                    ],
+                    [
+                        "209.191.64.214",
+                        "ae-7.pat2.nez.yahoo.com",
+                        "148.596 ms"
+                    ],
+                    [
+                        "216.115.105.183",
+                        "et-1-0-0.msr2.ne1.yahoo.com",
+                        "150.049 ms"
+                    ],
+                    [
+                        "98.138.97.75",
+                        "et-19-1-0.clr2-a-gdc.ne1.yahoo.com",
+                        "143.719 ms"
+                    ],
+                    [
+                        "98.138.51.1",
+                        "lo0.fab2-2-gdc.ne1.yahoo.com",
+                        "145.554 ms"
+                    ],
+                    [
+                        "98.138.97.156",
+                        "usw1-1-lbd.ne1.yahoo.com",
+                        "145.603 ms"
+                    ],
+                    [
+                        "74.6.231.20",
+                        "media-router-fp73.prod.media.vip.ne1.yahoo.com",
+                        "145.551 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "yahoo.com",
+                    "ip_address": "74.6.231.20",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163090.740183,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "s.yimg.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "188.125.89.204",
+                        "188.125.89.206"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:f03d:1fa::4000",
+                        "2a00:1288:f03d:1fa::2000"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "188.125.89.206",
+                            "188.125.89.204"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.119.251",
+                        "87.248.119.252"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:80:807::2",
+                        "2a00:1288:80:807::1"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "87.248.119.251",
+                            "87.248.119.252"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.119.251",
+                        "87.248.119.252"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:f035:1fa::4000",
+                        "2a00:1288:f035:1fa::2000"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "87.248.119.251",
+                            "87.248.119.252"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "188.125.89.206",
+                        "188.125.89.204"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:f03d:1fa::2000",
+                        "2a00:1288:f03d:1fa::4000"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "188.125.89.206",
+                            "188.125.89.204"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.119.251",
+                        "87.248.119.252"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:80:807::2",
+                        "2a00:1288:80:807::1"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "87.248.119.251",
+                            "87.248.119.252"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.119.252",
+                        "87.248.119.251"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:80:807::2",
+                        "2a00:1288:80:807::1"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "87.248.119.252",
+                            "87.248.119.251"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "188.125.89.206",
+                        "188.125.89.204"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:f03d:1fa::2000",
+                        "2a00:1288:f03d:1fa::4000"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "188.125.89.206",
+                            "188.125.89.204"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "188.125.89.206",
+                        "188.125.89.204"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:f03d:1fa::2000",
+                        "2a00:1288:f03d:1fa::4000"
+                    ],
+                    "CNAME": {
+                        "s.yimg.com": "edge.gycpi.b.yahoodns.net",
+                        "edge.gycpi.b.yahoodns.net": [
+                            "188.125.89.206",
+                            "188.125.89.204"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163094.362108,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "s.yimg.com",
+                    "ip_address": "188.125.89.206",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163095.643788,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "188.125.89.206",
+                        0,
+                        "50.906 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        1,
+                        "50.925 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        2,
+                        "51.121 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        3,
+                        "50.808 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        4,
+                        "51.022 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        5,
+                        "50.876 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        6,
+                        "50.678 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        7,
+                        "50.852 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        8,
+                        "50.792 ms"
+                    ],
+                    [
+                        64,
+                        "188.125.89.206",
+                        9,
+                        "50.809 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.888 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.089 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "5.981 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.061 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.46 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.338 ms"
+                    ],
+                    [
+                        "193.178.185.111",
+                        "oath2.bcix.de",
+                        "34.596 ms"
+                    ],
+                    [
+                        "209.191.112.6",
+                        "ae-0.pat1.dez.yahoo.com",
+                        "32.877 ms"
+                    ],
+                    [
+                        "209.191.112.11",
+                        "ae-4.pat1.viz.yahoo.com",
+                        "46.372 ms"
+                    ],
+                    [
+                        "188.125.89.206",
+                        "e2-ha.ycpi.via.yahoo.com",
+                        "51.154 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "s.yimg.com",
+                    "ip_address": "188.125.89.206",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163097.011279,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "s.yimg.com",
+                "issued_to": "*.fantasysports.yahoo.com",
+                "issued_o": "Oath Holdings Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "16569536679082395686189365026263034732",
+                "cert_sha1": "6B:66:E9:7D:96:77:58:0D:38:53:60:F6:60:23:A0:7A:2C:1C:28:B7",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.fantasysports.yahoo.com; DNS:ymail.com; DNS:s.yimg.com; DNS:*.yahoo.com; DNS:*.calendar.yahoo.com; DNS:*.groups.yahoo.com; DNS:*.mail.yahoo.com; DNS:*.msg.yahoo.com; DNS:*.ymail.com; DNS:*.finance.yahoo.com; DNS:*.news.yahoo.com; DNS:*.video.yahoo.com; DNS:*.m.yahoo.com; DNS:*.my.yahoo.com; DNS:*.search.yahoo.com; DNS:*.secure.yahoo.com; DNS:*.yahooapis.com; DNS:*.mg.mail.yahoo.com; DNS:*.api.fantasysports.yahoo.com; DNS:*.autos.yahoo.com; DNS:*.cricket.yahoo.com; DNS:*.football.fantasysports.yahoo.com; DNS:*.games.yahoo.com; DNS:*.lifestyle.yahoo.com; DNS:*.movies.yahoo.com; DNS:*.mujer.yahoo.com; DNS:*.music.yahoo.com; DNS:*.safely.yahoo.com; DNS:*.screen.yahoo.com; DNS:*.shine.yahoo.com; DNS:*.sports.yahoo.com; DNS:*.travel.yahoo.com; DNS:*.tv.yahoo.com; DNS:*.wc.fantasysports.yahoo.com; DNS:*.weather.yahoo.com; DNS:*.notepad.yahoo.com; DNS:*.protrade.com; DNS:*.yql.yahoo.com; DNS:*.wc.yahoodns.net; DNS:*.deals.yahoo.com; DNS:*.help.yahoo.com; DNS:*.celebrity.yahoo.com; DNS:*.auctions.yahoo.com; DNS:*.ybp.yahoo.com; DNS:*.geo.yahoo.com; DNS:*.messenger.yahoo.com; DNS:*.antispam.yahoo.com; DNS:*.ysm.yahoo.com; DNS:video.media.yql.yahoo.com; DNS:*.tripod.yahoo.com; DNS:*.iris.yahoo.com; DNS:*.mobile.yahoo.com; DNS:*.overview.mail.yahoo.com; DNS:*.mailplus.mail.yahoo.com; DNS:tearsheet.ads.yahoo.com; DNS:*.xobni.yahoo.com; DNS:onepush.query.yahoo.com; DNS:api-onepush.query.yahoo.com; DNS:api.digitalhomeservices.yahoo.com; DNS:commsdata.api.yahoo.com; DNS:*.commsdata.api.yahoo.com; DNS:commsdata.api.aol.com; DNS:*.commsdata.api.aol.com; DNS:gallery.tv.widgets.yahoo.com; DNS:*.commerce.yahoo.com; DNS:*.vssp.yahoo.com; DNS:*.sombrero.yahoo.net; DNS:*.tw.campaign.yahoo.com; DNS:*.dispatcher.yahoo.com; DNS:cdn.launch3d.com; DNS:cdn.js7k.com; DNS:video-api.sapi.yahoo.com; DNS:manifest.sapi.yahoo.com; DNS:*.vto.commerce.yahoo.com; DNS:es-us.finanzas.yahoo.com; DNS:br.financas.yahoo.com; DNS:*.dht.yahoo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-04-25",
+                "valid_till": "2022-06-15",
+                "validity_days": 51,
+                "days_left": 48,
+                "valid_days_to_expire": 47,
+                "tcp_port": 443
+            }
+        },
+        "mbp.yimg.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "mbp.yimg.com": "www.yahoo.com",
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163104.9771378,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "mbp.yimg.com",
+                    "ip_address": "87.248.100.215",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163106.334191,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.215",
+                        0,
+                        "57.511 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        1,
+                        "57.428 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        2,
+                        "57.51 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        3,
+                        "57.502 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        4,
+                        "57.756 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        5,
+                        "57.652 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        6,
+                        "57.472 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        7,
+                        "57.604 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        8,
+                        "57.677 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        9,
+                        "57.637 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.895 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.374 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.024 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.136 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.586 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.556 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "34.57 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.718 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "60.17 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.108 ms"
+                    ],
+                    [
+                        "77.238.190.5",
+                        "lo0.fab4-1-gdc.ir2.yahoo.com",
+                        "60.039 ms"
+                    ],
+                    [
+                        "77.238.190.107",
+                        "usw2-1-lbc.ir2.yahoo.com",
+                        "55.045 ms"
+                    ],
+                    [
+                        "87.248.100.215",
+                        "media-router-fp73.prod.media.vip.ir2.yahoo.com",
+                        "57.898 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "mbp.yimg.com",
+                    "ip_address": "87.248.100.215",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163108.091789,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "mbp.yimg.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "fr-ca.rogers.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "fr-ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163116.646292,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "fr-ca.rogers.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163117.9859982,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.216",
+                        0,
+                        "54.91 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        1,
+                        "55.032 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        2,
+                        "54.924 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        3,
+                        "55.043 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        4,
+                        "54.962 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        5,
+                        "54.953 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        6,
+                        "54.949 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        7,
+                        "55.054 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        8,
+                        "54.976 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        9,
+                        "54.947 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.887 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.34 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "15.293 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "8.277 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.416 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.546 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "34.639 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.769 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "61.846 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.125 ms"
+                    ],
+                    [
+                        "77.238.190.2",
+                        "lo0.fab1-1-gdc.ir2.yahoo.com",
+                        "58.67 ms"
+                    ],
+                    [
+                        "77.238.190.107",
+                        "usw2-1-lbc.ir2.yahoo.com",
+                        "55.105 ms"
+                    ],
+                    [
+                        "87.248.100.216",
+                        "media-router-fp74.prod.media.vip.ir2.yahoo.com",
+                        "54.983 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "fr-ca.rogers.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163119.398217,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "fr-ca.rogers.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "ddl.fp.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ddl.fp.yahoo.com": "media-router-fp1.prod.media.yahoo.com",
+                        "media-router-fp1.prod.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163131.4969978,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ddl.fp.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163132.8459468,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.215",
+                        0,
+                        "57.349 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        1,
+                        "57.625 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        2,
+                        "57.674 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        3,
+                        "57.537 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        4,
+                        "57.597 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        5,
+                        "57.433 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        6,
+                        "57.444 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        7,
+                        "57.547 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        8,
+                        "57.664 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        9,
+                        "57.663 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.781 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.274 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.82 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "6.078 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.562 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.409 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "37.244 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.766 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "59.86 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.261 ms"
+                    ],
+                    [
+                        "77.238.190.5",
+                        "lo0.fab4-1-gdc.ir2.yahoo.com",
+                        "59.748 ms"
+                    ],
+                    [
+                        "77.238.190.106",
+                        "usw1-1-lbc.ir2.yahoo.com",
+                        "55.158 ms"
+                    ],
+                    [
+                        "87.248.100.215",
+                        "media-router-fp73.prod.media.vip.ir2.yahoo.com",
+                        "57.887 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "ddl.fp.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163134.245663,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "ddl.fp.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "ca.rogers.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.rogers.yahoo.com": "atsv2-fp-shed.wg1.b.yahoo.com",
+                        "atsv2-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163139.3216488,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ca.rogers.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163140.674458,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.215",
+                        0,
+                        "57.32 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        1,
+                        "57.54 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        2,
+                        "57.688 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        3,
+                        "58.155 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        4,
+                        "57.594 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        5,
+                        "57.582 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        6,
+                        "57.804 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        7,
+                        "57.687 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        8,
+                        "57.579 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        9,
+                        "57.519 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.824 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.331 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "22.223 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.972 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.101 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.62 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "35.717 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.484 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "60.041 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.106 ms"
+                    ],
+                    [
+                        "77.238.190.5",
+                        "lo0.fab4-1-gdc.ir2.yahoo.com",
+                        "60.04 ms"
+                    ],
+                    [
+                        "77.238.190.107",
+                        "usw2-1-lbc.ir2.yahoo.com",
+                        "55.102 ms"
+                    ],
+                    [
+                        "87.248.100.215",
+                        "media-router-fp73.prod.media.vip.ir2.yahoo.com",
+                        "57.528 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "ca.rogers.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163142.0551732,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "ca.rogers.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "ca.my.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "ca.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163148.4269261,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ca.my.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163149.765482,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.216",
+                        0,
+                        "54.517 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        1,
+                        "55.044 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        2,
+                        "54.907 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        3,
+                        "55.548 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        4,
+                        "54.979 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        5,
+                        "55.229 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        6,
+                        "54.897 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        7,
+                        "54.983 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        8,
+                        "55.012 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        9,
+                        "54.9 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.847 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.329 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.931 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.889 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.481 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "23.444 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "34.349 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.676 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "60.097 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.244 ms"
+                    ],
+                    [
+                        "77.238.190.2",
+                        "lo0.fab1-1-gdc.ir2.yahoo.com",
+                        "58.628 ms"
+                    ],
+                    [
+                        "77.238.190.106",
+                        "usw1-1-lbc.ir2.yahoo.com",
+                        "54.855 ms"
+                    ],
+                    [
+                        "87.248.100.216",
+                        "media-router-fp74.prod.media.vip.ir2.yahoo.com",
+                        "55.008 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "ca.my.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163151.1211572,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "ca.my.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "brb.yahoo.net": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "18.64.103.45",
+                        "18.64.103.62",
+                        "18.64.103.70",
+                        "18.64.103.98"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "18.64.103.98",
+                            "18.64.103.70",
+                            "18.64.103.62",
+                            "18.64.103.45"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "52.84.194.72",
+                        "52.84.194.10",
+                        "52.84.194.47",
+                        "52.84.194.82"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "52.84.194.47",
+                            "52.84.194.10",
+                            "52.84.194.82",
+                            "52.84.194.72"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "52.84.194.72",
+                        "52.84.194.82",
+                        "52.84.194.10",
+                        "52.84.194.47"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "52.84.194.82",
+                            "52.84.194.10",
+                            "52.84.194.47",
+                            "52.84.194.72"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "18.64.103.45",
+                        "18.64.103.62",
+                        "18.64.103.70",
+                        "18.64.103.98"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "18.64.103.45",
+                            "18.64.103.70",
+                            "18.64.103.62",
+                            "18.64.103.98"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "52.84.194.72",
+                        "52.84.194.82",
+                        "52.84.194.10",
+                        "52.84.194.47"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "52.84.194.72",
+                            "52.84.194.82",
+                            "52.84.194.10",
+                            "52.84.194.47"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "52.84.194.72",
+                        "52.84.194.82",
+                        "52.84.194.10",
+                        "52.84.194.47"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "52.84.194.82",
+                            "52.84.194.10",
+                            "52.84.194.47",
+                            "52.84.194.72"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "108.157.4.4",
+                        "108.157.4.69",
+                        "108.157.4.114",
+                        "108.157.4.106"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "108.157.4.4",
+                            "108.157.4.69",
+                            "108.157.4.114",
+                            "108.157.4.106"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "108.157.4.106",
+                        "108.157.4.4",
+                        "108.157.4.69",
+                        "108.157.4.114"
+                    ],
+                    "CNAME": {
+                        "brb.yahoo.net": [
+                            "108.157.4.106",
+                            "108.157.4.4",
+                            "108.157.4.69",
+                            "108.157.4.114"
+                        ]
+                    },
+                    "SOA": [
+                        "ns-868.awsdns-44.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                    ],
+                    "TXT": [
+                        "\"YF0zPIK39lKixmHesg5vF/pa34gYdTYwDH8Wfsk/pc0=\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163154.231444,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "brb.yahoo.net",
+                    "ip_address": "108.157.4.106",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163155.3492942,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.157.4.114",
+                        0,
+                        "34.702 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        1,
+                        "34.546 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        2,
+                        "34.475 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        3,
+                        "34.492 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        4,
+                        "34.426 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        5,
+                        "34.646 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        6,
+                        "34.473 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        7,
+                        "34.709 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        8,
+                        "34.429 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.114",
+                        9,
+                        "34.584 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.934 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.562 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.971 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.369 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.859 ms"
+                    ],
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "32.602 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "31.08 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "33.78 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.116",
+                        "150.222.5.116",
+                        "34.714 ms"
+                    ],
+                    [
+                        "108.157.4.106",
+                        "server-108-157-4-106.dus51.r.cloudfront.net",
+                        "34.886 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "brb.yahoo.net",
+                    "ip_address": "108.157.4.106",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163159.305883,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "brb.yahoo.net",
+                "issued_to": "brb.yahoo.net",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "10218579450935032600350558961454730224",
+                "cert_sha1": "AD:FD:76:B5:BA:82:12:FD:AD:7B:C6:C1:30:99:5F:61:E9:8E:36:2C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:brb.yahoo.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-11-16",
+                "valid_till": "2022-05-11",
+                "validity_days": 176,
+                "days_left": 13,
+                "valid_days_to_expire": 12,
+                "tcp_port": 443
+            }
+        },
+        "add.my.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "add.my.yahoo.com": "media-router-fp1.media.yahoo.com",
+                        "media-router-fp1.media.yahoo.com": "atsv2-fp.wg1.b.yahoo.com",
+                        "atsv2-fp.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163167.253642,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "add.my.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163168.622666,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.215",
+                        0,
+                        "63.071 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        1,
+                        "57.566 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        2,
+                        "57.627 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        3,
+                        "57.467 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        4,
+                        "57.726 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        5,
+                        "57.95 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        6,
+                        "57.611 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        7,
+                        "57.6 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        8,
+                        "57.562 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.215",
+                        9,
+                        "57.554 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.841 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.263 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.356 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.982 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.48 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "24.997 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "34.263 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.948 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "59.806 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.038 ms"
+                    ],
+                    [
+                        "77.238.190.5",
+                        "lo0.fab4-1-gdc.ir2.yahoo.com",
+                        "59.872 ms"
+                    ],
+                    [
+                        "77.238.190.106",
+                        "usw1-1-lbc.ir2.yahoo.com",
+                        "55.241 ms"
+                    ],
+                    [
+                        "87.248.100.215",
+                        "media-router-fp73.prod.media.vip.ir2.yahoo.com",
+                        "57.84 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "add.my.yahoo.com",
+                    "ip_address": "87.248.100.215",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163169.9707258,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "add.my.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "www.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.215",
+                        "87.248.100.216"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8000",
+                        "2a00:1288:110:c305::1:8001"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.216",
+                            "87.248.100.215"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.216",
+                        "87.248.100.215"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:8001",
+                        "2a00:1288:110:c305::1:8000"
+                    ],
+                    "CNAME": {
+                        "www.yahoo.com": "new-fp-shed.wg1.b.yahoo.com",
+                        "new-fp-shed.wg1.b.yahoo.com": [
+                            "87.248.100.215",
+                            "87.248.100.216"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163173.721632,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163175.068112,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.216",
+                        0,
+                        "54.711 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        1,
+                        "54.899 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        2,
+                        "54.92 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        3,
+                        "54.992 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        4,
+                        "55.024 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        5,
+                        "54.998 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        6,
+                        "54.892 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        7,
+                        "54.874 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        8,
+                        "54.902 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.216",
+                        9,
+                        "54.752 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.81 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.412 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.752 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.0 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.634 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "25.064 ms"
+                    ],
+                    [
+                        "193.178.185.110",
+                        "oath.bcix.de",
+                        "34.072 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.88 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "63.268 ms"
+                    ],
+                    [
+                        "66.196.65.19",
+                        "et-1-1-2.msr1.ir2.yahoo.com",
+                        "55.23 ms"
+                    ],
+                    [
+                        "77.238.190.2",
+                        "lo0.fab1-1-gdc.ir2.yahoo.com",
+                        "58.736 ms"
+                    ],
+                    [
+                        "77.238.190.107",
+                        "usw2-1-lbc.ir2.yahoo.com",
+                        "54.864 ms"
+                    ],
+                    [
+                        "87.248.100.216",
+                        "media-router-fp74.prod.media.vip.ir2.yahoo.com",
+                        "55.055 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.yahoo.com",
+                    "ip_address": "87.248.100.216",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163176.4029388,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "www.yahoo.com",
+                "issued_to": "yahoo.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17044452599916140746761004367189967238",
+                "cert_sha1": "82:4C:56:C2:26:CA:AC:90:CC:1C:0D:74:9A:56:79:8C:BE:D3:BB:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yahoo.com; DNS:tw.rd.yahoo.com; DNS:s.yimg.com; DNS:mbp.yimg.com; DNS:hk.rd.yahoo.com; DNS:fr-ca.rogers.yahoo.com; DNS:ddl.fp.yahoo.com; DNS:ca.rogers.yahoo.com; DNS:ca.my.yahoo.com; DNS:brb.yahoo.net; DNS:add.my.yahoo.com; DNS:*.yahoo.com; DNS:*.www.yahoo.com; DNS:*.media.yahoo.com; DNS:*.global.vespa.oath.cloud; DNS:*.att.yahoo.com; DNS:*.amp.yimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-02",
+                "valid_till": "2022-08-10",
+                "validity_days": 161,
+                "days_left": 104,
+                "valid_days_to_expire": 103,
+                "tcp_port": 443
+            }
+        },
+        "att.yahoo.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "87.248.100.208"
+                    ],
+                    "AAAA": [
+                        "2a00:1288:110:c305::1:4000"
+                    ],
+                    "CNAME": {
+                        "att.yahoo.com": "media-router1.prod.media.yahoo.com",
+                        "media-router1.prod.media.yahoo.com": "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net",
+                        "ds-oob-fo-media-router1.prod.media.g01.yahoodns.net": [
+                            "87.248.100.208"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651163182.221021,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "att.yahoo.com",
+                    "ip_address": "87.248.100.208",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 855,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163183.6061718,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "87.248.100.208",
+                        0,
+                        "58.497 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        1,
+                        "59.974 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        2,
+                        "59.925 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        3,
+                        "58.754 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        4,
+                        "59.741 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        5,
+                        "59.616 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        6,
+                        "59.913 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        7,
+                        "58.516 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        8,
+                        "58.557 ms"
+                    ],
+                    [
+                        64,
+                        "87.248.100.208",
+                        9,
+                        "59.81 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.842 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.278 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.817 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.132 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae3-210.rt.bmb.kiv.ua.retn.net",
+                        "2.31 ms"
+                    ],
+                    [
+                        "87.245.233.39",
+                        "ae4-9.rt.ipb.ber.de.retn.net",
+                        "24.286 ms"
+                    ],
+                    [
+                        "193.178.185.111",
+                        "oath2.bcix.de",
+                        "34.414 ms"
+                    ],
+                    [
+                        "209.191.112.6",
+                        "ae-0.pat1.dez.yahoo.com",
+                        "36.36 ms"
+                    ],
+                    [
+                        "209.191.112.17",
+                        "ae-3.pat1.frz.yahoo.com",
+                        "42.612 ms"
+                    ],
+                    [
+                        "209.191.112.54",
+                        "ae-2.pat1.iry.yahoo.com",
+                        "59.957 ms"
+                    ],
+                    [
+                        "66.196.65.21",
+                        "ge-0-3-9-d104.pat1.the.yahoo.com",
+                        "62.816 ms"
+                    ],
+                    [
+                        "77.238.190.4",
+                        "lo0.fab3-1-gdc.ir2.yahoo.com",
+                        "54.034 ms"
+                    ],
+                    [
+                        "77.238.190.107",
+                        "usw2-1-lbc.ir2.yahoo.com",
+                        "55.137 ms"
+                    ],
+                    [
+                        "87.248.100.208",
+                        "media-router-ui71.prod.media.vip.ir2.yahoo.com",
+                        "58.593 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "att.yahoo.com",
+                    "ip_address": "87.248.100.208",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651163185.256195,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "att.yahoo.com",
+                "issued_to": "yho.com",
+                "issued_o": "Oath Inc",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "21176886817421267176263566091712863742",
+                "cert_sha1": "EB:E6:94:50:65:61:1F:F1:B5:F6:FC:61:47:E4:60:04:B3:E2:8C:2D",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:yho.com; DNS:ucs.netsvs.yahoo.com; DNS:tw.buy.yahoo.com; DNS:testing.partners.yahooinc.com; DNS:maw.ouroath.com; DNS:mab-ext.data.yahoo.com; DNS:id.berita.yahoo.com; DNS:forums.yahoo.net; DNS:brb.yahoo.net; DNS:beboundless.jp; DNS:api.view.yahoo.com; DNS:*.yahooinc.com; DNS:*.yahooapis.com; DNS:*.yahoo.com; DNS:*.www.yahooinc.com; DNS:*.www.verizonmedia.com; DNS:*.weather.yahoo.com; DNS:*.video.yahoo.com; DNS:*.vida-estilo.yahoo.com; DNS:*.verizonmedia.com; DNS:*.tv.yahoo.com; DNS:*.trogiup.yahoo.com; DNS:*.trendr.yahoo.com; DNS:*.style.yahoo.com; DNS:*.stars.yahoo.com; DNS:*.sports.yahoo.com; DNS:*.shopping.yahoo.com; DNS:*.seguridad.yahoo.com; DNS:*.secure.yahoo.com; DNS:*.search.yahooinc.com; DNS:*.screen.yahoo.com; DNS:*.query.yahoo.com; DNS:*.publishing.oath.com; DNS:*.pomoc.yahoo.com; DNS:*.people.yahoo.com; DNS:*.omg.yahoo.com; DNS:*.oath.com; DNS:*.notizie.yahoo.com; DNS:*.noticias.yahoo.com; DNS:*.news.yahoo.com; DNS:*.nachrichten.yahoo.com; DNS:*.mysterio.yahoo.com; DNS:*.music.yahoo.com; DNS:*.mujer.yahoo.com; DNS:*.movies.yahoo.com; DNS:*.mobile.yahoo.com; DNS:*.mobi.yahoo.com; DNS:*.media.yahoo.com; DNS:*.maw.ouroath.com; DNS:*.martech.yahoo.com; DNS:*.live.yahoo.com; DNS:*.lifestyle.yahoo.com; DNS:*.kino.yahoo.com; DNS:*.intheknow.yahoo.com; DNS:*.hilfe.yahoo.com; DNS:*.help.yahoo.com; DNS:*.golf.fantasysports.yahoo.com; DNS:*.games.yahoo.com; DNS:*.fireplace.yahoo.com; DNS:*.finanzen.yahoo.com; DNS:*.finanzas.yahoo.com; DNS:*.finance.yahoo.com; DNS:*.financas.yahoo.com; DNS:*.fantasysports.yahooapis.com; DNS:*.fantasysports.yahoo.com; DNS:*.experiences.media.yahoo.com; DNS:*.eurosport.yahoo.com; DNS:*.esports.yahoo.com; DNS:*.entertainment.yahoo.com; DNS:*.emailanalytics.yahoo.com; DNS:*.ec.yahoo.com; DNS:*.ec-horizontal-rewards.aws.oath.cloud; DNS:*.downloads.yahoo.com; DNS:*.deportes.yahoo.com; DNS:*.cinema.yahoo.com; DNS:*.cine.yahoo.com; DNS:*.celebrity.yahoo.com; DNS:*.celebridades.yahoo.com; DNS:*.beboundless.jp; DNS:*.beauty.yahoo.com; DNS:*.bantuan.yahoo.com; DNS:*.ayuda.yahoo.com; DNS:*.autos.yahoo.com; DNS:*.att.yahoo.com; DNS:*.analytics.yahooinc.com; DNS:*.analytics.verizonmedia.com; DNS:*.ajutor.yahoo.com; DNS:*.ajuda.yahoo.com; DNS:*.aiuto.yahoo.com; DNS:*.aide.yahoo.com; DNS:*.adx.yahoo.com; DNS:*.adtech.yahooinc.com; DNS:*.adspecs.yahooinc.com; DNS:*.adspecs.yahoo.com; DNS:*.adspecs.verizonmedia.com; DNS:*.adshowcase.yahooinc.com; DNS:*.adshowcase.verizonmedia.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-25",
+                "valid_till": "2022-07-13",
+                "validity_days": 169,
+                "days_left": 76,
+                "valid_days_to_expire": 75,
+                "tcp_port": 443
+            }
+        }
+    }
+}
