@@ -1,0 +1,2057 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1651332641.02936,
+        "Public IP Address": "176.0.0.0/32",
+        "Execution time Duration": "27.703"
+    },
+    "advanced_test": {
+        "facebook.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\"",
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "MX": [
+                        "smtpin.vvv.facebook.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.facebook.com\"",
+                        "\"google-site-verification=A2WZWCNQHrGV_TWwKh6KHY90tY0SHZo_RnyMJoDaG0s\"",
+                        "\"google-site-verification=wdH5DTJTc9AYNwVunSVFeK0hYDGUIEOGb-RReU6pJlY\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336131.446096,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336132.35727,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.36",
+                        0,
+                        "13.844 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        1,
+                        "13.776 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        2,
+                        "13.534 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        3,
+                        "13.872 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        4,
+                        "13.585 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        5,
+                        "13.777 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        6,
+                        "13.654 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        7,
+                        "13.765 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        8,
+                        "13.697 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        9,
+                        "13.819 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.876 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.181 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.731 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.604 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "10.448 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "13.806 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "14.761 ms"
+                    ],
+                    [
+                        "157.240.49.169",
+                        "po103.psw01.waw1.tfbnw.net",
+                        "14.888 ms"
+                    ],
+                    [
+                        "173.252.67.9",
+                        "173.252.67.9",
+                        "14.836 ms"
+                    ],
+                    [
+                        "31.13.81.36",
+                        "edge-star-mini-shv-01-waw1.facebook.com",
+                        "13.929 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336133.3874502,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "facebook.com",
+                "issued_to": "*.facebook.com",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19258305937330009472966565524525020675",
+                "cert_sha1": "3A:DA:17:FE:32:FF:8B:95:C5:CE:57:27:C5:FA:C8:99:ED:74:AB:AE",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.facebook.com; DNS:*.facebook.net; DNS:*.fbcdn.net; DNS:*.fbsbx.com; DNS:*.m.facebook.com; DNS:*.messenger.com; DNS:*.xx.fbcdn.net; DNS:*.xy.fbcdn.net; DNS:*.xz.fbcdn.net; DNS:facebook.com; DNS:messenger.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        },
+        "fbcdn.net": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbcdn.net": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 300"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336136.051168,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "fbcdn.net",
+                    "ip_address": "31.13.81.36",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336136.956616,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.36",
+                        0,
+                        "13.399 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        1,
+                        "13.632 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        2,
+                        "13.71 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        3,
+                        "13.801 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        4,
+                        "13.581 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        5,
+                        "13.709 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        6,
+                        "13.751 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        7,
+                        "13.669 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        8,
+                        "13.506 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        9,
+                        "13.729 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.801 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.104 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.64 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.012 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "6.598 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "13.76 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "13.909 ms"
+                    ],
+                    [
+                        "157.240.49.169",
+                        "po103.psw01.waw1.tfbnw.net",
+                        "14.984 ms"
+                    ],
+                    [
+                        "173.252.67.9",
+                        "173.252.67.9",
+                        "14.887 ms"
+                    ],
+                    [
+                        "31.13.81.36",
+                        "edge-star-mini-shv-01-waw1.facebook.com",
+                        "13.729 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "fbcdn.net",
+                    "ip_address": "31.13.81.36",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336137.8239748,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "fbcdn.net",
+                "issued_to": "fbcdn.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17866121951558208128793273106336150254",
+                "cert_sha1": "5A:89:ED:48:B6:20:78:2B:20:66:04:44:DD:65:9D:4D:9E:EC:20:0B",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:fbcdn.net; DNS:fbsbx.com; DNS:www.fbcdn.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        },
+        "fbsbx.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\"",
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 a ~all\"",
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "fbsbx.com": [
+                            "31.13.81.36"
+                        ]
+                    },
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=KO12f3DZXds99V4gff4tOti_GoHiiwcLpZ7p3vI7Png\"",
+                        "\"v=spf1 a ~all\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336140.483231,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "fbsbx.com",
+                    "ip_address": "31.13.81.36",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336141.41363,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.36",
+                        0,
+                        "13.471 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        1,
+                        "13.708 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        2,
+                        "13.78 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        3,
+                        "13.617 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        4,
+                        "13.835 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        5,
+                        "13.804 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        6,
+                        "13.608 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        7,
+                        "13.737 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        8,
+                        "13.617 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        9,
+                        "13.734 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.786 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.321 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "4.836 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.089 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.489 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "18.461 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "14.138 ms"
+                    ],
+                    [
+                        "157.240.49.169",
+                        "po103.psw01.waw1.tfbnw.net",
+                        "14.824 ms"
+                    ],
+                    [
+                        "173.252.67.9",
+                        "173.252.67.9",
+                        "14.657 ms"
+                    ],
+                    [
+                        "31.13.81.36",
+                        "edge-star-mini-shv-01-waw1.facebook.com",
+                        "14.356 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "fbsbx.com",
+                    "ip_address": "31.13.81.36",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336142.281,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "fbsbx.com",
+                "issued_to": "fbcdn.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "17866121951558208128793273106336150254",
+                "cert_sha1": "5A:89:ED:48:B6:20:78:2B:20:66:04:44:DD:65:9D:4D:9E:EC:20:0B",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:fbcdn.net; DNS:fbsbx.com; DNS:www.fbcdn.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        },
+        "www.facebook.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "157.240.20.35"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f11c:8083:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "www.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336145.2724218,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336146.1805089,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.36",
+                        0,
+                        "13.447 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        1,
+                        "13.423 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        2,
+                        "13.49 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        3,
+                        "13.504 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        4,
+                        "13.833 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        5,
+                        "13.636 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        6,
+                        "13.566 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        7,
+                        "13.715 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        8,
+                        "13.443 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        9,
+                        "13.734 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.882 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.328 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.101 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.008 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.204 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "15.048 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "13.679 ms"
+                    ],
+                    [
+                        "157.240.49.169",
+                        "po103.psw01.waw1.tfbnw.net",
+                        "15.148 ms"
+                    ],
+                    [
+                        "173.252.67.9",
+                        "173.252.67.9",
+                        "14.53 ms"
+                    ],
+                    [
+                        "31.13.81.36",
+                        "edge-star-mini-shv-01-waw1.facebook.com",
+                        "13.793 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336147.039814,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "www.facebook.com",
+                "issued_to": "*.facebook.com",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19258305937330009472966565524525020675",
+                "cert_sha1": "3A:DA:17:FE:32:FF:8B:95:C5:CE:57:27:C5:FA:C8:99:ED:74:AB:AE",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.facebook.com; DNS:*.facebook.net; DNS:*.fbcdn.net; DNS:*.fbsbx.com; DNS:*.m.facebook.com; DNS:*.messenger.com; DNS:*.xx.fbcdn.net; DNS:*.xy.fbcdn.net; DNS:*.xz.fbcdn.net; DNS:facebook.com; DNS:messenger.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        },
+        "m.facebook.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.36"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f116:83:face:b00c:0:25de"
+                    ],
+                    "CNAME": {
+                        "m.facebook.com": "star-mini.c10r.facebook.com",
+                        "star-mini.c10r.facebook.com": [
+                            "31.13.81.36"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336150.201458,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "m.facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336151.131286,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.36",
+                        0,
+                        "13.59 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        1,
+                        "13.552 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        2,
+                        "13.767 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        3,
+                        "13.718 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        4,
+                        "13.592 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        5,
+                        "13.496 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        6,
+                        "13.602 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        7,
+                        "13.694 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        8,
+                        "13.496 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.36",
+                        9,
+                        "13.565 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.84 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.08 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.875 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "6.129 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.303 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "13.925 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "16.517 ms"
+                    ],
+                    [
+                        "157.240.49.169",
+                        "po103.psw01.waw1.tfbnw.net",
+                        "15.161 ms"
+                    ],
+                    [
+                        "173.252.67.9",
+                        "173.252.67.9",
+                        "14.826 ms"
+                    ],
+                    [
+                        "31.13.81.36",
+                        "edge-star-mini-shv-01-waw1.facebook.com",
+                        "13.528 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "m.facebook.com",
+                    "ip_address": "31.13.81.36",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336152.0033011,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "m.facebook.com",
+                "issued_to": "*.facebook.com",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19258305937330009472966565524525020675",
+                "cert_sha1": "3A:DA:17:FE:32:FF:8B:95:C5:CE:57:27:C5:FA:C8:99:ED:74:AB:AE",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.facebook.com; DNS:*.facebook.net; DNS:*.fbcdn.net; DNS:*.fbsbx.com; DNS:*.m.facebook.com; DNS:*.messenger.com; DNS:*.xx.fbcdn.net; DNS:*.xy.fbcdn.net; DNS:*.xz.fbcdn.net; DNS:facebook.com; DNS:messenger.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        },
+        "messenger.com": {
+            "resolve": {
+                "1.1.1.1": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxb-00082601.gslb.pphosted.com",
+                        "mxa-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"MS=ms57472615\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\""
+                    ]
+                },
+                "8.8.4.4": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxb-00082601.gslb.pphosted.com",
+                        "mxa-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"MS=ms57472615\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\""
+                    ]
+                },
+                "208.67.220.220": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxa-00082601.gslb.pphosted.com",
+                        "mxb-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"MS=ms57472615\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\"",
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\""
+                    ]
+                },
+                "1.0.0.1": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxb-00082601.gslb.pphosted.com",
+                        "mxa-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"MS=ms57472615\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\""
+                    ]
+                },
+                "8.8.8.8": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxb-00082601.gslb.pphosted.com",
+                        "mxa-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"MS=ms57472615\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\""
+                    ]
+                },
+                "208.67.222.222": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxa-00082601.gslb.pphosted.com",
+                        "mxb-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"MS=ms57472615\"",
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\"",
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\""
+                    ]
+                },
+                "194.50.85.5": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxb-00082601.gslb.pphosted.com",
+                        "mxa-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\"",
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"MS=ms57472615\""
+                    ]
+                },
+                "194.50.85.7": {
+                    "A": [
+                        "31.13.81.9"
+                    ],
+                    "AAAA": [
+                        "2a03:2880:f016:b:face:b00c:0:2"
+                    ],
+                    "CNAME": {
+                        "messenger.com": [
+                            "31.13.81.9"
+                        ]
+                    },
+                    "MX": [
+                        "mxa-00082601.gslb.pphosted.com",
+                        "mxb-00082601.gslb.pphosted.com"
+                    ],
+                    "SOA": [
+                        "a.ns.facebook.com. dns.facebook.com. 895332994 14400 1800 604800 3600"
+                    ],
+                    "TXT": [
+                        "\"v=spf1 redirect=_spf.fb.com\"",
+                        "\"fLEQ2Q8vdk4sDU0r7FqRc8XJoe7FYEj3ihT0KxCABfwuAbMel2204jpnNBjV+c1rfY71OeFf/cTMCKZpzJBPPw==\"",
+                        "\"6fd64222-f6ef-4766-87e8-34729703809a\"",
+                        "\"google-site-verification=f68cxjENokmrbNLEilsjxlPqbiM3lTmXKGLJFg0OHr4\"",
+                        "\"MS=ms57472615\""
+                    ]
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1651336154.679075,
+                    "Public IP Address": "176.0.0.0/32",
+                    "pcname": "Johns-Air",
+                    "username": "johndoe",
+                    "currentdirectory": "~"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "messenger.com",
+                    "ip_address": "31.13.81.9",
+                    "count": 10,
+                    "interval": 0.05,
+                    "timeout": 0.2,
+                    "id": 879,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336155.5901172,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.9",
+                        0,
+                        "13.779 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        1,
+                        "13.833 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        2,
+                        "13.532 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        3,
+                        "13.652 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        4,
+                        "13.6 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        5,
+                        "13.981 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        6,
+                        "13.535 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        7,
+                        "13.775 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        8,
+                        "13.485 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.9",
+                        9,
+                        "13.552 ms"
+                    ]
+                ],
+                "completed": true,
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.946 ms"
+                    ],
+                    [
+                        "192.168.88.1",
+                        "192.168.88.1",
+                        "1.453 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.855 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.581 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "4.65 ms"
+                    ],
+                    [
+                        "87.245.233.142",
+                        "ae3-4.rt.lim.waw.pl.retn.net",
+                        "13.851 ms"
+                    ],
+                    [
+                        "157.240.69.214",
+                        "ae1.pr03.waw1.tfbnw.net",
+                        "43.042 ms"
+                    ],
+                    [
+                        "157.240.49.215",
+                        "po103.psw04.waw1.tfbnw.net",
+                        "15.027 ms"
+                    ],
+                    [
+                        "157.240.38.251",
+                        "157.240.38.251",
+                        "14.925 ms"
+                    ],
+                    [
+                        "31.13.81.9",
+                        "edge-star-shv-01-waw1.facebook.com",
+                        "13.626 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "messenger.com",
+                    "ip_address": "31.13.81.9",
+                    "max_hops": 30,
+                    "payload_size": 56,
+                    "username": "johndoe",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "~",
+                    "Unix Epoch Time": 1651336156.6403682,
+                    "Public IP Address": "176.0.0.0/32"
+                },
+                "completed": true,
+                "host_reached": true
+            },
+            "ssl_cert_info": {
+                "host": "messenger.com",
+                "issued_to": "*.facebook.com",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19258305937330009472966565524525020675",
+                "cert_sha1": "3A:DA:17:FE:32:FF:8B:95:C5:CE:57:27:C5:FA:C8:99:ED:74:AB:AE",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.facebook.com; DNS:*.facebook.net; DNS:*.fbcdn.net; DNS:*.fbsbx.com; DNS:*.m.facebook.com; DNS:*.messenger.com; DNS:*.xx.fbcdn.net; DNS:*.xy.fbcdn.net; DNS:*.xz.fbcdn.net; DNS:facebook.com; DNS:messenger.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-07",
+                "valid_till": "2022-05-08",
+                "validity_days": 90,
+                "days_left": 8,
+                "valid_days_to_expire": 7,
+                "tcp_port": 443
+            }
+        }
+    }
+}
