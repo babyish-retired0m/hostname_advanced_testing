@@ -18,6 +18,8 @@ twitter.com
 pymotw.com
 hik-connect.com
 litedev.eu.hik-connect.com
+litedev.us.hik-connect.com
+litedev.sgp.hik-connect.com
 paperless.com.ua
 auth.privatbank.ua
 start.privatbank.ua
@@ -27,6 +29,7 @@ next.privatbank.ua
 help.privatbank.ua
 nrm.privatbank.ua
 inq.privatbank.ua
+acs.privatbank.ua
 pb.ua
 fbi.gov
 ic3.gov
