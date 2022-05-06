@@ -96,3 +96,8 @@ dnsleaktest.com
 ipleak.net
 2ip.me
 2ip.ua
+itc.ua
+booking.com
+hotels.com
+booked.net
+u24.gov.ua
