@@ -68,3 +68,14 @@ webmaster.live.com
 webmasters.live.com
 www.local.live.com.au
 www.maps.live.com.au
+outlook.live.com
+outlook-sdf.live.com
+attachment.outlook.office.net
+attachment.outlook.officeppe.net
+calendar.live.com
+hotmail.com
+live.com
+afd-l.office.com
+nrb.footprintdns.com
+fp.measure.office.com
+premium.outlook.com
