@@ -116,3 +116,6 @@ my.vodafone.ua
 208.67.220.220
 209.244.0.3
 103.86.96.100
+joker.ua
+apps-id.cisco.com
+identity.cisco.com
