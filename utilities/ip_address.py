@@ -49,6 +49,7 @@ def extract_ip():
         st.close()
     return IP
 def Get_Local_IP():
+	import netifaces
 	from netifaces import interfaces, ifaddresses, AF_INET
 	for ifaceName in interfaces():
 	    addresses = [i['addr'] for i in ifaddresses(ifaceName).setdefault(AF_INET, [{'addr':'No IP addr'}] )]
@@ -79,22 +80,8 @@ def check_ip_in_network_lanet_ua():
 	ip_network_list=file.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-39608_lanet.ua.txt")
 	ip_network=check_ip_in_networks(ip_address,ip_network_list)
 	if ip_network: return ip_network
-if __name__ == '__main__':
-	#get_ip_address_public_ipify();print('My public IP address is: {}'.format(get_ip_address_public()))
-	#get_ip_address_website()
-	#get_ip_address_website_url()
-	
-	"""print(IP_address('127.0.0.1'))
-	print(IP_address('3.96.23.237'))
-	IP_Address_validation()"""
+if __name__ == '__main__':	
 	extract_MAC_address()
-	#print(extract_ip())
-	#Get_Local_IP()
+	print(extract_ip())
 	import file
-	ip_address=get_ip_address_public_amazon()
-	#ip_address="176.37.51.215"
-	#ip_network_list=file.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-9009_m247.com.txt")
-	#ip_network_list=file.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-39608_lanet.ua.txt")
-	ip_network_list=file.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-42831_ukservers.com.txt")
-	if check_ip_in_networks(ip_address,ip_network_list): print(ip_address)
-	print(check_ip_in_network_lanet_ua())
+	print(get_ip_address_public_amazon())
