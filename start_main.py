@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.1"
+__version__ = "1.2"
 try:
 	import utilities.dns_resolve as dns_resolve
 	import utilities.ping as ping
@@ -103,6 +103,6 @@ def get_hostnames():
 	print("Duration:",duration)
 	print("cannot be resolved",cannot_be_resolved)
 	print("cannot be ssl checked",cannot_be_ssl_checked)
-	system('say '+"dns resolve jobs done, Duration"+str(duration))
+	os.system('say '+"dns resolve jobs done, Duration"+str(duration))
 if __name__ == '__main__':
 	get_hostnames()
