@@ -90,10 +90,8 @@ updates-http.cdn-apple.com
 telcodb.net
 0.ciscosb.pool.ntp.org
 88.214.96.116
-88.214.96.116
 88.214.96.117
 88.214.96.118
-88.214.96.119
 88.214.96.119
 t1.tiles.ditu.live.com
 t2.tiles.ditu.live.com
