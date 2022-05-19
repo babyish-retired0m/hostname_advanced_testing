@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.3"
+__version__ = "1.4"
 import time
 import json
 import os
@@ -26,17 +26,20 @@ def __get_show_result_verbose_ping__(verbose_ping, host):
 	else: print("{0}{3} {2}{4:11} {1}completed: true{2}".format(utility.Clr.YELLOW,utility.Clr.GREEN,utility.Clr.RST,host,"ping"))
 def __get_show_result_verbose_traceroute__(verbose_traceroute, host):
 	def __get_show_traceroute__(verbose_traceroute):
+		print("traceroute to "+ verbose_traceroute["parameters"]["address"],"("+verbose_traceroute["parameters"]["ip_address"]+")",verbose_traceroute["parameters"]["max_hops"],"hops max",verbose_traceroute["parameters"]["payload_size"],"byte packets")
 		for (enum,record) in enumerate(verbose_traceroute["traceroute"],start=1):
 			if enum<10: text=" "
 			else:text=""
 			if record is None: print(f"{enum}{text}  {utility.Clr.RED}* * *{utility.Clr.RST}")
 			else: print(f"{enum}{text}  {record[0]} ({record[1]})  {record[2]}")
 	if verbose_traceroute["host_reached"]:
-		print("host: {0}{3} {2}{4:11} {1}reached: true{2}".format(utility.Clr.YELLOW,utility.Clr.GREEN,utility.Clr.RST,host,"traceroute"))
-		if None in verbose_traceroute["traceroute"]:
-			__get_show_traceroute__(verbose_traceroute)
+		print("{3}Traceroute test{4} host: {0}{5:11}{2} {1}reached: {6}{2}".format(utility.Clr.YELLOW, utility.Clr.GREEN, utility.Clr.RST, utility.Clr.RED2, utility.Clr.RST2, host, verbose_traceroute["host_reached"]))
 	else:
+		print("{3}Traceroute test{4} host: {0}{5:11}{2} {3}reached: {6}{4}".format(utility.Clr.YELLOW, utility.Clr.GREEN, utility.Clr.RST, utility.Clr.RED2, utility.Clr.RST2, host, verbose_traceroute["host_reached"]))
+	if None in verbose_traceroute["traceroute"]:
+		print(utility.Clr.GREY+"- \"TRACEROUTE System Manager's Manual:\n * * *\nA more interesting example is:\n[yak 72]% traceroute allspice.lcs.mit.edu.\n... only knows what's going on with * * *.\""+utility.Clr.RST)
 		__get_show_traceroute__(verbose_traceroute)
+	elif verbose_traceroute["host_reached"] is False and not None in verbose_traceroute["traceroute"]: __get_show_traceroute__(verbose_traceroute)
 def __get_show_result_resolve__(resolve):
 		for record in resolve:
 			if "A" in resolve[record]:
