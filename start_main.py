@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.2"
+__version__ = "1.3"
 try:
 	import utilities.dns_resolve as dns_resolve
 	import utilities.ping as ping
@@ -108,5 +108,7 @@ def get_hostnames():
 	print("cannot be ssl checked",cannot_be_ssl_checked)
 	os.system('say '+"dns resolve jobs done, Duration"+str(duration))
 if __name__ == '__main__':
+	import os
+	import time
 	get_hostnames()
 	#get_hostname_advanced_testing(["amazonaws.com"])

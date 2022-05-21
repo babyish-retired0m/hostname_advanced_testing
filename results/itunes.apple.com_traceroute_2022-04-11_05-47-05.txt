@@ -1,5 +1,0 @@
-traceroute to itunes.apple.com (23.64.142.62), 64 hops max, 52 byte packets
- 1 * * *
- 2 * * *
- 3 * * *
- 4 23.64.142.62  49.236 ms  49.249 ms  49.241 ms
