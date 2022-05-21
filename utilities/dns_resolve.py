@@ -32,22 +32,22 @@ class dns_response():
 		for i in ip_addresses_block:
 			#DNS IP address Lanet:
 			if i["name"]=="AS-39608_lanet.ua.txt":
-				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),i["download_url"]):
 					self.nameservers.append("194.50.85.5")
 					#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
 			#DNS IP address Vodafone:
 			elif i["name"]=="AS-21497_vodafone.ua.txt":
-				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),i["download_url"]):
 					self.nameservers.append("88.214.96.116")
 					#self.nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
 			#DNS IP address Kyivstar:
 			elif i["name"]=="AS-15895_kyivstar.ua.txt":
-				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),i["download_url"]):
 					self.nameservers.append("193.41.60.1")
 					#self.nameservers.extend(["193.41.60.1","193.41.60.2"])
 			#DNS IP address NordVPN
 			elif i["name"]=="AS-9009_m247.com.txt":
-				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),i["download_url"]):
 					self.nameservers.append("103.86.99.99")
 					#self.nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
 			
