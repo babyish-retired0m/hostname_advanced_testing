@@ -35,6 +35,9 @@ class dns_response():
 				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
 					self.nameservers.append("194.50.85.5")
 					#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
+					self.nameservers.remove("9.9.9.9")
+					self.nameservers.remove("64.6.64.6")
+					self.nameservers.remove("209.244.0.3")
 			#DNS IP address Vodafone:
 			elif i["name"]=="AS-21497_vodafone.ua.txt":
 				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
