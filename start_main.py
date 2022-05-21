@@ -50,11 +50,14 @@ def __get_traceroute__(qname):
 def __get_ssl_check__(qname):
 	if qname not in cannot_be_ssl_checked:
 		sslobject = ssl_check.SSLCheck()
-		result = sslobject.show_result([qname])
-		if result is not None:
-			recv_records = result[qname]
-			return recv_records
-		else: cannot_be_ssl_checked.append(qname)
+		try:
+			result = sslobject.show_result([qname])
+			if result is not None:
+				recv_records = result[qname]
+				return recv_records
+			else: cannot_be_ssl_checked.append(qname)
+		except: print("__get_ssl_check__ cannot_be_ssl_checked")
+	else: pass
 def get_hostname_advanced_testing(qnames):
 	start_time = time.time()
 	recv_records["advanced_test"] = {}
@@ -106,3 +109,4 @@ def get_hostnames():
 	os.system('say '+"dns resolve jobs done, Duration"+str(duration))
 if __name__ == '__main__':
 	get_hostnames()
+	#get_hostname_advanced_testing(["amazonaws.com"])

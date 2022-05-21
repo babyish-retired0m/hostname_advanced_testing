@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.7"
+__version__ = "1.8"
 try:
 	#resolve_mx
 	import dns.resolver
@@ -13,6 +13,7 @@ except ImportError:
 #resolve_cname
 import utilities.ip_address as ip_address
 import utilities.file as file
+import os
 
 class dns_response():
 	def __init__(self,host):
@@ -27,33 +28,36 @@ class dns_response():
 		
 		#DNS IP address Public:
 		#self.nameservers.extend(["1.0.0.1","8.8.8.8","208.67.222.222"])
-		ip_addresses_block = file.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/functions/contents/ip_addresses_block_Provider?ref=main")
 		
-		for i in ip_addresses_block:
-			#DNS IP address Lanet:
-			if i["name"]=="AS-39608_lanet.ua.txt":
-				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
-					self.nameservers.append("194.50.85.5")
-					#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
-					self.nameservers.remove("9.9.9.9")
-					self.nameservers.remove("64.6.64.6")
-					self.nameservers.remove("209.244.0.3")
-			#DNS IP address Vodafone:
-			elif i["name"]=="AS-21497_vodafone.ua.txt":
-				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
-					self.nameservers.append("88.214.96.116")
-					#self.nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
-			#DNS IP address Kyivstar:
-			elif i["name"]=="AS-15895_kyivstar.ua.txt":
-				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
-					self.nameservers.append("193.41.60.1")
-					#self.nameservers.extend(["193.41.60.1","193.41.60.2"])
-			#DNS IP address NordVPN
-			elif i["name"]=="AS-9009_m247.com.txt":
-				if ip_address.check_ip_in_networks(ip_address.get_ip_address_public_amazon(),file.get_request_text_as_str(i["download_url"])):
-					self.nameservers.append("103.86.99.99")
-					#self.nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
-			
+		parent_dir = os.path.dirname(__file__)
+		#ip_addresses_block = file.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/functions/contents/ip_addresses_block_Provider?ref=main")
+		
+		ip_address_public = ip_address.get_ip_address_public_amazon()
+		ip_addresses_block_AS_9009 = file.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-9009_m247.com.txt")
+		ip_addresses_block_AS_42831 = file.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-42831_ukservers.com.txt")
+		ip_addresses_block_AS_21497 = file.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-21497_vodafone.ua.txt")
+		ip_addresses_block_AS_39608 = file.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
+		ip_addresses_block_AS_15895 = file.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-15895_kyivstar.ua.txt")
+		
+		#DNS IP address Lanet:
+		if ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_39608):
+			self.nameservers.append("194.50.85.5")
+			#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
+			self.nameservers.remove("9.9.9.9")
+			self.nameservers.remove("64.6.64.6")
+			self.nameservers.remove("209.244.0.3")
+		#DNS IP address Vodafone:
+		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_21497):
+			self.nameservers.append("88.214.96.116")
+			#self.nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
+		#DNS IP address Kyivstar:
+		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_15895):
+			self.nameservers.append("193.41.60.1")
+			#self.nameservers.extend(["193.41.60.1","193.41.60.2"])
+		#DNS IP address NordVPN
+		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_9009) or ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_42831):
+			self.nameservers.append("103.86.99.99")
+			#self.nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
 		#DNS IP address Lanet:
 		
 		#DNS IP address Kyivstar:
