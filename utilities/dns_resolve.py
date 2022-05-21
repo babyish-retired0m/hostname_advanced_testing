@@ -12,6 +12,7 @@ except ImportError:
 	raise SystemExit("Please install dnspython")
 #resolve_cname
 import utilities.ip_address as ip_address
+import utilities.file as file
 
 class dns_response():
 	def __init__(self,host):
@@ -26,22 +27,39 @@ class dns_response():
 		
 		#DNS IP address Public:
 		#self.nameservers.extend(["1.0.0.1","8.8.8.8","208.67.222.222"])
+		ip_addresses_block = file.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/functions/contents/ip_addresses_block_Provider?ref=main")
 		
+		for i in ip_addresses_block:
+			#DNS IP address Lanet:
+			if i["name"]=="AS-39608_lanet.ua.txt":
+				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+					self.nameservers.append("194.50.85.5")
+					#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
+			#DNS IP address Vodafone:
+			elif i["name"]=="AS-21497_vodafone.ua.txt":
+				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+					self.nameservers.append("88.214.96.116")
+					#self.nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
+			#DNS IP address Kyivstar:
+			elif i["name"]=="AS-15895_kyivstar.ua.txt":
+				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+					self.nameservers.append("193.41.60.1")
+					#self.nameservers.extend(["193.41.60.1","193.41.60.2"])
+			#DNS IP address NordVPN
+			elif i["name"]=="AS-9009_m247.com.txt":
+				if ip_address.check_ip_in_networks(get_ip_address_public_amazon(),i["download_url"]):
+					self.nameservers.append("103.86.99.99")
+					#self.nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
+			
 		#DNS IP address Lanet:
-		#self.nameservers.append("194.50.85.5")
-		#self.nameservers.extend(["194.50.85.5","194.50.85.7"])
 		
 		#DNS IP address Kyivstar:
-		#self.nameservers.append("193.41.60.1")
-		#self.nameservers.extend(["193.41.60.1","193.41.60.2"])
 		
 		#DNS IP address Vodafone:
-		#self.nameservers.append("88.214.96.116")
-		#self.nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
+		
 		
 		#DNS IP address NordVPN
-		#self.nameservers.append("103.86.99.99")
-		#self.nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
+		
 		
 		#Checking DNS record propagation https://2ip.me/en/services/information-service/dns-check
 		#self.nameservers = ['208.67.222.220', '8.8.8.8', '9.9.9.9', '98.113.146.9', '12.121.117.201', '66.206.166.2', '5.11.11.5', '163.172.107.158', '212.230.255.1', '194.209.157.109', '83.137.41.9', '194.145.241.6', '84.200.70.40', '200.56.224.11', '200.248.178.54', '103.26.250.4', '1.1.1.1', '61.8.0.113', '210.48.77.68', '164.124.101.2', '202.46.34.75', '31.7.37.37', '115.178.96.2', '58.27.149.60', '185.83.212.30', '103.146.221.20', '8.8.4.4', '64.6.64.6', '208.67.220.220', '209.244.0.3', '1.0.0.1', '208.67.222.222']
