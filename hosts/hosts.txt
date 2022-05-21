@@ -80,6 +80,9 @@ if-be-25-2.ecore1.fr0-frankfurt.as6453.net
 protonmail.com
 beta.protonmail.com
 id.cisco.com
+apps-id.cisco.com
+identity.cisco.com
+devicehelper.cisco.com
 0.ciscosb.pool.ntp.org
 1.ciscosb.pool.ntp.org
 2.ciscosb.pool.ntp.org
@@ -117,5 +120,3 @@ my.vodafone.ua
 209.244.0.3
 103.86.96.100
 joker.ua
-apps-id.cisco.com
-identity.cisco.com
