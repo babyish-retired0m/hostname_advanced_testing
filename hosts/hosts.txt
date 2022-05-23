@@ -83,6 +83,7 @@ id.cisco.com
 apps-id.cisco.com
 identity.cisco.com
 devicehelper.cisco.com
+time-pnp.cisco.com
 0.ciscosb.pool.ntp.org
 1.ciscosb.pool.ntp.org
 2.ciscosb.pool.ntp.org
