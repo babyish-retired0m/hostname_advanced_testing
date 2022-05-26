@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.3"
+__version__ = "1.4"
 try:
 	import utilities.dns_resolve as dns_resolve
 	import utilities.ping as ping
@@ -21,9 +21,12 @@ import sys
 _start_time = time.time()
 
 _ip = ip_address.get_ip_address_public_amazon()
-if _ip is None: sys.exit(1)
+if _ip is None:
+	#print("Error connecting to https://checkip.amazonaws.com.\nCheck your internet connection or https://status.aws.amazon.com")
+	sys.exit(1)
+elif check_ip_in_network_lanet_ua(): _ip = "176.36.0.0/14"
 
-recv_records={"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
+recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
 parent_dir = os.path.dirname(__file__) 
 cannot_be_resolved = file.open_as_list(parent_dir + "/utilities/cannot_be_resolved.txt")
 cannot_be_ssl_checked = file.open_as_list(parent_dir + "/utilities/cannot_be_ssl_checked.txt")

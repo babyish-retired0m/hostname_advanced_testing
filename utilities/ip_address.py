@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.2"
+__version__ = "1.3"
 def get_ip_address_valid(address):
 	import ipaddress
 	try:
@@ -65,8 +65,9 @@ def get_ip_address_public_ipify():
 def get_ip_address_public_amazon():
 	from requests import get
 	try: return get('https://checkip.amazonaws.com').text.strip()
-	except:#import sys;#sys.exit(1)
-		print('The timeout error get_ip_address_public_amazon message has been received')
+	except:#import sys;sys.exit(1)
+		print("The timeout connecting error message has been received")
+		print("Error connecting to https://checkip.amazonaws.com.\nCheck your internet connection or https://status.aws.amazon.com")
 		return None
 def check_ip_in_network(ip_address,ip_network):
 	import ipaddress
