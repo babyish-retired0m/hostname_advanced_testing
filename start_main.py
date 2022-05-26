@@ -24,7 +24,7 @@ _ip = ip_address.get_ip_address_public_amazon()
 if _ip is None:
 	#print("Error connecting to https://checkip.amazonaws.com.\nCheck your internet connection or https://status.aws.amazon.com")
 	sys.exit(1)
-elif check_ip_in_network_lanet_ua(): _ip = "176.36.0.0/14"
+elif ip_address.check_ip_in_network_lanet_ua(): _ip = "176.36.0.0/14"
 
 recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
 parent_dir = os.path.dirname(__file__) 
