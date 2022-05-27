@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.0"
+__version__ = "1.1"
 """
     icmplib
     The power to forge ICMP packets and do ping and traceroute.
@@ -21,9 +21,10 @@ try:
 except ImportError:
     raise SystemExit("Please install icmplib, pip3 install icmplib (https://github.com/ValentinBELYN/icmplib)")
 
-def verbose_ping(address, count=10, interval=0.05, timeout=0.2, id=PID):
+def verbose_ping(address, count=10, interval=0.1, timeout=1, id=PID):
 	#count=4, interval=1, timeout=2,
 	#count=10, interval=0.05, timeout=0.10
+	#count=10, interval=0.05, timeout=0.2
 	results = {}
 	# We perform a DNS lookup if a hostname or an FQDN is passed in
 	# parameters.
@@ -74,7 +75,7 @@ def verbose_ping(address, count=10, interval=0.05, timeout=0.2, id=PID):
 		if n1 == n2: return '~'
 		else: return n1
 	results[address]['parameters']={'address':address,'ip_address':ip_address,'count':count,'interval':interval,'timeout':timeout,'id':id,'payload_size':payload_size,'username':getusername(),'pcname':getpcname(),'currentdirectory':getcurrentdirectory()}
-	print(f'{getusername()}@{getpcname()} {getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {timeout} -W {interval} {address}')
+	print(f'{getusername()}@{getpcname()} {getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {timeout} -i {interval} {address}')
 	print(f'PING {address}({ip_address}): {payload_size} data bytes')
 	
 	# We detect the socket to use from the specified IP address

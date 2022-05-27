@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.0"
+__version__ = "1.1"
 """
 	icmplib
 	The power to forge ICMP packets and do ping and traceroute.
@@ -20,6 +20,7 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
 		id=PID, max_hops=30):
 	#interval=0.05, timeout=0.10,
 	#timeout=2
+	#count=2, interval=0.05, timeout=0.20, id=PID, max_hops=30
 	
 	def getpcname():
 		from os import environ
@@ -67,11 +68,15 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
 	# A payload of 56 bytes is used by default. You can modify it using
 	# the 'payload_size' parameter of your ICMP request.
 	payload_size=56
-	print(f'{getusername()}@{getpcname()} {getcurrentdirectory()}$ traceroute -q 30 -w 0.2 -z 0.05 {address} {payload_size}')
+	if interval==0.05: print_interval=500
+	else: print_interval=500
+	if timeout==0.20: print_timeout=1
+	else: print_timeout=1
+	print(f'{getusername()}@{getpcname()} {getcurrentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
 	print(f'traceroute to {address} ({ip_address}), '
 		  f'{max_hops} hops max, {payload_size} byte packets')
 	results[address]['traceroute']=[]
-	results[address]['parameters']={"address":address,"ip_address":ip_address,"max_hops":max_hops,"payload_size":payload_size,"username":getusername(),"pcname":getpcname(),"currentdirectory":getcurrentdirectory()}
+	results[address]['parameters']={"address":address, "ip_address":ip_address,"max_hops":max_hops, "timeout":print_timeout, "interval":print_interval, "payload_size":payload_size, "username":getusername(), "pcname":getpcname(), "currentdirectory":getcurrentdirectory()}
 	#results[address]['traceroute'].append(f'Traceroute to {address} ({ip_address}), {max_hops} hops max, {payload_size} byte packets')
 
 	# We detect the socket to use from the specified IP address
@@ -168,4 +173,6 @@ if __name__ == '__main__':
 		host=str(sys.argv[1])
 		print(sys.argv[1])
 	result=verbose_traceroute(host)
+	print('result',result)
+	result=verbose_traceroute("ic3.gov")
 	print('result',result)
