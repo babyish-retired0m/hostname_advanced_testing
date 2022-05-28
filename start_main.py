@@ -38,7 +38,7 @@ class Advanced_testing:
 		self.get_ping = get_ping
 		self.get_traceroute = get_traceroute
 		self.get_ssl_check = get_ssl_check
-		parent_dir = os.path.dirname(__file__) 
+		parent_dir = os.path.dirname(__file__)
 		path = parent_dir + "/results/"
 		if file.check_dir(path) is False: file.dirs_make(path)
 		self.path_results = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+".json"
@@ -81,6 +81,9 @@ class Advanced_testing:
 	def get_hostname_advanced_testing(self):
 		start_time = time.time()
 		self.recv_records["advanced_test"] = {}
+		if isinstance(self.hostnames, str): self.hostnames = [self.hostnames]
+		elif isinstance(self.hostnames, list): pass
+		else: print("Are list of hostname(s) str, list?"); sys.exit(1)
 		for qname in self.hostnames:
 			if len(qname)>3:
 				if qname in self.cannot_be_resolved: pass
@@ -93,7 +96,7 @@ class Advanced_testing:
 						pass
 					else:
 						self.recv_records["advanced_test"][qname] = {}
-						utility.Percents(self.hostnames.index(qname),len(self.hostnames))
+						utility.Percents(self.hostnames.index(qname), len(self.hostnames))
 						#nslookup
 						if self.get_nslookup: self.recv_records["advanced_test"][qname]["resolve"] = self.__get_nslookup__(qname)
 						#ping
@@ -108,25 +111,12 @@ class Advanced_testing:
 		if self.dump: self.__dump__()
 		return self.recv_records
 	def __dump__(self):
-		json.dump(self.recv_records, fp=open(self.path_results,'w'),indent=4)
-
-if __name__ == '__main__':
-	import os
-	import time
-	#get_hostnames()
-	
-	#get_hostname_advanced_testing(["amazonaws.com"])
-	
-	#get_advanced_testing = Advanced_testing(hostnames = ["amazonaws.com"], get_nslookup = True, get_ping = True, get_traceroute = False, get_ssl_check = False, dump = False)
-	#print(get_advanced_testing())
-	
+		json.dump(self.recv_records, fp = open(self.path_results, 'w'),indent=4)
 	
 	def get_hostnames_nordvpn():
+		self.path_results = self.path_results.replace(".json", "_hosts_nordvpn.json")
 		get_hostnames={}
-		parent_dir = os.path.dirname(__file__)
-		path = parent_dir + "/results/"
-		path_json = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+"_hosts_all.json"
-		json.dump(get_hostnames, fp=open(path_json,'w'),indent=4)
+		json.dump(get_hostnames, fp=open(self.path_json,'w'),indent=4)
 		hostnames = ["servers_dedicated",
 					"servers_obfuscated",
 					"servers_p2p",
@@ -139,7 +129,20 @@ if __name__ == '__main__':
 			#print(hosts)
 			get_advanced_testing = Advanced_testing(hostnames = hosts, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, dump = False)
 			get_hostnames[hostname] = get_advanced_testing()
-			json.dump(get_hostnames, fp=open(path_json,'w'),indent=4)
+			json.dump(get_hostnames, fp = open(path_json,'w'), indent = 4)
+
+if __name__ == '__main__':
+	import os
+	import time
+	#get_hostnames()
+	
+	#get_hostname_advanced_testing(["amazonaws.com"])
+	
+	#get_advanced_testing = Advanced_testing(hostnames = ["amazonaws.com"], get_nslookup = True, get_ping = True, get_traceroute = False, get_ssl_check = False, dump = False)
+	#print(get_advanced_testing())
+	
+	
+	
 			"""
 			"Standard VPN servers",
 					"Dedicated IP",
