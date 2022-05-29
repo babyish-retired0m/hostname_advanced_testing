@@ -15,47 +15,13 @@ try:
 	from icmplib import PID, resolve, is_hostname, is_ipv6_address
 except ImportError:
 	raise SystemExit("Please install icmplib, pip3 install icmplib, https://github.com/ValentinBELYN/icmplib")
+import utilities.utility as utility
 
-def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
+def verbose_traceroute(address, count=2, interval=0.05, timeout=0.10,
 		id=PID, max_hops=30):
 	#interval=0.05, timeout=0.10,
 	#timeout=2
 	#count=2, interval=0.05, timeout=0.20, id=PID, max_hops=30
-	
-	def getpcname():
-		from os import environ
-		from platform import node
-		from socket import gethostname
-		n1 = node()
-		n2 = gethostname()
-		n3 = environ.get("COMPUTERNAME")
-		if n1 == n2 == n3:
-			pcname = n1
-		elif n1 == n2:
-			pcname = n1
-		elif n1 == n3:
-			pcname = n1
-		elif n2 == n3:
-			pcname = n2
-		else:
-			raise Exception("Computernames are not equal to each other")
-		if pcname.endswith('.local'): return pcname[:pcname.find('.local')]
-		else: return pcname
-	def getusername():
-		from os import getlogin
-		from getpass import getuser
-		n1=getlogin()
-		n2=getuser()
-		if n1 == n2: user = n1
-		elif n2 == 'root': user = n1
-		else: raise Exception("Username are not equal to each other")
-		return user
-	def getcurrentdirectory():
-		from os import getcwd,path
-		n1=getcwd() 
-		n2=path.expanduser('~')
-		if n1 == n2: return '~'
-		else: return n1
 	
 	results = {}
 	# We perform a DNS lookup if a hostname or an FQDN is passed in
@@ -64,19 +30,19 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
 		ip_address = resolve(address)[0]
 	else:
 		ip_address = address
-	results[address]={}
+	results[address] = {}
 	# A payload of 56 bytes is used by default. You can modify it using
 	# the 'payload_size' parameter of your ICMP request.
-	payload_size=56
-	if interval==0.05: print_interval=500
-	else: print_interval=500
-	if timeout==0.20: print_timeout=1
-	else: print_timeout=1
-	print(f'{getusername()}@{getpcname()} {getcurrentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
+	payload_size = 56
+	if interval==0.05: print_interval = 500
+	else: print_interval = interval
+	if timeout == 0.10: print_timeout = 1
+	else: print_timeout = timeout
+	print(f'{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
 	print(f'traceroute to {address} ({ip_address}), '
 		  f'{max_hops} hops max, {payload_size} byte packets')
 	results[address]['traceroute']=[]
-	results[address]['parameters']={"address":address, "ip_address":ip_address,"max_hops":max_hops, "timeout":print_timeout, "interval":print_interval, "payload_size":payload_size, "username":getusername(), "pcname":getpcname(), "currentdirectory":getcurrentdirectory()}
+	results[address]['parameters']={"address":address, "ip_address":ip_address,"max_hops":max_hops, "timeout":print_timeout, "interval":print_interval, "payload_size":payload_size, "username":utility.getusername(), "pcname":utility.getpcname(), "currentdirectory":utility.getcurrentdirectory()}
 	#results[address]['traceroute'].append(f'Traceroute to {address} ({ip_address}), {max_hops} hops max, {payload_size} byte packets')
 
 	# We detect the socket to use from the specified IP address
@@ -87,6 +53,7 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
 
 	ttl = 1
 	host_reached = False
+	network_issue = False
 
 	while not host_reached and ttl <= max_hops:
 		for sequence in range(count):
@@ -149,17 +116,19 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.20,
 					else:
 						print(f'{ttl:<2}  * * *')
 					results[address]['traceroute'].append(None)
+					network_issue = True
 			except ICMPLibError:
 				# Other errors are ignored
 				pass
 
 		ttl += 1
-	print('Completed.')
-	if host_reached: print(f'Host {ip_address} ({address}) reached')
-	else: print('Host did not reach')
-	results[address]['completed'] = True
-	results[address]['host_reached'] = host_reached
-		
+	print("Completed.")
+	if host_reached: print(f"Host {ip_address} ({address}) reached"); 
+	else: print("Host did not reach")
+	results[address]['statistics'] = {'completed':True}
+	results[address]['statistics']['host_reached'] = host_reached
+	results[address]['statistics']['network_issue'] = network_issue
+	
 	return results
 
 # This function supports both FQDNs and IP addresses. See the 'resolve'

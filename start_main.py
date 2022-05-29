@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.5"
+__version__ = "1.7"
 try:
 	import utilities.dns_resolve as dns_resolve
 	import utilities.ping as ping
@@ -18,21 +18,17 @@ import time
 import os
 import json
 import sys
-_start_time = time.time()
 
-_ip = ip_address.get_ip_address_public_amazon()
-if _ip is None:
-	#print("Error connecting to https://checkip.amazonaws.com.\nCheck your internet connection or https://status.aws.amazon.com")
-	sys.exit(1)
-elif ip_address.check_ip_in_network_lanet_ua(): _ip = "176.36.0.0/14"
 
-recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
-parent_dir = os.path.dirname(__file__) 
-cannot_be_resolved = file.open_as_list(parent_dir + "/utilities/cannot_be_resolved.txt")
-cannot_be_ssl_checked = file.open_as_list(parent_dir + "/utilities/cannot_be_ssl_checked.txt")
+
+
+#recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
+#parent_dir = os.path.dirname(__file__) 
+#cannot_be_resolved = file.open_as_list(parent_dir + "/utilities/cannot_be_resolved.txt")
+#cannot_be_ssl_checked = file.open_as_list(parent_dir + "/utilities/cannot_be_ssl_checked.txt")
 
 class Advanced_testing:
-	def __init__(self, hostnames = ["amazon.com"], get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, dump = False):
+	def __init__(self, hostnames = ["amazon.com"], get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = False):
 		self.hostnames = hostnames
 		self.get_nslookup = get_nslookup
 		self.get_ping = get_ping
@@ -42,30 +38,35 @@ class Advanced_testing:
 		path = parent_dir + "/results/"
 		if file.check_dir(path) is False: file.dirs_make(path)
 		self.path_results = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+".json"
-		self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip}}
+		self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":self.__get_ip__()}}
 		self.cannot_be_resolved = file.open_as_list(parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = file.open_as_list(parent_dir + "/utilities/cannot_be_ssl_checked.txt")
-		self.dump = dump
+		self.get_dump = get_dump
 	def __call__(self):
 		return self.get_hostname_advanced_testing()
+	def __get_ip__(self):
+		ip = ip_address.get_ip_address_public_amazon()
+		if ip is None: sys.exit(1)
+		elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
+		return ip
 	def __get_nslookup__(self, qname):
 		response = dns_resolve.dns_response(qname)
 		result = response.nslookup_nameserver()
-		recv_records = {"resolve":result[qname]}
-		recv_records["resolve"]["parameters"]={"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":_ip,"pcname":utility.getpcname(),"username":utility.getusername(),"currentdirectory":utility.getcurrentdirectory()}
+		recv_records = {"resolve":{"nslookup":result[qname]}}
+		recv_records["resolve"]["parameters"]={"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":self.__get_ip__(),"pcname":utility.getpcname(),"username":utility.getusername(),"currentdirectory":utility.getcurrentdirectory()}
 		return recv_records["resolve"]
 	def __get_ping__(self, qname):
 		result = ping.verbose_ping(qname)
 		if result is not None:
 			recv_records = {"verbose_ping":result[qname]}
 			recv_records["verbose_ping"]["parameters"]["Unix Epoch Time"] = utility.get_unix_time()
-			recv_records["verbose_ping"]["parameters"]["Public IP Address"] = _ip
+			recv_records["verbose_ping"]["parameters"]["Public IP Address"] = self.__get_ip__()
 			return recv_records["verbose_ping"]
 	def __get_traceroute__(self, qname):
 		result = traceroute.verbose_traceroute(qname)
 		recv_records = {"verbose_traceroute":result[qname]}
 		recv_records["verbose_traceroute"]["parameters"]["Unix Epoch Time"] = utility.get_unix_time()
-		recv_records["verbose_traceroute"]["parameters"]["Public IP Address"] = _ip
+		recv_records["verbose_traceroute"]["parameters"]["Public IP Address"] = self.__get_ip__()
 		return recv_records["verbose_traceroute"]
 	def __get_ssl_check__(self, qname):
 		if qname not in self.cannot_be_ssl_checked:
@@ -110,26 +111,29 @@ class Advanced_testing:
 		os.system('say "get dns resolve jobs done"')
 		if self.dump: self.__dump__()
 		return self.recv_records
-	def __dump__(self):
+	def __get_dump__(self):
 		json.dump(self.recv_records, fp = open(self.path_results, 'w'),indent=4)
 	
-	def get_hostnames_nordvpn():
+	def get_hostnames_nordvpn(self):
 		self.path_results = self.path_results.replace(".json", "_hosts_nordvpn.json")
-		get_hostnames={}
-		json.dump(get_hostnames, fp=open(self.path_json,'w'),indent=4)
-		hostnames = ["servers_dedicated",
-					"servers_obfuscated",
-					"servers_p2p",
-					"servers_double",
-					"servers_onion",
-					"servers_standard"]
+		hostnames_dict = {}
+		#json.dump(hostnames_dict, fp=open(self.path_json,'w'),indent=4)
+		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
 		for hostname in hostnames:
-			get_hostnames = json.load(open(path_json))
+			#hostnames_dict = json.load(open(path_json))
 			hosts = file.open_as_list("/Users/jozbox/python/functions/nordvpn/"+hostname+".txt")
+			hostnames_dict[hostname] = self.__get_hosts_advanced_testing__(hostnames = hosts, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = False, hostnames_dict = hostnames_dict, path_results = self.path_results)
 			#print(hosts)
-			get_advanced_testing = Advanced_testing(hostnames = hosts, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, dump = False)
+			"""get_advanced_testing = Advanced_testing(hostnames = hosts, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = False)
 			get_hostnames[hostname] = get_advanced_testing()
-			json.dump(get_hostnames, fp = open(path_json,'w'), indent = 4)
+			json.dump(get_hostnames, fp = open(path_json,'w'), indent = 4)"""
+	def __get_hosts_advanced_testing__(self, hostnames = hosts, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = False, hostnames_dict = {}, path_results = "/results/results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+".json"):
+		get_advanced_testing = Advanced_testing(hostnames = hostnames, get_nslookup = get_nslookup, get_ping = get_ping, get_traceroute = get_traceroute, get_ssl_check = get_ssl_check, get_dump = get_dump)
+		hostnames_dict[hostname] = get_advanced_testing()
+		json.dump(hostnames_dict, fp = open(path_results,'w'), indent = 4)
+		return hostnames_dict
+		
+		
 
 if __name__ == '__main__':
 	import os
@@ -143,17 +147,19 @@ if __name__ == '__main__':
 	
 	
 	
-			"""
-			"Standard VPN servers",
-					"Dedicated IP",
-					"Obfuscated Servers",
-					"P2P",
-					"Double VPN",
-					"Onion Over VPN"
-			"""
+	"""
+	"Standard VPN servers",
+			"Dedicated IP",
+			"Obfuscated Servers",
+			"P2P",
+			"Double VPN",
+			"Onion Over VPN"
+	"""
 	#get_hostnames_nordvpn()
 	
 	def get_hostnames():
+		_start_time = time.time()
+		parent_dir = os.path.dirname(__file__) 
 		path = parent_dir + "/results/"
 		if file.check_dir(path) is False: file.dirs_make(path)
 		path_json = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+"_hosts_all.json"
@@ -172,8 +178,8 @@ if __name__ == '__main__':
 			json.dump(get_hostnames, fp=open(path_json,'w'),indent=4)
 		duration = '{:.3f}'.format(time.time()- _start_time)
 		print("Duration:",duration)
-		print("cannot be resolved",cannot_be_resolved)
-		print("cannot be ssl checked",cannot_be_ssl_checked)
+		print("cannot be resolved",self.cannot_be_resolved)
+		print("cannot be ssl checked",self.cannot_be_ssl_checked)
 		os.system('say '+"dns resolve jobs done, Duration"+str(duration))
 	
 	get_hostnames()

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.3"
+__version__ = "1.4"
 """
     icmplib
     The power to forge ICMP packets and do ping and traceroute.
@@ -17,7 +17,7 @@ except ImportError:
     raise SystemExit("Please install icmplib, pip3 install icmplib (https://github.com/ValentinBELYN/icmplib)")
 import utilities.utility as utility 
 
-def verbose_ping(address, count=10, interval=0.1, timeout=0.2, payload_size=56, id=PID):
+def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, id=PID):
 	#count=4, interval=1, timeout=2,
 	#count=10, interval=0.05, timeout=0.10
 	#count=10, interval=0.05, timeout=0.2
@@ -34,11 +34,11 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.2, payload_size=56, 
 	else: ip_address = address
 	results[address] = {}
 
-	if timeout == 0.2: print_timeout=0.2
+	if timeout == 0.1: print_timeout = 1
 	else: print_timeout = timeout
 	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.getusername(), 'pcname':utility.getpcname(),'currentdirectory':utility.getcurrentdirectory()}
-	print(f'{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {timeout} -i {interval} {address}')
-	print(f'PING {address}({ip_address}): {payload_size} data bytes')
+	print(f"{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {timeout} -i {interval} {address}")
+	print(f"PING {address}({ip_address}): {payload_size} data bytes")
 	
 	# We detect the socket to use from the specified IP address
 	if is_ipv6_address(address):
@@ -84,7 +84,7 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.2, payload_size=56, 
 	
 		except TimeoutExceeded:
 			# The timeout has been reached
-			print(f'Request timeout for icmp_seq {sequence}')
+			print(f"Request timeout for icmp_seq {sequence}")
 			results[address]['ping'].append(None)
 	
 		except ICMPError as err:
@@ -94,12 +94,11 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.2, payload_size=56, 
 	
 		except ICMPLibError:
 			# All other errors
-			print('An error has occurred.')
+			print("An error has occurred.")
 			results[address]['ping'].append(None)
 	
-	print('Completed.')
-	results[address]['completed'] = True
-	print(f'--- {address} ping statistics ---')
+	print("Completed.")
+	print(f"--- {address} ping statistics ---")
 	def packets_count(replies):
 		count_received = 0
 		for reply in replies:
@@ -110,7 +109,8 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.2, payload_size=56, 
 		return packets_transmitted, packets_received, packet_loss
 	packets_transmitted,packets_received,packet_loss = packets_count(results[address]['ping'])
 	print(f'{packets_transmitted} packets transmitted, {packets_received} packets received, {packet_loss:.1f}% packet loss')
-	results[address]['statistics'] = {'packets_transmitted':packets_transmitted,'packets_received':packets_received,'packet_loss':packet_loss}
+	results[address]['statistics'] = {'packets_transmitted':packets_transmitted, 'packets_received':packets_received, 'packet_loss':packet_loss}
+	results[address]['statistics']['completed'] = True
 	return results
 
 # This function supports both FQDNs and IP addresses. See the 'resolve'
