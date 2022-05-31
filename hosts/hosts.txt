@@ -77,8 +77,16 @@ as6453.net
 fr0-frankfurt.as6453.net
 ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net
 if-be-25-2.ecore1.fr0-frankfurt.as6453.net
-protonmail.com
+account.protonvpn.com
+app.protonmail.ch
 beta.protonmail.com
+mail.protonmail.com
+old.protonmail.com
+pm.me
+protonmail.ch
+protonmail.com
+protonvpn.com
+secure.protonmail.com
 id.cisco.com
 apps-id.cisco.com
 identity.cisco.com
@@ -92,6 +100,8 @@ reddit.com
 securitytrails.com
 nordvpn.com
 account.nordvpn.com
+auth.nordaccount.com
+my.nordaccount.com
 accounts.ukr.net
 hotline.ua
 account.kyivstar.ua
@@ -121,3 +131,6 @@ my.vodafone.ua
 209.244.0.3
 103.86.96.100
 joker.ua
+cloudflare.com
+sni.cloudflaressl.com
+cloudflaressl.com

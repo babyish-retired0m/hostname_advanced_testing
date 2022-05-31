@@ -4,6 +4,7 @@ Copyright 2022. All rights reserved.
 """
 __version__ = "1.0"
 import argparse
+import main
 class Cli_api:
 	"""
 	usage
@@ -11,11 +12,16 @@ class Cli_api:
 	#def __init__(self):
 	def get_result(self, args):
 		if args.all:
-			print("get_hostnames")
-			print(args)
+			#print("get_hostnames")
+			#print(args)
+			#Get_hostnames_testing = main.Advanced_testing(get_nslookup = False, get_ping = False, get_traceroute = False, get_ssl_check = False, get_dump = True)
+			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
+			Get_hostnames_testing.get_hostname_advanced_testing(Get_hostnames_testing.__get_hostnames_as_list__())
 		elif args.nordvpn:
-			print("get_hostnames_nordvpn")
-			print(args)
+			#print("get_hostnames_nordvpn")
+			#print(args)
+			Get_hostnames_testing_nordvpn = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True)
+			Get_hostnames_testing_nordvpn.get_hostname_advanced_testing(Get_hostnames_testing_nordvpn.__get_hostnames_nordvpn_as_list__())
 		elif args.nordvpn:
 			print("get_hostnames_nordvpn")
 			print(args)
