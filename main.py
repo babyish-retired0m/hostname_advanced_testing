@@ -57,15 +57,24 @@ class Advanced_testing:
 		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
 		hosts_list = []
 		for servers_list in hostnames:
-			#hosts_list.extend(file.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/"+servers_list+".txt"))
-			hosts_list.extend(file.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
+			hosts_list.extend(file.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/"+servers_list+".txt"))
+			#hosts_list.extend(file.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
 		return hosts_list
 	
-	def __get_ip__(self):
+	def __get_ip__(self, timeout = 0):
 		ip = ip_address.get_ip_address_public_amazon()
-		if ip is None: sys.exit(1)
-		elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
-		return ip
+		while True:
+			if timeout == 10101:
+				print("{}Check your internet connection{}".format(utility.Clr.RED2, utility.Clr.RST2))
+				break				 
+			elif ip is None:
+				print("{}Check your internet connection{}, timeout 10 seconds, timeout #".format(utility.Clr.BLUE2, utility.Clr.RST2),timeout)
+				time.sleep(10)
+				timeout += 1
+				self.__get_ip__(timeout)
+				#sys.exit(1)
+			elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
+			return ip
 	def __get_nslookup__(self, qname):
 		response = dns_resolve.dns_response(qname)
 		result = response.nslookup_nameserver()
