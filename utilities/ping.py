@@ -33,7 +33,7 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, 
 			return None
 	else: ip_address = address
 	results[address] = {}
-
+	network_issue = False
 	if timeout == 0.1: print_timeout = 1
 	else: print_timeout = timeout
 	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.getusername(), 'pcname':utility.getpcname(),'currentdirectory':utility.getcurrentdirectory()}
@@ -86,16 +86,19 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, 
 			# The timeout has been reached
 			print(f"Request timeout for icmp_seq {sequence}")
 			results[address]['ping'].append(None)
+			network_issue = False
 	
 		except ICMPError as err:
 			# An ICMP error message has been received
 			print(err)
 			results[address]['ping'].append(None)
+			network_issue = False
 	
 		except ICMPLibError:
 			# All other errors
 			print("An error has occurred.")
 			results[address]['ping'].append(None)
+			network_issue = False
 	
 	print("Completed.")
 	print(f"--- {address} ping statistics ---")
@@ -111,6 +114,7 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, 
 	print(f'{packets_transmitted} packets transmitted, {packets_received} packets received, {packet_loss:.1f}% packet loss')
 	results[address]['statistics'] = {'packets_transmitted':packets_transmitted, 'packets_received':packets_received, 'packet_loss':packet_loss}
 	results[address]['statistics']['completed'] = True
+	results[address]['statistics']['network_issue'] = network_issue
 	return results
 
 # This function supports both FQDNs and IP addresses. See the 'resolve'

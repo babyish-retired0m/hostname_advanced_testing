@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-__version__ = "1.4"
+__version__ = "1.5"
 import time
 import json
 import os
 import utilities.utility as utility
 import utilities.file as file
+File = file.Main(print_result=False)
 start_time = time.time()
 def __get_show_result_parameters__(parameters):
 	print('{1}Advanced test parameters{6}:\nPublic IP Address: {4}{7}{0} Time: {5}{8}{0}, Execution time: {5}{9}{0}'.format(utility.Clr.RST, utility.Clr.RED2, utility.Clr.GREEN, utility.Clr.YELLOW, utility.Clr.VIOLET, utility.Clr.PINK, utility.Clr.RST2, parameters["Public IP Address"], time.ctime(parameters["Unix Epoch Time"]),parameters["Execution time Duration"]))
@@ -56,7 +57,7 @@ def __get_show_result_resolve__(resolve):
 				resolve[record]["nslookup"]["A"].sort()
 				if resolve[record]["nslookup"]["A"] != resolve[record]["nslookup"]["A"][0]: print("{0}Check  DNS record in NS {3} propagation {2}{1}".format(utility.Clr.RED, utility.Clr.RST, resolve[record]["nslookup"]["A"], record))
 				else: print("{0}Check DNS record {2}{1}".format(utility.Clr.RED,utility.Clr.RST, resolve[record]["nslookup"]["A"]))
-def get_show_results(results):
+def get_show_results_hosts(results):
 	for result in results:
 		__get_show_result_parameters__(results[result]["parameters"])
 		hosts = results[result]["advanced_test"]
@@ -65,12 +66,45 @@ def get_show_results(results):
 			__get_show_result_resolve__(hosts[host]["resolve"])
 			__get_show_result_verbose_ping__(hosts[host]["verbose_ping"], host)
 			__get_show_result_verbose_traceroute__(hosts[host]["verbose_traceroute"], host)
-			
+
+def get_show_results(results):
+	print(results["parameters"])
+	#print(results["advanced_test"])
+	"""__get_show_result_parameters__(results["parameters"])
+	for host in results[:1]:
+		__get_show_result_parameters_resolve__(hosts[host]["resolve"]["parameters"], host)
+		__get_show_result_resolve__(hosts[host]["resolve"])
+		__get_show_result_verbose_ping__(hosts[host]["verbose_ping"], host)
+		__get_show_result_verbose_traceroute__(hosts[host]["verbose_traceroute"], host)"""
+
 if __name__ == '__main__':
 	dir_parent =  os.path.dirname(__file__);dir_results = "/results/";file_result = "results_2022-05-18_16-35-48_hosts_all.json"
 	path_json = dir_parent + dir_results + file_result
 	results=json.load(open(path_json))
-	get_show_results(results)
+	
+	import pathlib
+	
+	#file.dir_listing_subdirectories()
+	
+	def get_show_results_listing():
+		#listing_results = File.dir_listing_files_in_this_directory_tree(path="./results", file_extension="json")
+		listing_results = File.dir_listing_files_in_this_directory_tree(path= os.path.dirname(__file__) + "/results", file_extension="json")
+		#print(file_results)
+		for (enum,result) in enumerate(listing_results,start=0):
+			#print(file_result.name)
+			print("Num #:"+str(enum),result.stem)
+		enum_input = ""
+		while True:
+			enum_input = input("e -EXIT, Num #: 0 - " + str(len(listing_results)-1) + str("\n") + str("Num #:"))
+			if enum_input == "e" or int(enum_input)>=len(listing_results): break
+			else: 
+				get_contents=(listing_results[int(enum_input)])
+				print(File.open_json(get_contents))
+				break
+	get_show_results(get_show_results_listing())
+	#list(p.glob('**/*.py'))
+	#get_show_results(results)
+	
 	#results=(file.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/hostname_advanced_testing/contents/results3?ref=main"))
 	
 	def github_repos():

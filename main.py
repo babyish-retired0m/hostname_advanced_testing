@@ -61,17 +61,17 @@ class Advanced_testing:
 			#hosts_list.extend(file.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
 		return hosts_list
 	
-	def __get_ip__(self, timeout = 0):
+	def __get_ip__(self, timeout_count = 0):
 		ip = ip_address.get_ip_address_public_amazon()
 		while True:
-			if timeout == 10101:
+			if timeout_count == 100:
 				print("{}Check your internet connection{}".format(utility.Clr.RED2, utility.Clr.RST2))
 				break				 
 			elif ip is None:
-				print("{}Check your internet connection{}, timeout 10 seconds, timeout #".format(utility.Clr.BLUE2, utility.Clr.RST2),timeout)
+				print("{}Check your internet connection{}, timeout 10 seconds, timeout #".format(utility.Clr.BLUE2, utility.Clr.RST2), timeout_count)
 				time.sleep(10)
-				timeout += 1
-				self.__get_ip__(timeout)
+				timeout_count += 1
+				self.__get_ip__(timeout_count)
 				#sys.exit(1)
 			elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
 			return ip
