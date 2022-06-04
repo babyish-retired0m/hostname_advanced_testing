@@ -19,7 +19,10 @@ servers_double = []
 servers_double_path = parent_dir + "/servers_double.txt"
 servers_onion = []
 servers_onion_path = parent_dir + "/servers_onion.txt"
+servers_country = {}
 for server in servers_json:
+	if not server["country"] in servers_country: 
+		servers_country[server["country"]]={}
 	if len(server["categories"]) > 0:
 		if server["categories"][0]["name"] == "P2P":
 			servers_p2p.append(server["domain"])
@@ -58,3 +61,6 @@ file.write_list_as_text(servers_obfuscated_path, servers_obfuscated)
 file.write_list_as_text(servers_p2p_path, servers_p2p)
 file.write_list_as_text(servers_double_path, servers_double)
 file.write_list_as_text(servers_onion_path, servers_onion)"""
+
+print("length servers_country",len(servers_country))
+print(servers_country)
