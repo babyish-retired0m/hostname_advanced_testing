@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-__version__ = "1.3"
+__version__ = "1.4"
+import os
+import utilities.file as file
+	
+File = file.Main(print_result=False)
+
 def get_ip_address_valid(address):
 	import ipaddress
 	try:
@@ -76,10 +81,8 @@ def check_ip_in_networks(ip_address,ip_network_list):
 	for ip_network in ip_network_list:
 		if check_ip_in_network(ip_address,ip_network): return ip_network#print("Yay!",ip_address,ip_network)
 def check_ip_in_network_lanet_ua():
-	import utilities.file as file
-	import os
 	ip_address=get_ip_address_public_amazon()
-	ip_network_list=file.open_as_list(os.path.dirname(__file__) + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
+	ip_network_list=File.open_as_list(os.path.dirname(__file__) + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
 	ip_network=check_ip_in_networks(ip_address,ip_network_list)
 	if ip_network: return ip_network
 if __name__ == '__main__':	

@@ -19,6 +19,8 @@ import os
 import json
 import sys
 
+File = file.Main(print_result=False)
+
 class Advanced_testing:
 	def __init__(self, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, hostnames_dict = {}):
 		self.get_nslookup = get_nslookup
@@ -27,14 +29,14 @@ class Advanced_testing:
 		self.get_ssl_check = get_ssl_check
 		self.parent_dir = os.path.dirname(__file__)
 		path = self.parent_dir + "/results/"
-		if file.check_dir(path) is False: file.dirs_make(path)
+		if File.check_dir(path) is False: File.dirs_make(path)
 		self.path_results = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+".json"
 		if len(hostnames_dict) > 0:
 			self.recv_records = hostnames_dict
 		else:
 			self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":self.__get_ip__()}}
-		self.cannot_be_resolved = file.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
-		self.cannot_be_ssl_checked = file.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
+		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
+		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
 		self.get_dump = get_dump
 	"""def __call__(self):
 		return self.__get_hostname_advanced_testing__()"""
@@ -44,8 +46,8 @@ class Advanced_testing:
 		hostnames = ["hosts_facebook", "hosts_bing", "hosts_linkedin", "hosts_wikipedia", "hosts_yahoo", "hosts", "hosts_google", "hosts_apple", "hosts_amazon"]
 		hosts_list = []
 		for servers_list in hostnames:
-			hosts_list.extend(file.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/"+servers_list+".txt"))
-			#hosts_list.extend(file.open_as_list(os.path.dirname(__file__) + "/hosts/"+servers_list+".txt"))
+			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/"+servers_list+".txt"))
+			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/"+servers_list+".txt"))
 			if servers_list == "hosts_bing":
 				hosts_list.remove("nrb.footprintdns.com")
 			if servers_list == "hosts":
@@ -57,8 +59,8 @@ class Advanced_testing:
 		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
 		hosts_list = []
 		for servers_list in hostnames:
-			hosts_list.extend(file.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/"+servers_list+".txt"))
-			#hosts_list.extend(file.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
+			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/"+servers_list+".txt"))
+			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
 		return hosts_list
 	
 	def __get_ip__(self, timeout_count = 0):
