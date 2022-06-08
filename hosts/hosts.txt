@@ -1,3 +1,4 @@
+www.whitehouse.gov
 dvprogram.state.gov
 state.gov
 coe.int
@@ -33,6 +34,7 @@ web.archive.org
 trackimo.com
 plus.trackimo.com
 twitter.com
+t.co
 pymotw.com
 hik-connect.com
 litedev.eu.hik-connect.com
@@ -153,4 +155,13 @@ joker.ua
 cloudflare.com
 sni.cloudflaressl.com
 cloudflaressl.com
-
+commerce.gov
+cacms.state.gov
+cidi.org
+travel.state.gov
+ua.usembassy.gov
+usembassy.gov
+foia.state.gov
+register.state.gov
+www.stateoig.gov
+www.usa.gov
