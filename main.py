@@ -115,8 +115,12 @@ class Advanced_testing:
 		elif isinstance(self.hostnames, list): pass
 		else: print("Are list of hostname(s) str, list?"); sys.exit(1)
 		hostnames_len = len(self.hostnames)
-		if hostnames_len % 2 == 0: k = 400
-		else: k = 300
+		if hostnames_len > 300:
+			if hostnames_len % 2 == 0: k = 100
+			else: k = 50
+		else:
+			if hostnames_len % 2 == 0: k = 100
+			else: k = 50
 		for qname in self.hostnames:
 			if len(qname)>3:
 				if qname in self.cannot_be_resolved: pass

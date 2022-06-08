@@ -1,3 +1,21 @@
+dvprogram.state.gov
+state.gov
+coe.int
+mil.coe.int
+mail.coe.int
+rdp.coe.int
+intranet.coe.int
+ukc.gov.ua
+1547.ukc.gov.ua
+nslookup.io
+otx.alienvault.com
+binance.com
+diia.gov.ua
+my.diia.gov.ua
+id.diia.gov.ua
+id.gov.ua
+id.bank.gov.ua
+bank.gov.ua
 github.com
 docs.github.com
 nominum.com
@@ -30,6 +48,7 @@ help.privatbank.ua
 nrm.privatbank.ua
 inq.privatbank.ua
 acs.privatbank.ua
+binbu.privatbank.ua
 pb.ua
 fbi.gov
 ic3.gov
@@ -134,3 +153,4 @@ joker.ua
 cloudflare.com
 sni.cloudflaressl.com
 cloudflaressl.com
+
