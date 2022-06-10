@@ -5,7 +5,7 @@ try:
 	import utilities.ping as ping
 	import utilities.traceroute as traceroute
 except ImportError:
-	raise SystemExit("Please install dnspython")
+	raise SystemExit("Please install dnspython, pip3 install dnspython")
 try:
 	import icmplib
 except ImportError:
@@ -19,14 +19,17 @@ import os
 import json
 import sys
 
-File = file.Main(print_result=False)
+File = file.Main(print_result = False)
 
 class Advanced_testing:
-	def __init__(self, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, hostnames_dict = {}):
+	def __init__(self, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"], nameserver = None, hostnames_dict = {}):
 		self.get_nslookup = get_nslookup
 		self.get_ping = get_ping
 		self.get_traceroute = get_traceroute
 		self.get_ssl_check = get_ssl_check
+		self.get_dump = get_dump
+		self.records = records
+		self.nameserver = nameserver
 		self.parent_dir = os.path.dirname(__file__)
 		path = self.parent_dir + "/results/"
 		if File.check_dir(path) is False: File.dirs_make(path)
@@ -34,24 +37,29 @@ class Advanced_testing:
 		if len(hostnames_dict) > 0:
 			self.recv_records = hostnames_dict
 		else:
-			self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(),"Public IP Address":self.__get_ip__()}}
+			self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.__get_ip__()}}
 		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
-		self.get_dump = get_dump
+		
 	"""def __call__(self):
 		return self.__get_hostname_advanced_testing__()"""
 	
 	def __get_hostnames_as_list__(self):
 		self.path_results = self.path_results.replace(".json", "_hosts_all.json")
-		hostnames = ["hosts_facebook", "hosts_bing", "hosts_linkedin", "hosts_wikipedia", "hosts_yahoo", "hosts", "hosts_google", "hosts_apple", "hosts_amazon"]
+		hostnames = ["hosts_facebook", "hosts_bing", "hosts_linkedin", "hosts_wikipedia", "hosts_yahoo", "hosts", "hosts_google", "hosts_apple", "hosts_amazon", "hosts_amazon_2"]
 		hosts_list = []
 		for servers_list in hostnames:
-			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/"+servers_list+".txt"))
-			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/"+servers_list+".txt"))
-			if servers_list == "hosts_bing":
-				hosts_list.remove("nrb.footprintdns.com")
-			if servers_list == "hosts":
-				hosts_list.append("162.158.248.55")
+			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/" + servers_list + ".txt"))
+			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/" + servers_list + ".txt"))
+			if servers_list == "hosts_bing": hosts_list.remove("nrb.footprintdns.com")
+			elif servers_list == "hosts": hosts_list.append("162.158.248.55")
+		return hosts_list
+	
+	def __get_hostnames_amazon_2_as_list__(self):
+		self.path_results = self.path_results.replace(".json", "_hosts_amazon_2.json")
+		hosts_list = []
+		#hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/hosts_amazon_2.txt"))
+		hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/hosts_amazon_2.txt"))
 		return hosts_list
 	
 	def __get_hostnames_nordvpn_as_list__(self):
@@ -59,8 +67,8 @@ class Advanced_testing:
 		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
 		hosts_list = []
 		for servers_list in hostnames:
-			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/"+servers_list+".txt"))
-			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/"+servers_list+".txt"))
+			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/" + servers_list + ".txt"))
+			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/" + servers_list + ".txt"))
 		return hosts_list
 	
 	def __get_ip__(self, timeout_count = 0):
@@ -78,10 +86,10 @@ class Advanced_testing:
 			elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
 			return ip
 	def __get_nslookup__(self, qname):
-		response = dns_resolve.dns_response(qname)
-		result = response.nslookup_nameserver()
+		Response = dns_resolve.Dns_response(host = qname, records = self.records, nameserver = self.nameserver)
+		result = Response.get_nslookup()
 		recv_records = {"resolve":{"nslookup":result[qname]}}
-		recv_records["resolve"]["parameters"]={"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.__get_ip__(), "pcname":utility.getpcname(), "username":utility.getusername(), "currentdirectory":utility.getcurrentdirectory()}
+		recv_records["resolve"]["parameters"] = {"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.__get_ip__(), "pcname":utility.getpcname(), "username":utility.getusername(), "currentdirectory":utility.getcurrentdirectory()}
 		return recv_records["resolve"]
 	def __get_ping__(self, qname):
 		result = ping.verbose_ping(qname)
@@ -164,7 +172,11 @@ if __name__ == '__main__':
 	import os
 	import time
 		
-	Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
-	Get_hostnames_testing.get_hostname_advanced_testing(Get_hostnames_testing.__get_hostnames_as_list__())
+	#Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
+	#Get_hostnames_testing.get_hostname_advanced_testing(Get_hostnames_testing.__get_hostnames_as_list__())
+	
+	Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = False, get_traceroute = False, get_ssl_check = False, get_dump = False, records = ["A", "CNAME"], nameserver = "1.1.1.1")
+	print(Get_hostnames_testing.get_hostname_advanced_testing(hostnames = ["www.facebook.com", "amazon.com", "us2723.nordvpn.com", "jp590.nordvpn.com", "za110.nordvpn.com"]))
+	
 	#Get_hostnames_testing_nordvpn = Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
 	#Get_hostnames_testing_nordvpn.get_hostname_advanced_testing(Get_hostnames_testing_nordvpn.__get_hostnames_nordvpn_as_list__())

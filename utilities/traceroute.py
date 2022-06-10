@@ -17,7 +17,7 @@ except ImportError:
 	raise SystemExit("Please install icmplib, pip3 install icmplib, https://github.com/ValentinBELYN/icmplib")
 import utilities.utility as utility
 
-def verbose_traceroute(address, count=2, interval=0.05, timeout=0.10,
+def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 		id=PID, max_hops=30):
 	#interval=0.05, timeout=0.10,
 	#timeout=2
@@ -34,10 +34,8 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.10,
 	# A payload of 56 bytes is used by default. You can modify it using
 	# the 'payload_size' parameter of your ICMP request.
 	payload_size = 56
-	if interval==0.05: print_interval = 500
-	else: print_interval = interval
-	if timeout == 0.10: print_timeout = 1
-	else: print_timeout = timeout
+	print_interval = 500 if interval == 0.05 else interval
+	print_timeout = 1 if timeout == 0.01 else timeout
 	print(f'{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
 	print(f'traceroute to {address} ({ip_address}), '
 		  f'{max_hops} hops max, {payload_size} byte packets')

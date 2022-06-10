@@ -17,7 +17,7 @@ except ImportError:
     raise SystemExit("Please install icmplib, pip3 install icmplib (https://github.com/ValentinBELYN/icmplib)")
 import utilities.utility as utility 
 
-def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, id=PID):
+def verbose_ping(address, count=10, interval=0.01, timeout=0.2, payload_size=56, id=PID):
 	#count=4, interval=1, timeout=2,
 	#count=10, interval=0.05, timeout=0.10
 	#count=10, interval=0.05, timeout=0.2
@@ -34,17 +34,14 @@ def verbose_ping(address, count=10, interval=0.1, timeout=0.1, payload_size=56, 
 	else: ip_address = address
 	results[address] = {}
 	network_issue = False
-	if timeout == 0.1: print_timeout = 1
-	else: print_timeout = timeout
-	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.getusername(), 'pcname':utility.getpcname(),'currentdirectory':utility.getcurrentdirectory()}
-	print(f"{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {timeout} -i {interval} {address}")
+	print_interval = 0.1 if (interval == 0.01) else interval
+	print_timeout = 1 if (timeout == 0.2) else timeout
+	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':print_interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.getusername(), 'pcname':utility.getpcname(),'currentdirectory':utility.getcurrentdirectory()}
+	print(f"{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {print_timeout} -i {print_interval} {address}")
 	print(f"PING {address}({ip_address}): {payload_size} data bytes")
 	
 	# We detect the socket to use from the specified IP address
-	if is_ipv6_address(address):
-		sock = ICMPv6Socket()
-	else:
-		sock = ICMPv4Socket()
+	sock = ICMPv6Socket() if is_ipv6_address(address) else ICMPv4Socket()
 	#ttl = 1
 	results[address]['ping'] = []
 	for sequence in range(count):

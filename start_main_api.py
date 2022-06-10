@@ -20,7 +20,7 @@ class Cli_api:
 		elif args.nordvpn:
 			#print("get_hostnames_nordvpn")
 			#print(args)
-			Get_hostnames_testing_nordvpn = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True)
+			Get_hostnames_testing_nordvpn = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, records = ["A"], nameserver = "1.1.1.1", get_dump = True)
 			Get_hostnames_testing_nordvpn.get_hostname_advanced_testing(Get_hostnames_testing_nordvpn.__get_hostnames_nordvpn_as_list__())
 		elif args.nordvpn:
 			print("get_hostnames_nordvpn")
@@ -48,7 +48,9 @@ class Cli_api:
 			print(args)
 		elif args.amazon:
 			print("get_hostnames_amazon")
-			print(args)
+			#print(args)
+			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
+			Get_hostnames_testing.get_hostname_advanced_testing(Get_hostnames_testing.__get_hostnames_amazon_2_as_list__())
 		
 	def get_args(self, args = {}):
 		self.parser = argparse.ArgumentParser(add_help = True, description = "Collect of useful command for OpenSSL create certificate:")
