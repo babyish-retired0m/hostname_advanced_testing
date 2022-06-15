@@ -1,0 +1,539 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655274987.2578712,
+        "Execution time Duration": "4.974"
+    },
+    "advanced_test": {
+        "nl-onion4.nordvpn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "217.23.9.213"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655274987.788342,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "nl-onion4.nordvpn.com",
+                    "ip_address": "217.23.9.213",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 2062,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274988.322487,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "217.23.9.213",
+                        0,
+                        "41.329 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        1,
+                        "40.896 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        2,
+                        "40.954 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        3,
+                        "41.175 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        4,
+                        "41.15 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        5,
+                        "41.219 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        6,
+                        "40.987 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        7,
+                        "41.46 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        8,
+                        "41.225 ms"
+                    ],
+                    [
+                        64,
+                        "217.23.9.213",
+                        9,
+                        "41.642 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.786 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.567 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.896 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "5.496 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "80.77.167.177",
+                        "worldstream-peering.fiord.net",
+                        "9.029 ms"
+                    ],
+                    [
+                        "109.236.95.169",
+                        "109.236.95.169",
+                        "0.128 ms"
+                    ],
+                    [
+                        "109.236.95.109",
+                        "109.236.95.109",
+                        "0.131 ms"
+                    ],
+                    [
+                        "109.236.95.227",
+                        "109.236.95.227",
+                        "0.072 ms"
+                    ],
+                    [
+                        "217.23.9.213",
+                        "customer.worldstream.nl",
+                        "0.146 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "nl-onion4.nordvpn.com",
+                    "ip_address": "217.23.9.213",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274989.111792,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            }
+        },
+        "ch-onion2.nordvpn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "37.120.137.172"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655274989.353759,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ch-onion2.nordvpn.com",
+                    "ip_address": "37.120.137.172",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 2062,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274989.914898,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "37.120.137.172",
+                        0,
+                        "43.591 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        1,
+                        "43.418 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        2,
+                        "43.701 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        3,
+                        "43.815 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        4,
+                        "43.857 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        5,
+                        "43.864 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        6,
+                        "43.203 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        7,
+                        "43.491 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        8,
+                        "43.595 ms"
+                    ],
+                    [
+                        64,
+                        "37.120.137.172",
+                        9,
+                        "43.317 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.624 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.679 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.674 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.79 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.034 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.09 ms"
+                    ],
+                    [
+                        "62.115.114.88",
+                        "ffm-bb1-link.ip.twelve99.net",
+                        "0.128 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "62.115.146.21",
+                        "m247-ic316934-zch-b2.ip.twelve99-cust.net",
+                        "0.167 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "ch-onion2.nordvpn.com",
+                    "ip_address": "37.120.137.172",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274990.957155,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "nl-onion6.nordvpn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "213.232.87.219"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655274991.2092102,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "nl-onion6.nordvpn.com",
+                    "ip_address": "213.232.87.219",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 2062,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274991.695132,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "213.232.87.219",
+                        0,
+                        "36.163 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        1,
+                        "35.99 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        2,
+                        "36.069 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        3,
+                        "36.1 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        4,
+                        "36.1 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        5,
+                        "36.314 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        6,
+                        "36.046 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        7,
+                        "35.782 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        8,
+                        "36.079 ms"
+                    ],
+                    [
+                        64,
+                        "213.232.87.219",
+                        9,
+                        "36.298 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.828 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.741 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.139 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.801 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "80.77.167.177",
+                        "worldstream-peering.fiord.net",
+                        "9.383 ms"
+                    ],
+                    [
+                        "109.236.95.169",
+                        "109.236.95.169",
+                        "0.18 ms"
+                    ],
+                    [
+                        "109.236.95.109",
+                        "109.236.95.109",
+                        "0.104 ms"
+                    ],
+                    [
+                        "109.236.95.185",
+                        "109.236.95.185",
+                        "0.109 ms"
+                    ],
+                    [
+                        "213.232.87.219",
+                        "213.232.87.219",
+                        "0.139 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "nl-onion6.nordvpn.com",
+                    "ip_address": "213.232.87.219",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox",
+                    "Unix Epoch Time": 1655274992.2875688,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            }
+        }
+    }
+}
