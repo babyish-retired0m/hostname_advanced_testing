@@ -1,0 +1,968 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210719.716013,
+        "Execution time Duration": "19.139"
+    },
+    "advanced_test": {
+        "api.onedrive.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "13.107.42.12"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.com": "common-afdrk.fe.1drv.com",
+                            "common-afdrk.fe.1drv.com": "odc-commonafdrk-geo.onedrive.akadns.net",
+                            "odc-commonafdrk-geo.onedrive.akadns.net": "odc-commonafdrk-brs.onedrive.akadns.net",
+                            "odc-commonafdrk-brs.onedrive.akadns.net": "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net",
+                            "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net": "l-0003.l-msedge.net",
+                            "l-0003.l-msedge.net": [
+                                "13.107.42.12"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "13.107.43.12"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.com": "common-afdrk.fe.1drv.com",
+                            "common-afdrk.fe.1drv.com": "odc-commonafdrk-geo.onedrive.akadns.net",
+                            "odc-commonafdrk-geo.onedrive.akadns.net": "odc-commonafdrk-brs.onedrive.akadns.net",
+                            "odc-commonafdrk-brs.onedrive.akadns.net": "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net",
+                            "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net": "l-0003.l-dc-msedge.net",
+                            "l-0003.l-dc-msedge.net": [
+                                "13.107.43.12"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "13.107.42.12"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.com": "common-afdrk.fe.1drv.com",
+                            "common-afdrk.fe.1drv.com": "odc-commonafdrk-geo.onedrive.akadns.net",
+                            "odc-commonafdrk-geo.onedrive.akadns.net": "odc-commonafdrk-brs.onedrive.akadns.net",
+                            "odc-commonafdrk-brs.onedrive.akadns.net": "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net",
+                            "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net": "l-0003.l-dc-msedge.net",
+                            "l-0003.l-dc-msedge.net": [
+                                "13.107.43.12"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "13.107.43.12"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.com": "common-afdrk.fe.1drv.com",
+                            "common-afdrk.fe.1drv.com": "odc-commonafdrk-geo.onedrive.akadns.net",
+                            "odc-commonafdrk-geo.onedrive.akadns.net": "odc-commonafdrk-brs.onedrive.akadns.net",
+                            "odc-commonafdrk-brs.onedrive.akadns.net": "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net",
+                            "common.be.1drv.com.l-0003.dc-msedge.net.l-0003.l-msedge.net": "l-0003.l-dc-msedge.net",
+                            "l-0003.l-dc-msedge.net": [
+                                "13.107.43.12"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210722.348604,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api.onedrive.com",
+                    "ip_address": "13.107.43.12",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210722.7891352,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "13.107.43.12",
+                        0,
+                        "26.668 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        1,
+                        "26.281 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        2,
+                        "64.253 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        3,
+                        "26.425 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        4,
+                        "26.386 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        5,
+                        "26.43 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        6,
+                        "26.346 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        7,
+                        "26.084 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        8,
+                        "26.592 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.12",
+                        9,
+                        "26.437 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.012 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.917 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.94 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.297 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    [
+                        "104.44.236.75",
+                        "ae20-0.ear03.ber20.ntwk.msn.net",
+                        "6.557 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    [
+                        "104.44.20.86",
+                        "ae33-0.vie-96cbe-1a.ntwk.msn.net",
+                        "4.622 ms"
+                    ],
+                    [
+                        "104.44.30.84",
+                        "be-9-0.ibr04.vie.ntwk.msn.net",
+                        "0.342 ms"
+                    ],
+                    [
+                        "13.104.140.1",
+                        "13.104.140.1",
+                        "0.392 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    [
+                        "13.107.43.12",
+                        "13.107.43.12",
+                        "2.866 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api.onedrive.com",
+                    "ip_address": "13.107.43.12",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210723.9183302,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api.onedrive.com",
+                "issued_to": "storage.live.com",
+                "issued_o": "Microsoft Corporation",
+                "issuer_c": "US",
+                "issuer_o": "Microsoft Corporation",
+                "issuer_ou": null,
+                "issuer_cn": "Microsoft Azure TLS Issuing CA 01",
+                "cert_sn": "1137360696337996506798425666641119691803897592",
+                "cert_sha1": "B4:D6:9F:3B:2C:68:B6:CE:9A:D9:10:22:52:6B:7B:DC:0C:F0:63:76",
+                "cert_alg": "sha384WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:l-df.live.net; DNS:l.live.net; DNS:api.live.com; DNS:api.live.net; DNS:docs.live.net; DNS:skyapi.live.net; DNS:api-df.live.com; DNS:api-df.live.net; DNS:docs-df.live.net; DNS:skyapi-df.live.net; DNS:*.ra.live.com; DNS:*.cobalt.df.storage.msn.com; DNS:*.cobalt.df.storage.live.com; DNS:*.cobalt.storage.msn.com; DNS:*.df.storage.live.com; DNS:*.df.storage.msn.com; DNS:*.docs-df.live.net; DNS:*.storage.live.com; DNS:*.storage.msn.com; DNS:*.users.df.storage.live.com; DNS:*.users.df.storage.msn.com; DNS:*.users.storage.live.com; DNS:*.users.storage.msn.com; DNS:*.df.policies.live.net; DNS:df.policies.live.net; DNS:*.df.settings.live.net; DNS:df.settings.live.net; DNS:*.df.livefilestore.com; DNS:apis.live.net; DNS:*.apis.live.net; DNS:*.bay.livefilestore.com; DNS:*.livefilestore.com; DNS:ssw.live-int.com; DNS:ssw.live.com; DNS:df.storage.live.com; DNS:*.sn2.df.livefilestore.com; DNS:storage.live.com; DNS:*.blu.livefilestore.com; DNS:*.bn1.livefilestore.com; DNS:*.cobalt.storage.live.com; DNS:*.dm1.livefilestore.com; DNS:*.docs.live.net; DNS:*.policies.live.net; DNS:*.settings.live.net; DNS:*.sn2.livefilestore.com; DNS:*.tuk.livefilestore.com; DNS:policies.live.net; DNS:storage.msn.com; DNS:dev.live.com; DNS:oauth.live.com; DNS:*.bn1301.livefilestore.com; DNS:*.bn1302.livefilestore.com; DNS:*.dm2301.livefilestore.com; DNS:*.dm2302.livefilestore.com; DNS:skyapi.skydrive.live.com; DNS:settings.live.net; DNS:*.bn1303.livefilestore.com; DNS:*.bn1304.livefilestore.com; DNS:*.dm2303.livefilestore.com; DNS:*.dm2304.livefilestore.com; DNS:*.by3301.livefilestore.com; DNS:*.by3302.livefilestore.com; DNS:*.snt002.df.livefilestore.com; DNS:*.bn1303.df.livefilestore.com; DNS:*.dm2303.df.livefilestore.com; DNS:skyapi.newdrive.live.com; DNS:skyapi.onedrive.live.com; DNS:*.files.1drv.com; DNS:*.bl3301.livefilestore.com; DNS:*.bl3302.livefilestore.com; DNS:*.bn1391soak2.livefilestore.com; DNS:*.dm2391soak2.livefilestore.com; DNS:*.bn1391soak3.livefilestore.com; DNS:*.dm2391soak3.livefilestore.com; DNS:*.files-df.1drv.com; DNS:*.api.onedrive.com; DNS:df.api.onedrive.com; DNS:*.df.api.onedrive.com; DNS:*.s2s-storage.live.com; DNS:*.s2s-policies.live.net; DNS:s2s-policies.live.net; DNS:s2s-settings.live.net; DNS:*.s2s-settings.live.net; DNS:*.config.live.net; DNS:config.live.net; DNS:register.mesh.com; DNS:*.df.s2s-storage.live.com; DNS:*.df.s2s-settings.live.net; DNS:df.s2s-settings.live.net; DNS:s2s-storage.live.com; DNS:df.s2s-storage.live.com; DNS:*.s2s.livefilestore.com; DNS:*.s2s.df.livefilestore.com; DNS:*.s2s-files-df.1drv.com; DNS:*.df.s2s-policies.live.net; DNS:df.s2s-policies.live.net; DNS:*.df-config.live.net; DNS:df-config.live.net; DNS:*.s2s-files.1drv.com; DNS:device.ra.live.com; DNS:mesh.com; DNS:*.keymaster.p001.1drv.com; DNS:*.keymaster.i001.1drv.com; DNS:s2s-skyapi.live.net; DNS:s2s-api.onedrive.com; DNS:*.s2s-api.onedrive.com; DNS:s2s-skyapi-df.live.net; DNS:df.s2s-api.onedrive.com; DNS:*.df.s2s-api.onedrive.com; DNS:df.people.onedrive.com; DNS:*.slps.live.net; DNS:*.ADMINSVC.P001.1drv.com; DNS:*.ADMINSVC.I001.1drv.com; DNS:*.CONFIG.I001.1drv.com; DNS:*.DEPLOYMGR.P001.1drv.com; DNS:*.JOB.P001.1drv.com; DNS:*.CAMP.I001.1drv.com; DNS:*.1drv.com; DNS:1drv.ms; DNS:*.LPS.I001.1drv.com; DNS:*.WSTCRS.I001.1drv.com; DNS:*.wstlm.1drv.com; DNS:sdrv.ms; DNS:*.am.files.1drv.com; DNS:*.db.files.1drv.com; DNS:*.bl.files.1drv.com; DNS:*.bn.files.1drv.com; DNS:*.by.files.1drv.com; DNS:*.ch.files.1drv.com; DNS:*.cy.files.1drv.com; DNS:*.dm.files.1drv.com; DNS:*.sn.files.1drv.com; DNS:d.bl3301.docs.live.net; DNS:d.bl3302.docs.live.net; DNS:*.API.P001.1drv.com; DNS:*.gls.i001.1drv.com; DNS:*.ph.files.1drv.com; DNS:*.onedrive.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-13",
+                "valid_till": "2023-06-08",
+                "validity_days": 360,
+                "days_left": 359,
+                "valid_days_to_expire": 358,
+                "tcp_port": 443
+            }
+        },
+        "api.onedrive.live.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "2.18.101.36"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.live.com": "live.com.edgekey.net",
+                            "live.com.edgekey.net": "e9333.g.akamaiedge.net",
+                            "e9333.g.akamaiedge.net": [
+                                "2.18.101.36"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "184.31.93.183"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.live.com": "live.com.edgekey.net",
+                            "live.com.edgekey.net": "e9333.g.akamaiedge.net",
+                            "e9333.g.akamaiedge.net": [
+                                "184.31.93.183"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "184.31.93.183"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.live.com": "live.com.edgekey.net",
+                            "live.com.edgekey.net": "e9333.g.akamaiedge.net",
+                            "e9333.g.akamaiedge.net": [
+                                "184.31.93.183"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "184.31.93.183"
+                        ],
+                        "CNAME": {
+                            "api.onedrive.live.com": "live.com.edgekey.net",
+                            "live.com.edgekey.net": "e9333.g.akamaiedge.net",
+                            "e9333.g.akamaiedge.net": [
+                                "184.31.93.183"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210726.45456,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api.onedrive.live.com",
+                    "ip_address": "184.31.93.183",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210726.881355,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "184.31.93.183",
+                        0,
+                        "29.618 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        1,
+                        "29.54 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        2,
+                        "29.569 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        3,
+                        "29.714 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        4,
+                        "29.742 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        5,
+                        "29.816 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        6,
+                        "29.78 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        7,
+                        "29.703 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        8,
+                        "29.49 ms"
+                    ],
+                    [
+                        64,
+                        "184.31.93.183",
+                        9,
+                        "29.33 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.065 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.811 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "6.461 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "4.914 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.233.164",
+                        "ae4-2.rt.eqx.fkt.de.retn.net",
+                        "6.698 ms"
+                    ],
+                    [
+                        "80.81.192.28",
+                        "decix-fra9.netarch.akamai.com",
+                        "0.456 ms"
+                    ],
+                    [
+                        "184.31.93.183",
+                        "a184-31-93-183.deploy.static.akamaitechnologies.com",
+                        "0.235 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api.onedrive.live.com",
+                    "ip_address": "184.31.93.183",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210727.55583,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api.onedrive.live.com",
+                "issued_to": "onedrive.live.com",
+                "issued_o": "Microsoft Corporation",
+                "issuer_c": "US",
+                "issuer_o": "Microsoft Corporation",
+                "issuer_ou": null,
+                "issuer_cn": "Microsoft RSA TLS CA 02",
+                "cert_sn": "2832203228612974633133182988111309076405239089",
+                "cert_sha1": "EF:77:A0:5E:13:B8:9F:C2:4E:16:C8:CF:FF:E1:25:8B:40:16:48:7E",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:onedrive.live.com; DNS:onedrive.microsoft.com; DNS:onedrive.com; DNS:office.live.com; DNS:devices.live.com; DNS:apps.live.com; DNS:*.skydrive.live.com; DNS:*.photos.live.com; DNS:*.onedrive.live.com; DNS:*.onedrive.com; DNS:*.office.live.com; DNS:*.groups.live.com; DNS:*.dev.live.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-27",
+                "valid_till": "2022-09-27",
+                "validity_days": 365,
+                "days_left": 105,
+                "valid_days_to_expire": 104,
+                "tcp_port": 443
+            }
+        },
+        "onedrive.live.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "13.107.42.13"
+                        ],
+                        "CNAME": {
+                            "onedrive.live.com": "odc-web-geo.onedrive.akadns.net",
+                            "odc-web-geo.onedrive.akadns.net": "odc-web-brs.onedrive.akadns.net",
+                            "odc-web-brs.onedrive.akadns.net": "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net",
+                            "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net": "l-0004.l-msedge.net",
+                            "l-0004.l-msedge.net": [
+                                "13.107.42.13"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "13.107.42.13"
+                        ],
+                        "CNAME": {
+                            "onedrive.live.com": "odc-web-geo.onedrive.akadns.net",
+                            "odc-web-geo.onedrive.akadns.net": "odc-web-brs.onedrive.akadns.net",
+                            "odc-web-brs.onedrive.akadns.net": "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net",
+                            "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net": "l-0004.l-msedge.net",
+                            "l-0004.l-msedge.net": [
+                                "13.107.42.13"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "13.107.42.13"
+                        ],
+                        "CNAME": {
+                            "onedrive.live.com": "odc-web-geo.onedrive.akadns.net",
+                            "odc-web-geo.onedrive.akadns.net": "odc-web-brs.onedrive.akadns.net",
+                            "odc-web-brs.onedrive.akadns.net": "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net",
+                            "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net": "l-0004.l-msedge.net",
+                            "l-0004.l-msedge.net": [
+                                "13.107.42.13"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "13.107.43.13"
+                        ],
+                        "CNAME": {
+                            "onedrive.live.com": "odc-web-geo.onedrive.akadns.net",
+                            "odc-web-geo.onedrive.akadns.net": "odc-web-brs.onedrive.akadns.net",
+                            "odc-web-brs.onedrive.akadns.net": "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net",
+                            "odwebpl.trafficmanager.net.l-0004.dc-msedge.net.l-0004.l-msedge.net": "l-0004.l-dc-msedge.net",
+                            "l-0004.l-dc-msedge.net": [
+                                "13.107.43.13"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210729.941168,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "onedrive.live.com",
+                    "ip_address": "13.107.43.13",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210730.6631281,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "13.107.43.13",
+                        0,
+                        "26.469 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        1,
+                        "26.29 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        2,
+                        "26.3 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        3,
+                        "26.393 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        4,
+                        "26.419 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        5,
+                        "26.373 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        6,
+                        "26.085 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        7,
+                        "55.946 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        8,
+                        "148.238 ms"
+                    ],
+                    [
+                        64,
+                        "13.107.43.13",
+                        9,
+                        "198.264 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.703 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.285 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.495 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "7.939 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    [
+                        "104.44.238.97",
+                        "ae20-0.ear04.ber20.ntwk.msn.net",
+                        "9.966 ms"
+                    ],
+                    [
+                        "104.44.33.223",
+                        "be-22-0.ibr02.ber20.ntwk.msn.net",
+                        "0.307 ms"
+                    ],
+                    null,
+                    [
+                        "104.44.11.202",
+                        "ae168-0.rwa01.vie.ntwk.msn.net",
+                        "5.707 ms"
+                    ],
+                    [
+                        "104.44.230.185",
+                        "ae26-0.vie-96cbe-1a.ntwk.msn.net",
+                        "0.307 ms"
+                    ],
+                    null,
+                    [
+                        "13.104.140.109",
+                        "13.104.140.109",
+                        "2.643 ms"
+                    ],
+                    null,
+                    [
+                        "13.107.43.13",
+                        "13.107.43.13",
+                        "3.458 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "onedrive.live.com",
+                    "ip_address": "13.107.43.13",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210731.7607749,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "onedrive.live.com",
+                "issued_to": "onedrive.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Microsoft Corporation",
+                "issuer_ou": null,
+                "issuer_cn": "Microsoft RSA TLS CA 02",
+                "cert_sn": "2832206386505019049128929259126552118073394413",
+                "cert_sha1": "77:7F:F2:95:29:A7:E3:CC:0F:BF:2F:BA:2E:6F:2A:38:62:8B:48:4D",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:onedrive.com; DNS:p.sfx.ms; DNS:*.live.com; DNS:*.live.net; DNS:*.skydrive.live.com; DNS:*.onedrive.live.com; DNS:*.onedrive.com; DNS:d.sfx-df.ms; DNS:*.odwebb.svc.ms; DNS:*.odwebp.svc.ms; DNS:*.odwebdf.svc.ms; DNS:*.odwebpl.svc.ms",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-01",
+                "valid_till": "2023-02-01",
+                "validity_days": 365,
+                "days_left": 231,
+                "valid_days_to_expire": 231,
+                "tcp_port": 443
+            }
+        },
+        "skyapi.onedrive.live.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "13.104.208.165"
+                        ],
+                        "CNAME": {
+                            "skyapi.onedrive.live.com": "common-geo.ha.1drv.com",
+                            "common-geo.ha.1drv.com": "common-geo.onedrive.trafficmanager.net",
+                            "common-geo.onedrive.trafficmanager.net": "am3pcor002-com.be.1drv.com",
+                            "am3pcor002-com.be.1drv.com": "i-am3p-cor002.api.p001.1drv.com",
+                            "i-am3p-cor002.api.p001.1drv.com": [
+                                "40.90.142.226"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "20.135.25.0"
+                        ],
+                        "CNAME": {
+                            "skyapi.onedrive.live.com": "common-geo.ha.1drv.com",
+                            "common-geo.ha.1drv.com": "common-geo.onedrive.trafficmanager.net",
+                            "common-geo.onedrive.trafficmanager.net": "db3pcor004-com.be.1drv.com",
+                            "db3pcor004-com.be.1drv.com": "i-db3p-cor004.api.p001.1drv.com",
+                            "i-db3p-cor004.api.p001.1drv.com": [
+                                "13.104.208.162"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "40.90.142.224"
+                        ],
+                        "CNAME": {
+                            "skyapi.onedrive.live.com": "common-geo.ha.1drv.com",
+                            "common-geo.ha.1drv.com": "common-geo.onedrive.trafficmanager.net",
+                            "common-geo.onedrive.trafficmanager.net": "db5pcor001-com.be.1drv.com",
+                            "db5pcor001-com.be.1drv.com": "i-db5p-cor001.api.p001.1drv.com",
+                            "i-db5p-cor001.api.p001.1drv.com": [
+                                "13.105.28.48"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "13.104.208.164"
+                        ],
+                        "CNAME": {
+                            "skyapi.onedrive.live.com": "common-geo.ha.1drv.com",
+                            "common-geo.ha.1drv.com": "common-emea.onedrive.akadns.net",
+                            "common-emea.onedrive.akadns.net": [
+                                "40.90.142.226"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210734.7387881,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "skyapi.onedrive.live.com",
+                    "ip_address": "13.104.208.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210736.8262122,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.751 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.512 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.745 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "6.548 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    [
+                        "104.44.238.97",
+                        "ae20-0.ear04.ber20.ntwk.msn.net",
+                        "1.592 ms"
+                    ],
+                    [
+                        "104.44.33.223",
+                        "be-22-0.ibr02.ber20.ntwk.msn.net",
+                        "0.283 ms"
+                    ],
+                    [
+                        "104.44.28.240",
+                        "be-5-0.ibr02.ham31.ntwk.msn.net",
+                        "0.172 ms"
+                    ],
+                    [
+                        "104.44.29.2",
+                        "be-3-0.ibr02.ham30.ntwk.msn.net",
+                        "0.296 ms"
+                    ],
+                    [
+                        "104.44.30.73",
+                        "be-12-0.ibr06.ams06.ntwk.msn.net",
+                        "0.266 ms"
+                    ],
+                    [
+                        "104.44.29.236",
+                        "be-3-0.ibr02.ams21.ntwk.msn.net",
+                        "0.266 ms"
+                    ],
+                    [
+                        "104.44.19.214",
+                        "be-9-0.ibr02.dub08.ntwk.msn.net",
+                        "0.264 ms"
+                    ],
+                    [
+                        "104.44.11.86",
+                        "ae120-0.icr01.dub08.ntwk.msn.net",
+                        "0.196 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "skyapi.onedrive.live.com",
+                    "ip_address": "13.104.208.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210738.372989,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "skyapi.onedrive.live.com",
+                "issued_to": "storage.live.com",
+                "issued_o": "Microsoft Corporation",
+                "issuer_c": "US",
+                "issuer_o": "Microsoft Corporation",
+                "issuer_ou": null,
+                "issuer_cn": "Microsoft RSA TLS CA 01",
+                "cert_sn": "401421150016679656770260668436698121039690816",
+                "cert_sha1": "E9:06:CD:E3:7A:85:7B:8F:49:0C:C1:0B:9C:7F:86:3E:B7:1D:9B:03",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:l-df.live.net; DNS:l.live.net; DNS:api.live.com; DNS:api.live.net; DNS:docs.live.net; DNS:skyapi.live.net; DNS:api-df.live.com; DNS:api-df.live.net; DNS:docs-df.live.net; DNS:skyapi-df.live.net; DNS:*.ra.live.com; DNS:*.cobalt.df.storage.msn.com; DNS:*.cobalt.df.storage.live.com; DNS:*.cobalt.storage.msn.com; DNS:*.df.storage.live.com; DNS:*.df.storage.msn.com; DNS:*.docs-df.live.net; DNS:*.storage.live.com; DNS:*.storage.msn.com; DNS:*.users.df.storage.live.com; DNS:*.users.df.storage.msn.com; DNS:*.users.storage.live.com; DNS:*.users.storage.msn.com; DNS:*.df.policies.live.net; DNS:df.policies.live.net; DNS:*.df.settings.live.net; DNS:df.settings.live.net; DNS:*.df.livefilestore.com; DNS:apis.live.net; DNS:*.apis.live.net; DNS:*.bay.livefilestore.com; DNS:*.livefilestore.com; DNS:ssw.live-int.com; DNS:ssw.live.com; DNS:df.storage.live.com; DNS:*.sn2.df.livefilestore.com; DNS:storage.live.com; DNS:*.blu.livefilestore.com; DNS:*.bn1.livefilestore.com; DNS:*.cobalt.storage.live.com; DNS:*.dm1.livefilestore.com; DNS:*.docs.live.net; DNS:*.policies.live.net; DNS:*.settings.live.net; DNS:*.sn2.livefilestore.com; DNS:*.tuk.livefilestore.com; DNS:policies.live.net; DNS:storage.msn.com; DNS:dev.live.com; DNS:oauth.live.com; DNS:*.bn1301.livefilestore.com; DNS:*.bn1302.livefilestore.com; DNS:*.dm2301.livefilestore.com; DNS:*.dm2302.livefilestore.com; DNS:skyapi.skydrive.live.com; DNS:settings.live.net; DNS:*.bn1303.livefilestore.com; DNS:*.bn1304.livefilestore.com; DNS:*.dm2303.livefilestore.com; DNS:*.dm2304.livefilestore.com; DNS:*.by3301.livefilestore.com; DNS:*.by3302.livefilestore.com; DNS:*.snt002.df.livefilestore.com; DNS:*.bn1303.df.livefilestore.com; DNS:*.dm2303.df.livefilestore.com; DNS:skyapi.newdrive.live.com; DNS:skyapi.onedrive.live.com; DNS:*.files.1drv.com; DNS:*.bl3301.livefilestore.com; DNS:*.bl3302.livefilestore.com; DNS:*.bn1391soak2.livefilestore.com; DNS:*.dm2391soak2.livefilestore.com; DNS:*.bn1391soak3.livefilestore.com; DNS:*.dm2391soak3.livefilestore.com; DNS:*.files-df.1drv.com; DNS:*.api.onedrive.com; DNS:df.api.onedrive.com; DNS:*.df.api.onedrive.com; DNS:*.s2s-storage.live.com; DNS:*.s2s-policies.live.net; DNS:s2s-policies.live.net; DNS:s2s-settings.live.net; DNS:*.s2s-settings.live.net; DNS:*.config.live.net; DNS:config.live.net; DNS:register.mesh.com; DNS:*.df.s2s-storage.live.com; DNS:*.df.s2s-settings.live.net; DNS:df.s2s-settings.live.net; DNS:s2s-storage.live.com; DNS:df.s2s-storage.live.com; DNS:*.s2s.livefilestore.com; DNS:*.s2s.df.livefilestore.com; DNS:*.s2s-files-df.1drv.com; DNS:*.df.s2s-policies.live.net; DNS:df.s2s-policies.live.net; DNS:*.df-config.live.net; DNS:df-config.live.net; DNS:*.s2s-files.1drv.com; DNS:device.ra.live.com; DNS:mesh.com; DNS:*.keymaster.p001.1drv.com; DNS:*.keymaster.i001.1drv.com; DNS:s2s-skyapi.live.net; DNS:s2s-api.onedrive.com; DNS:*.s2s-api.onedrive.com; DNS:s2s-skyapi-df.live.net; DNS:df.s2s-api.onedrive.com; DNS:*.df.s2s-api.onedrive.com; DNS:df.people.onedrive.com; DNS:*.slps.live.net; DNS:*.ADMINSVC.P001.1drv.com; DNS:*.ADMINSVC.I001.1drv.com; DNS:*.CONFIG.I001.1drv.com; DNS:*.DEPLOYMGR.P001.1drv.com; DNS:*.JOB.P001.1drv.com; DNS:*.CAMP.I001.1drv.com; DNS:*.1drv.com; DNS:1drv.ms; DNS:*.LPS.I001.1drv.com; DNS:*.WSTCRS.I001.1drv.com; DNS:*.wstlm.1drv.com; DNS:sdrv.ms; DNS:*.am.files.1drv.com; DNS:*.db.files.1drv.com; DNS:*.bl.files.1drv.com; DNS:*.bn.files.1drv.com; DNS:*.by.files.1drv.com; DNS:*.ch.files.1drv.com; DNS:*.cy.files.1drv.com; DNS:*.dm.files.1drv.com; DNS:*.sn.files.1drv.com; DNS:d.bl3301.docs.live.net; DNS:d.bl3302.docs.live.net; DNS:*.API.P001.1drv.com; DNS:*.gls.i001.1drv.com; DNS:*.onedrive.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-08-19",
+                "valid_till": "2022-08-19",
+                "validity_days": 365,
+                "days_left": 66,
+                "valid_days_to_expire": 65,
+                "tcp_port": 443
+            }
+        }
+    }
+}

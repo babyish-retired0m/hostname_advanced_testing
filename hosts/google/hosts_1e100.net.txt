@@ -1,0 +1,14 @@
+ams15s21-in-f1.1e100.net
+ams15s21-in-f4.1e100.net
+ams15s21-in-f5.1e100.net
+ams15s21-in-f6.1e100.net
+ams15s21-in-f22.1e100.net
+ams15s21-in-f23.1e100.net
+ams15s21-in-f27.1e100.net
+ams15s21-in-f29.1e100.net
+ams15s21-in-f30.1e100.net
+ams15s21-in-f31.1e100.net
+ams15s22-in-f1.1e100.net
+ams15s22-in-f4.1e100.net
+ams15s22-in-f5.1e100.net
+ams15s22-in-f7.1e100.net

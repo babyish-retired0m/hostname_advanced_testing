@@ -17,7 +17,7 @@ except ImportError:
     raise SystemExit("Please install icmplib, pip3 install icmplib (https://github.com/ValentinBELYN/icmplib)")
 import utilities.utility as utility 
 
-def verbose_ping(address, count=10, interval=0.01, timeout=0.2, payload_size=56, id=PID):
+def verbose_ping(address, count=10, interval=0.01, timeout=0.2, payload_size=56, id=PID, ip_address_resolved = None):
 	#count=4, interval=1, timeout=2,
 	#count=10, interval=0.05, timeout=0.10
 	#count=10, interval=0.05, timeout=0.2
@@ -27,7 +27,7 @@ def verbose_ping(address, count=10, interval=0.01, timeout=0.2, payload_size=56,
 	# We perform a DNS lookup if a hostname or an FQDN is passed in
 	# parameters.
 	if is_hostname(address):
-		try: ip_address = resolve(address)[0]
+		try: ip_address = resolve(address)[0] if ip_address_resolved is None else ip_address_resolved
 		except:
 			print(f"The name '{address}' cannot be resolved")
 			return None

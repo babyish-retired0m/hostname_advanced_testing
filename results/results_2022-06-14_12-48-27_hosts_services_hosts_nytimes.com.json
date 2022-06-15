@@ -1,0 +1,4888 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210907.7787929,
+        "Execution time Duration": "72.495"
+    },
+    "advanced_test": {
+        "messaging-sub.api.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.72.221.199",
+                            "3.230.248.215",
+                            "54.84.220.167"
+                        ],
+                        "CNAME": {
+                            "messaging-sub.api.nytimes.com": "messaging-sub.messaging-prd.awsma.nyt.net",
+                            "messaging-sub.messaging-prd.awsma.nyt.net": [
+                                "54.84.220.167",
+                                "52.72.221.199",
+                                "3.230.248.215"
+                            ]
+                        },
+                        "TXT": [
+                            "\"heritage=external-dns,external-dns/owner=messaging-core,external-dns/resource=ingress/audience-api/audience-api\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.72.221.199",
+                            "54.84.220.167",
+                            "3.230.248.215"
+                        ],
+                        "CNAME": {
+                            "messaging-sub.api.nytimes.com": "messaging-sub.messaging-prd.awsma.nyt.net",
+                            "messaging-sub.messaging-prd.awsma.nyt.net": [
+                                "52.72.221.199",
+                                "54.84.220.167",
+                                "3.230.248.215"
+                            ]
+                        },
+                        "TXT": [
+                            "\"heritage=external-dns,external-dns/owner=messaging-core,external-dns/resource=ingress/audience-api/audience-api\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.72.221.199",
+                            "54.84.220.167",
+                            "3.230.248.215"
+                        ],
+                        "CNAME": {
+                            "messaging-sub.api.nytimes.com": "messaging-sub.messaging-prd.awsma.nyt.net",
+                            "messaging-sub.messaging-prd.awsma.nyt.net": [
+                                "3.230.248.215",
+                                "52.72.221.199",
+                                "54.84.220.167"
+                            ]
+                        },
+                        "TXT": [
+                            "\"heritage=external-dns,external-dns/owner=messaging-core,external-dns/resource=ingress/audience-api/audience-api\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "3.230.248.215",
+                            "52.72.221.199",
+                            "54.84.220.167"
+                        ],
+                        "CNAME": {
+                            "messaging-sub.api.nytimes.com": "messaging-sub.messaging-prd.awsma.nyt.net",
+                            "messaging-sub.messaging-prd.awsma.nyt.net": [
+                                "52.72.221.199",
+                                "54.84.220.167",
+                                "3.230.248.215"
+                            ]
+                        },
+                        "TXT": [
+                            "\"heritage=external-dns,external-dns/owner=messaging-core,external-dns/resource=ingress/audience-api/audience-api\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210910.070677,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "messaging-sub.api.nytimes.com",
+                    "ip_address": "3.230.248.215",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210912.1012218,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.211 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.599 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "5.694 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.196 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "messaging-sub.api.nytimes.com",
+                    "ip_address": "3.230.248.215",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210912.947579,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "messaging-sub.api.nytimes.com",
+                "issued_to": "messaging-sub.api.nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "10471215073409687822578127282681052892",
+                "cert_sha1": "09:98:62:6A:60:C0:64:05:80:F8:4A:BD:F9:AD:4D:E1:E3:F1:E2:B6",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:messaging-sub.api.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-20",
+                "valid_till": "2022-08-18",
+                "validity_days": 394,
+                "days_left": 65,
+                "valid_days_to_expire": 64,
+                "tcp_port": 443
+            }
+        },
+        "et.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "et.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.129.164",
+                                "151.101.65.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "et.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.129.164",
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164"
+                        ],
+                        "CNAME": {
+                            "et.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "et.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210915.22188,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "et.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210915.664275,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.306 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.836 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.4 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.046 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.888 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "31.847 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.827 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.185 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.913 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.112 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.995 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.6 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.698 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "9.327 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.357 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.392 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.43 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "et.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210916.104919,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "et.nytimes.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "sso.nytcn.me": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "54.150.71.210",
+                            "18.177.17.246"
+                        ],
+                        "CNAME": {
+                            "sso.nytcn.me": "mars-838221946.ap-northeast-1.elb.amazonaws.com",
+                            "mars-838221946.ap-northeast-1.elb.amazonaws.com": [
+                                "18.177.17.246",
+                                "54.150.71.210"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "18.177.17.246",
+                            "54.150.71.210"
+                        ],
+                        "CNAME": {
+                            "sso.nytcn.me": "mars-838221946.ap-northeast-1.elb.amazonaws.com",
+                            "mars-838221946.ap-northeast-1.elb.amazonaws.com": [
+                                "18.177.17.246",
+                                "54.150.71.210"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.150.71.210",
+                            "18.177.17.246"
+                        ],
+                        "CNAME": {
+                            "sso.nytcn.me": "mars-838221946.ap-northeast-1.elb.amazonaws.com",
+                            "mars-838221946.ap-northeast-1.elb.amazonaws.com": [
+                                "54.150.71.210",
+                                "18.177.17.246"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.177.17.246",
+                            "54.150.71.210"
+                        ],
+                        "CNAME": {
+                            "sso.nytcn.me": "mars-838221946.ap-northeast-1.elb.amazonaws.com",
+                            "mars-838221946.ap-northeast-1.elb.amazonaws.com": [
+                                "54.150.71.210",
+                                "18.177.17.246"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210918.645615,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "sso.nytcn.me",
+                    "ip_address": "18.177.17.246",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210920.675583,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.069 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.814 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.979 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.132 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "9.222 ms"
+                    ],
+                    [
+                        "80.231.65.1",
+                        "ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net",
+                        "0.43 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "80.231.245.6",
+                        "if-ae-55-2.tcore2.pvu-paris.as6453.net",
+                        "0.176 ms"
+                    ],
+                    [
+                        "80.231.153.50",
+                        "if-ae-11-2.tcore1.pye-paris.as6453.net",
+                        "0.601 ms"
+                    ],
+                    [
+                        "195.219.174.8",
+                        "if-be-7-2.ecore1.emrs2-marseille.as6453.net",
+                        "0.546 ms"
+                    ],
+                    [
+                        "195.219.174.11",
+                        "if-ae-30-2.tcore1.svw-singapore.as6453.net",
+                        "0.312 ms"
+                    ],
+                    [
+                        "180.87.108.4",
+                        "if-be-45-2.ecore2.esin4-singapore.as6453.net",
+                        "0.444 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "sso.nytcn.me",
+                    "ip_address": "18.177.17.246",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210922.1007512,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "sso.nytcn.me",
+                "issued_to": "sso.nytcn.me",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+                "cert_sn": "21150321236561113481440404889146130437",
+                "cert_sha1": "1C:EA:8C:BD:D6:98:EB:36:86:E9:2D:35:DA:77:87:8E:8C:FF:CC:8E",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:sso.nytcn.me",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-04",
+                "valid_till": "2023-02-04",
+                "validity_days": 396,
+                "days_left": 235,
+                "valid_days_to_expire": 234,
+                "tcp_port": 443
+            }
+        },
+        "ic.tynt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "67.202.105.34"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "67.202.105.34"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "67.202.105.32"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "67.202.105.33"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210925.290197,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ic.tynt.com",
+                    "ip_address": "67.202.105.33",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210926.6698828,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "67.202.105.33",
+                        0,
+                        "125.455 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        1,
+                        "124.981 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        2,
+                        "125.24 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        3,
+                        "124.998 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        4,
+                        "125.209 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        5,
+                        "125.297 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        6,
+                        "125.378 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        7,
+                        "125.23 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        8,
+                        "125.291 ms"
+                    ],
+                    [
+                        64,
+                        "67.202.105.33",
+                        9,
+                        "125.214 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.963 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.784 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.613 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "9.136 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "64.125.28.224",
+                        "ae12.cs3.lhr11.uk.eth.zayo.com",
+                        "5.063 ms"
+                    ],
+                    [
+                        "208.184.225.5",
+                        "208.184.225.5.idia-308330-zyo.zip.zayo.com",
+                        "0.348 ms"
+                    ],
+                    [
+                        "208.100.32.53",
+                        "te8-4.dist02.chi01.steadfast.net",
+                        "0.374 ms"
+                    ],
+                    [
+                        "208.100.14.220",
+                        "208.100.14.220",
+                        "0.297 ms"
+                    ],
+                    [
+                        "67.202.105.33",
+                        "ip33.67-202-105.static.steadfastdns.net",
+                        "0.376 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "ic.tynt.com",
+                    "ip_address": "67.202.105.33",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210930.43667,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "ic.tynt.com",
+                "issued_to": "*.tynt.com",
+                "issued_o": null,
+                "issuer_c": "GB",
+                "issuer_o": "Sectigo Limited",
+                "issuer_ou": null,
+                "issuer_cn": "Sectigo RSA Domain Validation Secure Server CA",
+                "cert_sn": "27749797086366837555083269474266778128",
+                "cert_sha1": "C4:2F:60:D6:61:47:CE:AB:30:13:91:D2:04:5D:7C:DE:5E:14:DB:C7",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.tynt.com; DNS:tynt.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-23",
+                "valid_till": "2022-09-30",
+                "validity_days": 372,
+                "days_left": 108,
+                "valid_days_to_expire": 107,
+                "tcp_port": 443
+            }
+        },
+        "m.cn.nytstyle.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.222.214.7",
+                            "52.222.214.84",
+                            "52.222.214.47",
+                            "52.222.214.101"
+                        ],
+                        "AAAA": [
+                            "2600:9000:223d:5400:18:a95e:5140:93a1",
+                            "2600:9000:223d:de00:18:a95e:5140:93a1",
+                            "2600:9000:223d:aa00:18:a95e:5140:93a1",
+                            "2600:9000:223d:e800:18:a95e:5140:93a1",
+                            "2600:9000:223d:5000:18:a95e:5140:93a1",
+                            "2600:9000:223d:b200:18:a95e:5140:93a1",
+                            "2600:9000:223d:9400:18:a95e:5140:93a1",
+                            "2600:9000:223d:d400:18:a95e:5140:93a1"
+                        ],
+                        "CNAME": {
+                            "m.cn.nytstyle.com": "d1m69spkr4jw3p.cloudfront.net",
+                            "d1m69spkr4jw3p.cloudfront.net": [
+                                "52.84.106.43",
+                                "52.84.106.34",
+                                "52.84.106.50",
+                                "52.84.106.53"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1737.awsdns-25.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.107",
+                            "54.192.231.124",
+                            "54.192.231.49",
+                            "54.192.231.112"
+                        ],
+                        "AAAA": [
+                            "2600:9000:20ae:4400:18:a95e:5140:93a1",
+                            "2600:9000:20ae:5400:18:a95e:5140:93a1",
+                            "2600:9000:20ae:c00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:e800:18:a95e:5140:93a1",
+                            "2600:9000:20ae:9200:18:a95e:5140:93a1",
+                            "2600:9000:20ae:6000:18:a95e:5140:93a1",
+                            "2600:9000:20ae:3c00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:bc00:18:a95e:5140:93a1"
+                        ],
+                        "CNAME": {
+                            "m.cn.nytstyle.com": "d1m69spkr4jw3p.cloudfront.net",
+                            "d1m69spkr4jw3p.cloudfront.net": [
+                                "54.192.231.49",
+                                "54.192.231.112",
+                                "54.192.231.124",
+                                "54.192.231.107"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1737.awsdns-25.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.107",
+                            "54.192.231.112",
+                            "54.192.231.124",
+                            "54.192.231.49"
+                        ],
+                        "AAAA": [
+                            "2600:9000:20ae:4c00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:7e00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:9000:18:a95e:5140:93a1",
+                            "2600:9000:20ae:e600:18:a95e:5140:93a1",
+                            "2600:9000:20ae:fa00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:e00:18:a95e:5140:93a1",
+                            "2600:9000:20ae:1600:18:a95e:5140:93a1",
+                            "2600:9000:20ae:4400:18:a95e:5140:93a1"
+                        ],
+                        "CNAME": {
+                            "m.cn.nytstyle.com": "d1m69spkr4jw3p.cloudfront.net",
+                            "d1m69spkr4jw3p.cloudfront.net": [
+                                "54.192.231.124",
+                                "54.192.231.49",
+                                "54.192.231.107",
+                                "54.192.231.112"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1737.awsdns-25.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.60.4",
+                            "108.156.60.33",
+                            "108.156.60.55",
+                            "108.156.60.100"
+                        ],
+                        "AAAA": [
+                            "2600:9000:2394:4c00:18:a95e:5140:93a1",
+                            "2600:9000:2394:f200:18:a95e:5140:93a1",
+                            "2600:9000:2394:e800:18:a95e:5140:93a1",
+                            "2600:9000:2394:a400:18:a95e:5140:93a1",
+                            "2600:9000:2394:c600:18:a95e:5140:93a1",
+                            "2600:9000:2394:9000:18:a95e:5140:93a1",
+                            "2600:9000:2394:be00:18:a95e:5140:93a1",
+                            "2600:9000:2394:800:18:a95e:5140:93a1"
+                        ],
+                        "CNAME": {
+                            "m.cn.nytstyle.com": "d1m69spkr4jw3p.cloudfront.net",
+                            "d1m69spkr4jw3p.cloudfront.net": [
+                                "108.157.4.104",
+                                "108.157.4.56",
+                                "108.157.4.97",
+                                "108.157.4.128"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1737.awsdns-25.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210932.8920698,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "m.cn.nytstyle.com",
+                    "ip_address": "108.157.4.128",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210933.351986,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.157.4.97",
+                        0,
+                        "33.301 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        1,
+                        "33.236 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        2,
+                        "33.226 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        3,
+                        "33.378 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        4,
+                        "33.542 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        5,
+                        "33.186 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        6,
+                        "33.449 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        7,
+                        "33.16 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        8,
+                        "33.129 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.97",
+                        9,
+                        "33.073 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.351 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.954 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.676 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.008 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "8.828 ms"
+                    ],
+                    [
+                        "80.231.65.1",
+                        "ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net",
+                        "0.472 ms"
+                    ],
+                    [
+                        "80.231.65.21",
+                        "if-be-25-2.ecore1.fr0-frankfurt.as6453.net",
+                        "0.374 ms"
+                    ],
+                    [
+                        "195.219.50.79",
+                        "195.219.50.79",
+                        "0.381 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "108.157.4.128",
+                        "server-108-157-4-128.dus51.r.cloudfront.net",
+                        "10.157 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "m.cn.nytstyle.com",
+                    "ip_address": "108.157.4.128",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210934.139908,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "m.cn.nytstyle.com",
+                "issued_to": "m.cn.nytstyle.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Let's Encrypt",
+                "issuer_ou": null,
+                "issuer_cn": "Let's Encrypt Authority X3",
+                "cert_sn": "273081215074422939379135955295930727135433",
+                "cert_sha1": "58:A1:30:DD:B5:48:80:80:F4:71:74:47:99:36:38:A4:69:D5:E8:9C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:m.cn.nytstyle.com",
+                "cert_exp": true,
+                "cert_valid": false,
+                "valid_from": "2018-06-04",
+                "valid_till": "2018-09-02",
+                "validity_days": 90,
+                "days_left": -1382,
+                "valid_days_to_expire": -1382,
+                "tcp_port": 443
+            }
+        },
+        "www.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.193.164",
+                            "151.101.129.164"
+                        ],
+                        "CNAME": {
+                            "www.nytimes.com": "www.prd.map.nytimes.com",
+                            "www.prd.map.nytimes.com": "www.prd.map.nytimes.xovr.nyt.net",
+                            "www.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "www.nytimes.com": "www.prd.map.nytimes.com",
+                            "www.prd.map.nytimes.com": "www.prd.map.nytimes.xovr.nyt.net",
+                            "www.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "www.nytimes.com": "www.prd.map.nytimes.com",
+                            "www.prd.map.nytimes.com": "www.prd.map.nytimes.xovr.nyt.net",
+                            "www.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "www.nytimes.com": "www.prd.map.nytimes.com",
+                            "www.prd.map.nytimes.com": "www.prd.map.nytimes.xovr.nyt.net",
+                            "www.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210936.2354372,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210936.68316,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.237 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.891 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.095 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.011 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.991 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.149 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.237 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.898 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.983 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.994 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.896 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.842 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.539 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.961 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.792 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.409 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.254 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210937.049529,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www.nytimes.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "graphics8.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "graphics8.nytimes.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.129.164",
+                                "151.101.65.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "graphics8.nytimes.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164"
+                        ],
+                        "CNAME": {
+                            "graphics8.nytimes.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "graphics8.nytimes.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210939.6217291,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "graphics8.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210940.0709918,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.163 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.951 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.089 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.002 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.866 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.27 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.154 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.063 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.835 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.006 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.813 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.51 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.207 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.086 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "9.474 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.428 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.228 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "graphics8.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210940.442245,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "graphics8.nytimes.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "typeface.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nytimes.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.1.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nytimes.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nytimes.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nytimes.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210942.991588,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "typeface.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210943.443288,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.924 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.857 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.958 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "31.973 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.072 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.145 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.977 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.811 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.089 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.073 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.219 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.78 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.986 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.256 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.576 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.225 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.336 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "typeface.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210943.8146718,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "typeface.nytimes.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "typeface.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "typeface.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210946.120847,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "typeface.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210946.5735948,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.169 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "32.011 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.979 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.022 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.989 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "31.992 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.9 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.995 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.492 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.193 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.019 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.693 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.074 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "9.022 ms"
+                    ],
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.292 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.325 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.377 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "typeface.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210946.959051,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "typeface.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "static01.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.129.164",
+                            "151.101.65.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static01.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.1.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static01.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static01.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "static01.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210948.916982,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "static01.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210949.359885,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.982 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "32.148 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.765 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "31.722 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.779 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "31.75 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.204 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.931 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.766 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.736 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.086 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.73 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.816 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "0.582 ms"
+                    ],
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.246 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.319 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.387 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "static01.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210949.740119,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "static01.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "static02.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static02.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static02.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "static02.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "static02.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210952.066626,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "static02.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210952.5135732,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.875 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.958 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.068 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.39 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.016 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.093 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.863 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.073 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.796 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.723 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.732 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.793 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.811 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "0.248 ms"
+                    ],
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.323 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.393 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.303 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "static02.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210952.888875,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "static02.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "js.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "js.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "js.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164",
+                            "151.101.1.164"
+                        ],
+                        "CNAME": {
+                            "js.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "js.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210955.563783,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "js.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210956.0153658,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.148 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.899 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.88 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.048 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.742 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.132 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.633 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.085 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.983 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.787 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.797 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.486 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.03 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.293 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.032 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.245 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.164 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "js.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210956.4036322,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "js.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "css.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "css.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.129.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "css.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164"
+                        ],
+                        "CNAME": {
+                            "css.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "css.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210958.796561,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "css.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210959.243778,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.062 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.973 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.745 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.185 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.271 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.241 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.307 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.82 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.966 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.786 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.632 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.297 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.12 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.324 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.912 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.322 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.242 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "css.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210959.616809,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "css.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "int.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "int.nyt.com": "int.xovr.nyt.net",
+                            "int.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.129.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "int.nyt.com": "int.xovr.nyt.net",
+                            "int.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.129.164",
+                            "151.101.193.164",
+                            "151.101.1.164",
+                            "151.101.65.164"
+                        ],
+                        "CNAME": {
+                            "int.nyt.com": "int.xovr.nyt.net",
+                            "int.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "int.nyt.com": "int.xovr.nyt.net",
+                            "int.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210961.774647,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "int.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210962.2246091,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.732 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.657 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "31.617 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.061 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.845 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "33.24 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.096 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.132 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "31.803 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.218 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.922 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "6.354 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.761 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.207 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.331 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.277 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.352 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "int.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210962.614393,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "int.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "cn.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.139.67",
+                            "18.66.139.8",
+                            "18.66.139.79",
+                            "18.66.139.108"
+                        ],
+                        "SOA": [
+                            "ns-365.awsdns-45.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"gn2yy002lmr91rl4xqzms5ngw6qhvnz5\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.25",
+                            "54.192.231.83",
+                            "54.192.231.46",
+                            "54.192.231.72"
+                        ],
+                        "SOA": [
+                            "ns-365.awsdns-45.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"gn2yy002lmr91rl4xqzms5ngw6qhvnz5\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.25",
+                            "54.192.231.46",
+                            "54.192.231.72",
+                            "54.192.231.83"
+                        ],
+                        "SOA": [
+                            "ns-365.awsdns-45.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"gn2yy002lmr91rl4xqzms5ngw6qhvnz5\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.54",
+                            "18.66.248.115",
+                            "18.66.248.92",
+                            "18.66.248.21"
+                        ],
+                        "SOA": [
+                            "ns-365.awsdns-45.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"gn2yy002lmr91rl4xqzms5ngw6qhvnz5\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210964.448297,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "cn.nytimes.com",
+                    "ip_address": "108.156.60.33",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210964.9472058,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.60.112",
+                        0,
+                        "38.005 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        1,
+                        "37.514 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        2,
+                        "37.741 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        3,
+                        "37.611 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        4,
+                        "37.801 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        5,
+                        "37.632 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        6,
+                        "37.681 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        7,
+                        "37.645 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        8,
+                        "38.011 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.112",
+                        9,
+                        "37.544 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.904 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.938 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.799 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.173 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.0.121",
+                        "52.93.0.121",
+                        "7.997 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "cn.nytimes.com",
+                    "ip_address": "108.156.60.33",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210965.9208078,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "cn.nytimes.com",
+                "issued_to": "cn.nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+                "cert_sn": "12450860442431933519904088015948348588",
+                "cert_sha1": "7D:6F:01:D7:FA:CE:C4:4C:72:AB:E0:A2:8D:E4:E4:73:3E:E5:F1:A2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:cn.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-04",
+                "valid_till": "2023-02-04",
+                "validity_days": 396,
+                "days_left": 235,
+                "valid_days_to_expire": 234,
+                "tcp_port": 443
+            }
+        },
+        "m.cn.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.112.86",
+                            "18.66.112.44",
+                            "18.66.112.7",
+                            "18.66.112.64"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.91",
+                            "54.192.231.112",
+                            "54.192.231.42",
+                            "54.192.231.28"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.91",
+                            "54.192.231.112",
+                            "54.192.231.28",
+                            "54.192.231.42"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.112",
+                            "18.66.248.123",
+                            "18.66.248.64",
+                            "18.66.248.66"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210967.484766,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "m.cn.nytimes.com",
+                    "ip_address": "18.66.248.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210967.94391,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.112",
+                        0,
+                        "33.374 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        1,
+                        "33.035 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        2,
+                        "33.468 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        3,
+                        "33.419 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        4,
+                        "33.289 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        5,
+                        "33.006 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        6,
+                        "33.442 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        7,
+                        "33.296 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        8,
+                        "33.198 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.112",
+                        9,
+                        "33.152 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.989 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.557 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.327 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.3 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.736 ms"
+                    ],
+                    [
+                        "80.231.65.1",
+                        "ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net",
+                        "0.261 ms"
+                    ],
+                    [
+                        "80.231.65.21",
+                        "if-be-25-2.ecore1.fr0-frankfurt.as6453.net",
+                        "0.249 ms"
+                    ],
+                    [
+                        "195.219.50.79",
+                        "195.219.50.79",
+                        "0.417 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "18.66.248.112",
+                        "server-18-66-248-112.dus51.r.cloudfront.net",
+                        "10.055 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "m.cn.nytimes.com",
+                    "ip_address": "18.66.248.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210968.653089,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "m.cn.nytimes.com",
+                "issued_to": "m.cn.nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "RapidSSL TLS DV RSA Mixed SHA256 2020 CA-1",
+                "cert_sn": "6163095930437255408749874169823802056",
+                "cert_sha1": "21:28:B2:9F:A9:CE:85:FF:C2:5A:21:D6:F4:C9:25:81:07:1E:08:0E",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:m.cn.nytimes.com; DNS:www.m.cn.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-17",
+                "valid_till": "2023-02-17",
+                "validity_days": 396,
+                "days_left": 248,
+                "valid_days_to_expire": 247,
+                "tcp_port": 443
+            }
+        },
+        "json8.nytimes.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "json8.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "json8.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164",
+                            "151.101.1.164"
+                        ],
+                        "CNAME": {
+                            "json8.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "json8.nytimes.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210970.522961,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "json8.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210970.967776,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.038 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "32.087 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.229 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.039 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.273 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.217 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.997 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "31.797 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.107 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.268 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.9 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.467 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.892 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.411 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.941 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.209 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.299 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "json8.nytimes.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210971.3354912,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "json8.nytimes.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "a1.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "a1.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.193.164",
+                                "151.101.129.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "a1.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164",
+                            "151.101.1.164"
+                        ],
+                        "CNAME": {
+                            "a1.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "a1.nyt.com": "nyt5-assets.prd.map.nytimes.com",
+                            "nyt5-assets.prd.map.nytimes.com": "nyt5-assets.prd.map.nytimes.xovr.nyt.net",
+                            "nyt5-assets.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210973.271741,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "a1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210973.7181928,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "32.047 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.863 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.036 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "31.954 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "31.869 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.308 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "31.857 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.067 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.057 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "31.859 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.778 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.678 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.773 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.842 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.048 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.291 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.415 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "a1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210974.099531,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "a1.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "s1.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "s1.nyt.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.193.164",
+                                "151.101.129.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "s1.nyt.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "s1.nyt.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "s1.nyt.com": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210975.900853,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "s1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210976.346647,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.63 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.585 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.077 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "31.911 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.38 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.031 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.019 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.119 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.04 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.012 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.886 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.64 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.933 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.212 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.877 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.227 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.318 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "s1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210976.7360861,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "s1.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        },
+        "i1.nyt.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "i1.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "i1.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.1.164",
+                                "151.101.65.164",
+                                "151.101.129.164",
+                                "151.101.193.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.1.164",
+                            "151.101.65.164",
+                            "151.101.129.164",
+                            "151.101.193.164"
+                        ],
+                        "CNAME": {
+                            "i1.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.129.164",
+                                "151.101.193.164",
+                                "151.101.1.164",
+                                "151.101.65.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.164"
+                        ],
+                        "CNAME": {
+                            "i1.nyt.com": "static.prd.map.nytimes.com",
+                            "static.prd.map.nytimes.com": "static.prd.map.nytimes.xovr.nyt.net",
+                            "static.prd.map.nytimes.xovr.nyt.net": "nytimes.map.fastly.net",
+                            "nytimes.map.fastly.net": [
+                                "151.101.113.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210979.32214,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "i1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210979.7699862,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.164",
+                        0,
+                        "31.919 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        1,
+                        "31.826 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        2,
+                        "32.156 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        3,
+                        "32.181 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        4,
+                        "32.224 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        5,
+                        "32.243 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        6,
+                        "32.134 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        7,
+                        "32.213 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        8,
+                        "32.162 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.164",
+                        9,
+                        "32.18 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.792 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.619 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.965 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.75 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.117 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.327 ms"
+                    ],
+                    [
+                        "151.101.113.164",
+                        "151.101.113.164",
+                        "0.39 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "i1.nyt.com",
+                    "ip_address": "151.101.113.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210980.1508338,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "i1.nyt.com",
+                "issued_to": "nytimes.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "Thawte RSA CA 2018",
+                "cert_sn": "19566119627453086037475171755828669509",
+                "cert_sha1": "02:56:44:D7:EB:03:7B:7E:48:EB:F4:98:42:E1:3B:E3:D3:C7:A7:E8",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:nytimes.com; DNS:www.homedelivery.nytimes.com; DNS:*.api.dev.nytimes.com; DNS:*.api.nytimes.com; DNS:*.api.stg.nytimes.com; DNS:*.blogs.nytimes.com; DNS:*.blogs.stg.nytimes.com; DNS:*.dev.nyt.com; DNS:*.dev.nyt.net; DNS:*.dev.nytimes.com; DNS:*.newsdev.nyt.net; DNS:*.newsdev.nytimes.com; DNS:*.nyt.com; DNS:*.nyt.net; DNS:*.nytco.com; DNS:*.nytimes.com; DNS:*.payflow.sbx.nytimes.com; DNS:*.sbx.nytimes.com; DNS:*.stg.newsdev.nyt.net; DNS:*.stg.newsdev.nytimes.com; DNS:*.stg.nyt.com; DNS:*.stg.nyt.net; DNS:*.stg.nytimes.com; DNS:*.timestalks.com; DNS:nyt.com; DNS:nyt.net; DNS:nytco.com; DNS:timestalks.com; DNS:*.myaccount-preview.stg.nytimes.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-14",
+                "valid_till": "2023-04-14",
+                "validity_days": 396,
+                "days_left": 304,
+                "valid_days_to_expire": 303,
+                "tcp_port": 443
+            }
+        }
+    }
+}

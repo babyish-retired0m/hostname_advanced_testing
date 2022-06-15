@@ -107,3 +107,9 @@ android.clients.google.com
 developer.android.google.cn
 developers.android.google.cn
 source.android.google.cn
+supl.google.com
+voice.google.com
+check.googlezip.net
+proxy.googlezip.net
+compress.googlezip.net
+proxy-dev.googlezip.net

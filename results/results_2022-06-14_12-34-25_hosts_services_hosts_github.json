@@ -1,0 +1,4321 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210065.848344,
+        "Execution time Duration": "43.646"
+    },
+    "advanced_test": {
+        "gist.github.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "CNAME": {
+                            "gist.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.3"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "CNAME": {
+                            "gist.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.4"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "140.82.121.4"
+                        ],
+                        "CNAME": {
+                            "gist.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.4"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ],
+                        "TXT": [
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "CNAME": {
+                            "gist.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.3"
+                            ]
+                        },
+                        "MX": [
+                            "alt4.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210067.929467,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "gist.github.com",
+                    "ip_address": "140.82.121.3",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210068.3808022,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "140.82.121.3",
+                        0,
+                        "33.021 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        1,
+                        "32.8 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        2,
+                        "32.54 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        3,
+                        "32.428 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        4,
+                        "32.564 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        5,
+                        "32.701 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        6,
+                        "32.708 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        7,
+                        "32.748 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        8,
+                        "32.699 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        9,
+                        "32.894 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.8 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.663 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.887 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.168 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.929 ms"
+                    ],
+                    [
+                        "154.14.40.233",
+                        "ae17.cr6-fra2.ip4.gtt.net",
+                        "8.815 ms"
+                    ],
+                    [
+                        "213.200.116.225",
+                        "ae21.cr2-fra6.ip4.gtt.net",
+                        "0.114 ms"
+                    ],
+                    [
+                        "87.119.94.70",
+                        "87.119.94.70",
+                        "0.09 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "140.82.121.3",
+                        "lb-140-82-121-3-fra.github.com",
+                        "9.729 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "gist.github.com",
+                    "ip_address": "140.82.121.3",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210069.129478,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "gist.github.com",
+                "issued_to": "*.github.com",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "cert_sn": "3263519924613114890784177342679187099",
+                "cert_sha1": "29:70:30:74:CA:3C:48:F5:4A:79:C6:2D:11:57:A2:41:2A:2D:7D:5C",
+                "cert_alg": "ecdsa-with-SHA384",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.com; DNS:github.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-16",
+                "valid_till": "2023-03-16",
+                "validity_days": 365,
+                "days_left": 275,
+                "valid_days_to_expire": 274,
+                "tcp_port": 443
+            }
+        },
+        "github.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "140.82.121.4"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ],
+                        "TXT": [
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "MX": [
+                            "alt4.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210071.044173,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "github.com",
+                    "ip_address": "140.82.121.3",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210071.4929678,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "140.82.121.3",
+                        0,
+                        "32.947 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        1,
+                        "32.614 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        2,
+                        "32.837 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        3,
+                        "32.744 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        4,
+                        "32.771 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        5,
+                        "32.705 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        6,
+                        "32.178 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        7,
+                        "32.673 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        8,
+                        "32.309 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.3",
+                        9,
+                        "32.744 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.633 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.598 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.812 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.133 ms"
+                    ],
+                    null,
+                    [
+                        "213.200.116.225",
+                        "ae21.cr2-fra6.ip4.gtt.net",
+                        "8.04 ms"
+                    ],
+                    [
+                        "87.119.94.70",
+                        "87.119.94.70",
+                        "0.252 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "140.82.121.3",
+                        "lb-140-82-121-3-fra.github.com",
+                        "9.972 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "github.com",
+                    "ip_address": "140.82.121.3",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210072.218715,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "github.com",
+                "issued_to": "github.com",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "cert_sn": "6773885322784420930520969551946270174",
+                "cert_sha1": "1E:16:CC:3F:84:2F:65:FC:C0:AB:93:2D:63:8A:C6:4A:95:C9:1B:7A",
+                "cert_alg": "ecdsa-with-SHA384",
+                "cert_ver": 2,
+                "cert_sans": "DNS:github.com; DNS:www.github.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-15",
+                "valid_till": "2023-03-15",
+                "validity_days": 365,
+                "days_left": 274,
+                "valid_days_to_expire": 273,
+                "tcp_port": 443
+            }
+        },
+        "www.github.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "CNAME": {
+                            "www.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.3"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "140.82.121.3"
+                        ],
+                        "CNAME": {
+                            "www.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.4"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-1707.awsdns-21.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "140.82.121.4"
+                        ],
+                        "CNAME": {
+                            "www.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.4"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ],
+                        "TXT": [
+                            "\"MS=ms44452932\"",
+                            "\"MS=ms58704441\"",
+                            "\"apple-domain-verification=RyQhdzTl6Z6x8ZP4\"",
+                            "\"MS=6BF03E6AF5CB689E315FB6199603BABF2C88D805\"",
+                            "\"docusign=087098e3-3d46-47b7-9b4e-8a23028154cd\"",
+                            "\"google-site-verification=UTM-3akMgubp6tQtgEuAkYNYLyYAvpTnnSrDMWoDR3o\"",
+                            "\"stripe-verification=f88ef17321660a01bab1660454192e014defa29ba7b8de9633c69d6b4912217f\"",
+                            "\"adobe-idp-site-verification=b92c9e999aef825edc36e0a3d847d2dbad5b2fc0e05c79ddd7a16139b48ecf4b\"",
+                            "\"atlassian-domain-verification=jjgw98AKv2aeoYFxiL/VFaoyPkn3undEssTRuMg6C/3Fp/iqhkV4HVV7WjYlVeF8\"",
+                            "\"v=spf1 ip4:192.30.252.0/22 include:_netblocks.google.com include:_netblocks2.google.com include:_netblocks3.google.com include:spf.protection.outlook.com include:mail.zendesk.com include:_spf.salesforce.com include:servers.mcsv.net ip4:166.78.69.169 ip4:1\" \"66.78.69.170 ip4:166.78.71.131 ip4:167.89.101.2 ip4:167.89.101.192/28 ip4:192.254.112.60 ip4:192.254.112.98/31 ip4:192.254.113.10 ip4:192.254.113.101 ip4:192.254.114.176 ip4:62.253.227.114 ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "140.82.121.4"
+                        ],
+                        "CNAME": {
+                            "www.github.com": "github.com",
+                            "github.com": [
+                                "140.82.121.3"
+                            ]
+                        },
+                        "MX": [
+                            "alt2.aspmx.l.google.com",
+                            "alt4.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt3.aspmx.l.google.com",
+                            "aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "dns1.p08.nsone.net. hostmaster.nsone.net. 1654635681 43200 7200 1209600 3600"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210074.522239,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.github.com",
+                    "ip_address": "140.82.121.4",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210074.9700491,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "140.82.121.4",
+                        0,
+                        "32.652 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        1,
+                        "32.294 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        2,
+                        "32.51 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        3,
+                        "32.339 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        4,
+                        "32.542 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        5,
+                        "32.657 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        6,
+                        "32.737 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        7,
+                        "32.788 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        8,
+                        "32.667 ms"
+                    ],
+                    [
+                        64,
+                        "140.82.121.4",
+                        9,
+                        "32.35 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.659 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.706 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.781 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.874 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "154.14.40.233",
+                        "ae17.cr6-fra2.ip4.gtt.net",
+                        "6.49 ms"
+                    ],
+                    [
+                        "213.200.116.225",
+                        "ae21.cr2-fra6.ip4.gtt.net",
+                        "0.175 ms"
+                    ],
+                    [
+                        "87.119.94.70",
+                        "87.119.94.70",
+                        "0.152 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "140.82.121.4",
+                        "lb-140-82-121-4-fra.github.com",
+                        "9.674 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.github.com",
+                    "ip_address": "140.82.121.4",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210075.6205509,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www.github.com",
+                "issued_to": "github.com",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "cert_sn": "6773885322784420930520969551946270174",
+                "cert_sha1": "1E:16:CC:3F:84:2F:65:FC:C0:AB:93:2D:63:8A:C6:4A:95:C9:1B:7A",
+                "cert_alg": "ecdsa-with-SHA384",
+                "cert_ver": 2,
+                "cert_sans": "DNS:github.com; DNS:www.github.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-15",
+                "valid_till": "2023-03-15",
+                "validity_days": 365,
+                "days_left": 274,
+                "valid_days_to_expire": 273,
+                "tcp_port": 443
+            }
+        },
+        "avatars0.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.110.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210076.889966,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars0.githubusercontent.com",
+                    "ip_address": "185.199.109.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210077.333466,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.110.133",
+                        0,
+                        "31.729 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        1,
+                        "31.642 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        2,
+                        "31.619 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        3,
+                        "31.911 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        4,
+                        "31.892 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        5,
+                        "31.877 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        6,
+                        "31.94 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        7,
+                        "32.052 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        8,
+                        "31.914 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        9,
+                        "31.783 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.696 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.895 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.087 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.009 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "9.541 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.313 ms"
+                    ],
+                    [
+                        "185.199.109.133",
+                        "cdn-185-199-109-133.github.com",
+                        "0.2 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars0.githubusercontent.com",
+                    "ip_address": "185.199.109.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210077.807934,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars0.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars1.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.109.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210079.084886,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars1.githubusercontent.com",
+                    "ip_address": "185.199.108.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210079.527255,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.109.133",
+                        0,
+                        "31.981 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        1,
+                        "32.133 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        2,
+                        "31.789 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        3,
+                        "31.883 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        4,
+                        "31.726 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        5,
+                        "31.809 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        6,
+                        "31.518 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        7,
+                        "31.692 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        8,
+                        "31.387 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        9,
+                        "31.36 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.758 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.463 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.975 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "5.689 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.802 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.113 ms"
+                    ],
+                    [
+                        "185.199.108.133",
+                        "cdn-185-199-108-133.github.com",
+                        "0.071 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars1.githubusercontent.com",
+                    "ip_address": "185.199.108.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210079.949229,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars1.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars2.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.108.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210081.168024,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars2.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210081.6147761,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.108.133",
+                        0,
+                        "32.222 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        1,
+                        "32.3 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        2,
+                        "32.045 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        3,
+                        "31.981 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        4,
+                        "31.916 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        5,
+                        "32.049 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        6,
+                        "31.939 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        7,
+                        "31.844 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        8,
+                        "31.765 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.108.133",
+                        9,
+                        "31.867 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.86 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.775 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.954 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "8.013 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.714 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.181 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.178 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars2.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210082.059453,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars2.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars3.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.110.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210083.2710478,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars3.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210083.715948,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.110.133",
+                        0,
+                        "31.988 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        1,
+                        "31.963 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        2,
+                        "31.998 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        3,
+                        "31.988 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        4,
+                        "31.909 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        5,
+                        "32.04 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        6,
+                        "32.142 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        7,
+                        "32.129 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        8,
+                        "31.805 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        9,
+                        "31.906 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.651 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.611 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.843 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.845 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "7.892 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.43 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.29 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars3.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210084.092941,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars3.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars4.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.109.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210085.460452,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars4.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210085.898077,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.109.133",
+                        0,
+                        "31.752 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        1,
+                        "31.853 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        2,
+                        "31.678 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        3,
+                        "31.894 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        4,
+                        "32.052 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        5,
+                        "31.552 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        6,
+                        "31.736 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        7,
+                        "31.48 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        8,
+                        "31.498 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        9,
+                        "31.459 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.661 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "4.576 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.588 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.316 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.317 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.135 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.146 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars4.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210086.273273,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars4.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars5.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.111.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210087.548616,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars5.githubusercontent.com",
+                    "ip_address": "185.199.109.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210087.973799,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "29.611 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "29.862 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "30.069 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "30.012 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "29.725 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "29.725 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "30.117 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "30.059 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "30.131 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "30.003 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.687 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "7.509 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.951 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.043 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "9.559 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.206 ms"
+                    ],
+                    [
+                        "185.199.109.133",
+                        "cdn-185-199-109-133.github.com",
+                        "0.157 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars5.githubusercontent.com",
+                    "ip_address": "185.199.109.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210088.352457,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars5.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars6.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.111.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210089.773966,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars6.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210090.192561,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "29.59 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "29.493 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "29.69 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "29.565 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "29.577 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "29.74 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "29.809 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "29.661 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "29.665 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "29.795 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.677 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.477 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.66 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.896 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.404 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.071 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.073 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars6.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210090.616467,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars6.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars7.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.110.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210091.9374971,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars7.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210092.361184,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "30.038 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "29.997 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "29.945 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "29.88 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "30.053 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "29.977 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "29.892 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "30.142 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "29.94 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "29.789 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.684 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.457 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.623 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.955 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.909 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.385 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.131 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars7.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210092.73435,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars7.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "avatars8.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.109.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210094.1214669,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "avatars8.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210094.5668201,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.109.133",
+                        0,
+                        "31.82 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        1,
+                        "32.077 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        2,
+                        "31.832 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        3,
+                        "31.796 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        4,
+                        "31.87 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        5,
+                        "32.141 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        6,
+                        "32.061 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        7,
+                        "31.926 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        8,
+                        "32.076 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        9,
+                        "31.951 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.084 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.734 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.837 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.136 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.086 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.405 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.305 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "avatars8.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210094.955126,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "avatars8.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "camo.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.110.133",
+                            "185.199.109.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.111.133",
+                            "185.199.110.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210096.20276,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "camo.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210096.6289852,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "30.081 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "30.425 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "30.07 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "30.348 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "30.134 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "29.905 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "30.617 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "29.941 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "30.262 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "30.518 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.923 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.663 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.737 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.586 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.015 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.431 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.455 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "camo.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210097.002476,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "camo.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "cloud.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210098.2712169,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "cloud.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210098.7002208,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "30.257 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "30.099 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "30.388 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "29.822 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "30.315 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "30.309 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "29.95 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "30.382 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "29.94 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "30.108 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.127 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.068 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.888 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.346 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "9.024 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.373 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.133 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "cloud.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210099.07143,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "cloud.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "gist.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210100.338572,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "gist.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210100.78159,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.109.133",
+                        0,
+                        "31.662 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        1,
+                        "31.672 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        2,
+                        "32.071 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        3,
+                        "31.567 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        4,
+                        "31.612 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        5,
+                        "32.008 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        6,
+                        "31.822 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        7,
+                        "31.617 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        8,
+                        "31.914 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.109.133",
+                        9,
+                        "32.103 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.811 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.652 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.895 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.142 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.969 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.26 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.271 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "gist.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210101.15233,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "gist.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "marketplace-screenshots.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210102.4377038,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "marketplace-screenshots.githubusercontent.com",
+                    "ip_address": "185.199.108.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210102.875974,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.110.133",
+                        0,
+                        "31.948 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        1,
+                        "31.674 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        2,
+                        "31.842 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        3,
+                        "31.863 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        4,
+                        "31.915 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        5,
+                        "31.859 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        6,
+                        "31.886 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        7,
+                        "32.094 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        8,
+                        "31.911 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        9,
+                        "32.311 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.104 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.836 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.951 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.586 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.132 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.383 ms"
+                    ],
+                    [
+                        "185.199.108.133",
+                        "cdn-185-199-108-133.github.com",
+                        "0.061 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "marketplace-screenshots.githubusercontent.com",
+                    "ip_address": "185.199.108.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210103.248829,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "marketplace-screenshots.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "raw.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.111.133",
+                            "185.199.109.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8003::154",
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8002::154"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8002::154",
+                            "2606:50c0:8003::154"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8002::154",
+                            "2606:50c0:8003::154",
+                            "2606:50c0:8000::154"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.109.133",
+                            "185.199.108.133",
+                            "185.199.110.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8003::154",
+                            "2606:50c0:8002::154"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210104.443684,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "raw.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210104.8908072,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.110.133",
+                        0,
+                        "31.977 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        1,
+                        "31.975 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        2,
+                        "31.939 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        3,
+                        "32.186 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        4,
+                        "31.929 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        5,
+                        "32.291 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        6,
+                        "32.394 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        7,
+                        "32.243 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        8,
+                        "31.742 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        9,
+                        "31.992 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.817 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.721 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "7.925 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.829 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "7.99 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.367 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.45 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "raw.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210105.275761,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "raw.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "repository-images.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210106.590337,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "repository-images.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210107.037025,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.110.133",
+                        0,
+                        "31.887 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        1,
+                        "32.219 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        2,
+                        "32.212 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        3,
+                        "32.264 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        4,
+                        "32.247 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        5,
+                        "32.297 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        6,
+                        "31.86 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        7,
+                        "32.141 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        8,
+                        "31.963 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.110.133",
+                        9,
+                        "32.251 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.636 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.341 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.803 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.182 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "7.464 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.373 ms"
+                    ],
+                    [
+                        "185.199.111.133",
+                        "cdn-185-199-111-133.github.com",
+                        "0.221 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "repository-images.githubusercontent.com",
+                    "ip_address": "185.199.111.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210107.406204,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "repository-images.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        },
+        "user-images.githubusercontent.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8002::154",
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8003::154"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133",
+                            "185.199.111.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8003::154",
+                            "2606:50c0:8002::154"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.199.111.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.110.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8000::154",
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8002::154",
+                            "2606:50c0:8003::154"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "185.199.110.133",
+                            "185.199.108.133",
+                            "185.199.109.133",
+                            "185.199.111.133"
+                        ],
+                        "AAAA": [
+                            "2606:50c0:8002::154",
+                            "2606:50c0:8001::154",
+                            "2606:50c0:8003::154",
+                            "2606:50c0:8000::154"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210108.611517,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "user-images.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210109.032972,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "185.199.111.133",
+                        0,
+                        "29.941 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        1,
+                        "30.162 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        2,
+                        "30.038 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        3,
+                        "29.956 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        4,
+                        "30.109 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        5,
+                        "29.96 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        6,
+                        "30.203 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        7,
+                        "30.221 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        8,
+                        "29.9 ms"
+                    ],
+                    [
+                        64,
+                        "185.199.111.133",
+                        9,
+                        "30.202 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.31 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.831 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.125 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.219 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.03 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.445 ms"
+                    ],
+                    [
+                        "185.199.110.133",
+                        "cdn-185-199-110-133.github.com",
+                        "0.194 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "user-images.githubusercontent.com",
+                    "ip_address": "185.199.110.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210109.406317,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "user-images.githubusercontent.com",
+                "issued_to": "*.github.io",
+                "issued_o": "GitHub, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "15359862915578163019668496388624422537",
+                "cert_sha1": "8F:0E:79:24:71:C5:A7:D2:A7:46:76:30:C1:3C:B7:2A:13:B0:01:B2",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.github.io; DNS:github.com; DNS:*.github.com; DNS:www.github.com; DNS:github.io; DNS:githubusercontent.com; DNS:*.githubusercontent.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-21",
+                "validity_days": 368,
+                "days_left": 280,
+                "valid_days_to_expire": 279,
+                "tcp_port": 443
+            }
+        }
+    }
+}

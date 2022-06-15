@@ -1,0 +1,6 @@
+api.onedrive.com
+api.onedrive.live.com
+onedrive.live.com
+webedgegeo.skyprod.akadns.net
+skyapi.onedrive.live.com
+skyweb.skyprod.akadns.net

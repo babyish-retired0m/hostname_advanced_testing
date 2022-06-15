@@ -1,0 +1,4595 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655211616.951103,
+        "Execution time Duration": "49.693"
+    },
+    "advanced_test": {
+        "soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.122.126",
+                            "18.66.122.35",
+                            "18.66.122.21",
+                            "18.66.122.119"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-1659.awsdns-15.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 604800 86400"
+                        ],
+                        "TXT": [
+                            "\"JlHKdOBLZpjS/UOFcGHRiSM38ADQhJ0fAN6IMMgSdts=\"",
+                            "\"MS=ms25371803\"",
+                            "\"MS=ms67894313\"",
+                            "\"ZOOM_verify_hBlTOUUcSiW7IhDAv16bqQ\"",
+                            "\"_globalsign-domain-verification=bHLdB_nIu498sJfHPm-UghC8cfhYds7wEF87ZBxHDT\"",
+                            "\"apple-domain-verification=DJEx73gNNUTjejVL\"",
+                            "\"atlassian-domain-verification=fycZUT0eVlPEiaehQXOKmXCe9NJeJsZmCWgWfW7GSuras9JTdhCVrebn8zfRIQ3v\"",
+                            "\"botify-site-verification=VyJVacuoqlVARp4iXaeza0p9iFlTUubb\"",
+                            "\"d24wuv6owifbwc.cloudfront.net\"",
+                            "\"google-site-verification=U41CuhcP0HS0kVo6HaaLA0Vo-6Wdk8YO-M_Q4rukDmU\"",
+                            "\"google-site-verification=bGedCZYrMEPIXRPH5n3Rb0dJjFPACxuP_xMbAPCPenU\"",
+                            "\"google-site-verification=ise_yQfK5npT23y4X7QBl-WYgNjA7AuUrRQQo1Q66EU\"",
+                            "\"onetrust-domain-verification=f110ce3d05314cfb8054ab5e0903ff68\"",
+                            "\"stripe-verification=e1469db8bb5c9886c8a7abbece38ddc342618aa4ac7dca85b73731668ea5ec70\"",
+                            "\"v=spf1 include:_spf.google.com ip4:178.249.138.0/23 ip4:145.253.129.216/29 ip4:80.82.202.192/28 ip4:52.17.172.90/32 include:spf.mandrillapp.com include:7303199.spf04.hubspotemail.net -all\"",
+                            "\"wrQAupWCtBhVn8GcFVpM6CMH--bBTLOI\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.93",
+                            "54.192.231.71",
+                            "54.192.231.29",
+                            "54.192.231.114"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-1659.awsdns-15.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 604800 86400"
+                        ],
+                        "TXT": [
+                            "\"JlHKdOBLZpjS/UOFcGHRiSM38ADQhJ0fAN6IMMgSdts=\"",
+                            "\"MS=ms25371803\"",
+                            "\"MS=ms67894313\"",
+                            "\"ZOOM_verify_hBlTOUUcSiW7IhDAv16bqQ\"",
+                            "\"_globalsign-domain-verification=bHLdB_nIu498sJfHPm-UghC8cfhYds7wEF87ZBxHDT\"",
+                            "\"apple-domain-verification=DJEx73gNNUTjejVL\"",
+                            "\"atlassian-domain-verification=fycZUT0eVlPEiaehQXOKmXCe9NJeJsZmCWgWfW7GSuras9JTdhCVrebn8zfRIQ3v\"",
+                            "\"botify-site-verification=VyJVacuoqlVARp4iXaeza0p9iFlTUubb\"",
+                            "\"d24wuv6owifbwc.cloudfront.net\"",
+                            "\"google-site-verification=U41CuhcP0HS0kVo6HaaLA0Vo-6Wdk8YO-M_Q4rukDmU\"",
+                            "\"google-site-verification=bGedCZYrMEPIXRPH5n3Rb0dJjFPACxuP_xMbAPCPenU\"",
+                            "\"google-site-verification=ise_yQfK5npT23y4X7QBl-WYgNjA7AuUrRQQo1Q66EU\"",
+                            "\"onetrust-domain-verification=f110ce3d05314cfb8054ab5e0903ff68\"",
+                            "\"stripe-verification=e1469db8bb5c9886c8a7abbece38ddc342618aa4ac7dca85b73731668ea5ec70\"",
+                            "\"v=spf1 include:_spf.google.com ip4:178.249.138.0/23 ip4:145.253.129.216/29 ip4:80.82.202.192/28 ip4:52.17.172.90/32 include:spf.mandrillapp.com include:7303199.spf04.hubspotemail.net -all\"",
+                            "\"wrQAupWCtBhVn8GcFVpM6CMH--bBTLOI\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.114",
+                            "54.192.231.29",
+                            "54.192.231.71",
+                            "54.192.231.93"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-1659.awsdns-15.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 604800 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.78",
+                            "18.66.248.110",
+                            "18.66.248.109",
+                            "18.66.248.51"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx3.googlemail.com",
+                            "aspmx2.googlemail.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-1659.awsdns-15.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 604800 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211619.500674,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "soundcloud.com",
+                    "ip_address": "18.66.248.78",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211619.9635148,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.51",
+                        0,
+                        "34.742 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        1,
+                        "34.36 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        2,
+                        "33.881 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        3,
+                        "33.688 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        4,
+                        "33.776 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        5,
+                        "33.82 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        6,
+                        "33.889 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        7,
+                        "33.891 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        8,
+                        "33.991 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.51",
+                        9,
+                        "33.801 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.042 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "6.663 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.322 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.001 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "9.102 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.146 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.151 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "18.66.248.78",
+                        "server-18-66-248-78.dus51.r.cloudfront.net",
+                        "9.948 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "soundcloud.com",
+                    "ip_address": "18.66.248.78",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211620.681389,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "api-v2.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.84.199.61",
+                            "52.84.199.46",
+                            "52.84.199.51",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "api-v2.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.46",
+                                "52.84.199.48",
+                                "52.84.199.61",
+                                "52.84.199.51"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.51",
+                            "52.84.199.48",
+                            "52.84.199.61",
+                            "52.84.199.46"
+                        ],
+                        "CNAME": {
+                            "api-v2.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.51",
+                                "52.84.199.46",
+                                "52.84.199.48",
+                                "52.84.199.61"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.51",
+                            "52.84.199.61",
+                            "52.84.199.46",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "api-v2.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.61",
+                                "52.84.199.46",
+                                "52.84.199.48",
+                                "52.84.199.51"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.252.65",
+                            "108.156.252.50",
+                            "108.156.252.52",
+                            "108.156.252.35"
+                        ],
+                        "CNAME": {
+                            "api-v2.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "108.156.252.52",
+                                "108.156.252.35",
+                                "108.156.252.50",
+                                "108.156.252.65"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211622.1227798,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api-v2.soundcloud.com",
+                    "ip_address": "18.65.30.40",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211622.595545,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.65.30.62",
+                        0,
+                        "34.658 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        1,
+                        "34.651 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        2,
+                        "34.404 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        3,
+                        "34.405 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        4,
+                        "34.251 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        5,
+                        "34.616 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        6,
+                        "34.301 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        7,
+                        "34.266 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        8,
+                        "34.547 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.30.62",
+                        9,
+                        "34.552 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.815 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.881 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.1 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.984 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.0.89",
+                        "52.93.0.89",
+                        "9.745 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.112.222",
+                        "52.93.112.222",
+                        "2.431 ms"
+                    ],
+                    [
+                        "18.65.30.40",
+                        "server-18-65-30-40.ams1.r.cloudfront.net",
+                        "0.152 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api-v2.soundcloud.com",
+                    "ip_address": "18.65.30.40",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211623.565739,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api-v2.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "telemetry.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.134.48",
+                            "18.66.134.57",
+                            "18.66.134.38",
+                            "18.66.134.64"
+                        ],
+                        "CNAME": {
+                            "telemetry.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "65.9.160.34",
+                                "65.9.160.56",
+                                "65.9.160.63",
+                                "65.9.160.61"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.48",
+                            "52.84.199.58",
+                            "52.84.199.57",
+                            "52.84.199.56"
+                        ],
+                        "CNAME": {
+                            "telemetry.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.56",
+                                "52.84.199.48",
+                                "52.84.199.57",
+                                "52.84.199.58"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.57",
+                            "52.84.199.58",
+                            "52.84.199.48",
+                            "52.84.199.56"
+                        ],
+                        "CNAME": {
+                            "telemetry.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.56",
+                                "52.84.199.57",
+                                "52.84.199.58",
+                                "52.84.199.48"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.252.52",
+                            "108.156.252.62",
+                            "108.156.252.56",
+                            "108.156.252.64"
+                        ],
+                        "CNAME": {
+                            "telemetry.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "108.156.252.64",
+                                "108.156.252.56",
+                                "108.156.252.62",
+                                "108.156.252.52"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211625.356652,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "telemetry.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211625.817782,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.64",
+                        0,
+                        "33.581 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        1,
+                        "33.329 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        2,
+                        "33.396 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        3,
+                        "33.436 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        4,
+                        "33.347 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        5,
+                        "33.556 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        6,
+                        "33.282 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        7,
+                        "33.346 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        8,
+                        "33.143 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        9,
+                        "33.315 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.739 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.75 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.773 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.04 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.552 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.257 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.137 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.117",
+                        "150.222.5.117",
+                        "9.808 ms"
+                    ],
+                    [
+                        "108.156.252.52",
+                        "server-108-156-252-52.dus51.r.cloudfront.net",
+                        "0.125 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "telemetry.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211626.568296,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "telemetry.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "l9bjkkhaycw6f8f4.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.134.57",
+                            "18.66.134.64",
+                            "18.66.134.38",
+                            "18.66.134.48"
+                        ],
+                        "CNAME": {
+                            "l9bjkkhaycw6f8f4.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "18.66.134.57",
+                                "18.66.134.64",
+                                "18.66.134.48",
+                                "18.66.134.38"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.58",
+                            "52.84.199.48",
+                            "52.84.199.57"
+                        ],
+                        "CNAME": {
+                            "l9bjkkhaycw6f8f4.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.56",
+                                "52.84.199.58",
+                                "52.84.199.48",
+                                "52.84.199.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.57",
+                            "52.84.199.58",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "l9bjkkhaycw6f8f4.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.56",
+                                "52.84.199.57",
+                                "52.84.199.58",
+                                "52.84.199.48"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.65.30.54",
+                            "18.65.30.36",
+                            "18.65.30.34",
+                            "18.65.30.37"
+                        ],
+                        "CNAME": {
+                            "l9bjkkhaycw6f8f4.soundcloud.com": "eventgateway.soundcloud.com",
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "108.156.252.64",
+                                "108.156.252.56",
+                                "108.156.252.62",
+                                "108.156.252.52"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211628.465864,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "l9bjkkhaycw6f8f4.soundcloud.com",
+                    "ip_address": "108.156.252.56",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211628.9269629,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.64",
+                        0,
+                        "33.553 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        1,
+                        "33.451 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        2,
+                        "33.466 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        3,
+                        "33.408 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        4,
+                        "33.164 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        5,
+                        "33.327 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        6,
+                        "33.236 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        7,
+                        "33.395 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        8,
+                        "33.471 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        9,
+                        "33.272 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.74 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.783 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.576 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.092 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "10.024 ms"
+                    ],
+                    [
+                        "80.231.65.1",
+                        "ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net",
+                        "0.144 ms"
+                    ],
+                    [
+                        "80.231.65.21",
+                        "if-be-25-2.ecore1.fr0-frankfurt.as6453.net",
+                        "0.089 ms"
+                    ],
+                    [
+                        "195.219.50.79",
+                        "195.219.50.79",
+                        "0.183 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "l9bjkkhaycw6f8f4.soundcloud.com",
+                    "ip_address": "108.156.252.56",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211629.9572108,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "l9bjkkhaycw6f8f4.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "api.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.84.199.46",
+                            "52.84.199.51",
+                            "52.84.199.48",
+                            "52.84.199.61"
+                        ],
+                        "CNAME": {
+                            "api.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.48",
+                                "52.84.199.46",
+                                "52.84.199.51",
+                                "52.84.199.61"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.48",
+                            "52.84.199.46",
+                            "52.84.199.61",
+                            "52.84.199.51"
+                        ],
+                        "CNAME": {
+                            "api.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.51",
+                                "52.84.199.46",
+                                "52.84.199.48",
+                                "52.84.199.61"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.51",
+                            "52.84.199.61",
+                            "52.84.199.46",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "api.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "52.84.199.51",
+                                "52.84.199.61",
+                                "52.84.199.46",
+                                "52.84.199.48"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.65.30.40",
+                            "18.65.30.58",
+                            "18.65.30.62",
+                            "18.65.30.44"
+                        ],
+                        "CNAME": {
+                            "api.soundcloud.com": "d3ad8414wy4gwn.cloudfront.net",
+                            "d3ad8414wy4gwn.cloudfront.net": [
+                                "108.156.252.52",
+                                "108.156.252.35",
+                                "108.156.252.50",
+                                "108.156.252.65"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1314.awsdns-36.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211631.40945,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211631.8805912,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.50",
+                        0,
+                        "34.441 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        1,
+                        "34.605 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        2,
+                        "34.55 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        3,
+                        "34.38 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        4,
+                        "34.184 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        5,
+                        "34.165 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        6,
+                        "34.262 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        7,
+                        "34.318 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        8,
+                        "34.391 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.50",
+                        9,
+                        "34.32 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.689 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.499 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.13 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.139 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.952 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.218 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.138 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.117",
+                        "150.222.5.117",
+                        "9.856 ms"
+                    ],
+                    [
+                        "108.156.252.52",
+                        "server-108-156-252-52.dus51.r.cloudfront.net",
+                        "0.325 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211632.534212,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "eventgateway.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.134.48",
+                            "18.66.134.57",
+                            "18.66.134.38",
+                            "18.66.134.64"
+                        ],
+                        "CNAME": {
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "18.66.134.57",
+                                "18.66.134.38",
+                                "18.66.134.48",
+                                "18.66.134.64"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.48",
+                            "52.84.199.58",
+                            "52.84.199.57",
+                            "52.84.199.56"
+                        ],
+                        "CNAME": {
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.58",
+                                "52.84.199.56",
+                                "52.84.199.48",
+                                "52.84.199.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.57",
+                            "52.84.199.58",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.58",
+                                "52.84.199.48",
+                                "52.84.199.56",
+                                "52.84.199.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.252.62",
+                            "108.156.252.56",
+                            "108.156.252.64",
+                            "108.156.252.52"
+                        ],
+                        "CNAME": {
+                            "eventgateway.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "108.156.252.64",
+                                "108.156.252.56",
+                                "108.156.252.62",
+                                "108.156.252.52"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211634.020191,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "eventgateway.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211634.4782321,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.62",
+                        0,
+                        "33.322 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        1,
+                        "33.106 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        2,
+                        "32.784 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        3,
+                        "32.901 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        4,
+                        "32.773 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        5,
+                        "33.229 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        6,
+                        "32.824 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        7,
+                        "32.718 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        8,
+                        "32.988 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.62",
+                        9,
+                        "33.251 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.771 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.551 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.229 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.61 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.591 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.149 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.072 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.117",
+                        "150.222.5.117",
+                        "9.722 ms"
+                    ],
+                    [
+                        "108.156.252.52",
+                        "server-108-156-252-52.dus51.r.cloudfront.net",
+                        "0.121 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "eventgateway.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211635.1294641,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "eventgateway.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "promoted.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.84.199.48",
+                            "52.84.199.58",
+                            "52.84.199.56",
+                            "52.84.199.57"
+                        ],
+                        "CNAME": {
+                            "promoted.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "18.66.134.64",
+                                "18.66.134.38",
+                                "18.66.134.48",
+                                "18.66.134.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.57",
+                            "52.84.199.48",
+                            "52.84.199.58"
+                        ],
+                        "CNAME": {
+                            "promoted.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.57",
+                                "52.84.199.48",
+                                "52.84.199.58",
+                                "52.84.199.56"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.58",
+                            "52.84.199.48",
+                            "52.84.199.56",
+                            "52.84.199.57"
+                        ],
+                        "CNAME": {
+                            "promoted.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.58",
+                                "52.84.199.48",
+                                "52.84.199.56",
+                                "52.84.199.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.252.52",
+                            "108.156.252.62",
+                            "108.156.252.64",
+                            "108.156.252.56"
+                        ],
+                        "CNAME": {
+                            "promoted.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "108.156.252.64",
+                                "108.156.252.56",
+                                "108.156.252.62",
+                                "108.156.252.52"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211636.7579782,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "promoted.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211637.2039208,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.52",
+                        0,
+                        "32.373 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        1,
+                        "32.367 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        2,
+                        "32.321 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        3,
+                        "32.205 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        4,
+                        "32.311 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        5,
+                        "32.222 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        6,
+                        "32.426 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        7,
+                        "32.076 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        8,
+                        "32.215 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.52",
+                        9,
+                        "32.204 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.882 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.795 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.271 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.922 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "6.599 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.102 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.089 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.117",
+                        "150.222.5.117",
+                        "9.884 ms"
+                    ],
+                    [
+                        "108.156.252.52",
+                        "server-108-156-252-52.dus51.r.cloudfront.net",
+                        "0.311 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "promoted.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211637.859549,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "promoted.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "m.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "108.138.7.117",
+                            "108.138.7.30",
+                            "108.138.7.80",
+                            "108.138.7.115"
+                        ],
+                        "CNAME": {
+                            "m.soundcloud.com": "d3qp7l4grgxdvb.cloudfront.net",
+                            "d3qp7l4grgxdvb.cloudfront.net": [
+                                "54.192.231.56",
+                                "54.192.231.125",
+                                "54.192.231.18",
+                                "54.192.231.99"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-439.awsdns-54.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.125",
+                            "54.192.231.56",
+                            "54.192.231.18",
+                            "54.192.231.99"
+                        ],
+                        "CNAME": {
+                            "m.soundcloud.com": "d3qp7l4grgxdvb.cloudfront.net",
+                            "d3qp7l4grgxdvb.cloudfront.net": [
+                                "54.192.231.18",
+                                "54.192.231.99",
+                                "54.192.231.56",
+                                "54.192.231.125"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-439.awsdns-54.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.99",
+                            "54.192.231.125",
+                            "54.192.231.18",
+                            "54.192.231.56"
+                        ],
+                        "CNAME": {
+                            "m.soundcloud.com": "d3qp7l4grgxdvb.cloudfront.net",
+                            "d3qp7l4grgxdvb.cloudfront.net": [
+                                "54.192.231.125",
+                                "54.192.231.18",
+                                "54.192.231.56",
+                                "54.192.231.99"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-439.awsdns-54.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.37",
+                            "18.66.248.68",
+                            "18.66.248.11",
+                            "18.66.248.50"
+                        ],
+                        "CNAME": {
+                            "m.soundcloud.com": "d3qp7l4grgxdvb.cloudfront.net",
+                            "d3qp7l4grgxdvb.cloudfront.net": [
+                                "108.156.60.79",
+                                "108.156.60.83",
+                                "108.156.60.5",
+                                "108.156.60.67"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-439.awsdns-54.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211639.60301,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "m.soundcloud.com",
+                    "ip_address": "18.66.248.37",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211640.0483332,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.50",
+                        0,
+                        "31.811 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        1,
+                        "31.838 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        2,
+                        "32.014 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        3,
+                        "31.652 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        4,
+                        "31.536 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        5,
+                        "31.769 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        6,
+                        "31.831 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        7,
+                        "31.884 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        8,
+                        "31.54 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.50",
+                        9,
+                        "31.702 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.794 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.323 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.856 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.291 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.234.2",
+                        "ae17-12.rt.irx.fkt.de.retn.net",
+                        "9.442 ms"
+                    ],
+                    [
+                        "80.231.65.1",
+                        "ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net",
+                        "0.157 ms"
+                    ],
+                    [
+                        "80.231.65.21",
+                        "if-be-25-2.ecore1.fr0-frankfurt.as6453.net",
+                        "0.155 ms"
+                    ],
+                    [
+                        "195.219.50.79",
+                        "195.219.50.79",
+                        "0.158 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "m.soundcloud.com",
+                    "ip_address": "18.66.248.37",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211641.011384,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "m.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "on.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.48",
+                            "52.84.199.58",
+                            "52.84.199.57"
+                        ],
+                        "CNAME": {
+                            "on.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "18.66.134.48",
+                                "18.66.134.38",
+                                "18.66.134.64",
+                                "18.66.134.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.48",
+                            "52.84.199.57",
+                            "52.84.199.58"
+                        ],
+                        "CNAME": {
+                            "on.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.58",
+                                "52.84.199.56",
+                                "52.84.199.48",
+                                "52.84.199.57"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.84.199.56",
+                            "52.84.199.57",
+                            "52.84.199.58",
+                            "52.84.199.48"
+                        ],
+                        "CNAME": {
+                            "on.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "52.84.199.57",
+                                "52.84.199.58",
+                                "52.84.199.48",
+                                "52.84.199.56"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.252.52",
+                            "108.156.252.56",
+                            "108.156.252.62",
+                            "108.156.252.64"
+                        ],
+                        "CNAME": {
+                            "on.soundcloud.com": "d28n7yywqog3r7.cloudfront.net",
+                            "d28n7yywqog3r7.cloudfront.net": [
+                                "108.156.252.64",
+                                "108.156.252.56",
+                                "108.156.252.62",
+                                "108.156.252.52"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-579.awsdns-08.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211642.854987,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "on.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211643.314411,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.252.64",
+                        0,
+                        "33.046 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        1,
+                        "33.22 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        2,
+                        "33.247 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        3,
+                        "33.071 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        4,
+                        "33.559 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        5,
+                        "33.415 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        6,
+                        "34.346 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        7,
+                        "32.991 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        8,
+                        "33.191 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.252.64",
+                        9,
+                        "33.166 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.644 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.245 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.712 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "6.982 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "2.144 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.111 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.115 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "150.222.5.117",
+                        "150.222.5.117",
+                        "9.332 ms"
+                    ],
+                    [
+                        "108.156.252.52",
+                        "server-108-156-252-52.dus51.r.cloudfront.net",
+                        "0.233 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "on.soundcloud.com",
+                    "ip_address": "108.156.252.52",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211643.971005,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "on.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "visuals.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "54.192.231.18",
+                            "54.192.231.46",
+                            "54.192.231.64",
+                            "54.192.231.93"
+                        ],
+                        "CNAME": {
+                            "visuals.soundcloud.com": "d1qqvojgs08y1t.cloudfront.net",
+                            "d1qqvojgs08y1t.cloudfront.net": [
+                                "52.84.106.105",
+                                "52.84.106.27",
+                                "52.84.106.127",
+                                "52.84.106.31"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1596.awsdns-07.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.93",
+                            "54.192.231.18",
+                            "54.192.231.46",
+                            "54.192.231.64"
+                        ],
+                        "CNAME": {
+                            "visuals.soundcloud.com": "d1qqvojgs08y1t.cloudfront.net",
+                            "d1qqvojgs08y1t.cloudfront.net": [
+                                "54.192.231.18",
+                                "54.192.231.46",
+                                "54.192.231.64",
+                                "54.192.231.93"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1596.awsdns-07.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.64",
+                            "54.192.231.93",
+                            "54.192.231.18",
+                            "54.192.231.46"
+                        ],
+                        "CNAME": {
+                            "visuals.soundcloud.com": "d1qqvojgs08y1t.cloudfront.net",
+                            "d1qqvojgs08y1t.cloudfront.net": [
+                                "54.192.231.18",
+                                "54.192.231.46",
+                                "54.192.231.64",
+                                "54.192.231.93"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1596.awsdns-07.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.157.4.6",
+                            "108.157.4.97",
+                            "108.157.4.98",
+                            "108.157.4.104"
+                        ],
+                        "CNAME": {
+                            "visuals.soundcloud.com": "d1qqvojgs08y1t.cloudfront.net",
+                            "d1qqvojgs08y1t.cloudfront.net": [
+                                "18.65.39.116",
+                                "18.65.39.37",
+                                "18.65.39.95",
+                                "18.65.39.14"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1596.awsdns-07.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211645.693815,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "visuals.soundcloud.com",
+                    "ip_address": "108.157.4.6",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211646.150933,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.157.4.104",
+                        0,
+                        "33.23 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        1,
+                        "33.441 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        2,
+                        "33.214 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        3,
+                        "33.15 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        4,
+                        "33.1 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        5,
+                        "33.148 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        6,
+                        "33.043 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        7,
+                        "33.38 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        8,
+                        "33.233 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.104",
+                        9,
+                        "33.001 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.71 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.66 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.953 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.047 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "9.421 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.078 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "visuals.soundcloud.com",
+                    "ip_address": "108.157.4.6",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211647.054699,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "visuals.soundcloud.com",
+                "issued_to": "*.soundcloud.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "31209683977731880568857933220",
+                "cert_sha1": "FD:61:D3:BC:6A:26:8B:B5:55:18:9C:C4:5C:DE:9E:B2:5E:13:97:3C",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.soundcloud.com; DNS:soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-18",
+                "valid_till": "2023-02-19",
+                "validity_days": 397,
+                "days_left": 249,
+                "valid_days_to_expire": 249,
+                "tcp_port": 443
+            }
+        },
+        "blog.soundcloud.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "141.193.213.11",
+                            "141.193.213.10"
+                        ],
+                        "CNAME": {
+                            "blog.soundcloud.com": "wp.wpenginepowered.com",
+                            "wp.wpenginepowered.com": [
+                                "141.193.213.10",
+                                "141.193.213.11"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "141.193.213.10",
+                            "141.193.213.11"
+                        ],
+                        "CNAME": {
+                            "blog.soundcloud.com": "wp.wpenginepowered.com",
+                            "wp.wpenginepowered.com": [
+                                "141.193.213.10",
+                                "141.193.213.11"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "141.193.213.11",
+                            "141.193.213.10"
+                        ],
+                        "CNAME": {
+                            "blog.soundcloud.com": "wp.wpenginepowered.com",
+                            "wp.wpenginepowered.com": [
+                                "141.193.213.10",
+                                "141.193.213.11"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "141.193.213.11",
+                            "141.193.213.10"
+                        ],
+                        "CNAME": {
+                            "blog.soundcloud.com": "wp.wpenginepowered.com",
+                            "wp.wpenginepowered.com": [
+                                "141.193.213.11",
+                                "141.193.213.10"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211648.3688252,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "blog.soundcloud.com",
+                    "ip_address": "141.193.213.11",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211648.507023,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "141.193.213.11",
+                        0,
+                        "1.698 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        1,
+                        "1.687 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        2,
+                        "1.535 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        3,
+                        "1.604 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        4,
+                        "1.598 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        5,
+                        "1.471 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        6,
+                        "1.634 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        7,
+                        "1.587 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        8,
+                        "1.499 ms"
+                    ],
+                    [
+                        64,
+                        "141.193.213.11",
+                        9,
+                        "1.569 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.691 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.35 ms"
+                    ],
+                    [
+                        "194.33.189.77",
+                        "194.33.189.77",
+                        "2.314 ms"
+                    ],
+                    [
+                        "185.1.50.68",
+                        "cloudflare-gw.ix.net.ua",
+                        "2.489 ms"
+                    ],
+                    [
+                        "141.193.213.11",
+                        "141.193.213.11",
+                        "1.67 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "blog.soundcloud.com",
+                    "ip_address": "141.193.213.11",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211648.772375,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": false
+                }
+            },
+            "ssl_cert_info": {
+                "host": "blog.soundcloud.com",
+                "issued_to": "blog.soundcloud.com",
+                "issued_o": "Cloudflare, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "Cloudflare, Inc.",
+                "issuer_ou": null,
+                "issuer_cn": "Cloudflare Inc ECC CA-3",
+                "cert_sn": "20737937921078281242641645120844630447",
+                "cert_sha1": "2D:A8:E6:93:84:66:88:70:2F:A1:0A:0F:5D:BA:2A:15:32:0A:47:03",
+                "cert_alg": "ecdsa-with-SHA256",
+                "cert_ver": 2,
+                "cert_sans": "DNS:blog.soundcloud.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-02-21",
+                "valid_till": "2023-02-20",
+                "validity_days": 364,
+                "days_left": 251,
+                "valid_days_to_expire": 250,
+                "tcp_port": 443
+            }
+        },
+        "ec-media.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "93.184.221.77"
+                        ],
+                        "CNAME": {
+                            "ec-media.sndcdn.com": "cs55.wpc.edgecastcdn.net",
+                            "cs55.wpc.edgecastcdn.net": [
+                                "93.184.221.77"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "93.184.221.77"
+                        ],
+                        "CNAME": {
+                            "ec-media.sndcdn.com": "cs55.wpc.edgecastcdn.net",
+                            "cs55.wpc.edgecastcdn.net": [
+                                "93.184.221.77"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "93.184.221.77"
+                        ],
+                        "CNAME": {
+                            "ec-media.sndcdn.com": "cs55.wpc.edgecastcdn.net",
+                            "cs55.wpc.edgecastcdn.net": [
+                                "93.184.221.77"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "93.184.221.77"
+                        ],
+                        "CNAME": {
+                            "ec-media.sndcdn.com": "cs55.wpc.edgecastcdn.net",
+                            "cs55.wpc.edgecastcdn.net": [
+                                "93.184.221.77"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211650.918123,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ec-media.sndcdn.com",
+                    "ip_address": "93.184.221.77",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211651.1792,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "93.184.221.77",
+                        0,
+                        "13.873 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        1,
+                        "13.756 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        2,
+                        "13.719 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        3,
+                        "13.574 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        4,
+                        "13.829 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        5,
+                        "13.727 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        6,
+                        "13.812 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        7,
+                        "13.854 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        8,
+                        "13.913 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.221.77",
+                        9,
+                        "13.929 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.764 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.572 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.917 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.972 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "ec-media.sndcdn.com",
+                    "ip_address": "93.184.221.77",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211652.0585291,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "ec-media.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "13559430839336320445357363683",
+                "cert_sha1": "F8:96:B0:60:E0:39:F8:B2:D9:72:5A:0B:1C:02:12:03:DC:E5:B9:A3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": true,
+                "cert_valid": false,
+                "valid_from": "2021-01-13",
+                "valid_till": "2022-02-14",
+                "validity_days": 397,
+                "days_left": -121,
+                "valid_days_to_expire": -121,
+                "tcp_port": 443
+            }
+        },
+        "a1.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "54.192.231.17",
+                            "54.192.231.21",
+                            "54.192.231.89",
+                            "54.192.231.61"
+                        ],
+                        "CNAME": {
+                            "a1.sndcdn.com": "d34b5hm598t9cl.cloudfront.net",
+                            "d34b5hm598t9cl.cloudfront.net": [
+                                "18.66.15.45",
+                                "18.66.15.84",
+                                "18.66.15.35",
+                                "18.66.15.116"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1720.awsdns-23.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.89",
+                            "54.192.231.21",
+                            "54.192.231.61",
+                            "54.192.231.17"
+                        ],
+                        "CNAME": {
+                            "a1.sndcdn.com": "d34b5hm598t9cl.cloudfront.net",
+                            "d34b5hm598t9cl.cloudfront.net": [
+                                "54.192.231.21",
+                                "54.192.231.89",
+                                "54.192.231.61",
+                                "54.192.231.17"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1720.awsdns-23.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.17",
+                            "54.192.231.21",
+                            "54.192.231.61",
+                            "54.192.231.89"
+                        ],
+                        "CNAME": {
+                            "a1.sndcdn.com": "d34b5hm598t9cl.cloudfront.net",
+                            "d34b5hm598t9cl.cloudfront.net": [
+                                "54.192.231.61",
+                                "54.192.231.89",
+                                "54.192.231.17",
+                                "54.192.231.21"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1720.awsdns-23.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.65.39.98",
+                            "18.65.39.113",
+                            "18.65.39.125",
+                            "18.65.39.64"
+                        ],
+                        "CNAME": {
+                            "a1.sndcdn.com": "d34b5hm598t9cl.cloudfront.net",
+                            "d34b5hm598t9cl.cloudfront.net": [
+                                "18.66.248.107",
+                                "18.66.248.69",
+                                "18.66.248.95",
+                                "18.66.248.21"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1720.awsdns-23.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211653.638436,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "a1.sndcdn.com",
+                    "ip_address": "18.65.39.98",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211654.108326,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.65.39.64",
+                        0,
+                        "34.828 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        1,
+                        "34.836 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        2,
+                        "35.062 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        3,
+                        "34.484 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        4,
+                        "34.638 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        5,
+                        "34.512 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        6,
+                        "34.604 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        7,
+                        "34.577 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        8,
+                        "34.707 ms"
+                    ],
+                    [
+                        64,
+                        "18.65.39.64",
+                        9,
+                        "34.876 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.713 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.66 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.793 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.559 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "a1.sndcdn.com",
+                    "ip_address": "18.65.39.98",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211654.935084,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "a1.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "14125601025226187166721365085",
+                "cert_sha1": "6F:74:7A:B4:E7:BC:5D:9D:AB:BD:4F:EC:6C:43:38:4F:72:9B:7F:92",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-17",
+                "valid_till": "2023-02-18",
+                "validity_days": 397,
+                "days_left": 248,
+                "valid_days_to_expire": 248,
+                "tcp_port": 443
+            }
+        },
+        "a-v2.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "54.192.231.41",
+                            "54.192.231.17",
+                            "54.192.231.46",
+                            "54.192.231.50"
+                        ],
+                        "CNAME": {
+                            "a-v2.sndcdn.com": "d15wdfb2rw9n2y.cloudfront.net",
+                            "d15wdfb2rw9n2y.cloudfront.net": [
+                                "18.66.112.63",
+                                "18.66.112.84",
+                                "18.66.112.119",
+                                "18.66.112.85"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1230.awsdns-25.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.50",
+                            "54.192.231.46",
+                            "54.192.231.17",
+                            "54.192.231.41"
+                        ],
+                        "CNAME": {
+                            "a-v2.sndcdn.com": "d15wdfb2rw9n2y.cloudfront.net",
+                            "d15wdfb2rw9n2y.cloudfront.net": [
+                                "54.192.231.41",
+                                "54.192.231.50",
+                                "54.192.231.17",
+                                "54.192.231.46"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1230.awsdns-25.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.50",
+                            "54.192.231.17",
+                            "54.192.231.41",
+                            "54.192.231.46"
+                        ],
+                        "CNAME": {
+                            "a-v2.sndcdn.com": "d15wdfb2rw9n2y.cloudfront.net",
+                            "d15wdfb2rw9n2y.cloudfront.net": [
+                                "54.192.231.17",
+                                "54.192.231.41",
+                                "54.192.231.46",
+                                "54.192.231.50"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1230.awsdns-25.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.63",
+                            "18.66.248.58",
+                            "18.66.248.104",
+                            "18.66.248.116"
+                        ],
+                        "CNAME": {
+                            "a-v2.sndcdn.com": "d15wdfb2rw9n2y.cloudfront.net",
+                            "d15wdfb2rw9n2y.cloudfront.net": [
+                                "108.156.60.76",
+                                "108.156.60.52",
+                                "108.156.60.79",
+                                "108.156.60.73"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1230.awsdns-25.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211656.474148,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "a-v2.sndcdn.com",
+                    "ip_address": "18.66.248.63",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211656.928062,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.116",
+                        0,
+                        "33.132 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        1,
+                        "32.854 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        2,
+                        "32.918 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        3,
+                        "32.927 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        4,
+                        "33.175 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        5,
+                        "33.086 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        6,
+                        "33.018 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        7,
+                        "32.753 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        8,
+                        "32.742 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.116",
+                        9,
+                        "33.035 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.74 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.594 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.606 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.964 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "9.195 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.064 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "a-v2.sndcdn.com",
+                    "ip_address": "18.66.248.63",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211657.822578,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "a-v2.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "14125601025226187166721365085",
+                "cert_sha1": "6F:74:7A:B4:E7:BC:5D:9D:AB:BD:4F:EC:6C:43:38:4F:72:9B:7F:92",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-17",
+                "valid_till": "2023-02-18",
+                "validity_days": 397,
+                "days_left": 248,
+                "valid_days_to_expire": 248,
+                "tcp_port": 443
+            }
+        },
+        "ec-preview-media.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "93.184.220.96"
+                        ],
+                        "CNAME": {
+                            "ec-preview-media.sndcdn.com": "cs70.wac.edgecastcdn.net",
+                            "cs70.wac.edgecastcdn.net": [
+                                "93.184.220.96"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "93.184.220.96"
+                        ],
+                        "CNAME": {
+                            "ec-preview-media.sndcdn.com": "cs70.wac.edgecastcdn.net",
+                            "cs70.wac.edgecastcdn.net": [
+                                "93.184.220.96"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "93.184.220.96"
+                        ],
+                        "CNAME": {
+                            "ec-preview-media.sndcdn.com": "cs70.wac.edgecastcdn.net",
+                            "cs70.wac.edgecastcdn.net": [
+                                "93.184.220.96"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "93.184.220.96"
+                        ],
+                        "CNAME": {
+                            "ec-preview-media.sndcdn.com": "cs70.wac.edgecastcdn.net",
+                            "cs70.wac.edgecastcdn.net": [
+                                "93.184.220.96"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211659.454577,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ec-preview-media.sndcdn.com",
+                    "ip_address": "93.184.220.96",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211659.717782,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "93.184.220.96",
+                        0,
+                        "14.31 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        1,
+                        "13.888 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        2,
+                        "13.685 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        3,
+                        "13.696 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        4,
+                        "13.695 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        5,
+                        "14.032 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        6,
+                        "13.91 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        7,
+                        "13.931 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        8,
+                        "13.939 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.96",
+                        9,
+                        "13.81 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.684 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.623 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.672 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "6.329 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "ec-preview-media.sndcdn.com",
+                    "ip_address": "93.184.220.96",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211660.608542,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "ec-preview-media.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "13559430839336320445357363683",
+                "cert_sha1": "F8:96:B0:60:E0:39:F8:B2:D9:72:5A:0B:1C:02:12:03:DC:E5:B9:A3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": true,
+                "cert_valid": false,
+                "valid_from": "2021-01-13",
+                "valid_till": "2022-02-14",
+                "validity_days": 397,
+                "days_left": -121,
+                "valid_days_to_expire": -121,
+                "tcp_port": 443
+            }
+        },
+        "style.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.139.100",
+                            "18.66.139.66",
+                            "18.66.139.120",
+                            "18.66.139.105"
+                        ],
+                        "CNAME": {
+                            "style.sndcdn.com": "d1epqfzld01eon.cloudfront.net",
+                            "d1epqfzld01eon.cloudfront.net": [
+                                "18.66.139.66",
+                                "18.66.139.105",
+                                "18.66.139.100",
+                                "18.66.139.120"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1988.awsdns-56.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.58",
+                            "54.192.231.42",
+                            "54.192.231.80",
+                            "54.192.231.77"
+                        ],
+                        "CNAME": {
+                            "style.sndcdn.com": "d1epqfzld01eon.cloudfront.net",
+                            "d1epqfzld01eon.cloudfront.net": [
+                                "54.192.231.77",
+                                "54.192.231.58",
+                                "54.192.231.80",
+                                "54.192.231.42"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1988.awsdns-56.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.80",
+                            "54.192.231.42",
+                            "54.192.231.58",
+                            "54.192.231.77"
+                        ],
+                        "CNAME": {
+                            "style.sndcdn.com": "d1epqfzld01eon.cloudfront.net",
+                            "d1epqfzld01eon.cloudfront.net": [
+                                "54.192.231.58",
+                                "54.192.231.77",
+                                "54.192.231.80",
+                                "54.192.231.42"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1988.awsdns-56.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.60.99",
+                            "108.156.60.55",
+                            "108.156.60.28",
+                            "108.156.60.37"
+                        ],
+                        "CNAME": {
+                            "style.sndcdn.com": "d1epqfzld01eon.cloudfront.net",
+                            "d1epqfzld01eon.cloudfront.net": [
+                                "18.66.248.58",
+                                "18.66.248.79",
+                                "18.66.248.92",
+                                "18.66.248.93"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-1988.awsdns-56.co.uk. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211662.0874538,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "style.sndcdn.com",
+                    "ip_address": "108.156.60.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211662.5607948,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.60.37",
+                        0,
+                        "34.791 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        1,
+                        "34.892 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        2,
+                        "34.666 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        3,
+                        "34.948 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        4,
+                        "34.796 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        5,
+                        "34.913 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        6,
+                        "34.683 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        7,
+                        "34.775 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        8,
+                        "34.668 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.37",
+                        9,
+                        "34.846 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.751 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.316 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.852 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.817 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.0.54",
+                        "52.93.0.54",
+                        "1.057 ms"
+                    ],
+                    [
+                        "52.93.0.59",
+                        "52.93.0.59",
+                        "0.087 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "style.sndcdn.com",
+                    "ip_address": "108.156.60.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211663.579702,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "style.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "14125601025226187166721365085",
+                "cert_sha1": "6F:74:7A:B4:E7:BC:5D:9D:AB:BD:4F:EC:6C:43:38:4F:72:9B:7F:92",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-17",
+                "valid_till": "2023-02-18",
+                "validity_days": 397,
+                "days_left": 248,
+                "valid_days_to_expire": 248,
+                "tcp_port": 443
+            }
+        },
+        "va.sndcdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "13.32.99.35",
+                            "13.32.99.111",
+                            "13.32.99.72",
+                            "13.32.99.68"
+                        ],
+                        "CNAME": {
+                            "va.sndcdn.com": "d1qj8m9gs69rhf.cloudfront.net",
+                            "d1qj8m9gs69rhf.cloudfront.net": [
+                                "13.32.99.111",
+                                "13.32.99.35",
+                                "13.32.99.68",
+                                "13.32.99.72"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-45.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.78",
+                            "54.192.231.117",
+                            "54.192.231.57",
+                            "54.192.231.80"
+                        ],
+                        "CNAME": {
+                            "va.sndcdn.com": "d1qj8m9gs69rhf.cloudfront.net",
+                            "d1qj8m9gs69rhf.cloudfront.net": [
+                                "54.192.231.80",
+                                "54.192.231.117",
+                                "54.192.231.57",
+                                "54.192.231.78"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-45.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.78",
+                            "54.192.231.80",
+                            "54.192.231.117",
+                            "54.192.231.57"
+                        ],
+                        "CNAME": {
+                            "va.sndcdn.com": "d1qj8m9gs69rhf.cloudfront.net",
+                            "d1qj8m9gs69rhf.cloudfront.net": [
+                                "54.192.231.57",
+                                "54.192.231.78",
+                                "54.192.231.80",
+                                "54.192.231.117"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-45.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.66.248.92",
+                            "18.66.248.50",
+                            "18.66.248.43",
+                            "18.66.248.129"
+                        ],
+                        "CNAME": {
+                            "va.sndcdn.com": "d1qj8m9gs69rhf.cloudfront.net",
+                            "d1qj8m9gs69rhf.cloudfront.net": [
+                                "18.66.248.50",
+                                "18.66.248.43",
+                                "18.66.248.129",
+                                "18.66.248.92"
+                            ]
+                        },
+                        "SOA": [
+                            "ns-45.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211665.190817,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "va.sndcdn.com",
+                    "ip_address": "18.66.248.92",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211665.6431391,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.129",
+                        0,
+                        "32.762 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        1,
+                        "32.671 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        2,
+                        "32.664 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        3,
+                        "32.44 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        4,
+                        "32.294 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        5,
+                        "32.643 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        6,
+                        "32.66 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        7,
+                        "32.271 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        8,
+                        "32.532 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.129",
+                        9,
+                        "32.48 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.833 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.617 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.768 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.479 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.676 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.166 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.048 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "va.sndcdn.com",
+                    "ip_address": "18.66.248.92",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211666.5715342,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "va.sndcdn.com",
+                "issued_to": "*.sndcdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign GCC R3 DV TLS CA 2020",
+                "cert_sn": "14125601025226187166721365085",
+                "cert_sha1": "6F:74:7A:B4:E7:BC:5D:9D:AB:BD:4F:EC:6C:43:38:4F:72:9B:7F:92",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.sndcdn.com; DNS:sndcdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-01-17",
+                "valid_till": "2023-02-18",
+                "validity_days": 397,
+                "days_left": 248,
+                "valid_days_to_expire": 248,
+                "tcp_port": 443
+            }
+        }
+    }
+}

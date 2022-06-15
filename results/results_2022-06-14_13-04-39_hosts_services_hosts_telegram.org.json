@@ -1,0 +1,3667 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655211879.2806468,
+        "Execution time Duration": "74.168"
+    },
+    "advanced_test": {
+        "telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "MX": [
+                            "mail.telegram.supply",
+                            "mx1.telegram.org",
+                            "mx10.telegram.org"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.telegram.org. 2017053109 28800 7200 604800 600"
+                        ],
+                        "TXT": [
+                            "\"v=spf1  ip4:95.161.64.0/28 ip4:149.154.160.0/20 -all\"",
+                            "\"google-site-verification=hAtj8VzR8lGDcv80yGd0ST-pMHU8WNU0lkswaau3v2w\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a"
+                        ],
+                        "MX": [
+                            "mail.telegram.supply",
+                            "mx10.telegram.org",
+                            "mx1.telegram.org"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.telegram.org. 2017053109 28800 7200 604800 600"
+                        ],
+                        "TXT": [
+                            "\"google-site-verification=hAtj8VzR8lGDcv80yGd0ST-pMHU8WNU0lkswaau3v2w\"",
+                            "\"v=spf1  ip4:95.161.64.0/28 ip4:149.154.160.0/20 -all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a"
+                        ],
+                        "MX": [
+                            "mx1.telegram.org",
+                            "mx10.telegram.org",
+                            "mail.telegram.supply"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.telegram.org. 2017053109 28800 7200 604800 600"
+                        ],
+                        "TXT": [
+                            "\"v=spf1  ip4:95.161.64.0/28 ip4:149.154.160.0/20 -all\"",
+                            "\"google-site-verification=hAtj8VzR8lGDcv80yGd0ST-pMHU8WNU0lkswaau3v2w\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a"
+                        ],
+                        "MX": [
+                            "mail.telegram.supply",
+                            "mx1.telegram.org",
+                            "mx10.telegram.org"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.telegram.org. 2017053109 28800 7200 604800 600"
+                        ],
+                        "TXT": [
+                            "\"v=spf1  ip4:95.161.64.0/28 ip4:149.154.160.0/20 -all\"",
+                            "\"google-site-verification=hAtj8VzR8lGDcv80yGd0ST-pMHU8WNU0lkswaau3v2w\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211880.4406981,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211882.4686332,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.311 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.579 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.877 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211883.2638772,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "telegram.org",
+                "issued_to": "*.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13744274805437970795",
+                "cert_sha1": "3D:A8:CF:39:D2:A5:5A:45:CB:0F:34:76:BA:22:FA:4A:41:F1:21:56",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.telegram.org; DNS:telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-10",
+                "valid_till": "2022-10-09",
+                "validity_days": 394,
+                "days_left": 116,
+                "valid_days_to_expire": 116,
+                "tcp_port": 443
+            }
+        },
+        "desktop.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211884.639617,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "desktop.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211886.6661289,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.251 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.43 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.021 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "desktop.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211887.45033,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "desktop.telegram.org",
+                "issued_to": "*.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13744274805437970795",
+                "cert_sha1": "3D:A8:CF:39:D2:A5:5A:45:CB:0F:34:76:BA:22:FA:4A:41:F1:21:56",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.telegram.org; DNS:telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-10",
+                "valid_till": "2022-10-09",
+                "validity_days": 394,
+                "days_left": 116,
+                "valid_days_to_expire": 116,
+                "tcp_port": 443
+            }
+        },
+        "core.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211888.852504,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "core.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211890.8792262,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.156 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.661 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.068 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "core.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211891.669961,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "core.telegram.org",
+                "issued_to": "*.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13744274805437970795",
+                "cert_sha1": "3D:A8:CF:39:D2:A5:5A:45:CB:0F:34:76:BA:22:FA:4A:41:F1:21:56",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.telegram.org; DNS:telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-10",
+                "valid_till": "2022-10-09",
+                "validity_days": 394,
+                "days_left": 116,
+                "valid_days_to_expire": 116,
+                "tcp_port": 443
+            }
+        },
+        "oauth.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "TXT": [
+                            "\"v=spf1   ip4:95.161.64.0/28  ip4:149.154.167.0/26 ip4:149.154.160.0/20 mx include:aspmx.googlemail.com -all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211893.188431,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "oauth.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211895.216395,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.254 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.77 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.943 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "oauth.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211895.9969049,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "oauth.telegram.org",
+                "issued_to": "*.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13744274805437970795",
+                "cert_sha1": "3D:A8:CF:39:D2:A5:5A:45:CB:0F:34:76:BA:22:FA:4A:41:F1:21:56",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.telegram.org; DNS:telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-10",
+                "valid_till": "2022-10-09",
+                "validity_days": 394,
+                "days_left": 116,
+                "valid_days_to_expire": 116,
+                "tcp_port": 443
+            }
+        },
+        "api.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.220"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.220"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.220"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.220"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211897.2131488,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api.telegram.org",
+                    "ip_address": "149.154.167.220",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211897.675061,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.167.220",
+                        0,
+                        "34.137 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        1,
+                        "34.045 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        2,
+                        "34.313 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        3,
+                        "33.82 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        4,
+                        "33.58 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        5,
+                        "33.968 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        6,
+                        "33.588 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        7,
+                        "33.905 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        8,
+                        "33.784 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.220",
+                        9,
+                        "33.844 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.725 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.211 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.545 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "149.154.167.220",
+                        "149.154.167.220",
+                        "3.731 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api.telegram.org",
+                    "ip_address": "149.154.167.220",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211898.3497422,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api.telegram.org",
+                "issued_to": "api.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13827053123652224773",
+                "cert_sha1": "07:36:89:3D:0F:CC:8C:F7:D0:19:B7:83:39:C4:D5:15:70:9A:C6:5D",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:api.telegram.org; DNS:www.api.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-24",
+                "valid_till": "2023-04-25",
+                "validity_days": 397,
+                "days_left": 314,
+                "valid_days_to_expire": 314,
+                "tcp_port": 443
+            }
+        },
+        "pluto.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211899.957612,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "pluto.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211901.441424,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.175.209",
+                        0,
+                        "136.746 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        1,
+                        "136.54 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        2,
+                        "136.318 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        3,
+                        "136.644 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        4,
+                        "136.381 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        5,
+                        "136.613 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        6,
+                        "136.666 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        7,
+                        "136.367 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        8,
+                        "136.139 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        9,
+                        "136.56 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.711 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.555 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.477 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.264 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.333 ms"
+                    ],
+                    [
+                        "87.245.236.133",
+                        "gw-vodafone.retn.net",
+                        "0.114 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "195.2.28.105",
+                        "ae23-xcr1.ash.cw.net",
+                        "0.2 ms"
+                    ],
+                    [
+                        "195.2.21.158",
+                        "ae1-ucr2.mia.cw.net",
+                        "0.095 ms"
+                    ],
+                    [
+                        "149.154.175.209",
+                        "149.154.175.209",
+                        "0.189 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "pluto.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211903.570787,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "pluto.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "pluto-1.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211905.232449,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "pluto-1.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211906.725423,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.175.209",
+                        0,
+                        "136.672 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        1,
+                        "136.432 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        2,
+                        "136.523 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        3,
+                        "136.123 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        4,
+                        "136.692 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        5,
+                        "136.718 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        6,
+                        "136.538 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        7,
+                        "137.881 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        8,
+                        "136.922 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        9,
+                        "136.423 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.602 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "4.989 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.047 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.368 ms"
+                    ],
+                    [
+                        "87.245.236.133",
+                        "gw-vodafone.retn.net",
+                        "0.141 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "195.2.28.105",
+                        "ae23-xcr1.ash.cw.net",
+                        "1.716 ms"
+                    ],
+                    [
+                        "195.2.21.158",
+                        "ae1-ucr2.mia.cw.net",
+                        "0.165 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "149.154.175.209",
+                        "149.154.175.209",
+                        "0.554 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "pluto-1.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211907.431848,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "pluto-1.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "venus.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211909.027796,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "venus.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211911.1825678,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.019 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.708 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.903 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "venus.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211911.9633641,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "venus.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "venus-1.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:6:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211913.3325381,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "venus-1.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211915.462132,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.859 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.444 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.842 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "venus-1.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211916.242508,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "venus-1.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "aurora.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211917.8479319,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "aurora.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211919.3357592,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.175.209",
+                        0,
+                        "136.766 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        1,
+                        "137.009 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        2,
+                        "136.337 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        3,
+                        "136.71 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        4,
+                        "136.466 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        5,
+                        "136.396 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        6,
+                        "136.359 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        7,
+                        "136.044 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        8,
+                        "136.167 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        9,
+                        "136.372 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.66 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.883 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.807 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.83 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.244",
+                        "ae1-5.rt.irx.fkt.de.retn.net",
+                        "8.896 ms"
+                    ],
+                    [
+                        "87.245.236.133",
+                        "gw-vodafone.retn.net",
+                        "0.117 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "aurora.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211920.274722,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "aurora.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "aurora-1.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:532",
+                            "2001:b28:f23d:8007::805:531"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.175.209"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23d:8007::805:531",
+                            "2001:b28:f23d:8007::805:532"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211921.973908,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "aurora-1.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211923.465416,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.175.209",
+                        0,
+                        "136.947 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        1,
+                        "136.808 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        2,
+                        "136.654 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        3,
+                        "136.594 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        4,
+                        "136.174 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        5,
+                        "136.341 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        6,
+                        "136.316 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        7,
+                        "136.52 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        8,
+                        "136.437 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.175.209",
+                        9,
+                        "136.761 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.972 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.757 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.761 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.586 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "87.245.236.133",
+                        "gw-vodafone.retn.net",
+                        "8.265 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.236.133",
+                        "gw-vodafone.retn.net",
+                        "6.411 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "149.154.175.209",
+                        "149.154.175.209",
+                        "1.394 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "aurora-1.web.telegram.org",
+                    "ip_address": "149.154.175.209",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211924.1374211,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "aurora-1.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "vesta.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211925.705267,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "vesta.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211927.9665,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.158 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.615 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.075 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "vesta.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211928.746381,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "vesta.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "vesta-1.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:1:100:0:a",
+                            "2001:67c:4e8:1033:2:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211930.142414,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "vesta-1.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211932.171836,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.294 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.9 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.468 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "vesta-1.web.telegram.org",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211932.970877,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "vesta-1.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "flora.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.170.96"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:437",
+                            "2001:b28:f23f:9::852:438"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.170.96"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:438",
+                            "2001:b28:f23f:9::852:437"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.170.96"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:437",
+                            "2001:b28:f23f:9::852:438"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.170.96"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:437",
+                            "2001:b28:f23f:9::852:438"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211934.5043619,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "flora.web.telegram.org",
+                    "ip_address": "149.154.170.96",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211936.3926148,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.170.96",
+                        0,
+                        "176.256 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        1,
+                        "176.271 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        2,
+                        "176.209 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        3,
+                        "176.673 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        4,
+                        "176.004 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        5,
+                        "176.752 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        6,
+                        "176.371 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        7,
+                        "176.164 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        8,
+                        "176.511 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.170.96",
+                        9,
+                        "175.921 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.614 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.133 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.722 ms"
+                    ],
+                    null,
+                    [
+                        "178.18.230.103",
+                        "as47872.dataix.ua",
+                        "5.766 ms"
+                    ],
+                    [
+                        "103.14.246.128",
+                        "pisg-sggs1-246-128.sggs.sg",
+                        "0.099 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "flora.web.telegram.org",
+                    "ip_address": "149.154.170.96",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211937.501367,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "flora.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "flora-1.web.telegram.org": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.171.237",
+                            "149.154.170.96",
+                            "149.154.171.236"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:437",
+                            "2001:b28:f23f:9::852:438"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.171.236",
+                            "149.154.171.237",
+                            "149.154.170.96"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:438",
+                            "2001:b28:f23f:9::852:437"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.170.96",
+                            "149.154.171.236",
+                            "149.154.171.237"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:437",
+                            "2001:b28:f23f:9::852:438"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.171.237",
+                            "149.154.170.96",
+                            "149.154.171.236"
+                        ],
+                        "AAAA": [
+                            "2001:b28:f23f:9::852:438",
+                            "2001:b28:f23f:9::852:437"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211939.5499551,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "flora-1.web.telegram.org",
+                    "ip_address": "149.154.171.237",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211941.491412,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.171.237",
+                        0,
+                        "181.933 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        1,
+                        "181.216 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        2,
+                        "181.323 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        3,
+                        "181.102 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        4,
+                        "181.051 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        5,
+                        "180.996 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        6,
+                        "181.442 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        7,
+                        "181.777 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        8,
+                        "181.665 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.171.237",
+                        9,
+                        "181.715 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.847 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.62 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.68 ms"
+                    ],
+                    null,
+                    [
+                        "178.18.230.103",
+                        "as47872.dataix.ua",
+                        "7.639 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "103.14.246.128",
+                        "pisg-sggs1-246-128.sggs.sg",
+                        "4.587 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "149.154.171.237",
+                        "149.154.171.237",
+                        "7.83 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "flora-1.web.telegram.org",
+                    "ip_address": "149.154.171.237",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211942.23755,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "flora-1.web.telegram.org",
+                "issued_to": "*.web.telegram.org",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "11009669628313478871",
+                "cert_sha1": "4B:29:29:14:10:57:27:54:9D:AB:D6:8A:F4:6F:B4:3A:FD:95:CC:EF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.web.telegram.org; DNS:web.telegram.org",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-28",
+                "valid_till": "2022-10-27",
+                "validity_days": 789,
+                "days_left": 134,
+                "valid_days_to_expire": 134,
+                "tcp_port": 443
+            }
+        },
+        "telegram.me": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-d1.googledomains.com. dns.jomax.net.telegram.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-d1.googledomains.com. dns.jomax.net.telegram.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-d1.googledomains.com. dns.jomax.net.telegram.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-d1.googledomains.com. dns.jomax.net.telegram.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211943.754712,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "telegram.me",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211945.780523,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.922 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.163 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.21 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "telegram.me",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211946.563859,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "telegram.me",
+                "issued_to": "*.telegram.me",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "14812354804830849134",
+                "cert_sha1": "60:FB:17:71:A4:49:0F:F2:3E:43:BB:8A:1A:A1:85:29:E7:D9:84:D5",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.telegram.me; DNS:telegram.me",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-09-21",
+                "valid_till": "2022-10-23",
+                "validity_days": 397,
+                "days_left": 130,
+                "valid_days_to_expire": 130,
+                "tcp_port": 443
+            }
+        },
+        "t.me": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.t.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:4:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:5:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.t.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.t.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.99"
+                        ],
+                        "AAAA": [
+                            "2001:67c:4e8:1033:5:100:0:a",
+                            "2001:67c:4e8:1033:3:100:0:a",
+                            "2001:67c:4e8:1033:4:100:0:a"
+                        ],
+                        "SOA": [
+                            "ns-cloud-b1.googledomains.com. dns.jomax.net.t.me. 2017053100 28800 7200 604800 600"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211947.821839,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "t.me",
+                    "ip_address": "149.154.167.99",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211949.863137,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.828 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.471 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.729 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "t.me",
+                    "ip_address": "149.154.167.99",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211950.64384,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "t.me",
+                "issued_to": "*.t.me",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "13136906521913062558",
+                "cert_sha1": "72:7E:F6:34:F4:13:F9:2F:15:75:82:19:F3:D6:E0:89:C7:64:95:CE",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.t.me; DNS:t.me",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-10-06",
+                "valid_till": "2022-11-07",
+                "validity_days": 397,
+                "days_left": 146,
+                "valid_days_to_expire": 145,
+                "tcp_port": 443
+            }
+        },
+        "updates.tdesktop.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "149.154.167.80"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "149.154.167.80"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "149.154.167.80"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "149.154.167.80"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211951.947009,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "updates.tdesktop.com",
+                    "ip_address": "149.154.167.80",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211952.7892349,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "149.154.167.80",
+                        0,
+                        "72.313 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        1,
+                        "72.075 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        2,
+                        "72.381 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        3,
+                        "72.151 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        4,
+                        "71.925 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        5,
+                        "72.479 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        6,
+                        "71.406 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        7,
+                        "71.992 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        8,
+                        "71.82 ms"
+                    ],
+                    [
+                        64,
+                        "149.154.167.80",
+                        9,
+                        "71.82 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.675 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.38 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.764 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "149.154.167.80",
+                        "149.154.167.80",
+                        "3.903 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "updates.tdesktop.com",
+                    "ip_address": "149.154.167.80",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211953.346825,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "updates.tdesktop.com",
+                "issued_to": "updates.tdesktop.com",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "GoDaddy.com, Inc.",
+                "issuer_ou": "http://certs.godaddy.com/repository/",
+                "issuer_cn": "Go Daddy Secure Certificate Authority - G2",
+                "cert_sn": "119027872965381253",
+                "cert_sha1": "B8:0D:92:CD:BC:0A:9A:C8:DA:27:EB:7A:6A:36:F5:25:05:F5:75:6E",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:updates.tdesktop.com; DNS:www.updates.tdesktop.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2020-08-17",
+                "valid_till": "2022-10-16",
+                "validity_days": 789,
+                "days_left": 123,
+                "valid_days_to_expire": 123,
+                "tcp_port": 443
+            }
+        }
+    }
+}

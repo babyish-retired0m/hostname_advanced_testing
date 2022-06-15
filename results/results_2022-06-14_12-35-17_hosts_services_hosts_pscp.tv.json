@@ -1,0 +1,4219 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210117.916822,
+        "Execution time Duration": "65.394"
+    },
+    "advanced_test": {
+        "pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.249.165.84",
+                            "52.214.121.74",
+                            "52.210.72.227"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-615.awsdns-12.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"google-site-verification=uFZ1PSZqPHm85BT1T-KBwmzat8EjBGWEhXjUsz1GMpo\"",
+                            "\"v=spf1 a mx include:spf.mtasv.net ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.249.165.84",
+                            "52.214.121.74",
+                            "52.210.72.227"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-615.awsdns-12.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"google-site-verification=uFZ1PSZqPHm85BT1T-KBwmzat8EjBGWEhXjUsz1GMpo\"",
+                            "\"v=spf1 a mx include:spf.mtasv.net ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.210.72.227",
+                            "52.214.121.74",
+                            "34.249.165.84"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-615.awsdns-12.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a mx include:spf.mtasv.net ~all\"",
+                            "\"google-site-verification=uFZ1PSZqPHm85BT1T-KBwmzat8EjBGWEhXjUsz1GMpo\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.249.165.84",
+                            "52.214.121.74",
+                            "52.210.72.227"
+                        ],
+                        "MX": [
+                            "alt1.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx.l.google.com",
+                            "aspmx3.googlemail.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-615.awsdns-12.net. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a mx include:spf.mtasv.net ~all\"",
+                            "\"google-site-verification=uFZ1PSZqPHm85BT1T-KBwmzat8EjBGWEhXjUsz1GMpo\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210119.104799,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "pscp.tv",
+                    "ip_address": "52.214.121.74",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210121.16545,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.134 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.245 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.777 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "3.075 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "pscp.tv",
+                    "ip_address": "52.214.121.74",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210122.031212,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "6288640162627502280496701868734366889",
+                "cert_sha1": "B4:3D:34:CA:BC:1E:9A:08:13:F5:AA:1A:3C:B2:D7:BF:0B:E4:85:D9",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "www.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.249.165.84",
+                            "52.214.121.74",
+                            "52.210.72.227"
+                        ],
+                        "CNAME": {
+                            "www.pscp.tv": "web.pscp.tv",
+                            "web.pscp.tv": [
+                                "52.214.121.74",
+                                "52.210.72.227",
+                                "34.249.165.84"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.214.121.74",
+                            "52.210.72.227",
+                            "34.249.165.84"
+                        ],
+                        "CNAME": {
+                            "www.pscp.tv": "web.pscp.tv",
+                            "web.pscp.tv": [
+                                "34.249.165.84",
+                                "52.214.121.74",
+                                "52.210.72.227"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.210.72.227",
+                            "52.214.121.74",
+                            "34.249.165.84"
+                        ],
+                        "CNAME": {
+                            "www.pscp.tv": "web.pscp.tv",
+                            "web.pscp.tv": [
+                                "52.210.72.227",
+                                "52.214.121.74",
+                                "34.249.165.84"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "52.214.121.74",
+                            "52.210.72.227",
+                            "34.249.165.84"
+                        ],
+                        "CNAME": {
+                            "www.pscp.tv": "web.pscp.tv",
+                            "web.pscp.tv": [
+                                "52.210.72.227",
+                                "34.249.165.84",
+                                "52.214.121.74"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210124.075552,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.pscp.tv",
+                    "ip_address": "34.249.165.84",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210126.369099,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.118 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.498 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.86 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.171 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.0.95",
+                        "52.93.0.95",
+                        "8.586 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "www.pscp.tv",
+                    "ip_address": "34.249.165.84",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210127.30983,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "6288640162627502280496701868734366889",
+                "cert_sha1": "B4:3D:34:CA:BC:1E:9A:08:13:F5:AA:1A:3C:B2:D7:BF:0B:E4:85:D9",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "channels.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.89.202.223",
+                            "52.43.174.176",
+                            "34.215.27.225"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.89.202.223",
+                            "52.43.174.176",
+                            "34.215.27.225"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.215.27.225",
+                            "52.43.174.176",
+                            "52.89.202.223"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.215.27.225",
+                            "52.89.202.223",
+                            "52.43.174.176"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210128.735021,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "channels.pscp.tv",
+                    "ip_address": "34.215.27.225",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210130.970187,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.948 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.394 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.825 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.095 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.234.167",
+                        "ae2-2.rt.wbx.sea.us.retn.net",
+                        "0.109 ms"
+                    ],
+                    [
+                        "99.83.65.34",
+                        "99.83.65.34",
+                        "0.177 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "channels.pscp.tv",
+                    "ip_address": "34.215.27.225",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210131.851883,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "channels.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "16817462224514087903502255389006230485",
+                "cert_sha1": "31:F2:5F:7C:83:F6:71:C9:1A:87:C7:0D:B8:9D:3B:E9:AE:65:C4:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "proxsee.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.41.150.228",
+                            "34.214.178.18",
+                            "44.240.134.234",
+                            "44.242.83.124",
+                            "54.184.71.141",
+                            "44.237.185.69",
+                            "34.208.178.68",
+                            "54.149.160.171"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "35.155.64.55",
+                            "34.210.180.127",
+                            "52.35.10.94",
+                            "35.155.69.33",
+                            "54.184.45.186",
+                            "52.35.109.13",
+                            "52.40.42.229",
+                            "52.37.89.27"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.38.2.139",
+                            "52.40.159.112",
+                            "52.42.104.14",
+                            "54.185.155.195",
+                            "35.160.26.47",
+                            "44.240.163.79",
+                            "44.241.87.182",
+                            "52.36.62.196"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.214.178.18",
+                            "52.39.171.194",
+                            "34.208.178.68",
+                            "44.239.167.240",
+                            "34.211.68.95",
+                            "52.35.10.94",
+                            "52.36.28.114",
+                            "35.155.64.55"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210133.528198,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "proxsee.pscp.tv",
+                    "ip_address": "44.241.87.182",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210135.712984,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.031 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.827 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.252 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.518 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.234.167",
+                        "ae2-2.rt.wbx.sea.us.retn.net",
+                        "0.122 ms"
+                    ],
+                    [
+                        "99.83.65.34",
+                        "99.83.65.34",
+                        "0.109 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "proxsee.pscp.tv",
+                    "ip_address": "44.241.87.182",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210136.598943,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "proxsee.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "16817462224514087903502255389006230485",
+                "cert_sha1": "31:F2:5F:7C:83:F6:71:C9:1A:87:C7:0D:B8:9D:3B:E9:AE:65:C4:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "assets.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.66.112.15",
+                            "18.66.112.69",
+                            "18.66.112.118",
+                            "18.66.112.26"
+                        ],
+                        "CNAME": {
+                            "assets.pscp.tv": "prod-assets.pscp.tv",
+                            "prod-assets.pscp.tv": [
+                                "18.66.112.69",
+                                "18.66.112.118",
+                                "18.66.112.26",
+                                "18.66.112.15"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.28",
+                            "54.192.231.100",
+                            "54.192.231.82",
+                            "54.192.231.64"
+                        ],
+                        "CNAME": {
+                            "assets.pscp.tv": "prod-assets.pscp.tv",
+                            "prod-assets.pscp.tv": [
+                                "54.192.231.64",
+                                "54.192.231.28",
+                                "54.192.231.82",
+                                "54.192.231.100"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.82",
+                            "54.192.231.100",
+                            "54.192.231.28",
+                            "54.192.231.64"
+                        ],
+                        "CNAME": {
+                            "assets.pscp.tv": "prod-assets.pscp.tv",
+                            "prod-assets.pscp.tv": [
+                                "54.192.231.82",
+                                "54.192.231.100",
+                                "54.192.231.28",
+                                "54.192.231.64"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.157.4.31",
+                            "108.157.4.22",
+                            "108.157.4.38",
+                            "108.157.4.28"
+                        ],
+                        "CNAME": {
+                            "assets.pscp.tv": "prod-assets.pscp.tv",
+                            "prod-assets.pscp.tv": [
+                                "108.157.4.22",
+                                "108.157.4.31",
+                                "108.157.4.38",
+                                "108.157.4.28"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210138.957331,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "assets.pscp.tv",
+                    "ip_address": "108.157.4.31",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210139.420992,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.157.4.28",
+                        0,
+                        "33.892 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        1,
+                        "33.788 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        2,
+                        "33.717 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        3,
+                        "33.531 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        4,
+                        "33.74 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        5,
+                        "33.755 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        6,
+                        "33.763 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        7,
+                        "33.95 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        8,
+                        "33.677 ms"
+                    ],
+                    [
+                        64,
+                        "108.157.4.28",
+                        9,
+                        "33.473 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.794 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.835 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.928 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.297 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.639 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.172 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.054 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "assets.pscp.tv",
+                    "ip_address": "108.157.4.31",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210140.333751,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "assets.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "2449855248615484513957440837879307335",
+                "cert_sha1": "F1:DA:CA:22:D9:0E:AB:BE:AC:11:44:B8:7E:66:10:6E:AC:99:CC:B3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "prod-profile.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "52.222.236.2",
+                            "52.222.236.122",
+                            "52.222.236.52",
+                            "52.222.236.54"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.71",
+                            "54.192.231.105",
+                            "54.192.231.2",
+                            "54.192.231.27"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.71",
+                            "54.192.231.105",
+                            "54.192.231.2",
+                            "54.192.231.27"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.65.39.75",
+                            "18.65.39.2",
+                            "18.65.39.82",
+                            "18.65.39.36"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210141.7935328,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-profile.pscp.tv",
+                    "ip_address": "18.66.248.87",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210142.246681,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "18.66.248.95",
+                        0,
+                        "32.713 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        1,
+                        "32.511 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        2,
+                        "32.951 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        3,
+                        "33.022 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        4,
+                        "32.823 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        5,
+                        "32.787 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        6,
+                        "32.87 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        7,
+                        "32.642 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        8,
+                        "32.715 ms"
+                    ],
+                    [
+                        64,
+                        "18.66.248.95",
+                        9,
+                        "32.469 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.808 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.044 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.665 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.878 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "3.392 ms"
+                    ],
+                    [
+                        "62.115.178.56",
+                        "ffm-b5-link.ip.twelve99.net",
+                        "0.162 ms"
+                    ],
+                    [
+                        "62.115.57.137",
+                        "amazon-ic331704-ffm-b5.ip.twelve99-cust.net",
+                        "0.157 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "18.66.248.87",
+                        "server-18-66-248-87.dus51.r.cloudfront.net",
+                        "9.709 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-profile.pscp.tv",
+                    "ip_address": "18.66.248.87",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210142.982707,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-profile.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "2449855248615484513957440837879307335",
+                "cert_sha1": "F1:DA:CA:22:D9:0E:AB:BE:AC:11:44:B8:7E:66:10:6E:AC:99:CC:B3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "prod-thumbnail.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "108.138.17.51",
+                            "108.138.17.120",
+                            "108.138.17.110",
+                            "108.138.17.94"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.192.231.127",
+                            "54.192.231.20",
+                            "54.192.231.83",
+                            "54.192.231.4"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.192.231.20",
+                            "54.192.231.83",
+                            "54.192.231.127",
+                            "54.192.231.4"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "108.156.60.120",
+                            "108.156.60.19",
+                            "108.156.60.25",
+                            "108.156.60.100"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210144.33443,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-thumbnail.pscp.tv",
+                    "ip_address": "108.156.60.120",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210144.810275,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "108.156.60.100",
+                        0,
+                        "35.002 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        1,
+                        "34.84 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        2,
+                        "34.895 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        3,
+                        "34.54 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        4,
+                        "34.707 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        5,
+                        "35.033 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        6,
+                        "35.055 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        7,
+                        "34.932 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        8,
+                        "35.062 ms"
+                    ],
+                    [
+                        64,
+                        "108.156.60.100",
+                        9,
+                        "34.926 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.826 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.507 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.906 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.908 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "prod-thumbnail.pscp.tv",
+                    "ip_address": "108.156.60.120",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210145.650244,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-thumbnail.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "2449855248615484513957440837879307335",
+                "cert_sha1": "F1:DA:CA:22:D9:0E:AB:BE:AC:11:44:B8:7E:66:10:6E:AC:99:CC:B3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-ap-northeast-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-northeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-northeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-northeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164",
+                                "151.101.66.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-northeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210147.4772532,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-ap-northeast-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210147.9159229,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.415 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.664 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "31.935 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.565 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.848 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.83 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "31.397 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "31.845 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.602 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "31.678 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.691 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.054 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.026 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "9.508 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.148 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.091 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.177 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-ap-northeast-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210148.348578,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-ap-northeast-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-ap-southeast-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.130.164",
+                            "151.101.194.164",
+                            "151.101.2.164",
+                            "151.101.66.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210150.142543,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-ap-southeast-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210150.5842729,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "31.996 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.738 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "31.614 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.36 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.746 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.681 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "31.911 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "31.642 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.718 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "31.802 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.667 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.294 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.535 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.394 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.635 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.128 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.076 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-ap-southeast-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210150.961549,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-ap-southeast-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-ap-southeast-2.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.130.164",
+                                "151.101.66.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164",
+                            "151.101.2.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-ap-southeast-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210152.6028001,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-ap-southeast-2.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210153.049283,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.002 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.95 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "32.091 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "32.035 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.838 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.763 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "32.13 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "31.995 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.878 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "32.089 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.705 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.393 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.895 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.183 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "9.319 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.138 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.097 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-ap-southeast-2.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210153.431828,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-ap-southeast-2.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-eu-central-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-central-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.194.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-central-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.130.164",
+                            "151.101.194.164",
+                            "151.101.2.164",
+                            "151.101.66.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-central-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164",
+                                "151.101.66.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-central-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210155.1146722,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-eu-central-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210155.5547478,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "31.63 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.524 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "31.778 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.665 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.803 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.793 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "31.736 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "31.708 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.818 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "32.092 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.838 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.866 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.836 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "8.751 ms"
+                    ],
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.203 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.088 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.215 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-eu-central-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210155.929881,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-eu-central-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-us-east-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.130.164",
+                                "151.101.66.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.130.164",
+                            "151.101.194.164",
+                            "151.101.2.164",
+                            "151.101.66.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210157.7045279,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-us-east-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210158.151212,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.363 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.647 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "31.788 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.91 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.941 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.782 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "32.049 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "32.082 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.961 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "31.776 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.727 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.776 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.564 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.088 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.885 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.103 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.208 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-us-east-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210158.522181,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-us-east-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-sa-east-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-sa-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.66.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-sa-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-sa-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-sa-east-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210160.242217,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-sa-east-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210160.687916,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.048 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "32.182 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "32.043 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "32.265 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "32.129 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.989 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "32.002 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "32.055 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.938 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "32.164 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.775 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.896 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.679 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.983 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.831 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.388 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.289 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-sa-east-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210161.07918,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-sa-east-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-us-west-2.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.130.164",
+                                "151.101.66.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-2.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210162.814486,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-us-west-2.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210163.2582111,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.401 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "32.318 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "32.295 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.884 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "32.039 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "32.125 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "31.96 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "32.053 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "32.24 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "31.827 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.695 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.722 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.052 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "7.724 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "8.74 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.423 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-us-west-2.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210163.6150668,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-us-west-2.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-us-west-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.66.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.130.164",
+                            "151.101.194.164",
+                            "151.101.2.164",
+                            "151.101.66.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164",
+                                "151.101.66.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-us-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210165.428055,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-us-west-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210165.867321,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "31.809 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "31.946 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "31.659 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "31.609 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "31.971 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "31.566 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "31.717 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "31.882 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "31.778 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "31.825 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.858 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "5.83 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "5.698 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.828 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.908 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.263 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.264 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-us-west-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210166.2503219,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-us-west-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-video-eu-west-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.194.164",
+                                "151.101.130.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.2.164",
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.2.164",
+                            "151.101.66.164",
+                            "151.101.130.164",
+                            "151.101.194.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "151.101.66.164",
+                                "151.101.130.164",
+                                "151.101.194.164",
+                                "151.101.2.164"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "199.232.138.164"
+                        ],
+                        "CNAME": {
+                            "prod-video-eu-west-1.pscp.tv": "pscp.tv.map.fastly.net",
+                            "pscp.tv.map.fastly.net": [
+                                "199.232.138.164"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210167.928705,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-video-eu-west-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210168.3747551,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "199.232.138.164",
+                        0,
+                        "32.212 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        1,
+                        "32.183 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        2,
+                        "32.268 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        3,
+                        "32.164 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        4,
+                        "32.094 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        5,
+                        "32.239 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        6,
+                        "32.054 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        7,
+                        "32.143 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        8,
+                        "32.084 ms"
+                    ],
+                    [
+                        64,
+                        "199.232.138.164",
+                        9,
+                        "32.147 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.175 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.513 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.678 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.352 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "0.742 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.321 ms"
+                    ],
+                    [
+                        "199.232.138.164",
+                        "199.232.138.164",
+                        "0.377 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "prod-video-eu-west-1.pscp.tv",
+                    "ip_address": "199.232.138.164",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210168.745159,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-video-eu-west-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "16714553426899579387264687846147827600",
+                "cert_sha1": "D4:1D:13:F8:1F:3E:C8:A1:9A:51:68:A8:88:27:99:DA:42:2C:89:AC",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv; DNS:*.periscope.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-07-21",
+                "valid_till": "2022-07-26",
+                "validity_days": 370,
+                "days_left": 42,
+                "valid_days_to_expire": 41,
+                "tcp_port": 443
+            }
+        },
+        "prod-chatman-ancillary-eu-central-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "18.194.253.169",
+                            "52.59.79.77",
+                            "3.125.86.170",
+                            "3.67.241.241",
+                            "3.65.62.79",
+                            "52.29.93.191",
+                            "52.28.247.6",
+                            "52.57.114.178"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.28.247.6",
+                            "18.194.253.169",
+                            "3.125.86.170",
+                            "18.185.158.150",
+                            "3.67.241.241",
+                            "52.57.114.178",
+                            "3.65.62.79",
+                            "52.29.93.191"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.59.79.77",
+                            "3.65.62.79",
+                            "3.67.241.241",
+                            "18.194.253.169",
+                            "52.28.17.198",
+                            "52.28.247.6",
+                            "52.29.93.191",
+                            "52.57.114.178"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "18.194.253.169",
+                            "3.67.241.241",
+                            "18.185.158.150",
+                            "52.28.17.198",
+                            "52.57.114.178",
+                            "3.125.86.170",
+                            "52.59.79.77",
+                            "52.28.247.6"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210170.176272,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-chatman-ancillary-eu-central-1.pscp.tv",
+                    "ip_address": "52.28.247.6",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210172.6428769,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.94 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.81 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.984 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.186 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "prod-chatman-ancillary-eu-central-1.pscp.tv",
+                    "ip_address": "52.28.247.6",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210173.482103,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-chatman-ancillary-eu-central-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "6002110297243945899307561804224144360",
+                "cert_sha1": "13:80:7C:AF:1D:48:63:28:BC:8A:7D:E4:D6:FE:93:1D:95:A1:C9:D7",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "prod-chatman-ancillary-us-east-1.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "184.73.72.58",
+                            "34.238.11.30",
+                            "54.161.179.41",
+                            "35.173.140.35",
+                            "52.4.8.53",
+                            "54.227.196.203",
+                            "3.210.220.244",
+                            "34.202.100.23"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "54.145.125.38",
+                            "52.4.8.53",
+                            "184.73.72.58",
+                            "34.238.11.30",
+                            "34.202.100.23",
+                            "35.173.140.35",
+                            "3.210.220.244",
+                            "54.161.179.41"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "54.161.179.41",
+                            "54.227.196.203",
+                            "3.210.220.244",
+                            "34.202.100.23",
+                            "34.238.11.30",
+                            "35.173.140.35",
+                            "52.4.8.53",
+                            "54.145.125.38"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "54.161.179.41",
+                            "54.145.125.38",
+                            "54.227.196.203",
+                            "184.73.72.58",
+                            "34.202.100.23",
+                            "34.238.11.30",
+                            "52.4.8.53",
+                            "35.173.140.35"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210175.000118,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-chatman-ancillary-us-east-1.pscp.tv",
+                    "ip_address": "35.173.140.35",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210177.208509,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.883 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "6.44 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.625 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.773 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "prod-chatman-ancillary-us-east-1.pscp.tv",
+                    "ip_address": "35.173.140.35",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210178.0438762,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-chatman-ancillary-us-east-1.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "2449855248615484513957440837879307335",
+                "cert_sha1": "F1:DA:CA:22:D9:0E:AB:BE:AC:11:44:B8:7E:66:10:6E:AC:99:CC:B3",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        },
+        "prod-chatman-ancillary-us-west-2.pscp.tv": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.211.195.133",
+                            "35.162.176.72",
+                            "35.163.253.143",
+                            "52.41.137.83",
+                            "35.84.99.129",
+                            "52.36.110.102"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "35.84.99.129",
+                            "34.211.195.133",
+                            "52.36.110.102",
+                            "52.41.137.83",
+                            "35.162.176.72",
+                            "35.163.253.143"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "52.41.137.83",
+                            "34.211.195.133",
+                            "35.84.99.129",
+                            "35.162.176.72",
+                            "35.163.253.143",
+                            "52.36.110.102"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "52.41.137.83",
+                            "35.162.176.72",
+                            "34.211.195.133",
+                            "52.36.110.102",
+                            "35.84.99.129",
+                            "35.163.253.143"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210179.7252748,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "prod-chatman-ancillary-us-west-2.pscp.tv",
+                    "ip_address": "52.41.137.83",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210181.920547,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.379 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.078 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.048 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.47 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "prod-chatman-ancillary-us-west-2.pscp.tv",
+                    "ip_address": "52.41.137.83",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210182.771689,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "prod-chatman-ancillary-us-west-2.pscp.tv",
+                "issued_to": "*.pscp.tv",
+                "issued_o": null,
+                "issuer_c": "US",
+                "issuer_o": "Amazon",
+                "issuer_ou": "Server CA 1B",
+                "issuer_cn": "Amazon",
+                "cert_sn": "16817462224514087903502255389006230485",
+                "cert_sha1": "31:F2:5F:7C:83:F6:71:C9:1A:87:C7:0D:B8:9D:3B:E9:AE:65:C4:36",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.pscp.tv",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-06-01",
+                "valid_till": "2023-06-30",
+                "validity_days": 394,
+                "days_left": 381,
+                "valid_days_to_expire": 380,
+                "tcp_port": 443
+            }
+        }
+    }
+}

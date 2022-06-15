@@ -9,6 +9,7 @@ __version__ = "1.1"
 """
 from socket import getfqdn
 from time import sleep
+import sys
 try:
 	from icmplib import ICMPv4Socket, ICMPv6Socket, ICMPRequest
 	from icmplib import ICMPLibError, TimeoutExceeded, TimeExceeded
@@ -18,7 +19,7 @@ except ImportError:
 import utilities.utility as utility
 
 def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
-		id=PID, max_hops=30):
+		id=PID, max_hops=30, ip_address_resolved = None):
 	#interval=0.05, timeout=0.10,
 	#timeout=2
 	#count=2, interval=0.05, timeout=0.20, id=PID, max_hops=30
@@ -27,7 +28,11 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 	# We perform a DNS lookup if a hostname or an FQDN is passed in
 	# parameters.
 	if is_hostname(address):
-		ip_address = resolve(address)[0]
+		try:
+			ip_address = resolve(address)[0] if ip_address_resolved is None else ip_address_resolved
+		except:
+			print(f"The name '{address}' cannot be resolved")
+			return None
 	else:
 		ip_address = address
 	results[address] = {}

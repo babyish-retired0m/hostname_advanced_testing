@@ -41,8 +41,6 @@ archive.org
 web.archive.org
 trackimo.com
 plus.trackimo.com
-twitter.com
-t.co
 pymotw.com
 hik-connect.com
 litedev.eu.hik-connect.com
@@ -175,3 +173,5 @@ imdb.com
 www.imdb.com
 twitch.tv
 cloudfront.net
+mega.nz
+g.cdn1.mega.co.nz

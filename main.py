@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
-__version__ = "1.7"
-try:
-	import utilities.dns_resolve as dns_resolve
-	import utilities.ping as ping
-	import utilities.traceroute as traceroute
-except ImportError:
-	raise SystemExit("Please install dnspython, pip3 install dnspython")
+__version__ = "2.0"
+import utilities.dns_resolve as dns_resolve
+import utilities.ping as ping
+import utilities.traceroute as traceroute
 try:
 	import icmplib
 except ImportError:
-    raise SystemExit("Please install icmplib, pip3 install icmplib (https://github.com/ValentinBELYN/icmplib)")
+    raise SystemExit("Please install icmplib, pip3 install icmplib, (https://github.com/ValentinBELYN/icmplib)")
 import utilities.ssl_check as ssl_check
 import utilities.ip_address as ip_address
 import utilities.utility as utility
@@ -22,7 +19,7 @@ import sys
 File = file.Main(print_result = False)
 
 class Advanced_testing:
-	def __init__(self, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"], nameserver = None, hostnames_dict = {}):
+	def __init__(self, get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"], nameserver = None, hostnames_dict = {}, path_results_name = None):
 		self.get_nslookup = get_nslookup
 		self.get_ping = get_ping
 		self.get_traceroute = get_traceroute
@@ -33,11 +30,13 @@ class Advanced_testing:
 		self.parent_dir = os.path.dirname(__file__)
 		path = self.parent_dir + "/results/"
 		if File.check_dir(path) is False: File.dirs_make(path)
-		self.path_results = path + "results_"+time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime())+".json"
+		self.path_results = path + "results_" + time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime()) + ".json"
+		if path_results_name: self.path_results = self.path_results.replace(".json", "_hosts_" + path_results_name + ".json")
 		if len(hostnames_dict) > 0:
 			self.recv_records = hostnames_dict
 		else:
-			self.recv_records = {"parameters":{"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.__get_ip__()}}
+			#self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time(), "Public IP Address" : self.__get_ip__()}}
+			self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time()}}
 		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
 		
@@ -55,13 +54,6 @@ class Advanced_testing:
 			elif servers_list == "hosts": hosts_list.append("162.158.248.55")
 		return hosts_list
 	
-	def __get_hostnames_amazon_2_as_list__(self):
-		self.path_results = self.path_results.replace(".json", "_hosts_amazon_2.json")
-		hosts_list = []
-		#hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/hosts_amazon_2.txt"))
-		hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/hosts_amazon_2.txt"))
-		return hosts_list
-	
 	def __get_hostnames_nordvpn_as_list__(self):
 		self.path_results = self.path_results.replace(".json", "_hosts_nordvpn.json")
 		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
@@ -70,39 +62,30 @@ class Advanced_testing:
 			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/" + servers_list + ".txt"))
 			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/" + servers_list + ".txt"))
 		return hosts_list
-	
-	def __get_ip__(self, timeout_count = 0):
-		ip = ip_address.get_ip_address_public_amazon()
-		while True:
-			if timeout_count == 100:
-				print("{}Check your internet connection{}".format(utility.Clr.RED2, utility.Clr.RST2))
-				break				 
-			elif ip is None:
-				print("{}Check your internet connection{}, timeout 10 seconds, timeout #".format(utility.Clr.BLUE2, utility.Clr.RST2), timeout_count)
-				time.sleep(10)
-				timeout_count += 1
-				self.__get_ip__(timeout_count)
-				#sys.exit(1)
-			elif ip_address.check_ip_in_network_lanet_ua(): ip = "176.36.0.0/14"
-			return ip
+	def __get_ip_public__(self):
+		self.ip_address_public = ip_address.get_ip_address_public_amazon()
+		if self.ip_address_public: self.__get_ip_address_checked__()
+	def __get_ip_address_checked__(self):
+		if ip_address.check_ip_in_network_lanet_ua(self.ip_address_public): self.ip_address_checked = "176.36.0.0/14"
+		else: self.ip_address_checked = self.ip_address_public
 	def __get_nslookup__(self, qname):
-		Response = dns_resolve.Dns_response(host = qname, records = self.records, nameserver = self.nameserver)
+		Response = dns_resolve.Dns_response(host = qname, records = self.records, nameserver = self.nameserver, ip_address_public_answer = self.ip_address_public)
 		result = Response.get_nslookup()
 		recv_records = {"resolve":{"nslookup":result[qname]}}
-		recv_records["resolve"]["parameters"] = {"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.__get_ip__(), "pcname":utility.getpcname(), "username":utility.getusername(), "currentdirectory":utility.getcurrentdirectory()}
+		recv_records["resolve"]["parameters"] = {"Unix Epoch Time":utility.get_unix_time(), "Public IP Address":self.ip_address_checked, "pcname":utility.getpcname(), "username":utility.getusername(), "currentdirectory":utility.getcurrentdirectory()}
 		return recv_records["resolve"]
 	def __get_ping__(self, qname):
-		result = ping.verbose_ping(qname)
+		result = ping.verbose_ping(address = qname, ip_address_resolved = self.ip_address_resolved)
 		if result is not None:
 			recv_records = {"verbose_ping":result[qname]}
 			recv_records["verbose_ping"]["parameters"]["Unix Epoch Time"] = utility.get_unix_time()
-			recv_records["verbose_ping"]["parameters"]["Public IP Address"] = self.__get_ip__()
+			recv_records["verbose_ping"]["parameters"]["Public IP Address"] = self.ip_address_checked
 			return recv_records["verbose_ping"]
 	def __get_traceroute__(self, qname):
-		result = traceroute.verbose_traceroute(qname)
+		result = traceroute.verbose_traceroute(address = qname, ip_address_resolved = self.ip_address_resolved)
 		recv_records = {"verbose_traceroute":result[qname]}
 		recv_records["verbose_traceroute"]["parameters"]["Unix Epoch Time"] = utility.get_unix_time()
-		recv_records["verbose_traceroute"]["parameters"]["Public IP Address"] = self.__get_ip__()
+		recv_records["verbose_traceroute"]["parameters"]["Public IP Address"] = self.ip_address_checked
 		return recv_records["verbose_traceroute"]
 	def __get_ssl_check__(self, qname):
 		if qname not in self.cannot_be_ssl_checked:
@@ -123,18 +106,20 @@ class Advanced_testing:
 		elif isinstance(self.hostnames, list): pass
 		else: print("Are list of hostname(s) str, list?"); sys.exit(1)
 		hostnames_len = len(self.hostnames)
-		if hostnames_len > 300:
+		if hostnames_len > 1000:
 			if hostnames_len % 2 == 0: k = 100
 			else: k = 50
 		else:
-			if hostnames_len % 2 == 0: k = 100
-			else: k = 50
+			if hostnames_len % 2 == 0: k = 200
+			else: k = 150
 		for qname in self.hostnames:
+			self.__get_ip_public__()
+			#self.__get_ip_address_checked__()
 			if len(qname)>3:
 				if qname in self.cannot_be_resolved: pass
 				else:
 					try: 
-						icmplib.resolve(qname)
+						self.ip_address_resolved = icmplib.resolve(qname)[0]
 					except:
 						print(f"The name '{qname}' cannot be resolved")
 						self.cannot_be_resolved.append(qname)

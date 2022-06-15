@@ -19,11 +19,16 @@ import sys
 File = file.Main(print_result = False)
 
 class Dns_response():
-	def __init__(self, host = None, records = None, nameserver = None):
-		super().__init__()
+	def __init__(self, host = None, records = None, nameserver = None, ip_address_public_answer = ip_address.get_ip_address_public_amazon()):
+		#, ip_address_public_answer = None
 		self.host = host if isinstance(host, str) and host is not None else print("hostname is None or is hostname str?")
 		self.records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"] if records is None else [records] if isinstance(records, str) else records
+		self.ip_address_pub = ip_address_public_answer
+		
+		#nameserver = [nameserver] if isinstance(nameserver, str) else nameserver
+		#self.nameservers = self.__get_nameserver__() if nameserver is None else nameserver
 		self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
+		
 		self.recv_records = {self.host:{}}
 		#self.answer = None;#self.results = None;
 	def __get_nameserver__(self):
@@ -33,7 +38,6 @@ class Dns_response():
 		#nameservers.extend(["1.0.0.1","8.8.8.8","208.67.222.222"])
 		
 		#ip_addresses_block = File.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/functions/contents/ip_addresses_block_Provider?ref=main")
-		ip_address_public = ip_address.get_ip_address_public_amazon()
 		
 		parent_dir = os.path.dirname(__file__)
 		ip_addresses_block_AS_9009 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-9009_m247.com.txt")
@@ -43,22 +47,22 @@ class Dns_response():
 		ip_addresses_block_AS_15895 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-15895_kyivstar.ua.txt")
 		
 		#DNS IP address Lanet:
-		if ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_39608):
+		if ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_39608):
 			nameservers.append("194.50.85.5")
 			#nameservers.extend(["194.50.85.5","194.50.85.7"])
 			nameservers.remove("9.9.9.9")
 			nameservers.remove("64.6.64.6")
 			nameservers.remove("209.244.0.3")
 		#DNS IP address Vodafone:
-		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_21497):
+		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_21497):
 			nameservers.append("88.214.96.116")
 			#nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
 		#DNS IP address Kyivstar:
-		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_15895):
+		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_15895):
 			nameservers.append("193.41.60.1")
 			#nameservers.extend(["193.41.60.1","193.41.60.2"])
 		#DNS IP address NordVPN
-		elif ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_9009) or ip_address.check_ip_in_networks(ip_address_public, ip_addresses_block_AS_42831):
+		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_9009) or ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_42831):
 			nameservers.append("103.86.99.99")
 			#nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])		
 		

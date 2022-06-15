@@ -1,0 +1,5247 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210295.758317,
+        "Execution time Duration": "137.071"
+    },
+    "advanced_test": {
+        "www-cdn.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www-cdn.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www-cdn.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www-cdn.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www-cdn.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210297.387159,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www-cdn.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210297.65632,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "15.135 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.712 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.491 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.416 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.364 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.453 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.33 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.505 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.333 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.393 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.65 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.446 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.562 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.46 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "www-cdn.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210298.554385,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www-cdn.whatsapp.net",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "faq.whatsapp.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "faq.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "faq.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "faq.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "faq.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210299.940947,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "faq.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210300.211081,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.492 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.666 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.962 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.785 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.505 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.401 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.784 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.454 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.645 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.914 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.844 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.664 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.686 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "3.923 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "faq.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210301.110924,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "faq.whatsapp.com",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "crashlogs.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "crashlogs.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "crashlogs.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "crashlogs.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "crashlogs.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210302.494047,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "crashlogs.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210302.76247,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.8 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.788 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.99 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.71 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.713 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "15.314 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.446 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.637 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.744 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.948 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.896 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.677 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.724 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.453 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "157.240.69.204",
+                        "ae20.pr05.waw1.tfbnw.net",
+                        "2.969 ms"
+                    ],
+                    [
+                        "157.240.49.173",
+                        "po105.psw01.waw1.tfbnw.net",
+                        "0.43 ms"
+                    ],
+                    [
+                        "157.240.38.73",
+                        "157.240.38.73",
+                        "0.386 ms"
+                    ],
+                    [
+                        "31.13.81.53",
+                        "whatsapp-cdn-shv-01-waw1.fbcdn.net",
+                        "0.196 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "crashlogs.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210303.332874,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "crashlogs.whatsapp.net",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "mmg-fna.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "mmg-fna.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "mmg-fna.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "mmg-fna.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "mmg-fna.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210304.831564,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "mmg-fna.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210305.105312,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.399 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.711 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "15.376 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.42 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.867 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.806 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.932 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.706 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.775 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.612 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.621 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.394 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.938 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.276 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "mmg-fna.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210306.0105321,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "mmg-fna.whatsapp.net",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "mmh.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "3.123.180.27",
+                            "3.125.21.54"
+                        ],
+                        "CNAME": {
+                            "mmh.whatsapp.net": "wacdn-205016553.eu-central-1.elb.amazonaws.com",
+                            "wacdn-205016553.eu-central-1.elb.amazonaws.com": [
+                                "3.125.21.54",
+                                "3.123.180.27"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "3.125.21.54",
+                            "3.123.180.27"
+                        ],
+                        "CNAME": {
+                            "mmh.whatsapp.net": "wacdn-205016553.eu-central-1.elb.amazonaws.com",
+                            "wacdn-205016553.eu-central-1.elb.amazonaws.com": [
+                                "3.125.21.54",
+                                "3.123.180.27"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "3.125.21.54",
+                            "3.123.180.27"
+                        ],
+                        "CNAME": {
+                            "mmh.whatsapp.net": "wacdn-205016553.eu-central-1.elb.amazonaws.com",
+                            "wacdn-205016553.eu-central-1.elb.amazonaws.com": [
+                                "3.125.21.54",
+                                "3.123.180.27"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "3.123.180.27",
+                            "3.125.21.54"
+                        ],
+                        "CNAME": {
+                            "mmh.whatsapp.net": "wacdn-205016553.eu-central-1.elb.amazonaws.com",
+                            "wacdn-205016553.eu-central-1.elb.amazonaws.com": [
+                                "3.123.180.27",
+                                "3.125.21.54"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210308.163917,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "mmh.whatsapp.net",
+                    "ip_address": "3.123.180.27",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210308.6344461,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "3.123.180.27",
+                        0,
+                        "34.866 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        1,
+                        "34.428 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        2,
+                        "34.578 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        3,
+                        "34.497 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        4,
+                        "34.77 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        5,
+                        "35.154 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        6,
+                        "34.944 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        7,
+                        "34.725 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        8,
+                        "34.586 ms"
+                    ],
+                    [
+                        64,
+                        "3.123.180.27",
+                        9,
+                        "34.799 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.856 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.777 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.945 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.01 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.93.0.73",
+                        "52.93.0.73",
+                        "0.475 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "mmh.whatsapp.net",
+                    "ip_address": "3.123.180.27",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210309.575503,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "mmh.whatsapp.net",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "whatsapp.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "MX": [
+                            "mxb-00082601.gslb.pphosted.com",
+                            "mxa-00082601.gslb.pphosted.com"
+                        ],
+                        "SOA": [
+                            "a.ns.whatsapp.net. dns.whatsapp.net. 1751357341 14400 1800 604800 300"
+                        ],
+                        "TXT": [
+                            "\"dropbox-domain-verification=lfq0o9x85s8s\"",
+                            "\"bFwlY7J2JzFYHw5qkQFcBD6EOr9JL4VBpYSXSk3p8lA\"",
+                            "\"MS=ms22994725\"",
+                            "\"Ghm7XCdpYQEendZNsepA80OBAhbN9sfITvUxiy9FNdOGBxeAQICCmLbuXm23hNaysns+wZ6GskJWMtWD1/Ha9Q==\"",
+                            "\"adobe-idp-site-verification=a0d9793b-fc40-430b-9ab4-d3c75e4dcfba\"",
+                            "\"b42e0aa4-9d21-4a73-a111-fba236f1a835\"",
+                            "\"google-site-verification=MXbDGih8wW-64G5maXGw8iIkFbH7iv_vLobZd-kxdNo\"",
+                            "\"v=spf1 include:_spf.fb.com include:_spf.google.com include:facebookmail.com -all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "157.240.20.52"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f22d:c5:face:b00c:0:167"
+                        ],
+                        "MX": [
+                            "mxb-00082601.gslb.pphosted.com",
+                            "mxa-00082601.gslb.pphosted.com"
+                        ],
+                        "SOA": [
+                            "a.ns.whatsapp.net. dns.whatsapp.net. 1751357341 14400 1800 604800 300"
+                        ],
+                        "TXT": [
+                            "\"dropbox-domain-verification=lfq0o9x85s8s\"",
+                            "\"bFwlY7J2JzFYHw5qkQFcBD6EOr9JL4VBpYSXSk3p8lA\"",
+                            "\"MS=ms22994725\"",
+                            "\"Ghm7XCdpYQEendZNsepA80OBAhbN9sfITvUxiy9FNdOGBxeAQICCmLbuXm23hNaysns+wZ6GskJWMtWD1/Ha9Q==\"",
+                            "\"adobe-idp-site-verification=a0d9793b-fc40-430b-9ab4-d3c75e4dcfba\"",
+                            "\"b42e0aa4-9d21-4a73-a111-fba236f1a835\"",
+                            "\"google-site-verification=MXbDGih8wW-64G5maXGw8iIkFbH7iv_vLobZd-kxdNo\"",
+                            "\"v=spf1 include:_spf.fb.com include:_spf.google.com include:facebookmail.com -all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "185.60.216.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f22d:c5:face:b00c:0:167"
+                        ],
+                        "MX": [
+                            "mxa-00082601.gslb.pphosted.com",
+                            "mxb-00082601.gslb.pphosted.com"
+                        ],
+                        "SOA": [
+                            "a.ns.whatsapp.net. dns.whatsapp.net. 1751357341 14400 1800 604800 300"
+                        ],
+                        "TXT": [
+                            "\"MS=ms22994725\"",
+                            "\"b42e0aa4-9d21-4a73-a111-fba236f1a835\"",
+                            "\"dropbox-domain-verification=lfq0o9x85s8s\"",
+                            "\"bFwlY7J2JzFYHw5qkQFcBD6EOr9JL4VBpYSXSk3p8lA\"",
+                            "\"adobe-idp-site-verification=a0d9793b-fc40-430b-9ab4-d3c75e4dcfba\"",
+                            "\"google-site-verification=MXbDGih8wW-64G5maXGw8iIkFbH7iv_vLobZd-kxdNo\"",
+                            "\"v=spf1 include:_spf.fb.com include:_spf.google.com include:facebookmail.com -all\"",
+                            "\"Ghm7XCdpYQEendZNsepA80OBAhbN9sfITvUxiy9FNdOGBxeAQICCmLbuXm23hNaysns+wZ6GskJWMtWD1/Ha9Q==\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "MX": [
+                            "mxb-00082601.gslb.pphosted.com",
+                            "mxa-00082601.gslb.pphosted.com"
+                        ],
+                        "SOA": [
+                            "a.ns.whatsapp.net. dns.whatsapp.net. 1751357341 14400 1800 604800 300"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210312.019543,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210312.2920818,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.712 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "15.023 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.636 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "15.065 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.283 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.907 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.473 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.839 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.577 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.728 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.617 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.626 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.812 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.732 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210313.1952908,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "whatsapp.com",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "www.whatsapp.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210314.5488489,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210314.823531,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.806 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "15.143 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.764 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.951 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.515 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.758 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.901 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "15.022 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.934 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.876 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.699 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.725 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.064 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.074 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "www.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210315.738337,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www.whatsapp.com",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "blog.whatsapp.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "blog.whatsapp.com": "www.whatsapp.com",
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "blog.whatsapp.com": "www.whatsapp.com",
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "blog.whatsapp.com": "www.whatsapp.com",
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "blog.whatsapp.com": "www.whatsapp.com",
+                            "www.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210317.680973,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "blog.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210317.9563148,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "15.039 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.897 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.917 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "15.027 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.406 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.491 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "15.04 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "15.129 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "14.723 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.657 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.668 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.591 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.089 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.446 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "blog.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210318.860506,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "blog.whatsapp.com",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "web.whatsapp.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "web.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "web.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "web.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "web.whatsapp.com": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210320.269027,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "web.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210320.542548,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.711 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.415 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.684 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "15.478 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.493 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.687 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "14.373 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.999 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "15.055 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.925 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.736 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.677 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "7.478 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "8.683 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "157.240.69.204",
+                        "ae20.pr05.waw1.tfbnw.net",
+                        "10.014 ms"
+                    ],
+                    [
+                        "157.240.49.173",
+                        "po105.psw01.waw1.tfbnw.net",
+                        "0.467 ms"
+                    ],
+                    [
+                        "157.240.38.73",
+                        "157.240.38.73",
+                        "0.356 ms"
+                    ],
+                    [
+                        "31.13.81.53",
+                        "whatsapp-cdn-shv-01-waw1.fbcdn.net",
+                        "0.279 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "web.whatsapp.com",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210321.029012,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "web.whatsapp.com",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "c.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210324.937558,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "c.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210326.992447,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.004 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.064 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.038 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "4.81 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "c.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210327.836311,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "v.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "v.whatsapp.net": "mmg.whatsapp.net",
+                            "mmg.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "v.whatsapp.net": "mmg.whatsapp.net",
+                            "mmg.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "v.whatsapp.net": "mmg.whatsapp.net",
+                            "mmg.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "31.13.81.53"
+                        ],
+                        "AAAA": [
+                            "2a03:2880:f216:c5:face:b00c:0:167"
+                        ],
+                        "CNAME": {
+                            "v.whatsapp.net": "mmg.whatsapp.net",
+                            "mmg.whatsapp.net": "mmx-ds.cdn.whatsapp.net",
+                            "mmx-ds.cdn.whatsapp.net": [
+                                "31.13.81.53"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210331.965507,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "v.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210332.240913,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "31.13.81.53",
+                        0,
+                        "14.804 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        1,
+                        "14.86 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        2,
+                        "14.618 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        3,
+                        "14.79 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        4,
+                        "14.818 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        5,
+                        "14.822 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        6,
+                        "15.023 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        7,
+                        "14.83 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        8,
+                        "15.048 ms"
+                    ],
+                    [
+                        64,
+                        "31.13.81.53",
+                        9,
+                        "14.704 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.805 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.786 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.995 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.136 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "v.whatsapp.net",
+                    "ip_address": "31.13.81.53",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210333.1522691,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "v.whatsapp.net",
+                "issued_to": "*.whatsapp.net",
+                "issued_o": "Facebook, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": "www.digicert.com",
+                "issuer_cn": "DigiCert SHA2 High Assurance Server CA",
+                "cert_sn": "19685422073526043120974066607000385426",
+                "cert_sha1": "F4:94:5B:E7:26:02:2F:68:EB:46:37:19:14:EA:E8:4A:CB:2F:9E:FF",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.whatsapp.net; DNS:*.cdn.whatsapp.net; DNS:*.snr.whatsapp.net; DNS:*.whatsapp.com; DNS:wa.me; DNS:whatsapp.com; DNS:whatsapp.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-23",
+                "valid_till": "2022-06-21",
+                "validity_days": 90,
+                "days_left": 7,
+                "valid_days_to_expire": 6,
+                "tcp_port": 443
+            }
+        },
+        "e1.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210334.312642,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e1.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210336.370862,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.125 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.489 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.704 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.135 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e1.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210337.256623,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e2.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210339.0010629,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e2.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210341.581491,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.046 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "4.456 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.683 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "4.984 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e2.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210342.4406312,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e3.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210344.203342,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e3.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210346.365123,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.069 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.547 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.628 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.064 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e3.whatsapp.net",
+                    "ip_address": "34.194.255.230",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210347.198099,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e4.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210348.805397,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e4.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210351.116697,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.174 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.778 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.913 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.722 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e4.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210351.962612,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e5.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210355.4582882,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e5.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210357.5895638,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.136 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "4.746 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.245 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.234.6",
+                        "ae1-7.rt.tlx.nyc.us.retn.net",
+                        "5.314 ms"
+                    ],
+                    [
+                        "99.83.66.196",
+                        "99.83.66.196",
+                        "0.301 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e5.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210358.475872,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e6.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210361.14872,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e6.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210363.257972,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.814 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.056 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "3.953 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.727 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e6.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210364.1050801,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e7.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210370.793013,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e7.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210372.820726,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.077 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.557 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.857 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.358 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e7.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210373.6583118,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e8.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210375.1427462,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e8.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210377.3241432,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.861 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "5.239 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.706 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.4 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e8.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210378.1810749,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e9.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.193.38.112",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210389.903069,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e9.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210391.9302452,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.162 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.168 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.784 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.642 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e9.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210392.774287,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e10.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210394.857924,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e10.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210396.886836,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.008 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.771 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.936 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.601 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e10.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210397.747391,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e11.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210399.357554,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e11.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210401.440372,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.776 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.537 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.836 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.714 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.233.113",
+                        "ae0-8.rt.tlx.nyc.us.retn.net",
+                        "3.04 ms"
+                    ],
+                    [
+                        "99.83.66.196",
+                        "99.83.66.196",
+                        "0.504 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e11.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210402.3556569,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e12.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210404.298082,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e12.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210406.4203498,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.106 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.422 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.152 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.585 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e12.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210407.2618968,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e13.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210409.084587,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e13.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210411.113879,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.014 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.263 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.79 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.195 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e13.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210412.0067341,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e14.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.192.181.12"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210413.638935,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e14.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210416.035907,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.137 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "3.18 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.166 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.12 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "99.83.66.196",
+                        "99.83.66.196",
+                        "9.461 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e14.whatsapp.net",
+                    "ip_address": "34.194.71.217",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210416.9109068,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e15.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210418.850643,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e15.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210420.991908,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.984 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.024 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.318 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.4 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.234.6",
+                        "ae1-7.rt.tlx.nyc.us.retn.net",
+                        "8.263 ms"
+                    ],
+                    [
+                        "99.83.66.196",
+                        "99.83.66.196",
+                        "0.202 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e15.whatsapp.net",
+                    "ip_address": "34.192.181.12",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210421.9366531,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        },
+        "e16.whatsapp.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.71.217",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "34.193.38.112",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.194.71.217"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.194.255.230",
+                            "34.192.181.12",
+                            "34.193.38.112"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "34.194.71.217",
+                            "34.192.181.12",
+                            "34.193.38.112",
+                            "34.194.255.230"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 a ~all\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210423.503458,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "e16.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210425.532772,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.227 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.887 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "2.197 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "87.245.233.113",
+                        "ae0-8.rt.tlx.nyc.us.retn.net",
+                        "0.166 ms"
+                    ],
+                    [
+                        "99.83.66.196",
+                        "99.83.66.196",
+                        "0.294 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "e16.whatsapp.net",
+                    "ip_address": "34.193.38.112",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210426.395329,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": null
+        }
+    }
+}

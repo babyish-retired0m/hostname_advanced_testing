@@ -1,0 +1,1959 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655210872.2853398,
+        "Execution time Duration": "26.990"
+    },
+    "advanced_test": {
+        "vimeo.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "MX": [
+                            "alt2.aspmx.l.google.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210874.502228,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "vimeo.com",
+                    "ip_address": "162.159.138.60",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210874.934428,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "162.159.138.60",
+                        0,
+                        "30.427 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        1,
+                        "30.615 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        2,
+                        "30.333 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        3,
+                        "30.462 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        4,
+                        "30.461 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        5,
+                        "30.64 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        6,
+                        "30.568 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        7,
+                        "31.005 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        8,
+                        "30.419 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.138.60",
+                        9,
+                        "30.56 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.135 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.365 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.998 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.963 ms"
+                    ],
+                    null,
+                    [
+                        "62.140.243.22",
+                        "frankfurt-nt-b1-ae5-vlan2036.fiord.net",
+                        "9.106 ms"
+                    ],
+                    [
+                        "80.81.194.180",
+                        "de-cix-frankfurt.as13335.net",
+                        "0.359 ms"
+                    ],
+                    [
+                        "172.70.244.3",
+                        "172.70.244.3",
+                        "0.16 ms"
+                    ],
+                    [
+                        "162.159.138.60",
+                        "162.159.138.60",
+                        "0.346 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "vimeo.com",
+                    "ip_address": "162.159.138.60",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210875.383349,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "vimeo.com",
+                "issued_to": "vimeo.com",
+                "issued_o": "Cloudflare, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "Cloudflare, Inc.",
+                "issuer_ou": null,
+                "issuer_cn": "Cloudflare Inc ECC CA-3",
+                "cert_sn": "5599726948463902688442239961042518733",
+                "cert_sha1": "63:A2:6D:EA:98:1F:AB:17:92:AF:A5:B6:21:F9:33:1E:FB:24:33:43",
+                "cert_alg": "ecdsa-with-SHA256",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.vimeo.com; DNS:vimeo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-18",
+                "valid_till": "2023-03-17",
+                "validity_days": 364,
+                "days_left": 276,
+                "valid_days_to_expire": 275,
+                "tcp_port": 443
+            }
+        },
+        "api.vimeo.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "api.vimeo.com": "api.vimeo.com.cdn.cloudflare.net",
+                            "api.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "CNAME": {
+                            "api.vimeo.com": "api.vimeo.com.cdn.cloudflare.net",
+                            "api.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "CNAME": {
+                            "api.vimeo.com": "api.vimeo.com.cdn.cloudflare.net",
+                            "api.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.128.61",
+                                "162.159.138.60"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "api.vimeo.com": "api.vimeo.com.cdn.cloudflare.net",
+                            "api.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210876.582711,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "api.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210877.033845,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "162.159.128.61",
+                        0,
+                        "32.017 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        1,
+                        "31.808 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        2,
+                        "31.739 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        3,
+                        "31.891 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        4,
+                        "32.029 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        5,
+                        "31.864 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        6,
+                        "31.805 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        7,
+                        "31.85 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        8,
+                        "31.668 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        9,
+                        "31.742 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.841 ms"
+                    ],
+                    null,
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.747 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.234 ms"
+                    ],
+                    null,
+                    [
+                        "62.140.243.22",
+                        "frankfurt-nt-b1-ae5-vlan2036.fiord.net",
+                        "8.245 ms"
+                    ],
+                    [
+                        "80.81.194.180",
+                        "de-cix-frankfurt.as13335.net",
+                        "0.438 ms"
+                    ],
+                    [
+                        "162.158.84.53",
+                        "162.158.84.53",
+                        "0.356 ms"
+                    ],
+                    [
+                        "162.159.128.61",
+                        "162.159.128.61",
+                        "0.237 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "api.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210877.478079,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "api.vimeo.com",
+                "issued_to": "api.vimeo.com",
+                "issued_o": "Vimeo, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert SHA2 Secure Server CA",
+                "cert_sn": "18751970179317550366555369860139015312",
+                "cert_sha1": "00:59:3C:5C:B9:A6:B4:50:F7:45:B7:31:A7:55:BF:93:F9:6C:EA:87",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:api.vimeo.com; DNS:www.api.vimeo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-03",
+                "valid_till": "2023-03-03",
+                "validity_days": 365,
+                "days_left": 262,
+                "valid_days_to_expire": 261,
+                "tcp_port": 443
+            }
+        },
+        "www.vimeo.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "www.vimeo.com": "vimeo.com",
+                            "vimeo.com": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "www.vimeo.com": "vimeo.com",
+                            "vimeo.com": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "www.vimeo.com": "vimeo.com",
+                            "vimeo.com": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ],
+                        "TXT": [
+                            "\"MS=ms11883597\"",
+                            "\"MS=ms31258684\"",
+                            "\"834wn8161vj1q0sw515h2p3pkc3nwwpy\"",
+                            "\"ca3-33268b3a43f94242b7f622b5fc8e84f4\"",
+                            "\"dropbox-domain-verification=i3wbe0w3wzci\"",
+                            "\"apple-domain-verification=hqseHhrDZs9mvnIu\"",
+                            "\"amazonses:aG3MHmiDMfK+ROMMdC2TI3pgSqB/irrc/EffhZm8fpY=\"",
+                            "\"facebook-domain-verification=m3jcqq4qg23ihpjh5w5x5iswpyg6by\"",
+                            "\"google-site-verification=-eOb-DlXc3e9Qy6WVinkTxCyRa0MtgCqrlMMtRcyEa8\"",
+                            "\"google-site-verification=RcUDKcVx4BFOK12yi3crRyHO0A4ys1NdWSC-q5pA0Aw\"",
+                            "\"google-site-verification=UYx7dBka_Zr85ae_GcZlDBs_FkRo3loBwU3GDL0rXkA\"",
+                            "\"google-site-verification=e8qUoscBYD-sPanSS-r0dcYo9EaoIBbLBoyMaBv3sKg\"",
+                            "\"google-site-verification=hMdG7S08M7DLvcHiWDzVzvXxZUsfkruKr0Uo_oCLO0Y\"",
+                            "\"google-site-verification=henfs-vWflKItEV28eNNiXdcPPLeB8FAkluqr0wm4i0\"",
+                            "\"_globalsign-domain-verification=-ogVhboN12TmJn3fnj8AgBTj2LhZkXy26R2M6hIT_Q\"",
+                            "\"_globalsign-domain-verification=u43aixYwit_P_nZo8n15y__KZcxnZCg08KEe5iho2D\"",
+                            "\"yilRhWU2gaWPjUDNJn7Jzxym+9x0hezYabN6SdN0jgD6pU1GgIjgsbqxpR9VIAzo/zsaOf9UCfGqqG0J6onbIw==\"",
+                            "\"brave-ledger-verification=ea3ce87b613b3706879f8d5c90b564eaa08b31e0d1c1bd59175aa394ef7c8c63\"",
+                            "\"adobe-idp-site-verification=2b3f171733f9ec79ece6f6deb429f4f4ddf5d3df3e66bf5460e040eb4489cb50\"",
+                            "\"atlassian-domain-verification=OQUW8wO6JYgjdHThsMyRzUbqCNuYUJ1qA4ryjBsCIcdOFxvr5pFrW4Dt27ZDhLRq\"",
+                            "\"v=spf1 include:_spf.google.com include:mailgun.org include:mail.zendesk.com include:helpscoutemail.com include:spf.mandrillapp.com -all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "www.vimeo.com": "vimeo.com",
+                            "vimeo.com": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        },
+                        "MX": [
+                            "aspmx3.googlemail.com",
+                            "aspmx2.googlemail.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx.l.google.com"
+                        ],
+                        "SOA": [
+                            "ns-70.awsdns-08.com. awsdns-hostmaster.amazon.com. 2014020100 86400 7200 604800 300"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210880.012437,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210880.449019,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "162.159.128.61",
+                        0,
+                        "31.854 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        1,
+                        "31.688 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        2,
+                        "31.516 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        3,
+                        "31.93 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        4,
+                        "31.851 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        5,
+                        "31.949 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        6,
+                        "32.006 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        7,
+                        "31.659 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        8,
+                        "31.835 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        9,
+                        "31.838 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.843 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.655 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "2.338 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "2.14 ms"
+                    ],
+                    null,
+                    [
+                        "62.140.243.22",
+                        "frankfurt-nt-b1-ae5-vlan2036.fiord.net",
+                        "8.259 ms"
+                    ],
+                    [
+                        "80.81.194.180",
+                        "de-cix-frankfurt.as13335.net",
+                        "0.417 ms"
+                    ],
+                    [
+                        "162.158.84.53",
+                        "162.158.84.53",
+                        "0.155 ms"
+                    ],
+                    [
+                        "162.159.128.61",
+                        "162.159.128.61",
+                        "0.181 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210880.877032,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "www.vimeo.com",
+                "issued_to": "sni.cloudflaressl.com",
+                "issued_o": "Cloudflare, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "Cloudflare, Inc.",
+                "issuer_ou": null,
+                "issuer_cn": "Cloudflare Inc ECC CA-3",
+                "cert_sn": "3326336826140764673062403080136397221",
+                "cert_sha1": "E2:DD:05:92:30:E7:29:70:85:DF:DF:D7:C7:F0:BD:50:B5:97:55:1F",
+                "cert_alg": "ecdsa-with-SHA256",
+                "cert_ver": 2,
+                "cert_sans": "DNS:sni.cloudflaressl.com; DNS:www.vimeo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-05-03",
+                "valid_till": "2023-05-02",
+                "validity_days": 364,
+                "days_left": 322,
+                "valid_days_to_expire": 321,
+                "tcp_port": 443
+            }
+        },
+        "player.vimeo.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "CNAME": {
+                            "player.vimeo.com": "player.vimeo.com.cdn.cloudflare.net",
+                            "player.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "162.159.138.60",
+                            "162.159.128.61"
+                        ],
+                        "CNAME": {
+                            "player.vimeo.com": "player.vimeo.com.cdn.cloudflare.net",
+                            "player.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "player.vimeo.com": "player.vimeo.com.cdn.cloudflare.net",
+                            "player.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.138.60",
+                                "162.159.128.61"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "162.159.128.61",
+                            "162.159.138.60"
+                        ],
+                        "CNAME": {
+                            "player.vimeo.com": "player.vimeo.com.cdn.cloudflare.net",
+                            "player.vimeo.com.cdn.cloudflare.net": [
+                                "162.159.128.61",
+                                "162.159.138.60"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210882.198039,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "player.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210882.643172,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "162.159.128.61",
+                        0,
+                        "31.93 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        1,
+                        "31.776 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        2,
+                        "31.979 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        3,
+                        "31.943 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        4,
+                        "31.619 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        5,
+                        "31.803 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        6,
+                        "31.595 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        7,
+                        "31.742 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        8,
+                        "31.792 ms"
+                    ],
+                    [
+                        64,
+                        "162.159.128.61",
+                        9,
+                        "31.784 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.814 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.355 ms"
+                    ],
+                    [
+                        "194.33.189.25",
+                        "194.33.189.25",
+                        "1.937 ms"
+                    ],
+                    [
+                        "62.140.239.18",
+                        "kiev-nt-b1-ae8-vlan3138.fiord.net",
+                        "1.735 ms"
+                    ],
+                    null,
+                    [
+                        "62.140.243.22",
+                        "frankfurt-nt-b1-ae5-vlan2036.fiord.net",
+                        "8.911 ms"
+                    ],
+                    [
+                        "80.81.194.180",
+                        "de-cix-frankfurt.as13335.net",
+                        "0.479 ms"
+                    ],
+                    [
+                        "162.158.84.53",
+                        "162.158.84.53",
+                        "0.201 ms"
+                    ],
+                    [
+                        "162.159.128.61",
+                        "162.159.128.61",
+                        "0.24 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "player.vimeo.com",
+                    "ip_address": "162.159.128.61",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210883.073774,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "player.vimeo.com",
+                "issued_to": "sni.cloudflaressl.com",
+                "issued_o": "Cloudflare, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "Cloudflare, Inc.",
+                "issuer_ou": null,
+                "issuer_cn": "Cloudflare Inc ECC CA-3",
+                "cert_sn": "9295871178254428046539469362294140122",
+                "cert_sha1": "AF:CB:0A:8E:4A:94:4A:4B:1B:4F:51:67:FA:97:80:79:93:FB:83:A5",
+                "cert_alg": "ecdsa-with-SHA256",
+                "cert_ver": 2,
+                "cert_sans": "DNS:sni.cloudflaressl.com; DNS:player.vimeo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-04-01",
+                "valid_till": "2023-03-31",
+                "validity_days": 364,
+                "days_left": 290,
+                "valid_days_to_expire": 289,
+                "tcp_port": 443
+            }
+        },
+        "i.vimeocdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "199.232.18.109"
+                        ],
+                        "CNAME": {
+                            "i.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "199.232.18.109"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "i.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.14.109"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "i.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.114.109"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "i.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.114.109"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210884.470128,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "i.vimeocdn.com",
+                    "ip_address": "151.101.114.109",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210884.910762,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.114.109",
+                        0,
+                        "31.336 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        1,
+                        "30.985 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        2,
+                        "30.963 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        3,
+                        "31.174 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        4,
+                        "30.922 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        5,
+                        "31.045 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        6,
+                        "31.122 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        7,
+                        "30.702 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        8,
+                        "38.813 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        9,
+                        "31.677 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.847 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.71 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.744 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.395 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.287 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.344 ms"
+                    ],
+                    [
+                        "151.101.114.109",
+                        "151.101.114.109",
+                        "0.155 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "i.vimeocdn.com",
+                    "ip_address": "151.101.114.109",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210885.362087,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "i.vimeocdn.com",
+                "issued_to": "*.vimeocdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign Atlas R3 DV TLS CA 2022 Q2",
+                "cert_sn": "2577661485599180588039251355139939020",
+                "cert_sha1": "F7:2E:4A:F6:01:3F:8F:EF:D3:61:92:8C:FC:2E:C2:C2:09:CD:24:D0",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.vimeocdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-05-17",
+                "valid_till": "2023-06-18",
+                "validity_days": 396,
+                "days_left": 369,
+                "valid_days_to_expire": 368,
+                "tcp_port": 443
+            }
+        },
+        "f.vimeocdn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "199.232.18.109"
+                        ],
+                        "CNAME": {
+                            "f.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "199.232.18.109"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "f.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.114.109"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "f.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.242.109"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.114.109"
+                        ],
+                        "CNAME": {
+                            "f.vimeocdn.com": "vimeo-video.map.fastly.net",
+                            "vimeo-video.map.fastly.net": [
+                                "151.101.114.109"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210886.842698,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "f.vimeocdn.com",
+                    "ip_address": "151.101.114.109",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210887.278859,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.114.109",
+                        0,
+                        "30.974 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        1,
+                        "31.089 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        2,
+                        "30.877 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        3,
+                        "30.887 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        4,
+                        "30.888 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        5,
+                        "31.026 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        6,
+                        "31.367 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        7,
+                        "31.417 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        8,
+                        "31.175 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.114.109",
+                        9,
+                        "30.924 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.798 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.665 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.78 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.983 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "7.53 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.342 ms"
+                    ],
+                    [
+                        "151.101.114.109",
+                        "151.101.114.109",
+                        "0.424 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "f.vimeocdn.com",
+                    "ip_address": "151.101.114.109",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210887.662833,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "f.vimeocdn.com",
+                "issued_to": "*.vimeocdn.com",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign Atlas R3 DV TLS CA 2022 Q2",
+                "cert_sn": "2577661485599180588039251355139939020",
+                "cert_sha1": "F7:2E:4A:F6:01:3F:8F:EF:D3:61:92:8C:FC:2E:C2:C2:09:CD:24:D0",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.vimeocdn.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-05-17",
+                "valid_till": "2023-06-18",
+                "validity_days": 396,
+                "days_left": 369,
+                "valid_days_to_expire": 368,
+                "tcp_port": 443
+            }
+        },
+        "vimeo-hp-videos.global.ssl.fastly.net": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "151.101.1.194",
+                            "151.101.65.194",
+                            "151.101.129.194",
+                            "151.101.193.194"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "151.101.1.194",
+                            "151.101.65.194",
+                            "151.101.129.194",
+                            "151.101.193.194"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.65.194",
+                            "151.101.129.194",
+                            "151.101.193.194",
+                            "151.101.1.194"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "151.101.113.194"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210890.051255,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "vimeo-hp-videos.global.ssl.fastly.net",
+                    "ip_address": "151.101.113.194",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210890.49707,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "151.101.113.194",
+                        0,
+                        "32.243 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        1,
+                        "32.199 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        2,
+                        "32.086 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        3,
+                        "32.141 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        4,
+                        "32.149 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        5,
+                        "31.978 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        6,
+                        "32.077 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        7,
+                        "31.747 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        8,
+                        "31.825 ms"
+                    ],
+                    [
+                        64,
+                        "151.101.113.194",
+                        9,
+                        "31.783 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "1.129 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.535 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.877 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "5.983 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.232.139",
+                        "ae8-10.rt.irx.fkt.de.retn.net",
+                        "8.533 ms"
+                    ],
+                    [
+                        "87.245.236.129",
+                        "gw-fastly.retn.net",
+                        "0.318 ms"
+                    ],
+                    [
+                        "151.101.113.194",
+                        "151.101.113.194",
+                        "0.239 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "vimeo-hp-videos.global.ssl.fastly.net",
+                    "ip_address": "151.101.113.194",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210890.930136,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "vimeo-hp-videos.global.ssl.fastly.net",
+                "issued_to": "*.freetls.fastly.net",
+                "issued_o": null,
+                "issuer_c": "BE",
+                "issuer_o": "GlobalSign nv-sa",
+                "issuer_ou": null,
+                "issuer_cn": "GlobalSign Atlas R3 DV TLS CA 2022 Q2",
+                "cert_sn": "1419402339582620952708507091659163568",
+                "cert_sha1": "1B:7B:D9:E9:A0:87:D1:2D:73:4C:EE:D6:17:F2:2F:20:93:A7:37:66",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.freetls.fastly.net; DNS:*.global.ssl.fastly.net",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-05-04",
+                "valid_till": "2023-06-05",
+                "validity_days": 396,
+                "days_left": 356,
+                "valid_days_to_expire": 355,
+                "tcp_port": 443
+            }
+        },
+        "click.email.vimeo.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "198.245.92.39"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "198.245.92.39"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "198.245.92.39"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "198.245.92.39"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655210895.466909,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "click.email.vimeo.com",
+                    "ip_address": "198.245.92.39",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210897.495147,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.863 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.448 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.779 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "5.684 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "4.16.73.230",
+                        "salesforce.ear3.washington12.level3.net",
+                        "3.054 ms"
+                    ],
+                    [
+                        "13.108.2.127",
+                        "ae11--bbr2-iad2.net.sfdc.net",
+                        "0.245 ms"
+                    ],
+                    [
+                        "13.108.7.210",
+                        "et-7-1-2--bbr2-iad1.net.sfdc.net",
+                        "0.234 ms"
+                    ],
+                    [
+                        "13.108.6.241",
+                        "13.108.6.241",
+                        "0.285 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "click.email.vimeo.com",
+                    "ip_address": "198.245.92.39",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655210898.845597,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "click.email.vimeo.com",
+                "issued_to": "click.email.vimeo.com",
+                "issued_o": "SALESFORCE.COM, INC.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "21144195609571856519314423919528068138",
+                "cert_sha1": "85:1B:BB:76:83:56:D9:CC:86:FC:7B:5B:E5:31:99:DA:BE:D8:AE:2F",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:click.email.vimeo.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-09",
+                "valid_till": "2023-04-09",
+                "validity_days": 396,
+                "days_left": 299,
+                "valid_days_to_expire": 298,
+                "tcp_port": 443
+            }
+        }
+    }
+}

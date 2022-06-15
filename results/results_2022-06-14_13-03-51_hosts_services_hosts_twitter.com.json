@@ -1,0 +1,1782 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1655211831.370154,
+        "Execution time Duration": "18.703"
+    },
+    "advanced_test": {
+        "twitter.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "104.244.42.1",
+                            "104.244.42.129"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "ASPMX2.GOOGLEMAIL.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "ASPMX3.GOOGLEMAIL.com"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. zone-admin.dyndns.com. 2007176596 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"0a8c0fc6-bfa5-4ea7-b09b-87f2989022d6\"",
+                            "\"loom-site-verification=638c6bc173b9458997f64d305bf42499\"",
+                            "\"v=spf1 ip4:199.16.156.0/22 ip4:199.59.148.0/22 ip4:8.25.194.0/23 ip4:8.25.196.0/23 ip4:204.92.114.203 ip4:204.92.114.204/31 ip4:54.156.255.69 include:_spf.google.com include:_thirdparty.twitter.com include:spf.smtp2go.com -all\"",
+                            "\"google-site-verification=h6dJIv0HXjLOkGAotLAWEzvoi9SxqP4vjpx98vrCvvQ\"",
+                            "\"atlassian-domain-verification=CCYSIJhsAnbjYWrbdw5r//aHNsYnzgv7Z6Gwz4TkAv5OYdZt3Lm/ycLxT2tmfm/n\"",
+                            "\"apple-domain-verification=zd1iHoEO9LILEQIq\"",
+                            "\"canva-site-verification=lMnZ3wMh7c1uqZqa-cxZTg\"",
+                            "\"wrike-verification=MjU4MTA5MjoyN2UzNDc1MjU3MDZiZTY4NjBiNzliNDQ2OTUwNWY3NmM5NDgyMTBlYzFkNTcwYTE2YWNmZDdkNTY2ZmE4Yzlh\"",
+                            "\"traction-guest=6882b04e-4188-4ff9-8bb4-bff5a3d358e6\"",
+                            "\"miro-verification=6e1ca9ad6d0c2cd2e4186141265f23ed618cfe37\"",
+                            "\"stripe-verification=7386403e6c7c84180381333134e1e568042bb8e000cc1e5ab2fcf5bfd5d67b8b\"",
+                            "\"mixpanel-domain-verify=164dda91-31f4-41e8-a816-0f59b38fea30\"",
+                            "\"google-site-verification=TNhAkfLUeIbzzzSgPNxS5aEkKMf3aUcpPmCK1_kmIvU\"",
+                            "\"adobe-idp-site-verification=a2ff8fc40c434d1d6f02f68b0b1a683e400572ab8c1f2c180c71c3d985b9270a\"",
+                            "\"MS=BEE202D20C326867290BDEFA2DDDF4594B5D6860\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "104.244.42.1",
+                            "104.244.42.129"
+                        ],
+                        "MX": [
+                            "ASPMX3.GOOGLEMAIL.com",
+                            "alt2.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "aspmx.l.google.com",
+                            "ASPMX2.GOOGLEMAIL.com"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. zone-admin.dyndns.com. 2007176596 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"0a8c0fc6-bfa5-4ea7-b09b-87f2989022d6\"",
+                            "\"MS=BEE202D20C326867290BDEFA2DDDF4594B5D6860\"",
+                            "\"adobe-idp-site-verification=a2ff8fc40c434d1d6f02f68b0b1a683e400572ab8c1f2c180c71c3d985b9270a\"",
+                            "\"apple-domain-verification=zd1iHoEO9LILEQIq\"",
+                            "\"atlassian-domain-verification=CCYSIJhsAnbjYWrbdw5r//aHNsYnzgv7Z6Gwz4TkAv5OYdZt3Lm/ycLxT2tmfm/n\"",
+                            "\"canva-site-verification=lMnZ3wMh7c1uqZqa-cxZTg\"",
+                            "\"google-site-verification=TNhAkfLUeIbzzzSgPNxS5aEkKMf3aUcpPmCK1_kmIvU\"",
+                            "\"google-site-verification=h6dJIv0HXjLOkGAotLAWEzvoi9SxqP4vjpx98vrCvvQ\"",
+                            "\"loom-site-verification=638c6bc173b9458997f64d305bf42499\"",
+                            "\"miro-verification=6e1ca9ad6d0c2cd2e4186141265f23ed618cfe37\"",
+                            "\"mixpanel-domain-verify=164dda91-31f4-41e8-a816-0f59b38fea30\"",
+                            "\"stripe-verification=7386403e6c7c84180381333134e1e568042bb8e000cc1e5ab2fcf5bfd5d67b8b\"",
+                            "\"traction-guest=6882b04e-4188-4ff9-8bb4-bff5a3d358e6\"",
+                            "\"v=spf1 ip4:199.16.156.0/22 ip4:199.59.148.0/22 ip4:8.25.194.0/23 ip4:8.25.196.0/23 ip4:204.92.114.203 ip4:204.92.114.204/31 ip4:54.156.255.69 include:_spf.google.com include:_thirdparty.twitter.com include:spf.smtp2go.com -all\"",
+                            "\"wrike-verification=MjU4MTA5MjoyN2UzNDc1MjU3MDZiZTY4NjBiNzliNDQ2OTUwNWY3NmM5NDgyMTBlYzFkNTcwYTE2YWNmZDdkNTY2ZmE4Yzlh\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "104.244.42.193",
+                            "104.244.42.1"
+                        ],
+                        "MX": [
+                            "aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "alt2.aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. zone-admin.dyndns.com. 2007176596 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"0a8c0fc6-bfa5-4ea7-b09b-87f2989022d6\"",
+                            "\"apple-domain-verification=zd1iHoEO9LILEQIq\"",
+                            "\"MS=BEE202D20C326867290BDEFA2DDDF4594B5D6860\"",
+                            "\"canva-site-verification=lMnZ3wMh7c1uqZqa-cxZTg\"",
+                            "\"traction-guest=6882b04e-4188-4ff9-8bb4-bff5a3d358e6\"",
+                            "\"loom-site-verification=638c6bc173b9458997f64d305bf42499\"",
+                            "\"miro-verification=6e1ca9ad6d0c2cd2e4186141265f23ed618cfe37\"",
+                            "\"mixpanel-domain-verify=164dda91-31f4-41e8-a816-0f59b38fea30\"",
+                            "\"google-site-verification=TNhAkfLUeIbzzzSgPNxS5aEkKMf3aUcpPmCK1_kmIvU\"",
+                            "\"google-site-verification=h6dJIv0HXjLOkGAotLAWEzvoi9SxqP4vjpx98vrCvvQ\"",
+                            "\"stripe-verification=7386403e6c7c84180381333134e1e568042bb8e000cc1e5ab2fcf5bfd5d67b8b\"",
+                            "\"adobe-idp-site-verification=a2ff8fc40c434d1d6f02f68b0b1a683e400572ab8c1f2c180c71c3d985b9270a\"",
+                            "\"atlassian-domain-verification=CCYSIJhsAnbjYWrbdw5r//aHNsYnzgv7Z6Gwz4TkAv5OYdZt3Lm/ycLxT2tmfm/n\"",
+                            "\"wrike-verification=MjU4MTA5MjoyN2UzNDc1MjU3MDZiZTY4NjBiNzliNDQ2OTUwNWY3NmM5NDgyMTBlYzFkNTcwYTE2YWNmZDdkNTY2ZmE4Yzlh\"",
+                            "\"v=spf1 ip4:199.16.156.0/22 ip4:199.59.148.0/22 ip4:8.25.194.0/23 ip4:8.25.196.0/23 ip4:204.92.114.203 ip4:204.92.114.204/31 ip4:54.156.255.69 include:_spf.google.com include:_thirdparty.twitter.com include:spf.smtp2go.com -all\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "104.244.42.193",
+                            "104.244.42.129"
+                        ],
+                        "MX": [
+                            "alt2.aspmx.l.google.com",
+                            "alt1.aspmx.l.google.com",
+                            "aspmx.l.google.com",
+                            "aspmx2.googlemail.com",
+                            "aspmx3.googlemail.com"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. zone-admin.dyndns.com. 2007176596 3600 600 604800 60"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211833.0232909,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "twitter.com",
+                    "ip_address": "104.244.42.193",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211833.440025,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "104.244.42.193",
+                        0,
+                        "30.141 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        1,
+                        "29.733 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        2,
+                        "30.011 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        3,
+                        "29.868 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        4,
+                        "29.84 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        5,
+                        "29.629 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        6,
+                        "29.944 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        7,
+                        "29.527 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        8,
+                        "29.607 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.193",
+                        9,
+                        "29.922 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.63 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.367 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.449 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.877 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "80.81.194.21",
+                        "cr2-fra1.twttr.com",
+                        "8.866 ms"
+                    ],
+                    [
+                        "104.244.42.193",
+                        "104.244.42.193",
+                        "0.074 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "twitter.com",
+                    "ip_address": "104.244.42.193",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211834.216256,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "twitter.com",
+                "issued_to": "twitter.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "cert_sn": "3425690802618556569977139869645443961",
+                "cert_sha1": "37:63:F4:77:39:1F:19:EF:D1:63:ED:67:74:1B:92:83:0F:9E:D4:93",
+                "cert_alg": "ecdsa-with-SHA384",
+                "cert_ver": 2,
+                "cert_sans": "DNS:twitter.com; DNS:www.twitter.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-07",
+                "valid_till": "2023-03-06",
+                "validity_days": 364,
+                "days_left": 265,
+                "valid_days_to_expire": 264,
+                "tcp_port": 443
+            }
+        },
+        "t.co": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "104.244.42.69",
+                            "104.244.42.5",
+                            "104.244.42.133",
+                            "104.244.42.197"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. ops\\@twitter.com. 2535 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"1nfb08f5jkpy0flhn6lwml2vk7x34hrd\"",
+                            "\"1z8q6j6wymwb6bh0t3q28tp7vsbgnh6d\"",
+                            "\"v=spf1 -all\""
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "104.244.42.133",
+                            "104.244.42.69",
+                            "104.244.42.197",
+                            "104.244.42.5"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. ops\\@twitter.com. 2535 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"1z8q6j6wymwb6bh0t3q28tp7vsbgnh6d\"",
+                            "\"v=spf1 -all\"",
+                            "\"1nfb08f5jkpy0flhn6lwml2vk7x34hrd\""
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "104.244.42.5",
+                            "104.244.42.69",
+                            "104.244.42.133",
+                            "104.244.42.197"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. ops.twitter.com. 2535 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 -all\"",
+                            "\"1nfb08f5jkpy0flhn6lwml2vk7x34hrd\"",
+                            "\"1z8q6j6wymwb6bh0t3q28tp7vsbgnh6d\""
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "104.244.42.197",
+                            "104.244.42.133",
+                            "104.244.42.69",
+                            "104.244.42.5"
+                        ],
+                        "SOA": [
+                            "ns1.p26.dynect.net. ops.twitter.com. 2535 3600 600 604800 60"
+                        ],
+                        "TXT": [
+                            "\"v=spf1 -all\"",
+                            "\"1z8q6j6wymwb6bh0t3q28tp7vsbgnh6d\"",
+                            "\"1nfb08f5jkpy0flhn6lwml2vk7x34hrd\""
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211835.37007,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "t.co",
+                    "ip_address": "104.244.42.197",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211835.8025699,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "104.244.42.5",
+                        0,
+                        "31.404 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        1,
+                        "31.018 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        2,
+                        "30.935 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        3,
+                        "31.335 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        4,
+                        "31.12 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        5,
+                        "30.924 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        6,
+                        "31.028 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        7,
+                        "31.228 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        8,
+                        "31.21 ms"
+                    ],
+                    [
+                        64,
+                        "104.244.42.5",
+                        9,
+                        "31.042 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.693 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.605 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "7.355 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.072 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.233.164",
+                        "ae4-2.rt.eqx.fkt.de.retn.net",
+                        "7.206 ms"
+                    ],
+                    [
+                        "80.81.194.21",
+                        "cr2-fra1.twttr.com",
+                        "0.128 ms"
+                    ],
+                    [
+                        "104.244.42.197",
+                        "104.244.42.197",
+                        "0.094 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "t.co",
+                    "ip_address": "104.244.42.197",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211836.315861,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "t.co",
+                "issued_to": "t.co",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS Hybrid ECC SHA384 2020 CA1",
+                "cert_sn": "5422523974854914966681963226840462436",
+                "cert_sha1": "45:01:D5:17:39:86:88:E4:9B:47:CC:62:09:75:71:E0:2E:D1:16:75",
+                "cert_alg": "ecdsa-with-SHA384",
+                "cert_ver": 2,
+                "cert_sans": "DNS:t.co; DNS:www.t.co",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2022-03-07",
+                "valid_till": "2023-03-06",
+                "validity_days": 364,
+                "days_left": 265,
+                "valid_days_to_expire": 264,
+                "tcp_port": 443
+            }
+        },
+        "abs.twimg.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "199.232.16.159"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:8173:898f:63b3:95c3:79d2"
+                        ],
+                        "CNAME": {
+                            "abs.twimg.com": "twimg.twitter.map.fastly.net",
+                            "twimg.twitter.map.fastly.net": [
+                                "199.232.16.159"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "152.199.21.141"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:8173:898f:63b3:95c3:79d2"
+                        ],
+                        "CNAME": {
+                            "abs.twimg.com": "cs510.wpc.edgecastcdn.net",
+                            "cs510.wpc.edgecastcdn.net": [
+                                "152.199.21.141"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "152.199.21.141"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:8173:898f:63b3:95c3:79d2"
+                        ],
+                        "CNAME": {
+                            "abs.twimg.com": "cs510.wpc.edgecastcdn.net",
+                            "cs510.wpc.edgecastcdn.net": [
+                                "152.199.21.141"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "152.199.21.141"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:8173:898f:63b3:95c3:79d2"
+                        ],
+                        "CNAME": {
+                            "abs.twimg.com": "cs510.wpc.edgecastcdn.net",
+                            "cs510.wpc.edgecastcdn.net": [
+                                "152.199.21.141"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211837.580224,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "abs.twimg.com",
+                    "ip_address": "152.199.21.141",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211837.8332229,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "152.199.21.141",
+                        0,
+                        "13.876 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        1,
+                        "13.566 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        2,
+                        "13.667 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        3,
+                        "13.526 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        4,
+                        "13.477 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        5,
+                        "13.527 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        6,
+                        "13.724 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        7,
+                        "13.759 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        8,
+                        "13.626 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.141",
+                        9,
+                        "13.553 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.602 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.862 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "1.822 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "abs.twimg.com",
+                    "ip_address": "152.199.21.141",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211838.6749701,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "abs.twimg.com",
+                "issued_to": "*.twimg.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "3891841013062251826237902986712320375",
+                "cert_sha1": "8C:D5:40:04:D5:24:B3:B4:B1:E6:4F:12:DE:F2:32:D3:47:32:2E:74",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.twimg.com; DNS:twimg.com; DNS:platform.twitter.com; DNS:cdn.syndication.twimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-10-20",
+                "valid_till": "2022-10-19",
+                "validity_days": 364,
+                "days_left": 127,
+                "valid_days_to_expire": 126,
+                "tcp_port": 443
+            }
+        },
+        "pbs.twimg.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "93.184.220.70"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:1a0d:1429:742:782:b6"
+                        ],
+                        "CNAME": {
+                            "pbs.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs45.wac.edgecastcdn.net",
+                            "cs45.wac.edgecastcdn.net": [
+                                "93.184.220.70"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "199.232.188.159"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:fa2:1627:1fe:edb:1665"
+                        ],
+                        "CNAME": {
+                            "pbs.twimg.com": "twimg.twitter.map.fastly.net",
+                            "twimg.twitter.map.fastly.net": [
+                                "199.232.188.159"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "192.229.233.50"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:fa2:1627:1fe:edb:1665"
+                        ],
+                        "CNAME": {
+                            "pbs.twimg.com": "pbs-ak.twimg.com",
+                            "pbs-ak.twimg.com": "pbs.twimg.akadns.net",
+                            "pbs.twimg.akadns.net": "pbs.twimg.com.akamaized.net",
+                            "pbs.twimg.com.akamaized.net": "pbs.twimg.com.eip.akadns.net",
+                            "pbs.twimg.com.eip.akadns.net": "eip-ntt.pbs.twimg.com.akahost.net",
+                            "eip-ntt.pbs.twimg.com.akahost.net": [
+                                "23.1.106.237"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "192.229.233.50"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:fa2:1627:1fe:edb:1665"
+                        ],
+                        "CNAME": {
+                            "pbs.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs45.wac.edgecastcdn.net",
+                            "cs45.wac.edgecastcdn.net": [
+                                "93.184.220.70"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211840.498587,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "pbs.twimg.com",
+                    "ip_address": "192.229.233.50",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211840.756791,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "192.229.233.50",
+                        0,
+                        "13.77 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        1,
+                        "13.293 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        2,
+                        "13.321 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        3,
+                        "13.393 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        4,
+                        "13.254 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        5,
+                        "13.175 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        6,
+                        "13.407 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        7,
+                        "13.259 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        8,
+                        "13.321 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.233.50",
+                        9,
+                        "13.582 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.657 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.451 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.491 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "4.382 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "152.195.254.22",
+                        "ae-90.core1.wmi.edgecastcdn.net",
+                        "6.998 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "pbs.twimg.com",
+                    "ip_address": "192.229.233.50",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211841.77366,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "pbs.twimg.com",
+                "issued_to": "*.twimg.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "3891841013062251826237902986712320375",
+                "cert_sha1": "8C:D5:40:04:D5:24:B3:B4:B1:E6:4F:12:DE:F2:32:D3:47:32:2E:74",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.twimg.com; DNS:twimg.com; DNS:platform.twitter.com; DNS:cdn.syndication.twimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-10-20",
+                "valid_till": "2022-10-19",
+                "validity_days": 364,
+                "days_left": 127,
+                "valid_days_to_expire": 126,
+                "tcp_port": 443
+            }
+        },
+        "ton.twimg.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "152.199.21.140"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:7ee2:97c:ab4c:6c70:be36"
+                        ],
+                        "CNAME": {
+                            "ton.twimg.com": "cs511.wpc.edgecastcdn.net",
+                            "cs511.wpc.edgecastcdn.net": [
+                                "152.199.21.140"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "199.232.136.159"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:7ee2:97c:ab4c:6c70:be36"
+                        ],
+                        "CNAME": {
+                            "ton.twimg.com": "cs511.wpc.edgecastcdn.net",
+                            "cs511.wpc.edgecastcdn.net": [
+                                "152.199.21.140"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "152.199.21.140"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:7ee2:97c:ab4c:6c70:be36"
+                        ],
+                        "CNAME": {
+                            "ton.twimg.com": "cs511.wpc.edgecastcdn.net",
+                            "cs511.wpc.edgecastcdn.net": [
+                                "152.199.21.140"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "152.199.21.140"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:7ee2:97c:ab4c:6c70:be36"
+                        ],
+                        "CNAME": {
+                            "ton.twimg.com": "cs511.wpc.edgecastcdn.net",
+                            "cs511.wpc.edgecastcdn.net": [
+                                "152.199.21.140"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211843.283514,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ton.twimg.com",
+                    "ip_address": "152.199.21.140",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211843.53874,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "152.199.21.140",
+                        0,
+                        "13.509 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        1,
+                        "13.514 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        2,
+                        "13.302 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        3,
+                        "13.34 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        4,
+                        "13.544 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        5,
+                        "13.269 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        6,
+                        "13.408 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        7,
+                        "13.325 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        8,
+                        "13.485 ms"
+                    ],
+                    [
+                        64,
+                        "152.199.21.140",
+                        9,
+                        "13.597 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.606 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.839 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.44 ms"
+                    ],
+                    null,
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "6.069 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "ton.twimg.com",
+                    "ip_address": "152.199.21.140",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211844.432601,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "ton.twimg.com",
+                "issued_to": "*.twimg.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "3891841013062251826237902986712320375",
+                "cert_sha1": "8C:D5:40:04:D5:24:B3:B4:B1:E6:4F:12:DE:F2:32:D3:47:32:2E:74",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.twimg.com; DNS:twimg.com; DNS:platform.twitter.com; DNS:cdn.syndication.twimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-10-20",
+                "valid_till": "2022-10-19",
+                "validity_days": 364,
+                "days_left": 127,
+                "valid_days_to_expire": 126,
+                "tcp_port": 443
+            }
+        },
+        "cdn.syndication.twimg.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "192.229.233.50"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:1a0d:1429:742:782:b6"
+                        ],
+                        "CNAME": {
+                            "cdn.syndication.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs45.wac.edgecastcdn.net",
+                            "cs45.wac.edgecastcdn.net": [
+                                "93.184.220.70"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "192.229.233.50"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:fa2:1627:1fe:edb:1665"
+                        ],
+                        "CNAME": {
+                            "cdn.syndication.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs672.wac.edgecastcdn.net",
+                            "cs672.wac.edgecastcdn.net": [
+                                "192.229.233.50"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "192.229.233.50"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:fa2:1627:1fe:edb:1665"
+                        ],
+                        "CNAME": {
+                            "cdn.syndication.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs45.wac.edgecastcdn.net",
+                            "cs45.wac.edgecastcdn.net": [
+                                "93.184.220.70"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "93.184.220.70"
+                        ],
+                        "AAAA": [
+                            "2606:2800:134:1a0d:1429:742:782:b6"
+                        ],
+                        "CNAME": {
+                            "cdn.syndication.twimg.com": "cs196.wac.edgecastcdn.net",
+                            "cs196.wac.edgecastcdn.net": "cs2-wac.apr-8315.edgecastdns.net",
+                            "cs2-wac.apr-8315.edgecastdns.net": "cs2-wac-eu.8315.ecdns.net",
+                            "cs2-wac-eu.8315.ecdns.net": "cs45.wac.edgecastcdn.net",
+                            "cs45.wac.edgecastcdn.net": [
+                                "93.184.220.70"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211846.1356952,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "cdn.syndication.twimg.com",
+                    "ip_address": "93.184.220.70",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211846.395981,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "93.184.220.70",
+                        0,
+                        "13.697 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        1,
+                        "13.508 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        2,
+                        "13.451 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        3,
+                        "13.213 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        4,
+                        "13.417 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        5,
+                        "13.389 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        6,
+                        "13.373 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        7,
+                        "13.124 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        8,
+                        "13.315 ms"
+                    ],
+                    [
+                        64,
+                        "93.184.220.70",
+                        9,
+                        "13.344 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.655 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.542 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.834 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "2.27 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "cdn.syndication.twimg.com",
+                    "ip_address": "93.184.220.70",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211847.265783,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "cdn.syndication.twimg.com",
+                "issued_to": "*.twimg.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "3891841013062251826237902986712320375",
+                "cert_sha1": "8C:D5:40:04:D5:24:B3:B4:B1:E6:4F:12:DE:F2:32:D3:47:32:2E:74",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.twimg.com; DNS:twimg.com; DNS:platform.twitter.com; DNS:cdn.syndication.twimg.com",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-10-20",
+                "valid_till": "2022-10-19",
+                "validity_days": 364,
+                "days_left": 127,
+                "valid_days_to_expire": 126,
+                "tcp_port": 443
+            }
+        },
+        "video.twimg.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "68.232.34.217"
+                        ],
+                        "CNAME": {
+                            "video.twimg.com": "video.twitter.map.fastly.net",
+                            "video.twitter.map.fastly.net": [
+                                "199.232.16.158"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "199.232.136.158"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:1ab3:789:1032:20e3:21"
+                        ],
+                        "CNAME": {
+                            "video.twimg.com": "video.twitter.map.fastly.net",
+                            "video.twitter.map.fastly.net": [
+                                "199.232.136.158"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "151.101.240.158"
+                        ],
+                        "CNAME": {
+                            "video.twimg.com": "cs296.wpc.edgecastcdn.net",
+                            "cs296.wpc.edgecastcdn.net": "cs2-wpc.apr-8315.edgecastdns.net",
+                            "cs2-wpc.apr-8315.edgecastdns.net": "cs2-wpc-eu.8315.ecdns.net",
+                            "cs2-wpc-eu.8315.ecdns.net": "cs531.wpc.edgecastcdn.net",
+                            "cs531.wpc.edgecastcdn.net": [
+                                "192.229.220.133"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "192.229.220.133"
+                        ],
+                        "AAAA": [
+                            "2606:2800:233:1ab3:789:1032:20e3:21"
+                        ],
+                        "CNAME": {
+                            "video.twimg.com": "video.twitter.map.fastly.net",
+                            "video.twitter.map.fastly.net": [
+                                "199.232.136.158"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1655211848.8555079,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "video.twimg.com",
+                    "ip_address": "192.229.220.133",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 3698,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211849.112428,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "192.229.220.133",
+                        0,
+                        "13.65 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        1,
+                        "13.386 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        2,
+                        "13.461 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        3,
+                        "13.296 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        4,
+                        "13.53 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        5,
+                        "13.349 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        6,
+                        "13.631 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        7,
+                        "13.221 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        8,
+                        "13.577 ms"
+                    ],
+                    [
+                        64,
+                        "192.229.220.133",
+                        9,
+                        "13.477 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.749 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.389 ms"
+                    ],
+                    [
+                        "194.33.189.15",
+                        "194.33.189.15",
+                        "1.75 ms"
+                    ],
+                    [
+                        "87.245.247.158",
+                        "ae1-210.rt.bmb.kiv.ua.retn.net",
+                        "8.953 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "152.195.254.22",
+                        "ae-90.core1.wmi.edgecastcdn.net",
+                        "6.004 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "video.twimg.com",
+                    "ip_address": "192.229.220.133",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1655211850.02434,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            },
+            "ssl_cert_info": {
+                "host": "video.twimg.com",
+                "issued_to": "*.twimg.com",
+                "issued_o": "Twitter, Inc.",
+                "issuer_c": "US",
+                "issuer_o": "DigiCert Inc",
+                "issuer_ou": null,
+                "issuer_cn": "DigiCert TLS RSA SHA256 2020 CA1",
+                "cert_sn": "13174602437540832859510178021239379944",
+                "cert_sha1": "91:2C:D0:19:0C:08:1F:D0:D1:6D:0D:49:D3:9B:19:20:55:44:9A:98",
+                "cert_alg": "sha256WithRSAEncryption",
+                "cert_ver": 2,
+                "cert_sans": "DNS:*.twimg.com; DNS:v.cdn.vine.co; DNS:mtc.cdn.vine.co",
+                "cert_exp": false,
+                "cert_valid": true,
+                "valid_from": "2021-11-15",
+                "valid_till": "2022-11-14",
+                "validity_days": 364,
+                "days_left": 153,
+                "valid_days_to_expire": 152,
+                "tcp_port": 443
+            }
+        }
+    }
+}
