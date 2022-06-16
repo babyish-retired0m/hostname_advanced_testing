@@ -15,6 +15,7 @@ import time
 import os
 import json
 import sys
+import pathlib
 
 File = file.Main(print_result = False)
 
@@ -39,29 +40,8 @@ class Advanced_testing:
 			self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time()}}
 		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
-		
 	"""def __call__(self):
 		return self.__get_hostname_advanced_testing__()"""
-	
-	def __get_hostnames_as_list__(self):
-		self.path_results = self.path_results.replace(".json", "_hosts_all.json")
-		hostnames = ["hosts_facebook", "hosts_bing", "hosts_linkedin", "hosts_wikipedia", "hosts_yahoo", "hosts", "hosts_google", "hosts_apple", "hosts_amazon", "hosts_amazon_2"]
-		hosts_list = []
-		for servers_list in hostnames:
-			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/" + servers_list + ".txt"))
-			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/" + servers_list + ".txt"))
-			if servers_list == "hosts_bing": hosts_list.remove("nrb.footprintdns.com")
-			elif servers_list == "hosts": hosts_list.append("162.158.248.55")
-		return hosts_list
-	
-	def __get_hostnames_nordvpn_as_list__(self):
-		self.path_results = self.path_results.replace(".json", "_hosts_nordvpn.json")
-		hostnames = ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]
-		hosts_list = []
-		for servers_list in hostnames:
-			hosts_list.extend(File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/" + servers_list + ".txt"))
-			#hosts_list.extend(File.open_as_list(os.path.dirname(__file__) + "/hosts/nordvpn/" + servers_list + ".txt"))
-		return hosts_list
 	def __get_ip_public__(self):
 		self.ip_address_public = ip_address.get_ip_address_public_amazon()
 		if self.ip_address_public: self.__get_ip_address_checked__()
@@ -114,7 +94,6 @@ class Advanced_testing:
 			else: k = 150
 		for qname in self.hostnames:
 			self.__get_ip_public__()
-			#self.__get_ip_address_checked__()
 			if len(qname)>3:
 				if qname in self.cannot_be_resolved: pass
 				else:
@@ -154,14 +133,5 @@ class Advanced_testing:
 		os.system('say ' + "Results dumped")
 
 if __name__ == '__main__':
-	import os
-	import time
-		
-	#Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
-	#Get_hostnames_testing.get_hostname_advanced_testing(Get_hostnames_testing.__get_hostnames_as_list__())
-	
 	Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = False, get_traceroute = False, get_ssl_check = False, get_dump = False, records = ["A", "CNAME"], nameserver = "1.1.1.1")
 	print(Get_hostnames_testing.get_hostname_advanced_testing(hostnames = ["www.facebook.com", "amazon.com", "us2723.nordvpn.com", "jp590.nordvpn.com", "za110.nordvpn.com"]))
-	
-	#Get_hostnames_testing_nordvpn = Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True)
-	#Get_hostnames_testing_nordvpn.get_hostname_advanced_testing(Get_hostnames_testing_nordvpn.__get_hostnames_nordvpn_as_list__())
