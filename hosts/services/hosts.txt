@@ -244,7 +244,7 @@ secur.ua
 dis.gov.ua
 kbri.kiev.ua
 kiew.diplo.de
-pepesi.website
+pepsi.website
 mofa.go.kr
 kemlu.go.id
 canadainternational.gc.ca
@@ -274,3 +274,5 @@ gp.gov.ua
 esbu.gov.ua
 karabas.com
 planfix.com
+usda.gov
+fs.usda.gov

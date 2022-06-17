@@ -22,13 +22,13 @@ class Cli_api:
 			Get_hostnames_testing.get_hostname_advanced_testing(hosts_list)
 		elif args.nordvpn:
 			hosts_list = []
-			Get_hostnames_testing_nordvpn = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, records = ["A"], nameserver = "1.1.1.1", get_dump = True, path_results_name = "hosts_nordvpn")
+			Get_hostnames_testing_nordvpn = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, records = ["A"], nameserver = "1.1.1.1", get_dump = True, path_results_name = "nordvpn")
 			for servers_list in ["servers_dedicated", "servers_obfuscated", "servers_p2p", "servers_double", "servers_onion", "servers_standard"]:
 				hosts_list.extend([host.rstrip() for host in (File.get_request_text_as_str("https://raw.githubusercontent.com/babyish-retired0m/hostname_advanced_testing/main/hosts/nordvpn/" + servers_list + ".txt"))])
 			Get_hostnames_testing_nordvpn.get_hostname_advanced_testing(hosts_list)
 		elif args.google:
 			hosts_list = []
-			for servers_list in pathlib.Path("./hosts/services/google").rglob("*.txt"):
+			for servers_list in pathlib.Path("./hosts/google").rglob("*.txt"):
 				hosts_list.extend([x.rstrip() for x in open(servers_list,'r').readlines()]) 
 			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, path_results_name = "google")
 			Get_hostnames_testing.get_hostname_advanced_testing(hosts_list)
@@ -54,7 +54,7 @@ class Cli_api:
 		group.add_argument("-s", "--services", dest = "services", action = "store_true", help = "Advanced testing services hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
 		group.add_argument("-n", "--nordvpn", dest = "nordvpn", action = "store_true", help = "Advanced testing nordvpn hostnames get nslookup check, get ping check, get traceroute check.")
 		group.add_argument("-g", "--google", dest = "google", action = "store_true", help = "Advanced testing Google hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
-		group.add_argument("-h", "--hosts", dest = "hosts", action = "store_true", help = "Advanced testing hosts hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
+		group.add_argument("-H", "--hosts", dest = "hosts", action = "store_true", help = "Advanced testing hosts hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
 		group.add_argument("-a", "--apple", dest = "apple", action = "store_true", help = "Advanced testing Apple hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
 		group.add_argument("-A", "--amazon", dest = "amazon", action = "store_true", help = "Advanced testing Amazon hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check.")
 		group.add_argument("-v", "--version", action = "version", version = "%(prog)s version: " + __version__)
