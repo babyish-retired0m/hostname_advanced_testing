@@ -30,17 +30,17 @@ class Cli_api:
 			hosts_list = []
 			for servers_list in pathlib.Path("./hosts/google").rglob("*.txt"):
 				hosts_list.extend([x.rstrip() for x in open(servers_list,'r').readlines()]) 
-			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, path_results_name = "google")
+			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, records = ["A", "AAAA", "CNAME"], path_results_name = "google")
 			Get_hostnames_testing.get_hostname_advanced_testing(hosts_list)
 		elif args.hosts:
 			hosts_PATH = './hosts/services/hosts.txt'
 			if os.path.isfile(hosts_PATH):
-				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, path_results_name = "facebook.com")
+				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True)
 				Get_hostnames_testing.get_hostname_advanced_testing([host.rstrip() for host in open(hosts_PATH, 'r').readlines()])
 		elif args.apple:
 			hosts_PATH = './hosts/services/hosts_apple.txt'
 			if os.path.isfile(hosts_PATH):
-				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, path_results_name = "googlevideo.com")
+				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, path_results_name = "apple")
 				Get_hostnames_testing.get_hostname_advanced_testing([host.rstrip() for host in open(hosts_PATH, 'r').readlines()])
 		elif args.amazon:
 			hosts_PATH = './hosts/services/hosts_amazon.com_all.txt'

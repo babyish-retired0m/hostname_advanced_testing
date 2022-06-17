@@ -105,7 +105,7 @@ class Advanced_testing:
 						pass
 					else:
 						self.recv_records["advanced_test"][qname] = {}
-						utility.Percents(self.hostnames.index(qname), hostnames_len)
+						utility.percents_print(self.hostnames.index(qname), hostnames_len)
 						#nslookup
 						if self.get_nslookup: self.recv_records["advanced_test"][qname]["resolve"] = self.__get_nslookup__(qname)
 						#ping
