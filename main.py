@@ -28,16 +28,12 @@ class Advanced_testing:
 		self.get_dump = get_dump
 		self.records = records
 		self.nameserver = nameserver
-		self.parent_dir = os.path.dirname(__file__)
-		path = self.parent_dir + "/results/"
-		if File.check_dir(path) is False: File.dirs_make(path)
-		self.path_results = path + "results_" + time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime()) + ".json"
-		if path_results_name: self.path_results = self.path_results.replace(".json", "_hosts_" + path_results_name + ".json")
 		if len(hostnames_dict) > 0:
 			self.recv_records = hostnames_dict
 		else:
 			#self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time(), "Public IP Address" : self.__get_ip__()}}
 			self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time()}}
+		self.path_results_name = path_results_name
 		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
 	"""def __call__(self):
@@ -128,8 +124,14 @@ class Advanced_testing:
 		if self.get_dump: self.__get_dump__()
 		return self.recv_records
 	def __get_dump__(self):
-		json.dump(self.recv_records, fp = open(self.path_results, 'w'), indent=4)
-		print("Results dumped:", self.path_results)
+		parent_dir = os.path.dirname(__file__)
+		path = parent_dir + "/results/"
+		if File.check_dir(path) is False: File.dirs_make(path)
+		path_results = path + "results_" + time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime()) + ".json"
+		if self.path_results_name: path_results = path_results.replace(".json", "_hosts_" + self.path_results_name + ".json")
+
+		json.dump(self.recv_records, fp = open(path_results, 'w'), indent=4)
+		print(utility.Clr.GREEN2 + "Results dumped:", path_results + utility.Clr.RST2)
 		os.system('say ' + "Results dumped")
 
 if __name__ == '__main__':

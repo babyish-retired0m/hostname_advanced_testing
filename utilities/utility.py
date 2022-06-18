@@ -71,4 +71,3 @@ if __name__ == '__main__':
 	import os
 	print(getusername()+'@'+getpcname(),getcurrentdirectory(),'% ')
 	#print(os.path.expanduser('~'))
-	percents_print(100, 10000)
