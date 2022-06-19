@@ -34,6 +34,7 @@ class Advanced_testing:
 			#self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time(), "Public IP Address" : self.__get_ip__()}}
 			self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_unix_time()}}
 		self.path_results_name = path_results_name
+		self.parent_dir = os.path.dirname(__file__)
 		self.cannot_be_resolved = File.open_as_list(self.parent_dir + "/utilities/cannot_be_resolved.txt")
 		self.cannot_be_ssl_checked = File.open_as_list(self.parent_dir + "/utilities/cannot_be_ssl_checked.txt")
 	"""def __call__(self):
@@ -124,8 +125,7 @@ class Advanced_testing:
 		if self.get_dump: self.__get_dump__()
 		return self.recv_records
 	def __get_dump__(self):
-		parent_dir = os.path.dirname(__file__)
-		path = parent_dir + "/results/"
+		path = self.parent_dir + "/results/"
 		if File.check_dir(path) is False: File.dirs_make(path)
 		path_results = path + "results_" + time.strftime("%Y-%m-%d_%H-%M-%S", time.gmtime()) + ".json"
 		if self.path_results_name: path_results = path_results.replace(".json", "_hosts_" + self.path_results_name + ".json")
