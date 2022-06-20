@@ -276,3 +276,5 @@ karabas.com
 planfix.com
 usda.gov
 fs.usda.gov
+liqpay.ua
+channelapi.liqpay.ua
