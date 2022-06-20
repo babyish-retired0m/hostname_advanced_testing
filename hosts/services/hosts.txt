@@ -60,7 +60,9 @@ acs.privatbank.ua
 binbu.privatbank.ua
 pb.ua
 fbi.gov
+www.fbi.gov
 ic3.gov
+www.ic3.gov
 mail1.ic3.gov
 mail2.ic3.gov
 smtp.ic3.gov
@@ -278,3 +280,9 @@ usda.gov
 fs.usda.gov
 liqpay.ua
 channelapi.liqpay.ua
+www.irs.gov
+www.usaspending.gov
+datalab.usaspending.gov
+api.usaspending.gov
+treasury.gov
+fiscaldata.treasury.gov
