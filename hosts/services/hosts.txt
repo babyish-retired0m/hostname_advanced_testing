@@ -133,6 +133,8 @@ nordvpn.com
 account.nordvpn.com
 auth.nordaccount.com
 my.nordaccount.com
+os4work.com
+applytics.os4work.com
 accounts.ukr.net
 ukr.net
 hotline.ua

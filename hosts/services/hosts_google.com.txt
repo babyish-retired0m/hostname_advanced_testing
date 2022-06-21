@@ -3,6 +3,7 @@ www.google.com.ua
 googleadservices.com
 www.youtube.com
 wf-in-f128.1e100.net
+firebaseremoteconfig.googleapis.com
 storage.googleapis.com
 googleapis.com
 commondatastorage.googleapis.com
