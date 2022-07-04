@@ -149,10 +149,8 @@ www.vodafone.ua
 vodafone.ua
 my.vodafone.ua
 88.214.96.116
-88.214.96.116
 88.214.96.117
 88.214.96.118
-88.214.96.119
 88.214.96.119
 1.1.1.1
 8.8.4.4
@@ -161,6 +159,7 @@ my.vodafone.ua
 208.67.220.220
 209.244.0.3
 103.86.96.100
+212.58.161.173
 joker.ua
 cloudflare.com
 sni.cloudflaressl.com
