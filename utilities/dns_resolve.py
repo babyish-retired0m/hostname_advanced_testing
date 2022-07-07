@@ -47,7 +47,11 @@ class Dns_response():
 		ip_addresses_block_AS_15895 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-15895_kyivstar.ua.txt")
 		ip_addresses_block_AS_34058 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-34058_lifecell.ua.txt")
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+		
+>>>>>>> Stashed changes
 		
 		
 >>>>>>> Stashed changes
@@ -75,6 +79,10 @@ class Dns_response():
 			nameservers.append("212.58.161.173")
 			#nameservers.extend(["212.58.161.174","2a00:1e98:1104:fd::5"])
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 =======
 
 >>>>>>> Stashed changes
