@@ -46,6 +46,7 @@ class Dns_response():
 		ip_addresses_block_AS_39608 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
 		ip_addresses_block_AS_15895 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-15895_kyivstar.ua.txt")
 		ip_addresses_block_AS_34058 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-34058_lifecell.ua.txt")
+		ip_addresses_block_AS_44668 = File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-44668_znet.com.ua.txt")
 		#DNS IP address Lanet:
 		if ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_39608):
 			nameservers.append("194.50.85.5")
@@ -69,6 +70,9 @@ class Dns_response():
 		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_34058):
 			nameservers.append("212.58.161.173")
 			#nameservers.extend(["212.58.161.174","2a00:1e98:1104:fd::5"])
+		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_44668):
+			nameservers.append("91.202.104.6")
+			nameservers.append("162.158.248.73")
 		#Checking DNS record propagation https://2ip.me/en/services/information-service/dns-check
 		#nameservers = ['208.67.222.220', '8.8.8.8', '9.9.9.9', '98.113.146.9', '12.121.117.201', '66.206.166.2', '5.11.11.5', '163.172.107.158', '212.230.255.1', '194.209.157.109', '83.137.41.9', '194.145.241.6', '84.200.70.40', '200.56.224.11', '200.248.178.54', '103.26.250.4', '1.1.1.1', '61.8.0.113', '210.48.77.68', '164.124.101.2', '202.46.34.75', '31.7.37.37', '115.178.96.2', '58.27.149.60', '185.83.212.30', '103.146.221.20', '8.8.4.4', '64.6.64.6', '208.67.220.220', '209.244.0.3', '1.0.0.1', '208.67.222.222']
 		return nameservers
