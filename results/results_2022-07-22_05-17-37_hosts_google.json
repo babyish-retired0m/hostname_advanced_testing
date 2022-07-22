@@ -1,0 +1,1953 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1658467057.4827268
+    },
+    "advanced_test": {
+        "redirector.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "142.250.75.14"
+                        ],
+                        "AAAA": [
+                            "2a00:1450:401b:801::200e"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "216.58.215.78"
+                        ],
+                        "AAAA": [
+                            "2a00:1450:401b:806::200e"
+                        ]
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "216.58.215.78"
+                        ],
+                        "AAAA": [
+                            "2a00:1450:401b:806::200e"
+                        ]
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "216.58.215.110"
+                        ],
+                        "AAAA": [
+                            "2a00:1450:401b:807::200e"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467058.433943,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "redirector.c.docs.google.com",
+                    "ip_address": "216.58.215.110",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467058.708833,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "216.58.215.110",
+                        0,
+                        "15.585 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        1,
+                        "14.95 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        2,
+                        "14.878 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        3,
+                        "14.692 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        4,
+                        "14.901 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        5,
+                        "15.211 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        6,
+                        "15.091 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        7,
+                        "14.79 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        8,
+                        "14.788 ms"
+                    ],
+                    [
+                        64,
+                        "216.58.215.110",
+                        9,
+                        "15.051 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.601 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.238 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.967 ms"
+                    ],
+                    [
+                        "194.33.189.27",
+                        "194.33.189.27",
+                        "1.433 ms"
+                    ],
+                    [
+                        "108.170.248.138",
+                        "108.170.248.138",
+                        "1.775 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "redirector.c.docs.google.com",
+                    "ip_address": "216.58.215.110",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467059.656276,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r1---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.76"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::c"
+                        ],
+                        "CNAME": {
+                            "r1---sn-5uh5o-f5f6.c.docs.google.com": "r1.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r1.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.76"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.76"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::c"
+                        ],
+                        "CNAME": {
+                            "r1---sn-5uh5o-f5f6.c.docs.google.com": "r1.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r1.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.76"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.76"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::c"
+                        ],
+                        "CNAME": {
+                            "r1---sn-5uh5o-f5f6.c.docs.google.com": "r1.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r1.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.76"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.76"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::c"
+                        ],
+                        "CNAME": {
+                            "r1---sn-5uh5o-f5f6.c.docs.google.com": "r1.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r1.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.76"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467061.282906,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r1---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.76",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467061.572582,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.76",
+                        0,
+                        "17.299 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        1,
+                        "16.754 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        2,
+                        "16.936 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        3,
+                        "15.989 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        4,
+                        "15.015 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        5,
+                        "16.865 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        6,
+                        "16.959 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        7,
+                        "17.943 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        8,
+                        "17.07 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.76",
+                        9,
+                        "16.313 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.662 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.243 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.635 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r1---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.76",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467062.4940841,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r2---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.77"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::d"
+                        ],
+                        "CNAME": {
+                            "r2---sn-5uh5o-f5f6.c.docs.google.com": "r2.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r2.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.77"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.77"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::d"
+                        ],
+                        "CNAME": {
+                            "r2---sn-5uh5o-f5f6.c.docs.google.com": "r2.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r2.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.77"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.77"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::d"
+                        ],
+                        "CNAME": {
+                            "r2---sn-5uh5o-f5f6.c.docs.google.com": "r2.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r2.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.77"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.77"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::d"
+                        ],
+                        "CNAME": {
+                            "r2---sn-5uh5o-f5f6.c.docs.google.com": "r2.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r2.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.77"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467064.045461,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r2---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.77",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467064.340234,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.77",
+                        0,
+                        "18.508 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        1,
+                        "18.02 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        2,
+                        "17.928 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        3,
+                        "16.928 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        4,
+                        "17.803 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        5,
+                        "16.919 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        6,
+                        "17.87 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        7,
+                        "15.982 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        8,
+                        "17.955 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.77",
+                        9,
+                        "16.672 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.708 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.103 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.534 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r2---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.77",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467065.275224,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r3---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.78"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::e"
+                        ],
+                        "CNAME": {
+                            "r3---sn-5uh5o-f5f6.c.docs.google.com": "r3.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r3.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.78"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.78"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::e"
+                        ],
+                        "CNAME": {
+                            "r3---sn-5uh5o-f5f6.c.docs.google.com": "r3.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r3.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.78"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.78"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::e"
+                        ],
+                        "CNAME": {
+                            "r3---sn-5uh5o-f5f6.c.docs.google.com": "r3.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r3.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.78"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.78"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::e"
+                        ],
+                        "CNAME": {
+                            "r3---sn-5uh5o-f5f6.c.docs.google.com": "r3.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r3.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.78"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467066.8172412,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r3---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.78",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467067.113709,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.78",
+                        0,
+                        "17.135 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        1,
+                        "16.962 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        2,
+                        "17.912 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        3,
+                        "17.898 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        4,
+                        "16.928 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        5,
+                        "17.746 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        6,
+                        "17.317 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        7,
+                        "16.119 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        8,
+                        "18.079 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.78",
+                        9,
+                        "16.044 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.559 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.195 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "2.496 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r3---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.78",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467068.054993,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r4---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.79"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::f"
+                        ],
+                        "CNAME": {
+                            "r4---sn-5uh5o-f5f6.c.docs.google.com": "r4.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r4.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.79"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.79"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::f"
+                        ],
+                        "CNAME": {
+                            "r4---sn-5uh5o-f5f6.c.docs.google.com": "r4.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r4.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.79"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.79"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::f"
+                        ],
+                        "CNAME": {
+                            "r4---sn-5uh5o-f5f6.c.docs.google.com": "r4.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r4.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.79"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.79"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::f"
+                        ],
+                        "CNAME": {
+                            "r4---sn-5uh5o-f5f6.c.docs.google.com": "r4.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r4.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.79"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467069.522895,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r4---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.79",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467069.820252,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.79",
+                        0,
+                        "18.018 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        1,
+                        "17.825 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        2,
+                        "18.723 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        3,
+                        "16.976 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        4,
+                        "16.171 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        5,
+                        "17.359 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        6,
+                        "17.255 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        7,
+                        "18.201 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        8,
+                        "17.823 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.79",
+                        9,
+                        "19.127 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.847 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.327 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.688 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r4---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.79",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467070.771945,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r5---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.80"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::10"
+                        ],
+                        "CNAME": {
+                            "r5---sn-5uh5o-f5f6.c.docs.google.com": "r5.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r5.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.80"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.80"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::10"
+                        ],
+                        "CNAME": {
+                            "r5---sn-5uh5o-f5f6.c.docs.google.com": "r5.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r5.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.80"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.80"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::10"
+                        ],
+                        "CNAME": {
+                            "r5---sn-5uh5o-f5f6.c.docs.google.com": "r5.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r5.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.80"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.80"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::10"
+                        ],
+                        "CNAME": {
+                            "r5---sn-5uh5o-f5f6.c.docs.google.com": "r5.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r5.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.80"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467072.279655,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r5---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.80",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467072.574498,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.80",
+                        0,
+                        "16.373 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        1,
+                        "17.198 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        2,
+                        "18.107 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        3,
+                        "17.192 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        4,
+                        "18.455 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        5,
+                        "15.745 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        6,
+                        "17.373 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        7,
+                        "17.384 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        8,
+                        "17.386 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.80",
+                        9,
+                        "17.032 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.583 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.403 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.926 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r5---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.80",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467073.512874,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r6---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.81"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::11"
+                        ],
+                        "CNAME": {
+                            "r6---sn-5uh5o-f5f6.c.docs.google.com": "r6.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r6.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.81"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.81"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::11"
+                        ],
+                        "CNAME": {
+                            "r6---sn-5uh5o-f5f6.c.docs.google.com": "r6.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r6.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.81"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.81"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::11"
+                        ],
+                        "CNAME": {
+                            "r6---sn-5uh5o-f5f6.c.docs.google.com": "r6.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r6.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.81"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.81"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::11"
+                        ],
+                        "CNAME": {
+                            "r6---sn-5uh5o-f5f6.c.docs.google.com": "r6.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r6.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.81"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467074.896457,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r6---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.81",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467075.199759,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.81",
+                        0,
+                        "19.051 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        1,
+                        "18.814 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        2,
+                        "16.385 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        3,
+                        "19.157 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        4,
+                        "18.035 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        5,
+                        "18.016 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        6,
+                        "17.99 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        7,
+                        "16.082 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        8,
+                        "16.161 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.81",
+                        9,
+                        "18.826 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.617 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "2.108 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.396 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r6---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.81",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467076.148459,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r7---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.82"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::12"
+                        ],
+                        "CNAME": {
+                            "r7---sn-5uh5o-f5f6.c.docs.google.com": "r7.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r7.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.82"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.82"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::12"
+                        ],
+                        "CNAME": {
+                            "r7---sn-5uh5o-f5f6.c.docs.google.com": "r7.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r7.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.82"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.82"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::12"
+                        ],
+                        "CNAME": {
+                            "r7---sn-5uh5o-f5f6.c.docs.google.com": "r7.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r7.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.82"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.82"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::12"
+                        ],
+                        "CNAME": {
+                            "r7---sn-5uh5o-f5f6.c.docs.google.com": "r7.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r7.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.82"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467077.6145222,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r7---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.82",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467077.9108648,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.82",
+                        0,
+                        "18.356 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        1,
+                        "17.058 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        2,
+                        "17.101 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        3,
+                        "17.34 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        4,
+                        "17.424 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        5,
+                        "18.307 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        6,
+                        "17.269 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        7,
+                        "17.258 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        8,
+                        "16.988 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.82",
+                        9,
+                        "16.996 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.618 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.718 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.893 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r7---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.82",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467078.8477728,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "r8---sn-5uh5o-f5f6.c.docs.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "194.9.24.83"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::13"
+                        ],
+                        "CNAME": {
+                            "r8---sn-5uh5o-f5f6.c.docs.google.com": "r8.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r8.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.83"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "194.9.24.83"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::13"
+                        ],
+                        "CNAME": {
+                            "r8---sn-5uh5o-f5f6.c.docs.google.com": "r8.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r8.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.83"
+                            ]
+                        }
+                    },
+                    "208.67.220.220": {
+                        "A": [
+                            "194.9.24.83"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::13"
+                        ],
+                        "CNAME": {
+                            "r8---sn-5uh5o-f5f6.c.docs.google.com": "r8.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r8.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.83"
+                            ]
+                        }
+                    },
+                    "194.50.85.5": {
+                        "A": [
+                            "194.9.24.83"
+                        ],
+                        "AAAA": [
+                            "2001:1a68:0:25::13"
+                        ],
+                        "CNAME": {
+                            "r8---sn-5uh5o-f5f6.c.docs.google.com": "r8.sn-5uh5o-f5f6.c.docs.google.com",
+                            "r8.sn-5uh5o-f5f6.c.docs.google.com": [
+                                "194.9.24.83"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1658467080.275861,
+                    "Public IP Address": "176.36.0.0/14",
+                    "pcname": "Johns-Air",
+                    "username": "jozbox",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "r8---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.83",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 1403,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467080.575233,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "ping": [
+                    [
+                        64,
+                        "194.9.24.83",
+                        0,
+                        "17.426 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        1,
+                        "18.121 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        2,
+                        "17.441 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        3,
+                        "18.018 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        4,
+                        "18.253 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        5,
+                        "17.091 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        6,
+                        "17.801 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        7,
+                        "17.162 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        8,
+                        "17.388 ms"
+                    ],
+                    [
+                        64,
+                        "194.9.24.83",
+                        9,
+                        "18.075 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "192.168.1.1",
+                        "1.1.168.192.in-addr.arpa",
+                        "0.724 ms"
+                    ],
+                    [
+                        "10.0.255.255",
+                        "10.0.255.255",
+                        "1.728 ms"
+                    ],
+                    [
+                        "194.33.189.55",
+                        "194.33.189.55",
+                        "1.769 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "r8---sn-5uh5o-f5f6.c.docs.google.com",
+                    "ip_address": "194.9.24.83",
+                    "max_hops": 30,
+                    "timeout": 1,
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "Johns-Air",
+                    "currentdirectory": "/Users/jozbox/python/hostname_advanced_testing",
+                    "Unix Epoch Time": 1658467081.517942,
+                    "Public IP Address": "176.36.0.0/14"
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        }
+    }
+}

@@ -43,10 +43,10 @@ class Cli_api:
 				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, path_results_name = "apple")
 				Get_hostnames_testing.get_hostname_advanced_testing([host.rstrip() for host in open(hosts_PATH, 'r').readlines()])
 		elif args.amazon:
-			hosts_PATH = './hosts/services/hosts_amazon.com_all.txt'
-			if os.path.isfile(hosts_PATH):
-				Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, path_results_name = "amazon.com_all")
-				Get_hostnames_testing.get_hostname_advanced_testing([host.rstrip() for host in open(hosts_PATH, 'r').readlines()])
+			hosts_PATH = './hosts/hosts_amazon.com_all.txt'
+			#if os.path.isfile(hosts_PATH):
+			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = False, get_dump = True, path_results_name = "amazon.com_all")
+			Get_hostnames_testing.get_hostname_advanced_testing([host.rstrip() for host in open(hosts_PATH, 'r').readlines()])
 	def get_args(self, args = {}):
 		self.parser = argparse.ArgumentParser(add_help = True, description = "Collect of useful command for OpenSSL create certificate:")
 		group = self.parser.add_mutually_exclusive_group(required = True)
