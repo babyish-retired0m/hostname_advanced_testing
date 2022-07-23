@@ -114,3 +114,5 @@ check.googlezip.net
 proxy.googlezip.net
 compress.googlezip.net
 proxy-dev.googlezip.net
+googleusercontent.com
+webcache.googleusercontent.com
