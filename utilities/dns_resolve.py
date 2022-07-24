@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.3"
+__version__ = "2.5"
 try:
 	#resolve_mx
 	import dns.resolver
@@ -58,6 +58,20 @@ class Dns_response():
 		#DNS IP address Vodafone:
 		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_21497):
 			nameservers.append("88.214.96.116")
+
+			#Vodafone Ukraine - Lviv Oblast 178.133.89.173
+			#2a00:f50:4400::1004, 80.255.73.119, 2a00:f50:4400::1002, 80.255.73.117,
+			#2a00:f50:4400::1001, 80.255.73.116, 2a00:f50:4400::1003, 80.255.73.118
+			nameservers.append("80.255.73.116")
+			#nameservers.append("2a00:f50:4400::1004")
+			#nameservers.extend(["80.255.73.117", "80.255.73.118", "80.255.73.119"])
+			
+			#Vodafone Ukraine Kyiv, Ukraine 89.209.89.133
+			#ns29.vf-ua.net, 2a00:f50:5700::1001
+			nameservers.append("80.255.64.172")
+			#ns30.vf-ua.net, 2a00:f50:5700::1002
+			#nameservers.append("80.255.64.173")
+
 		#DNS IP address Kyivstar:
 		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_15895):
 			nameservers.append("193.41.60.1")
