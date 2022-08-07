@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
-__version__ = "1.5"
+__version__ = "1.6"
 import utilities.file as file	
 import utilities.utility as utility
 File = file.Main(print_result=False)
+import os
 
 def get_ip_address_valid(address):
 	import ipaddress
@@ -57,10 +58,13 @@ def get_local_ip():
 	    addresses = [i['addr'] for i in ifaddresses(ifaceName).setdefault(AF_INET, [{'addr':'No IP addr'}] )]
 	    print(' '.join(addresses))
 def get_ip_address_public_ipify(timeout_count = 100):
-	# This example requires the requests library be installed.  You can learn more
+	# This requires the requests library be installed.  You can learn more
 	# about the Requests library here: http://docs.python-requests.org/en/latest/
-	import requests
-	
+	try:
+		import requests
+	except ImportError:
+		raise SystemExit("Please install requests, pip3 install requests, You can learn more about the Requests library here: http://docs.python-requests.org/en/latest/")
+
 	"""ip = requests.get('https://api.ipify.org').text
 	#print('My public IP address is: {}'.format(ip))
 	return ip"""
@@ -86,7 +90,11 @@ def get_ip_address_public_ipify(timeout_count = 100):
 #def check_internet_status():
 	
 def get_ip_address_public_amazon(timeout_count = 100):
-	import requests
+	try:
+		import requests
+	except ImportError:
+		raise SystemExit("Please install requests, pip3 install requests, You can learn more about the Requests library here: http://docs.python-requests.org/en/latest/")
+
 	import time
 	while True:
 		try:
@@ -113,7 +121,9 @@ def check_ip_in_networks(ip_address,ip_network_list):
 def check_ip_in_network_lanet_ua(ip_address):
 	#print("check_ip_in_network_lanet_ua ip_address",ip_address)
 	#ip_address=get_ip_address_public_amazon()
-	ip_network_list=File.open_as_list("/Users/jozbox/python/functions/ip_addresses_block_Provider/AS-39608_lanet.ua.txt")
+	parent_dir = os.path.dirname(__file__)
+	#ip_network_list=File.open_as_list("/Users/jozbox/python/functions/ip_addresses_block_Provider/AS-39608_lanet.ua.txt")
+	ip_network_list=File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
 	ip_network=check_ip_in_networks(ip_address,ip_network_list)
 	if ip_network: return ip_network
 if __name__ == '__main__':

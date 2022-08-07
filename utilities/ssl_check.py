@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.2"
+__version__ = "1.3"
 import socket
 import sys
 import json
@@ -11,10 +11,9 @@ from time import sleep
 from csv import DictWriter
 
 try:
-    from OpenSSL import SSL
     from json2html import *
 except ImportError:
-    print("Please install required modules: OpenSSL, json2html. pip install OpenSSL, pip install json2html")
+    print("Please install required modules: json2html. pip3 install json2html")
     sys.exit(1)
 
 
@@ -34,6 +33,10 @@ class SSLCheck:
     total_warning = 0
 
     def get_cert(self, host, port, args):
+        try:
+            from OpenSSL import SSL
+        except ImportError:
+            print("Please install required modules: OpenSSL. pip3 install pyopenssl")
         """Connection to the host."""
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         #The default is 300 seconds
