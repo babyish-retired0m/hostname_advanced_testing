@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.5"
+__version__ = "2.6"
 try:
 	#resolve_mx
 	import dns.resolver
@@ -75,8 +75,17 @@ class Dns_response():
 		#DNS IP address Kyivstar:
 		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_15895):
 			nameservers.append("193.41.60.1")
+			nameservers.append("81.23.24.66")
 			#nameservers.extend(["88.214.96.116","88.214.96.117","88.214.96.118","88.214.96.119"])
 			#nameservers.extend(["193.41.60.1","193.41.60.2"])
+
+			#188.163.81.86 - from Kyiv, Ukraine
+			#IP	Hostname	ISP	Country
+			#81.23.24.66	81-23-24-66-nat.gprs.kyivstar.net.	Kyivstar	Kyiv, Ukraine 
+			#81.23.24.67	81-23-24-67-nat.gprs.kyivstar.net.	Kyivstar	Kyiv, Ukraine 
+			#81.23.24.162	81-23-24-162-nat.gprs.kyivstar.net.	Kyivstar	Kyiv, Ukraine 
+			#81.23.24.163	81-23-24-163-nat.gprs.kyivstar.net.	Kyivstar	Kyiv, Ukraine 
+
 		#DNS IP address NordVPN
 		elif ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_9009) or ip_address.check_ip_in_networks(self.ip_address_pub, ip_addresses_block_AS_42831):
 			nameservers.append("103.86.99.99")
