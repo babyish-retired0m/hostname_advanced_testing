@@ -16,11 +16,20 @@ Traceroute is also used by penetration testers to gather information about netwo
 It can also be used when downloading data, and if there are multiple mirrors available for the same piece of data, each mirror can be traced to get an idea of which mirror would be the fastest to use.
 
 ## Executing and arguments
-
 This tool requires Python 3.8 or later. 
 
 ### Install required Python packages
 `pip install -r requirements.txt`
+
+### The arguments:
+ **args**       | **Description**					                                   | **Must / Optional**
+-----------------| ------------------------------------------------------------------------| -------------------
+`-h`, `--help` | Show help message and exit | Optional
+`-s`, `--services` | Advanced testing services hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check. | Optional
+`-n`, `--nordvpn` | Advanced testing services hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check. | Optional
+`-g`,	`--google` | Advanced testing services hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check. | Optional
+`-A`, `--amazon` | Advanced testing services hostnames get nslookup check, get ping check, get traceroute check, get SSL certificate check. | Optional
+`-v`, `--version` | show program's version number and exit | Optional
 
 ## Executing examples:
  ```shell
