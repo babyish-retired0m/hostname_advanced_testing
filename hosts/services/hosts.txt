@@ -138,8 +138,9 @@ applytics.os4work.com
 accounts.ukr.net
 ukr.net
 hotline.ua
-account.kyivstar.ua
 kyivstar.ua
+account.kyivstar.ua
+next.kyivstar.ua
 itc.ua
 booking.com
 hotels.com
@@ -289,5 +290,5 @@ datalab.usaspending.gov
 api.usaspending.gov
 treasury.gov
 fiscaldata.treasury.gov
-npu.gov.ua
-ticket.npu.gov.ua
+www.npu.gov.ua
+ticket.np.gov.ua
