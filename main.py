@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-__version__ = "2.0"
+__version__ = "2.1"
 import utilities.dns_resolve as dns_resolve
 import utilities.ping as ping
 import utilities.traceroute as traceroute
 try:
 	import icmplib
 except ImportError:
-    raise SystemExit("Please install icmplib, pip3 install icmplib, (https://github.com/ValentinBELYN/icmplib)")
+	raise SystemExit("Please install icmplib, pip3 install icmplib, (https://github.com/ValentinBELYN/icmplib)")
 import utilities.ssl_check as ssl_check
 import utilities.ip_address as ip_address
 import utilities.utility as utility
@@ -122,6 +122,8 @@ class Advanced_testing:
 					duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
 					print("List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration)
 					if self.get_dump: self.__get_dump__()
+				else:
+					print("List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration)
 		duration_seconds = time.time() - start_time
 		duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
 		self.recv_records["parameters"]["Execution time Duration"] = str('{:.3f}'.format(duration_seconds))
