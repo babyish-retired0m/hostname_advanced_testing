@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.6"
+__version__ = "2.7"
 try:
     # resolve_mx
     import dns.resolver
@@ -13,8 +13,8 @@ except ImportError:
 # resolve_cname
 import utilities.ip_address as ip_address
 import utilities.file as file
-import os
-import sys
+#import os
+#import sys
 import utilities.dns_nameserver as dns_nameserver
 
 File = file.Main(print_result=False)
@@ -32,9 +32,7 @@ class Dns_response():
 
         # nameserver = [nameserver] if isinstance(nameserver, str) else nameserver
         # self.nameservers = self.__get_nameserver__() if nameserver is None else nameserver
-        self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver,
-                                                                                                           str) else nameserver
-
+        self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
         self.recv_records = {self.host: {}}
 
     # self.answer = None;#self.results = None;
