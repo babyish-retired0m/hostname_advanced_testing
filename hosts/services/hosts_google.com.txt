@@ -116,3 +116,4 @@ compress.googlezip.net
 proxy-dev.googlezip.net
 googleusercontent.com
 webcache.googleusercontent.com
+gmail.com
