@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.1"
+__version__ = "2.2"
 import utilities.dns_resolve as dns_resolve
 import utilities.ping as ping
 import utilities.traceroute as traceroute
@@ -123,7 +123,10 @@ class Advanced_testing:
 					print("List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration)
 					if self.get_dump: self.__get_dump__()
 				else:
-					print("List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration)
+					duration = time.strftime("%H:%M:%S", time.gmtime(time.time() - start_time))
+					print('+' + '-' * 60 + '+')
+					print('|' + utility.Clr.YELLOW2 + "List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration + utility.Clr.RST2 + '|')
+					print('+' + '-' * 60 + '+')
 		duration_seconds = time.time() - start_time
 		duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
 		self.recv_records["parameters"]["Execution time Duration"] = str('{:.3f}'.format(duration_seconds))
