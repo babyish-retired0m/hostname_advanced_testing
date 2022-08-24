@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.2"
+__version__ = "2.3"
 import utilities.dns_resolve as dns_resolve
 import utilities.ping as ping
 import utilities.traceroute as traceroute
@@ -124,9 +124,7 @@ class Advanced_testing:
 					if self.get_dump: self.__get_dump__()
 				else:
 					duration = time.strftime("%H:%M:%S", time.gmtime(time.time() - start_time))
-					print('+' + '-' * 60 + '+')
-					print('|' + utility.Clr.YELLOW2 + "List " + str(self.hostnames.index(qname)) + " of", str(hostnames_len), "duration:", duration + utility.Clr.RST2 + '|')
-					print('+' + '-' * 60 + '+')
+					self.border_msg(utility.Clr.YELLOW2 + 'List ' + str(self.hostnames.index(qname)) + ' of ' + str(hostnames_len) + ' duration: ' + duration + utility.Clr.RST2)
 		duration_seconds = time.time() - start_time
 		duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
 		self.recv_records["parameters"]["Execution time Duration"] = str('{:.3f}'.format(duration_seconds))
@@ -138,6 +136,17 @@ class Advanced_testing:
 		json.dump(self.recv_records, fp = open(self.path_results, 'w'), indent=4)
 		print(utility.Clr.GREEN2 + "Results dumped:", self.path_results + utility.Clr.RST2)
 		os.system('say ' + "Results dumped")
+
+	def border_msg(self, message):
+		"""Print the message in the box."""
+		row = len(message)
+		row_len = 60
+		row = row_len if row < row_len else row
+		row_len_result = int(row / 4)
+		i = ''.join((row_len_result - 1) * ' ')
+		h = ''.join(['+'] + ['-' * row] + ['+'])
+		result = h + '\n' "|" + i + message + i + "|"'\n' + h
+		print(result)
 
 if __name__ == '__main__':
 	Get_hostnames_testing = Advanced_testing(get_nslookup = True, get_ping = False, get_traceroute = False, get_ssl_check = False, get_dump = False, records = ["A", "CNAME"], nameserver = "1.1.1.1")
