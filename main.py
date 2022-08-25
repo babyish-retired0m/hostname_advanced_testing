@@ -140,11 +140,11 @@ class Advanced_testing:
 	def border_msg(self, message):
 		"""Print the message in the box."""
 		row = len(message)
-		print('row = len(message)',row)
+		#print('row = len(message)',row)
 		row_len = 60
 		row = row if row < row_len else row_len
 		row_len_result = int(row / 4)
-		print('row',row,'row_len_result',row_len_result)
+		#print('row',row,'row_len_result',row_len_result)
 		i = ''.join([(row_len_result - 2) * ' '])
 		h = ''.join(['+'] + ['-' * row] + ['+'])
 		result = h + '\n' + "|" + i + message + i + "|"'\n' + h
