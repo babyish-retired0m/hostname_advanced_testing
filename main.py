@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "2.3"
+__version__ = "2.4"
 import utilities.dns_resolve as dns_resolve
 import utilities.ping as ping
 import utilities.traceroute as traceroute
@@ -140,12 +140,14 @@ class Advanced_testing:
 	def border_msg(self, message):
 		"""Print the message in the box."""
 		row = len(message)
+		print('row = len(message)',row)
 		row_len = 60
-		row = row_len if row < row_len else row
+		row = row if row < row_len else row_len
 		row_len_result = int(row / 4)
-		i = ''.join((row_len_result - 1) * ' ')
+		print('row',row,'row_len_result',row_len_result)
+		i = ''.join([(row_len_result - 2) * ' '])
 		h = ''.join(['+'] + ['-' * row] + ['+'])
-		result = h + '\n' "|" + i + message + i + "|"'\n' + h
+		result = h + '\n' + "|" + i + message + i + "|"'\n' + h
 		print(result)
 
 if __name__ == '__main__':
