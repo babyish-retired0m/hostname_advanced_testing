@@ -131,10 +131,13 @@ reddit.com
 securitytrails.com
 nordvpn.com
 account.nordvpn.com
+nordaccount.com
 auth.nordaccount.com
 my.nordaccount.com
 os4work.com
 applytics.os4work.com
+napps-1.com
+auth.napps-1.com
 accounts.ukr.net
 ukr.net
 hotline.ua
