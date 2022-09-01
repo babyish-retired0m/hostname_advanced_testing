@@ -117,6 +117,9 @@ protonmail.ch
 protonmail.com
 protonvpn.com
 secure.protonmail.com
+api.protonvpn.ch
+node-us-45.protonvpn.net
+protonstatus.com
 cisco.com
 id.cisco.com
 apps-id.cisco.com
