@@ -107,6 +107,8 @@ as6453.net
 fr0-frankfurt.as6453.net
 ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net
 if-be-25-2.ecore1.fr0-frankfurt.as6453.net
+mail.proton.me
+account.proton.me
 account.protonvpn.com
 app.protonmail.ch
 beta.protonmail.com
