@@ -108,6 +108,7 @@ fr0-frankfurt.as6453.net
 ix-ae-6-0.tcore2.fr0-frankfurt.as6453.net
 if-be-25-2.ecore1.fr0-frankfurt.as6453.net
 mail.proton.me
+drive.proton.me
 account.proton.me
 account.protonvpn.com
 app.protonmail.ch
@@ -302,5 +303,8 @@ www.npu.gov.ua
 ticket.np.gov.ua
 clickup.com
 app.clickup.com
+app-cdn.clickup.com
+docs.clickup.com
+help.clickup.com
 rabota.ua
 api.rabota.ua
