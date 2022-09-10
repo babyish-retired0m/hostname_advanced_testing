@@ -122,6 +122,7 @@ protonvpn.com
 secure.protonmail.com
 api.protonvpn.ch
 node-us-45.protonvpn.net
+node-nl-23.protonvpn.net
 protonstatus.com
 cisco.com
 id.cisco.com
