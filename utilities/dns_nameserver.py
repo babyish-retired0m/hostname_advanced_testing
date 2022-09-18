@@ -14,6 +14,8 @@ def get_nameserver(ip_address_pub=None, nameservers=["1.1.1.1"]):
 
     parent_dir = os.path.dirname(__file__) + "/ip_addresses_block_provider/"
     ip_addresses_block_as_9009 = File.open_as_list(parent_dir + "AS-9009_m247.com.txt")
+    # DataCamp network (AS60068)
+    ip_addresses_block_as_393942 = File.open_as_list(parent_dir + "AS-393942_datacamp.co.uk.txt")
     ip_addresses_block_as_42831 = File.open_as_list(
         parent_dir + "AS-42831_ukservers.com.txt")
     ip_addresses_block_as_21497 = File.open_as_list(
@@ -69,8 +71,9 @@ def get_nameserver(ip_address_pub=None, nameservers=["1.1.1.1"]):
 
     # DNS IP address NordVPN
     elif ip_address.check_ip_in_networks(ip_address_pub, ip_addresses_block_as_9009) or ip_address.check_ip_in_networks(
-            ip_address_pub, ip_addresses_block_as_42831):
+            ip_address_pub, ip_addresses_block_as_42831) or (ip_address_pub, ip_addresses_block_as_393942):
         nameservers.append("103.86.99.99")
+        nameservers.append("103.86.96.100")
     # nameservers.extend(["103.86.96.100","103.86.99.99","103.86.99.100"])
 
     # DNS IP address Lifecell:
