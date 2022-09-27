@@ -248,3 +248,6 @@ uts-preview.itunes.apple.com
 apple-shield.apple.com
 Lcdi-locator.apple.com
 time.apple.com
+store.apple.com
+secure5.store.apple.com
+secure2.store.apple.com
