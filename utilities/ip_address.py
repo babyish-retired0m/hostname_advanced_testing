@@ -108,6 +108,7 @@ def get_ip_address_public_amazon(timeout_count = 100):
 			else:
 				print("Error connecting to https://checkip.amazonaws.com.\nCheck Amazon status https://status.aws.amazon.com")
 				print("{}Check your internet connection{}, timeout 10 seconds, timeout #".format(utility.Clr.BLUE2, utility.Clr.RST2), timeout_count)
+				print(utility.Clr.RED2 + 'THE TIME:', time.ctime(), utility.Clr.RST2)
 				time.sleep(10)
 				timeout_count -= 1
 				get_ip_address_public_amazon(timeout_count)

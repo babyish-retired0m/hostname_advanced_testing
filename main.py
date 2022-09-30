@@ -124,7 +124,7 @@ class Advanced_testing:
 					if self.get_dump: self.__get_dump__()
 				else:
 					duration = time.strftime("%H:%M:%S", time.gmtime(time.time() - start_time))
-					self.border_msg(utility.Clr.YELLOW2 + 'List ' + str(self.hostnames.index(qname)) + ' of ' + str(hostnames_len) + ' duration: ' + duration + utility.Clr.RST2)
+					self.border_msg(utility.Clr.YELLOW2 + 'List ' + str(self.hostnames.index(qname)) + ' of ' + str(hostnames_len) + ' duration: ' + duration + utility.Clr.RST2 + time.ctime())
 		duration_seconds = time.time() - start_time
 		duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
 		self.recv_records["parameters"]["Execution time Duration"] = str('{:.3f}'.format(duration_seconds))
