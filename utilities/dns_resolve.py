@@ -16,20 +16,19 @@ import utilities.file as file
 #import os
 #import sys
 import utilities.dns_nameserver as dns_nameserver
+import utilities.utility as utility
 
 File = file.Main(print_result=False)
 
 
 class Dns_response():
     def __init__(self, host=None, records=None, nameserver=None,
-                 ip_address_public_answer=ip_address.get_ip_address_public_amazon()):
-        # , ip_address_public_answer = None
+                 ip_address_public_answer = None):
         self.host = host if isinstance(host, str) and host is not None else print(
             "hostname is None or is hostname str?")
         self.records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"] if records is None else [records] if isinstance(
             records, str) else records
-        self.ip_address_pub = ip_address_public_answer
-
+        self.ip_address_pub = ip_address_public_answer if ip_address_public_answer is not None else ip_address.get_ip_address_public_amazon()
         # nameserver = [nameserver] if isinstance(nameserver, str) else nameserver
         # self.nameservers = self.__get_nameserver__() if nameserver is None else nameserver
         self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
@@ -95,7 +94,8 @@ class Dns_response():
     def get_nslookup(self):
         for self.nameserver in self.nameservers:
             self.recv_records[self.host][self.nameserver] = {}
-            print("Nameserver response:", self.nameserver, self.host)
+            print('\n\n')
+            print('\t\t' + utility.Clr.YELLOW2 + "Nameserver response:", self.nameserver, self.host + utility.Clr.RST2)
             self.nslookup_record()
         return self.recv_records
 

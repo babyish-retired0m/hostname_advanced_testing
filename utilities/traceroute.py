@@ -41,11 +41,11 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 	payload_size = 56
 	print_interval = 500 if interval == 0.05 else interval
 	print_timeout = 1 if timeout == 0.01 else timeout
-	print(f'{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
+	print(f'{utility.get_username()}@{utility.get_pcname()} {utility.get_currentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
 	print(f'traceroute to {address} ({ip_address}), '
 		  f'{max_hops} hops max, {payload_size} byte packets')
 	results[address]['traceroute']=[]
-	results[address]['parameters']={"address":address, "ip_address":ip_address,"max_hops":max_hops, "timeout":print_timeout, "interval":print_interval, "payload_size":payload_size, "username":utility.getusername(), "pcname":utility.getpcname(), "currentdirectory":utility.getcurrentdirectory()}
+	results[address]['parameters']={"address":address, "ip_address":ip_address,"max_hops":max_hops, "timeout":print_timeout, "interval":print_interval, "payload_size":payload_size, "username":utility.get_username(), "pcname":utility.get_pcname(), "currentdirectory":utility.get_currentdirectory()}
 	#results[address]['traceroute'].append(f'Traceroute to {address} ({ip_address}), {max_hops} hops max, {payload_size} byte packets')
 
 	# We detect the socket to use from the specified IP address

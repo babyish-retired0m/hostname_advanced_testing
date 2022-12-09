@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.4"
+__version__ = "1.5"
 """
     icmplib
     The power to forge ICMP packets and do ping and traceroute.
@@ -36,8 +36,8 @@ def verbose_ping(address, count=10, interval=0.01, timeout=0.2, payload_size=56,
 	network_issue = False
 	print_interval = 0.1 if (interval == 0.01) else interval
 	print_timeout = 1 if (timeout == 0.2) else timeout
-	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':print_interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.getusername(), 'pcname':utility.getpcname(),'currentdirectory':utility.getcurrentdirectory()}
-	print(f"{utility.getusername()}@{utility.getpcname()} {utility.getcurrentdirectory()}$ ping -c {count} -s {payload_size} -t {print_timeout} -i {print_interval} {address}")
+	results[address]['parameters'] = {'address':address, 'ip_address':ip_address, 'count':count, 'interval':print_interval, 'timeout':print_timeout, 'id':id, 'payload_size':payload_size, 'username':utility.get_username(), 'pcname':utility.get_pcname(),'currentdirectory':utility.get_currentdirectory()}
+	print(f"{utility.get_username()}@{utility.get_pcname()} {utility.get_currentdirectory()}$ ping -c {count} -s {payload_size} -t {print_timeout} -i {print_interval} {address}")
 	print(f"PING {address}({ip_address}): {payload_size} data bytes")
 	
 	# We detect the socket to use from the specified IP address
