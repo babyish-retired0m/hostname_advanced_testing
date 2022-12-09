@@ -1,4 +1,6 @@
 dnspython
 icmplib
-OpenSSL
+#OpenSSL
+pyopenssl
 json2html
+requests
