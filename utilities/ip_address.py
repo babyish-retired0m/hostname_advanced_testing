@@ -1,13 +1,19 @@
 #!/usr/bin/env python3
-__version__ = "2.0"
+__version__ = "2.3"
+# 2.3 get_ip_address_public_amazon().timeout_count -> tries
+
+# 2.2 check_ip_in_networks()
+
 import utilities.file as file	
 import utilities.utility as utility
 File = file.Main(print_result=False)
 import os
 
 
+import ipaddress
+
 def get_ip_address_valid(address, print_result=False):
-	import ipaddress
+	# import ipaddress
 	try:
 		answer = ipaddress.ip_address(address)
 		return True#print("appear to be an IPv4 or IPv6 address")
@@ -112,7 +118,7 @@ def get_ip_address_public_ipify(timeout_count = 100):
 #def check_internet_status():
 	
 
-def get_ip_address_public_amazon(timeout_count = 100, timeout_sleep = 10):
+def get_ip_address_public_amazon(tries = 100, timeout_sleep = 10):
 	try:
 		import requests
 	except ImportError:
@@ -125,28 +131,30 @@ def get_ip_address_public_amazon(timeout_count = 100, timeout_sleep = 10):
 		except:#import sys;#sys.exit(1)
 			#print("The timeout error get_ip_address_public_amazon message has been received")
 			#return None
-			if timeout_count == 1:
+			if tries == 1:
 				print(utility.warp_red2('Check your internet connection'))
 				break
 			else:
 				print('\n\n')
 				print(utility.warp_red2('Error connecting'), 'to https://checkip.amazonaws.com.', '\n\t', utility.warp_red('Check Amazon status'), 'https://status.aws.amazon.com.')
-				print('\n' + utility.warp_blue2('Check your internet connection'), 'timeout', utility.warp_yellow(timeout_sleep), 'seconds, timeout #', timeout_count)
+				print('\n' + utility.warp_blue2('Check your internet connection'), 'timeout', utility.warp_yellow(timeout_sleep), 'seconds, timeout #', tries)
 				print('\n\t', utility.warp_yellow('THE TIME: ' + time.ctime()))
 				time.sleep(timeout_sleep)
-				timeout_count -= 1
-				get_ip_address_public_amazon(timeout_count, timeout_sleep)
+				tries -= 1
+				get_ip_address_public_amazon(tries, timeout_sleep)
 				#sys.exit(1)
 
 
 def check_ip_in_network(ip_address,ip_network):
-	import ipaddress
+	# import ipaddress
 	if ipaddress.ip_address(ip_address) in ipaddress.ip_network(ip_network): return True
 
 
-def check_ip_in_networks(ip_address,ip_network_list):
+def check_ip_in_networks(ip_address, ip_network_list = None, print_result=False):
 	for ip_network in ip_network_list:
-		if check_ip_in_network(ip_address,ip_network): return ip_network#print("Yay!",ip_address,ip_network)
+		if check_ip_in_network(ip_address,ip_network):
+			if print_result: print("Yay!",ip_address,ip_network)
+			return ip_network
 
 
 def check_ip_in_network_lanet_ua(ip_address):
@@ -155,8 +163,73 @@ def check_ip_in_network_lanet_ua(ip_address):
 	parent_dir = os.path.dirname(__file__)
 	#ip_network_list=File.open_as_list("/Users/jozbox/python/functions/ip_addresses_block_Provider/AS-39608_lanet.ua.txt")
 	ip_network_list=File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
-	ip_network=check_ip_in_networks(ip_address,ip_network_list)
-	if ip_network: return ip_network
+	if check_ip_in_networks(ip_address,ip_network_list): return ip_network
+
+
+def get_ip_in_networks(ip_address_public, asn_list = None, print_result=True):
+	# subnet and IP address subranges
+	import pathlib
+	if asn_list is None:
+		parent_dir = os.path.dirname(__file__) + "/ip_addresses_block_provider"
+		provider_asn_dict = get_provider_asn_dict(parent_dir = parent_dir)
+		#print('ip_address.get_ip_in_networks() asn_dict', asn_dict)
+		asn_dict = {}
+		for asn_id in provider_asn_dict:
+			# print('ip_address.get_ip_in_networks.provider_asn_dict()',provider_asn_dict)
+			# ip_network_asn_list = File.open_as_list(parent_dir + asn_id['file_name'])
+			asn_ip_address = check_ip_in_networks(ip_address_public, File.open_as_list(provider_asn_dict[asn_id]['asn_file_name']))
+			# asn_dict[asn_id]['asn_file_name'] = pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem
+			
+			# asn_dict[asn_id] = {'asn_file_name': pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem}
+			if asn_ip_address:
+				# asn_dict[asn_id]['asn_ip_address'] = {asn_ip_address}
+				asn_dict[asn_id] = {'asn_id': asn_id,
+									'asn_ip_address_subnet': asn_ip_address,
+									'asn_name': provider_asn_dict[asn_id]['asn_name'],
+									'asn_website': provider_asn_dict[asn_id]['asn_website'],
+									'asn_file_name': str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name'].name))}
+				if print_result:
+					print('\n\t', utility.warp_yellow('Yay! ip in network ASN: ' + asn_dict[asn_id]['asn_name'] + 'asn_id: ' + asn_id + ' asn_website: ' + provider_asn_dict[asn_id]['asn_website'] + ' asn_file_name:' + str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).name)))
+				return asn_dict[asn_id]
+	else:
+		asn_ip_address = check_ip_in_networks(ip_address_public, asn_list)
+		if asn_ip_address:
+			if print_result: print('\n\t', utility.warp_yellow('Yay! ip in network: ' + asn_ip_address))
+			return asn_ip_address
+	# print('ip_address.get_ip_in_networks() asn_dict', asn_dict)
+
+
+# def _get_ip_in_networks(ip_address_public, ip_network_list = None, print_result=True):
+# 	parent_dir = os.path.dirname(__file__)
+# 	ip_network_listing_path = parent_dir + "ip_addresses_block_provider"
+# 	ip_network_list = File.dir_listing_files_in_this_directory_tree(path = ip_network_listing_path, file_extension = "txt")
+# 	for ip_network_path in ip_network_list:
+# 		ip_network_listing = File.open_as_list(ip_network_path)
+# 		for ip_network in ip_network_listing:
+# 			if check_ip_in_network(ip_address_public, ip_network):
+# 				if print_result:
+# 					print('\n\t', utility.warp_yellow('Yay! ip in network: ' + ip_network_path.stem))
+# 				return str(ip_network_path.stem)		
+# 		# print('\n\t', utility.warp_yellow('Yay! ip_address_public: ' + ip_address_public + ' in network: None'))
+
+
+def get_provider_asn_dict(parent_dir):
+	import re
+	files_list = File.dir_listing_files_in_this_directory_tree(path = parent_dir, file_extension = "txt")
+	#print('ip_address.get_provider_asn_dict() parent_dir', parent_dir)
+	#print('ip_address.get_provider_asn_dict() files_list', files_list)
+	result_dict = {}
+	for (enum, file_name) in enumerate(files_list, start=0):
+		# result = re.findall(r'(?P<asn>\d+)\_(?P<website>.*?)\.txt', file_name)
+		#print('file_name',file_name)
+		result = re.findall(r'(\d+)\_(.*?)\.txt', str(file_name))
+		#print('result', result)
+		result_dict[result[0][0]] = {'asn_id': result[0][0],
+									'asn_name': result[0][1].replace('www.','').split('.')[0],
+									'asn_website': result[0][1],
+									'asn_file_name': file_name}
+	#print('ip_address.get_provider_asn_dict()', result_dict)
+	return result_dict
 
 
 if __name__ == '__main__':
@@ -174,8 +247,8 @@ if __name__ == '__main__':
 	File = file.Main(print_result=False)
 	ip_address = get_ip_address_public_amazon()
 	#ip_address="176.37.51.215"
-	#ip_network_list=File.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-9009_m247.com.txt")
-	#ip_network_list=File.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-39608_lanet.ua.txt")
-	ip_network_list = File.open_as_list("/Users/johndoe/python/functions/ip_addresses_block_Provider_AS-42831_ukservers.com.txt")
+	#ip_network_list=File.open_as_list("ip_addresses_block_provider/AS-9009_m247.com.txt")
+	#ip_network_list=File.open_as_list("ip_addresses_block_provider/AS-39608_lanet.ua.txt")
+	ip_network_list = File.open_as_list("ip_addresses_block_provider/AS-42831_ukservers.com.txt")
 	if check_ip_in_networks(ip_address,ip_network_list): print(ip_address)
 	print(check_ip_in_network_lanet_ua())
