@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-__version__ = "2.1"
-
+__version__ = "2.2"
+#2.2 def border_msg()
 
 class Clr:
     """Text colors."""
@@ -160,6 +160,34 @@ def get_check_package(package_name = None):
 		print(warp_red2('pip3 install ' + package_name))
 		if os.system('pip3 install ' + package_name) is False:
 			raise SystemExit(warp_red2('pip3 install ' + package_name))
+
+
+def border_msg(message):
+	# Solution 1
+	# """Print the message in the box."""
+	# #row = len(ord(message))
+	# row = len(message)
+	# #print('row = len(message)',row)
+	# row_len = 60
+	# row = row_len if row < row_len else row
+	# ###row_len_result = int(row / 4)
+	# row_len_result = int(row)
+	# #print('row',row,'row_len_result',row_len_result)
+	# ###i = ''.join([(row_len_result - 2) * ' '])
+	# i = ''.join([(row_len_result) * ' '])
+	# h = ''.join(['+'] + ['-' * row] + ['+'])
+	# result = h + '\n' + '|' + i + message + i + '|' + '\n' + h
+	# print(result)
+
+	# Solution 2
+	row = len(message)
+	warp = int(row / 4)
+	msg_warp = ''.join([warp * ' '])
+	msg_border = ''.join(['+'] + [warp * '-'] + ['-' * row] + [warp * '-'] + ['+'])
+	result = msg_border + '\n' + '|' + msg_warp + message + msg_warp + '|' + '\n' + msg_border
+	print(result)
+
+
 
 
 if __name__ == '__main__':

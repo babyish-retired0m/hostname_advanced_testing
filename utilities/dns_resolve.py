@@ -23,15 +23,28 @@ File = file.Main(print_result=False)
 
 class Dns_response():
     def __init__(self, host=None, records=None, nameserver=None,
-                 ip_address_public_answer = None):
+                 ip_address_public_answer = None, asn=None):
         self.host = host if isinstance(host, str) and host is not None else print(
             "hostname is None or is hostname str?")
-        self.records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"] if records is None else [records] if isinstance(
-            records, str) else records
+        self.records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"] if records is None else [records] if isinstance(records, str) else records
         self.ip_address_pub = ip_address_public_answer if ip_address_public_answer is not None else ip_address.get_ip_address_public_amazon()
         # nameserver = [nameserver] if isinstance(nameserver, str) else nameserver
-        # self.nameservers = self.__get_nameserver__() if nameserver is None else nameserver
-        self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
+        
+        self.asn = asn
+        
+        if nameserver is None:
+            self.nameservers = self.__get_nameserver__()
+        elif isinstance(nameserver, str):
+            self.nameservers = [nameserver]
+        else:
+            self.nameservers = nameserver
+        
+        ###self.nameservers = self.__get_nameserver__() if nameserver is None else nameserver
+        ### nameservers, asn = self.__get_nameserver__()
+        
+        # self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
+        ### self.nameservers = nameservers if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
+        # self.recv_records = {self.host: {'ASN': self.asn}}
         self.recv_records = {self.host: {}}
 
     # self.answer = None;#self.results = None;
@@ -41,9 +54,10 @@ class Dns_response():
         nameservers.extend(["8.8.4.4", "9.9.9.9", "64.6.64.6", "208.67.220.220", "209.244.0.3"])
         # nameservers.extend(["1.0.0.1","8.8.8.8","208.67.222.222"])
 
-        nameservers = dns_nameserver.get_nameserver(self.ip_address_pub, nameservers)
+        # nameservers, asn = dns_nameserver.get_nameserver(self.ip_address_pub, nameservers)
 
-        return nameservers
+        ### return dns_nameserver.get_nameserver(self.ip_address_pub, nameservers)
+        return dns_nameserver.get_nameserver(nameservers = nameservers, asn = self.asn)
 
     def nslookup(self, host="www.facebook.com", record="A"):
         try:

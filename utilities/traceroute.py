@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-__version__ = "1.1"
+__version__ = "1.2"
 """
 	icmplib
 	The power to forge ICMP packets and do ping and traceroute.
@@ -16,13 +16,18 @@ try:
 	from icmplib import PID, resolve, is_hostname, is_ipv6_address
 except ImportError:
 	raise SystemExit("Please install icmplib, pip3 install icmplib, https://github.com/ValentinBELYN/icmplib")
-import utilities.utility as utility
+if __name__ != '__main__':
+	import utilities.utility as utility
+else:
+	import utility
 
 def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 		id=PID, max_hops=30, ip_address_resolved = None):
 	#interval=0.05, timeout=0.10,
 	#timeout=2
 	#count=2, interval=0.05, timeout=0.20, id=PID, max_hops=30
+
+	# interval=0.05 ->0.5, timeout=0.01 -> 0.1
 	
 	results = {}
 	# We perform a DNS lookup if a hostname or an FQDN is passed in
@@ -40,7 +45,19 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 	# the 'payload_size' parameter of your ICMP request.
 	payload_size = 56
 	print_interval = 500 if interval == 0.05 else interval
-	print_timeout = 1 if timeout == 0.01 else timeout
+	if timeout < 1: 
+		timeout *= 10
+		print_timeout = str(timeout*10)
+	elif timeout < 0.1: 
+		timeout *= 100
+		#print_timeout = str({:.}).format(timeout*100)
+		print_timeout = '{d}'.format(timeout*100)
+	#timeout= '{:.0n}'.format(timeout)
+	#timeout= '{:.2%}'.format(timeout)
+	#print_timeout = 1 if timeout == 0.01 else timeout
+	print('timeout', timeout)
+	
+
 	print(f'{utility.get_username()}@{utility.get_pcname()} {utility.get_currentdirectory()}$ traceroute -m {max_hops} -w {print_timeout} -z {print_interval} {address} {payload_size}')
 	print(f'traceroute to {address} ({ip_address}), '
 		  f'{max_hops} hops max, {payload_size} byte packets')
@@ -138,13 +155,32 @@ def verbose_traceroute(address, count=2, interval=0.05, timeout=0.01,
 # function for details.
 if __name__ == '__main__':
 	import sys
+	import json
 	if len(sys.argv) != 2:
 		print('usage: %s example.com' % sys.argv[0])
 		host='fbi.gov'
+		hosts = [
+			# 'www.whitehouse.gov',
+			# 'www.facebook.com',
+			# 'www.amzn.com',
+			# 'amazon.com',
+			'us2723.nordvpn.com',
+			'ch217.nordvpn.com',
+			'jp590.nordvpn.com',
+			'za110.nordvpn.com',
+			'fbi.gov',
+			'www.ic3.gov',
+			'ic3.gov']
+		for host in hosts:
+			#print(json.dumps(verbose_traceroute(host)), indent=4)
+			print(verbose_traceroute(host))
+
 	else:
 		host=str(sys.argv[1])
 		print(sys.argv[1])
 	result=verbose_traceroute(host)
 	print('result',result)
-	result=verbose_traceroute("ic3.gov")
-	print('result',result)
+	# result=verbose_traceroute("ic3.gov")
+	# print('result',result)
+
+	

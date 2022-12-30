@@ -3,13 +3,18 @@
 """
 Copyright 2022. All rights reserved.
 """
-__version__ = "1.9"
+__version__ = "2.0"
+# 2.0 Main.get_last_file()
 #def struct():import struct
 #def pickle():import pickle
 #def shelve():import shelve
 _text_file='file'
 _text_directory='directory'
 _text_exists='exists'
+import pathlib
+import datetime
+import sys
+
 class Main:
 	def __init__(self, print_result=True):
 		self.print_result = print_result
@@ -21,13 +26,16 @@ class Main:
 		myfile.close()
 		return text
 	def open_as_list(self, path):
+		# Solution 1
 		#return [x.rstrip() for x in open(path,'r').readlines()]
+		# Solution 2
 		"""myfile=open(path,'r')
 		text=[]
 		for line in myfile:
 			text.append(line.rstrip())
 		myfile.close()
 		return text"""
+		# Solution 3
 		with open(path,'r') as myfile: 
 			return list(map((lambda line: line.rstrip()), myfile))
 	def open_as_dict(self, path):
@@ -68,9 +76,16 @@ class Main:
 		import json
 		json.dump(text, fp=open(path+".json",'w'),indent=4)
 	def check_file(self, path):
-		import os
-		if os.path.isfile(path) and self.print_result: print(_text_file,path,_text_exists)
-		elif self.print_result: print('there is no existing file (and therefore no existing file path) '+path)
+		# Solution 1
+		import pathlib
+		if pathlib.Path(path).is_file():
+			if self.print_result: print(_text_file, path, _text_exists)
+			return True
+		elif self.print_result: print('there is no existing file (and therefore no existing file path) ' + path);return False
+		# Solution 2
+		# import os
+		# if os.path.isfile(path) and self.print_result: print(_text_file,path,_text_exists)
+		# elif self.print_result: print('there is no existing file (and therefore no existing file path) '+path)
 	def check_dir(self, path):
 		import os
 		if os.path.isdir(path) and self.print_result:
@@ -117,15 +132,35 @@ class Main:
 			#raise error
 			if check_dir(path): pass
 			else: print("Cannot create a directory '{}', path: '{}'".format(dir,path))
+	
+
 	def dir_listing_subdirectories(self, path = "."):
 		import pathlib
 		p = pathlib.Path(path)
 		print([x for x in p.iterdir() if x.is_dir()])
+	
+
 	def dir_listing_files_in_this_directory_tree(self, path = ".", file_extension = "*"):
-		import pathlib
 		p = pathlib.Path(path)
 		#print(list(p.glob('**/*.*')))
 		return list(p.glob('**/*.'+file_extension))
+
+
+	def get_last_file(self, path_dir = '.', file_extension = '*'):
+		return list(reversed(list(file for file in pathlib.Path(path_dir).glob('**/*.' + file_extension))))[0]
+
+
+	def check_is_file_updated(self, path, days_ago = 30):#check_file_modification_date
+		import pathlib
+		if self.check_file(path):
+			ago = datetime.datetime.now() - datetime.timedelta(int(days_ago))
+			modification_date = datetime.datetime.fromtimestamp(pathlib.Path(path).stat().st_mtime)
+			need_update_flag = ago > modification_date
+			if need_update_flag: print("** The data file hasn't been update in the last", days_ago, 'days', file = sys.stderr)
+		else: print("** There is no data file", file = sys.stderr); need_update_flag = True
+		return need_update_flag
+
+
 if __name__ == '__main__':
 	Get_Main = Main(print_result=True)
 	print(Get_Main.get_request_text_as_json("https://api.github.com/repos/babyish-retired0m/hostname_advanced_testing/contents/results3?ref=main"))
