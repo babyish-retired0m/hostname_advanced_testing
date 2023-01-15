@@ -36,7 +36,7 @@ class Cli_api:
 	def get_result(self, args):
 		if args.services:
 			hosts_list = []
-			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, path_results_name = "all", 
+			Get_hostnames_testing = main.Advanced_testing(get_nslookup = True, get_ping = True, get_traceroute = True, get_ssl_check = True, get_dump = True, path_results_name = "services", 
 				continue_option = True,
 				# pre_party_check = True,
 				)
@@ -101,8 +101,8 @@ class Cli_api:
 				import hosts.nordvpn.servers_nordvpn as hosts_nordvpn
 				NordVPN = hosts_nordvpn.Servers_NordVPN()
 				servers_domain_list = NordVPN.get_servers_domain_list(category = category)
-				print('Cli_api get_servers_recent_list', servers_domain_list)
-				print('servers_domain_list length', len(servers_domain_list))
+				# print('Cli_api get_servers_recent_list', servers_domain_list)
+				print('\nservers_domain_list length', len(servers_domain_list), '\n')
 				return servers_domain_list
 
 				
