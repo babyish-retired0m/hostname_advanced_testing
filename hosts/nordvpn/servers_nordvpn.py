@@ -26,7 +26,7 @@ File = file.Main(print_result = True)
 
 class Servers_NordVPN(object):
 	"""docstring for Servers_NordVPN"""
-	def __init__(self, request_servers = True, get_print = True, get_dump_all = False, get_dump_categories = False, get_dump_countries = False):
+	def __init__(self, request_servers = True, get_print = True, get_dump_all = False, get_dump_categories = False, get_dump_countries = False, pretty_print = True):
 		super(Servers_NordVPN, self).__init__()
 
 		self.request_servers = request_servers
@@ -39,7 +39,7 @@ class Servers_NordVPN(object):
 
 		self.servers_categories_dict = {'Standard': 'Standard VPN servers', 'Dedicated': 'Dedicated IP', 'Obfuscated': 'Obfuscated Servers', 'Double': 'Double VPN', 'Onion': 'Onion Over VPN'}
 
-
+		self.pretty_print = pretty_print
 	def get_servers_json(self):
 		if self.request_servers:
 			servers_json = File.get_request_text_as_json('https://api.nordvpn.com/server')
@@ -112,7 +112,8 @@ class Servers_NordVPN(object):
 	def get_servers_print(self):
 		if self.get_print:
 			print('servers_json')
-			print(json.dumps(self.servers_json, indent=4))
+			if self.pretty_print:
+				print(json.dumps(self.servers_json, indent=4))
 
 			print('quantity of servers total', len(self.servers_json))
 			print('quantity of servers Standard VPN servers', len(self.servers_standard))
@@ -123,7 +124,6 @@ class Servers_NordVPN(object):
 			print('quantity of servers Onion Over VPN', len(self.servers_onion))
 			print('quantity of servers total summary', len(self.servers_standard) + len(self.servers_dedicated) + len(self.servers_obfuscated) + len(self.servers_double) + len(self.servers_onion))
 			print('quantity of servers country', len(self.servers_country))
-
 
 	def get_servers_dump(self, categories_dict = None, countries_dict = None, servers_dict = None):
 		time_local = time.strftime("%Y-%m-%d_%H-%M-%S", utility.get_time_local())
@@ -175,7 +175,7 @@ class Servers_NordVPN(object):
 					self.get_servers_dump(categories_dict = categories_dict)
 					self.get_servers_dump(countries_dict = countries_dict)
 
-					ip_address
+					# ip_address
 		else:
 			print('Error')
 			print('get_servers_json is False')
@@ -191,6 +191,27 @@ class Servers_NordVPN(object):
 				if len(server["categories"]) > 0:
 					hostnames_list.append(server['domain'])
 		return hostnames_list
+
+	def find_server_by_id(self, server_id):
+		for server in self.get_servers_json():
+			if int(server['id'])==int(server_id):
+				return {'id': server['id'], 'ip_address': server['ip_address'], 'domain': server['domain'], 'categories': server['categories'], 'country': server['country']}
+	def find_server_by_ip_address(self, ip_address):
+		for server in self.get_servers_json():
+			if server['ip_address'] == ip_address:
+				return {'id': server['id'], 'ip_address': server['ip_address'], 'domain': server['domain'], 'categories': server['categories'], 'country': server['country']}
+	def find_server_by_domain(self, domain):
+		for server in self.get_servers_json():
+			if server['domain'] == domain:
+				return {'id': server['id'], 'ip_address': server['ip_address'], 'domain': server['domain'], 'categories': server['categories'], 'country': server['country']}
+	def find_servers_by_category(self, category):
+		for server in self.get_servers_json():
+			if server['category'] == category:
+				return {'id': server['id'], 'ip_address': server['ip_address'], 'domain': server['domain'], 'categories': server['categories'], 'country': server['country']}
+	# def find_servers_by_country(self, country):
+	# 	for server in self.get_servers_json():
+	# 		if server['country'] == country:
+	# 			return {'id': server['id'], 'ip_address': server['ip_address'], 'domain': server['domain'], 'categories': server['categories'], 'country': server['country']}
 
 
 # for server_features in server:
