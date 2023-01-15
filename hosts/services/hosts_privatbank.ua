@@ -1,0 +1,14 @@
+privatbank.ua
+auth.privatbank.ua
+start.privatbank.ua
+privat24.privatbank.ua
+next.privat24.ua
+next.privatbank.ua
+help.privatbank.ua
+nrm.privatbank.ua
+inq.privatbank.ua
+acs.privatbank.ua
+binbu.privatbank.ua
+pb.ua
+online-anketa.privatbank.ua
+bilet.privatbank.ua

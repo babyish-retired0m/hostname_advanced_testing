@@ -246,8 +246,16 @@ sitemaps.itunes.apple.com
 edge.itunes.apple.com
 uts-preview.itunes.apple.com
 apple-shield.apple.com
-Lcdi-locator.apple.com
+lcdi-locator.apple.com
 time.apple.com
 store.apple.com
 secure5.store.apple.com
 secure2.store.apple.com
+email.apple.com
+support.apple.com
+applepay.apple.com
+discussions.apple.com
+itunes.com
+buy.itunes.apple.com
+appleid.apple.com
+id.apple.com
