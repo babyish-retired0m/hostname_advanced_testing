@@ -3,68 +3,91 @@ __version__ = "1.4"
 
 # 1.3
 # get_nameserver()# DNS IP address NordVPN
-import os
-import utilities.file as file
-import utilities.ip_address as ip_address
+if __name__ == '__main__':
+    import file as file
+    import ip_address as ip_address
+    import get_asn_files_dict as asn_files_dict
+else:
+    import utilities.file as file
+    import utilities.ip_address as ip_address
+    import utilities.helper_asn as helper_asn
 
+import os
 import re
 
 File = file.Main(print_result=False)
 parent_dir = os.path.dirname(__file__) + "/ip_addresses_block_provider/"
 
-def get_files_names():    
-    files_list = File.dir_listing_files_in_this_directory_tree(path = parent_dir, file_extension = "txt")
-    result_dict = {}
-    for (enum, file_name) in enumerate(files_list, start=0):
-        # Solution 1
-        # re.findall(r'(\d+)(\w+\.\w+)', file_name)
-        # re.findall(r"(?P<ASN>\d+)(?P<website>)\w+\.\w+)", o)
-        # re.findall(r'(\d+)_(.*?)(.txt)', file_name)
-        # re.findall(r'(?P<ASN>\d+)\_(?P<website>.*?)\.txt', n)
-        result = re.findall(r'(?P<asn>\d+)\_(?P<website>.*?)\.txt', file_name.lower())
-        result_dict[result[0][0]]={'asn_name':result[0][1].replace('www.','').split('.')[0], 'asn_website': result[0][1], 'file_name':file_name}
 
-        # Solution 2
-        # file_name_non_suffix = file_name.stem
-        # file_name_split = re.split(r'_', file_name_non_suffix)
-        # file_name_asn_id = re.split(r'-', file_name_split[0])
-        # file_name_asn_name = file_name_split[0].replace('www.', '')
-        # file_name_asn_name = re.split(r'\.',  file_name_asn_name)
-        # result_dict[file_name_asn_id] = {'file_name':file_name, 'asn':file_name_split[0], 'asn_id': file_name_asn_id[1], 'file_name_non_suffix': file_name_non_suffix, 'asn_name': file_name_asn_name, 'website':file_name_split[1]}
-    return result_dict
-
-
-def get_nameserver(nameservers=["1.1.1.1"], asn=None):
+def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
     # files_asn_list = get_files_names()
     
-    # for asn_id in files_asn_list:
+    # for asn_id in files_asn_id_list:
     #     ip_network_list = File.open_as_list(parent_dir + asn_id['file_name'])
     #     asn_ip_address = ip_address.check_ip_in_networks(ip_address_pub, ip_network_list)
-    if asn is None:
+    
+    # open_asn_file_dict(file_path)
+    # asn_info_dict = get_asn_info_dict()
+
+    # for asn_id in asn_info_dict
+
+    # asn_id_list = { :'lanet', :'vodafone', 15895:'JSC \"Kyivstar\"', :'datacamp'}
+
+
+
+    # asn_files_dict = helper_asn.get_asn_files_dict()
+    # asn_as_list = {}
+    # for asn_file in asn_files_dict:
+    #    asn_file_dict = File.open_json(asn_files_dict[asn_file]['asn_file_path'])
+    # for (key, value) in asn_id_list_dict:
+    #     asn
+
+    
+
+    asn_id = int(asn_id)
+    if asn_id is None:
         return nameservers
     else:
-        # asn = asn['asn_name']
-        if asn == 'lanet': nameservers.append('194.50.85.5')
-        elif asn == 'vodafone':
-            nameservers.append('88.214.96.116')
-            nameservers.append('80.255.73.116')
-            nameservers.append('80.255.64.1172')
-        elif asn == 'kyivstar':
+        # asn = asn['asn_id_name']
+        # if asn_id == 'lanet': 
+        if asn_id == 39608: 
+            nameservers.append('194.50.85.5')
+            nameservers.remove('1.1.1.1')
+            nameservers.remove('8.8.4.4')
+            nameservers.remove('9.9.9.9')
+            nameservers.remove('64.6.64.6')
+            nameservers.remove('209.244.0.3')
+        elif asn_id == 'vodafone':
+            #nameservers.append('9.9.9.9')
+            nameservers.remove('1.1.1.1')
+            nameservers.remove('8.8.4.4')
+            nameservers.remove('64.6.64.6')
+            nameservers.remove('208.67.220.220')
+            nameservers.remove('209.244.0.3')
+            # nameservers.append('88.214.96.116')
+            # nameservers.append('80.255.73.116')
+            # nameservers.append('80.255.64.1172')
+        #elif asn_id == 'kyivstar':
+        elif asn_id == 15895:
             nameservers.append("193.41.60.1")
             #nameservers.append("81.23.24.66")
             #nameservers.append("88.214.96.116")
-        elif asn == 'datacamp' or asn == 'm247' or asn == 'ukrservers' or asn == 'cdn77':
+        # 'ukservers' - 42831
+        elif asn_id == 'datacamp' or asn_id == 'm247' or asn_id == 'ukservers' or asn_id == 'cdn77':
             nameservers.append("103.86.99.99")
             nameservers.append("103.86.96.100")
-        elif asn == 'lifecell': nameservers.append("212.58.161.173")
-        elif asn == 'znet':
+        elif asn_id == 'lifecell': nameservers.append("212.58.161.173")
+        elif asn_id == 'znet':
             nameservers.append("91.202.104.6")
             nameservers.append("162.158.248.73")
-        elif asn == 'gigatrans': nameservers.append("172.253.1.129")
-        elif asn == 'bilink': pass # Retorville WiFi Salateria
-        elif asn == 'o3': pass # Retroville WiFi Retroville Guest, Master Burger
-        elif asn == 'ukrtelecom': pass #IP address of the domain: 95.132.129.254 Retroille WiFi Multiplex
-        elif asn == 'wnet': pass #IP address of the domain: 217.20.182.17 Retroville WiFi Rozetka
+        elif asn_id == 'gigatrans': nameservers.append("172.253.1.129")
+        elif asn_id == 'bilink': pass # Retorville WiFi Salateria
+        elif asn_id == 'o3': pass # Retroville WiFi Retroville Guest, Master Burger
+        elif asn_id == 'ukrtelecom': pass #IP address of the domain: 95.132.129.254 Retroille WiFi Multiplex
+        elif asn_id == 'wnet': pass #IP address of the domain: 217.20.182.17 Retroville WiFi Rozetka
+        else:
+            nameservers.append("103.86.99.99")
+            nameservers.append("103.86.96.100")
         return nameservers
 
 # def _get_nameserver(ip_address_pub=None, nameservers=["1.1.1.1"]):
@@ -117,6 +140,16 @@ def get_nameserver(nameservers=["1.1.1.1"], asn=None):
 #     # ns30.vf-ua.net, 2a00:f50:5700::1002
 #     # nameservers.append("80.255.64.173")
 
+# Hello 77.52.64.210  # Retorville WiFi novus-free 
+# from Dnipro, Ukraine
+
+# IP  Hostname    ISP Country
+# 188.122.80.232  hosted-by.i3d.net.  i3D.net B.V Warsaw, Poland 
+# 188.122.80.234  hosted-by.i3d.net.  i3D.net B.V Warsaw, Poland 
+# 188.122.80.235  hosted-by.i3d.net.  i3D.net B.V Warsaw, Poland
+# 2a04:c605:409:fe::235
+# 2a04:c605:409:fe::234 Poland Poland - Mazovia  i3D.net B.V  54 hit
+# 2a04:c605:409:fe::232
 #     # DNS IP address Kyivstar:
 #     elif ip_address.check_ip_in_networks(ip_address_pub, ip_addresses_block_as_15895):
 #           # Hello 188.163.81.61 from Kyiv, Ukraine

@@ -3,9 +3,20 @@ __version__ = "2.3"
 # 2.3 get_ip_address_public_amazon().timeout_count -> tries
 
 # 2.2 check_ip_in_networks()
+"""
+http://ipv4.google.com/).
+If all of these tests work, everything is working correctly. If not, go to the next step.
+From your browser, type in a fixed IP address. You can use http://216.218.228.119/ (which points to the test-ipv6.com 
+"""
 
-import utilities.file as file	
-import utilities.utility as utility
+if __name__ == '__main__':
+	import file as file	
+	import utility as utility
+else:	
+	import utilities.file as file
+	import utilities.utility as utility
+
+	
 File = file.Main(print_result=False)
 import os
 
@@ -137,7 +148,7 @@ def get_ip_address_public_amazon(tries = 100, timeout_sleep = 10):
 			else:
 				print('\n\n')
 				print(utility.warp_red2('Error connecting'), 'to https://checkip.amazonaws.com.', '\n\t', utility.warp_red('Check Amazon status'), 'https://status.aws.amazon.com.')
-				print('\n' + utility.warp_blue2('Check your internet connection'), 'timeout', utility.warp_yellow(timeout_sleep), 'seconds, timeout #', tries)
+				print('\n' + utility.warp_blue2('Check your internet connection'), 'timeout', utility.warp_yellow(timeout_sleep), 'seconds, tries out #', tries)
 				print('\n\t', utility.warp_yellow('THE TIME: ' + time.ctime()))
 				time.sleep(timeout_sleep)
 				tries -= 1
@@ -150,9 +161,10 @@ def check_ip_in_network(ip_address,ip_network):
 	if ipaddress.ip_address(ip_address) in ipaddress.ip_network(ip_network): return True
 
 
-def check_ip_in_networks(ip_address, ip_network_list = None, print_result=False):
+def check_ip_in_networks(ip_address, ip_network_list, print_result=False):
 	for ip_network in ip_network_list:
-		if check_ip_in_network(ip_address,ip_network):
+		if ip_network.startswith('#'): pass
+		elif check_ip_in_network(ip_address,ip_network):
 			if print_result: print("Yay!",ip_address,ip_network)
 			return ip_network
 
@@ -163,7 +175,8 @@ def check_ip_in_network_lanet_ua(ip_address):
 	parent_dir = os.path.dirname(__file__)
 	#ip_network_list=File.open_as_list("/Users/jozbox/python/functions/ip_addresses_block_Provider/AS-39608_lanet.ua.txt")
 	ip_network_list=File.open_as_list(parent_dir + "/ip_addresses_block_provider/AS-39608_lanet.ua.txt")
-	if check_ip_in_networks(ip_address,ip_network_list): return ip_network
+	ip_network = check_ip_in_networks(ip_address,ip_network_list)
+	return ip_network
 
 
 def get_ip_in_networks(ip_address_public, asn_list = None, print_result=True):
@@ -172,25 +185,31 @@ def get_ip_in_networks(ip_address_public, asn_list = None, print_result=True):
 	if asn_list is None:
 		parent_dir = os.path.dirname(__file__) + "/ip_addresses_block_provider"
 		provider_asn_dict = get_provider_asn_dict(parent_dir = parent_dir)
-		#print('ip_address.get_ip_in_networks() asn_dict', asn_dict)
 		asn_dict = {}
+		#if print_result: print('provider_asn_dict:', provider_asn_dict)
+		# if print_result: print('ip_address.get_ip_in_networks().asn_dict:', asn_dict)
+		
 		for asn_id in provider_asn_dict:
-			# print('ip_address.get_ip_in_networks.provider_asn_dict()',provider_asn_dict)
-			# ip_network_asn_list = File.open_as_list(parent_dir + asn_id['file_name'])
-			asn_ip_address = check_ip_in_networks(ip_address_public, File.open_as_list(provider_asn_dict[asn_id]['asn_file_name']))
-			# asn_dict[asn_id]['asn_file_name'] = pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem
-			
-			# asn_dict[asn_id] = {'asn_file_name': pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem}
-			if asn_ip_address:
-				# asn_dict[asn_id]['asn_ip_address'] = {asn_ip_address}
-				asn_dict[asn_id] = {'asn_id': asn_id,
-									'asn_ip_address_subnet': asn_ip_address,
-									'asn_name': provider_asn_dict[asn_id]['asn_name'],
-									'asn_website': provider_asn_dict[asn_id]['asn_website'],
-									'asn_file_name': str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name'].name))}
-				if print_result:
-					print('\n\t', utility.warp_yellow('Yay! ip in network ASN: ' + asn_dict[asn_id]['asn_name'] + 'asn_id: ' + asn_id + ' asn_website: ' + provider_asn_dict[asn_id]['asn_website'] + ' asn_file_name:' + str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).name)))
-				return asn_dict[asn_id]
+			if asn_id.startswith('#'): pass
+			else:
+				# if print_result: print('ip_address.get_ip_in_networks().asn_id:', asn_id)
+				
+				# ip_network_asn_list = File.open_as_list(parent_dir + asn_id['file_name'])
+				asn_ip_address = check_ip_in_networks(ip_address_public, File.open_as_list(provider_asn_dict[asn_id]['asn_file_name']))
+				# if print_result: print('ip_address.get_ip_in_networks().asn_ip_address:', asn_ip_address)
+				# asn_dict[asn_id]['asn_file_name'] = pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem
+				
+				# asn_dict[asn_id] = {'asn_file_name': pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).stem}
+				if asn_ip_address:
+					# asn_dict[asn_id]['asn_ip_address'] = {asn_ip_address}
+					asn_dict[asn_id] = {'asn_id': asn_id,
+										'asn_ip_address_subnet': asn_ip_address,
+										'asn_name': provider_asn_dict[asn_id]['asn_name'],
+										'asn_website': provider_asn_dict[asn_id]['asn_website'],
+										'asn_file_name': str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name'].name))}
+					if print_result:
+						print('\n\t', utility.warp_yellow('Yay! ip in network ASN: ' + asn_dict[asn_id]['asn_name'] + 'asn_id: ' + asn_id + ' asn_website: ' + provider_asn_dict[asn_id]['asn_website'] + ' asn_file_name:' + str(pathlib.Path(provider_asn_dict[asn_id]['asn_file_name']).name)))
+					return asn_dict[asn_id]
 	else:
 		asn_ip_address = check_ip_in_networks(ip_address_public, asn_list)
 		if asn_ip_address:
@@ -230,6 +249,20 @@ def get_provider_asn_dict(parent_dir):
 									'asn_file_name': file_name}
 	#print('ip_address.get_provider_asn_dict()', result_dict)
 	return result_dict
+
+def is_ipv4(address_str):
+        try:
+            ipaddress.IPv4Network(address_str)
+            return True
+        except ValueError:
+            return False
+
+def is_ipv6(address_str):
+        try:
+            ipaddress.IPv6Network(address_str)
+            return True
+        except ValueError:
+            return False
 
 
 if __name__ == '__main__':

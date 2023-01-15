@@ -57,9 +57,9 @@ class Main:
 		for line in response:
 			text.append(line.rstrip())
 		return text
-	def get_request_text_as_json(self, url,params=""):
+	def get_request_text_as_json(self, url, params='', headers={"accept": "application/json"}):
 		import requests
-		resp = requests.get(url=url, params=params)
+		resp = requests.get(url=url, params=params, headers=headers)
 		data = resp.json()
 		return data
 	def write_text(self, path,text):
@@ -81,7 +81,9 @@ class Main:
 		if pathlib.Path(path).is_file():
 			if self.print_result: print(_text_file, path, _text_exists)
 			return True
-		elif self.print_result: print('there is no existing file (and therefore no existing file path) ' + path);return False
+		elif self.print_result: 
+			print('there is no existing file (and therefore no existing file path) ' + path);
+			return False
 		# Solution 2
 		# import os
 		# if os.path.isfile(path) and self.print_result: print(_text_file,path,_text_exists)
@@ -150,14 +152,30 @@ class Main:
 		return list(reversed(list(file for file in pathlib.Path(path_dir).glob('**/*.' + file_extension))))[0]
 
 
-	def check_is_file_updated(self, path, days_ago = 30):#check_file_modification_date
+	def check_is_file_need_update(self, path, days_ago = 30):#check_file_modification_date
 		import pathlib
+# /src/app/hostname_advanced_testing/results/results_2023-01-01_10-32-23_network_AS-31148_o3_hosts_nordvpn.json
+# datetime.datetime.now() 2023-01-01 10:48:29.427797
+# datetime.timedelta(int(days_ago) 3 days, 0:00:00 ago 2022-12-29 10:48:29.427763 
+# modification_date 2023-01-01 10:40:38.033021
+#2023-01-01 - (3 days_ago) = 2022-12-29(3 days_ago ago)
+#2022-12-29 > 2023-01-01 = False
+# need_update_flag False
+
 		if self.check_file(path):
 			ago = datetime.datetime.now() - datetime.timedelta(int(days_ago))
 			modification_date = datetime.datetime.fromtimestamp(pathlib.Path(path).stat().st_mtime)
+			#need_update_flag = ago > modification_date
 			need_update_flag = ago > modification_date
-			if need_update_flag: print("** The data file hasn't been update in the last", days_ago, 'days', file = sys.stderr)
-		else: print("** There is no data file", file = sys.stderr); need_update_flag = True
+			# print('datetime.datetime.now()', datetime.datetime.now(), 'datetime.timedelta(int(days_ago)', datetime.timedelta(int(days_ago)), 'ago', ago, 'modification_date', modification_date, 'need_update_flag', need_update_flag)
+			if self.print_result:
+				if need_update_flag: print("** The data file hasn't been update in the last", days_ago, 'days, need update', file = sys.stderr)
+				else: print('** The data file is actual', days_ago, 'days', file = sys.stderr)
+
+		else:
+			if self.print_result:
+				print("** There is no data file", file = sys.stderr);
+			need_update_flag = True
 		return need_update_flag
 
 

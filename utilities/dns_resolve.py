@@ -23,14 +23,14 @@ File = file.Main(print_result=False)
 
 class Dns_response():
     def __init__(self, host=None, records=None, nameserver=None,
-                 ip_address_public_answer = None, asn=None):
+                 ip_address_public_answer = None, asn_id=None):
         self.host = host if isinstance(host, str) and host is not None else print(
             "hostname is None or is hostname str?")
         self.records = ["A", "AAAA", "CNAME", "MX", "SOA", "TXT", "NS"] if records is None else [records] if isinstance(records, str) else records
         self.ip_address_pub = ip_address_public_answer if ip_address_public_answer is not None else ip_address.get_ip_address_public_amazon()
         # nameserver = [nameserver] if isinstance(nameserver, str) else nameserver
         
-        self.asn = asn
+        self.asn_id = asn_id
         
         if nameserver is None:
             self.nameservers = self.__get_nameserver__()
@@ -44,7 +44,7 @@ class Dns_response():
         
         # self.nameservers = self.__get_nameserver__() if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
         ### self.nameservers = nameservers if nameserver is None else [nameserver] if isinstance(nameserver, str) else nameserver
-        # self.recv_records = {self.host: {'ASN': self.asn}}
+        # self.recv_records = {self.host: {'ASN': self.asn_id}}
         self.recv_records = {self.host: {}}
 
     # self.answer = None;#self.results = None;
@@ -57,7 +57,7 @@ class Dns_response():
         # nameservers, asn = dns_nameserver.get_nameserver(self.ip_address_pub, nameservers)
 
         ### return dns_nameserver.get_nameserver(self.ip_address_pub, nameservers)
-        return dns_nameserver.get_nameserver(nameservers = nameservers, asn = self.asn)
+        return dns_nameserver.get_nameserver(nameservers = nameservers, asn_id = self.asn_id)
 
     def nslookup(self, host="www.facebook.com", record="A"):
         try:
