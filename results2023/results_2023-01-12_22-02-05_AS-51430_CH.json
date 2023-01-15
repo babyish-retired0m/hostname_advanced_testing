@@ -1,0 +1,2085 @@
+{
+    "parameters": {
+        "Unix Epoch Time": 1673560925.1581666,
+        "timezone": "UTC",
+        "time": "Thu Jan 12 22:02:05 2023",
+        "continue": false,
+        "continuing chellanges": [],
+        "ip_info": {
+            "continent": {
+                "code": "EU",
+                "name": "Europe"
+            },
+            "country": "CH",
+            "country_name": "Switzerland",
+            "region": "Zurich",
+            "city": "Z\u00fcrich",
+            "organisation": "AS51430 AltusHost B.V.",
+            "hostname": null
+        },
+        "Public IP Address": "79.142.69.236",
+        "ASN": {
+            "asn_id": "51430",
+            "asn_name": "AltusHost Inc."
+        },
+        "Execution time Duration": "64.941"
+    },
+    "advanced_test": {
+        "ipv4.google.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "142.250.203.110"
+                        ],
+                        "CNAME": {
+                            "ipv4.google.com": "ipv4.l.google.com",
+                            "ipv4.l.google.com": [
+                                "172.217.168.46"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "142.250.203.110"
+                        ],
+                        "CNAME": {
+                            "ipv4.google.com": "ipv4.l.google.com",
+                            "ipv4.l.google.com": [
+                                "142.250.203.110"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560927.284009,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "ipv4.google.com",
+                    "ip_address": "142.250.203.110",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560927.8729901,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "142.250.203.110",
+                        0,
+                        "46.161 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        1,
+                        "44.635 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        2,
+                        "45.054 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        3,
+                        "43.589 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        4,
+                        "43.632 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        5,
+                        "43.669 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        6,
+                        "44.397 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        7,
+                        "44.238 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        8,
+                        "43.984 ms"
+                    ],
+                    [
+                        64,
+                        "142.250.203.110",
+                        9,
+                        "44.612 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.196 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "44.337 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "48.816 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "45.505 ms"
+                    ],
+                    [
+                        "142.250.170.168",
+                        "142.250.170.168",
+                        "45.748 ms"
+                    ],
+                    [
+                        "172.253.50.231",
+                        "172.253.50.231",
+                        "44.828 ms"
+                    ],
+                    [
+                        "142.251.70.185",
+                        "142.251.70.185",
+                        "45.667 ms"
+                    ],
+                    [
+                        "142.250.203.110",
+                        "zrh04s16-in-f14.1e100.net",
+                        "44.894 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "ipv4.google.com",
+                    "ip_address": "142.250.203.110",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560929.2738507,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": false
+                }
+            }
+        },
+        "216.218.228.119": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "CNAME": {
+                            "216.218.228.119": null
+                        }
+                    },
+                    "8.8.4.4": {
+                        "CNAME": {
+                            "216.218.228.119": null
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560929.94654,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "216.218.228.119",
+                    "ip_address": "216.218.228.119",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560932.1358366,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.178 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.206 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.783 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "44.529 ms"
+                    ],
+                    [
+                        "91.206.52.170",
+                        "10gigabitethernet1-4.core1.zrh1.he.net",
+                        "45.102 ms"
+                    ],
+                    [
+                        "184.104.193.134",
+                        "100ge0-35.core2.gva1.he.net",
+                        "49.612 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "216.218.228.119",
+                    "ip_address": "216.218.228.119",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560937.9308941,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "test-ipv6.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "185.40.234.35",
+                            "176.58.93.101"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "176.58.93.101",
+                            "185.40.234.35"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560938.639314,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "test-ipv6.com",
+                    "ip_address": "176.58.93.101",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560939.3474221,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "176.58.93.101",
+                        0,
+                        "56.976 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        1,
+                        "56.504 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        2,
+                        "55.971 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        3,
+                        "56.213 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        4,
+                        "56.415 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        5,
+                        "56.0 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        6,
+                        "56.453 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        7,
+                        "60.847 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        8,
+                        "56.512 ms"
+                    ],
+                    [
+                        64,
+                        "176.58.93.101",
+                        9,
+                        "57.142 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.2 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.953 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "44.564 ms"
+                    ],
+                    [
+                        "77.109.134.101",
+                        "r2glb3.core.init7.net",
+                        "44.976 ms"
+                    ],
+                    [
+                        "5.180.135.142",
+                        "r1zrh13.core.init7.net",
+                        "46.909 ms"
+                    ],
+                    [
+                        "5.180.135.109",
+                        "r1zrh7.core.init7.net",
+                        "46.862 ms"
+                    ],
+                    [
+                        "5.180.132.229",
+                        "r1zrh9.core.init7.net",
+                        "46.809 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "5.180.135.234",
+                        "r1ams2.core.init7.net",
+                        "57.642 ms"
+                    ],
+                    null,
+                    null,
+                    [
+                        "104.225.98.9",
+                        "9.98.225.104.ptr.anycast.net",
+                        "58.461 ms"
+                    ],
+                    [
+                        "176.58.93.101",
+                        "ams.test-ipv6.com",
+                        "56.926 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "test-ipv6.com",
+                    "ip_address": "176.58.93.101",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560942.0410662,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            }
+        },
+        "www.whitehouse.gov": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "192.0.66.168"
+                        ],
+                        "CNAME": {
+                            "www.whitehouse.gov": "wh46.go-vip.net",
+                            "wh46.go-vip.net": [
+                                "192.0.66.168"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "192.0.66.168"
+                        ],
+                        "CNAME": {
+                            "www.whitehouse.gov": "wh46.go-vip.net",
+                            "wh46.go-vip.net": [
+                                "192.0.66.168"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560942.8743181,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.whitehouse.gov",
+                    "ip_address": "192.0.66.168",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560943.581289,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "192.0.66.168",
+                        0,
+                        "53.501 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        1,
+                        "54.496 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        2,
+                        "53.891 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        3,
+                        "51.806 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        4,
+                        "54.052 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        5,
+                        "53.659 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        6,
+                        "55.028 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        7,
+                        "55.15 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        8,
+                        "50.242 ms"
+                    ],
+                    [
+                        64,
+                        "192.0.66.168",
+                        9,
+                        "50.294 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.244 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "44.188 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.066 ms"
+                    ],
+                    [
+                        "77.109.134.101",
+                        "r2glb3.core.init7.net",
+                        "45.905 ms"
+                    ],
+                    [
+                        "5.180.135.155",
+                        "r1glb3.core.init7.net",
+                        "44.562 ms"
+                    ],
+                    [
+                        "5.180.135.136",
+                        "r1glb1.core.init7.net",
+                        "44.307 ms"
+                    ],
+                    [
+                        "5.180.135.160",
+                        "r1zrh2.core.init7.net",
+                        "44.755 ms"
+                    ],
+                    [
+                        "82.197.168.33",
+                        "r1mxp1.core.init7.net",
+                        "50.815 ms"
+                    ],
+                    [
+                        "217.29.67.20",
+                        "automattic.mix-it.net",
+                        "49.331 ms"
+                    ],
+                    [
+                        "192.0.66.168",
+                        "192.0.66.168",
+                        "49.487 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.whitehouse.gov",
+                    "ip_address": "192.0.66.168",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560944.5152373,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": false
+                }
+            }
+        },
+        "www.facebook.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "157.240.221.35"
+                        ],
+                        "CNAME": {
+                            "www.facebook.com": "star-mini.c10r.facebook.com",
+                            "star-mini.c10r.facebook.com": [
+                                "157.240.221.35"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "157.240.17.35"
+                        ],
+                        "CNAME": {
+                            "www.facebook.com": "star-mini.c10r.facebook.com",
+                            "star-mini.c10r.facebook.com": [
+                                "157.240.17.35"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560945.3887002,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.facebook.com",
+                    "ip_address": "157.240.17.35",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560946.031188,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "157.240.17.35",
+                        0,
+                        "45.47 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        1,
+                        "45.639 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        2,
+                        "45.283 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        3,
+                        "45.526 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        4,
+                        "45.398 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        5,
+                        "46.03 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        6,
+                        "46.345 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        7,
+                        "45.932 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        8,
+                        "45.378 ms"
+                    ],
+                    [
+                        64,
+                        "157.240.17.35",
+                        9,
+                        "45.767 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.173 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.825 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "47.112 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "46.824 ms"
+                    ],
+                    [
+                        "91.206.52.248",
+                        "as32934_2.swissix.ch",
+                        "50.494 ms"
+                    ],
+                    [
+                        "129.134.49.187",
+                        "po102.psw02.zrh1.tfbnw.net",
+                        "46.45 ms"
+                    ],
+                    [
+                        "173.252.67.57",
+                        "173.252.67.57",
+                        "45.99 ms"
+                    ],
+                    [
+                        "157.240.17.35",
+                        "edge-star-mini-shv-01-zrh1.facebook.com",
+                        "45.507 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.facebook.com",
+                    "ip_address": "157.240.17.35",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560946.796069,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": false
+                }
+            }
+        },
+        "www.amzn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "108.138.182.221"
+                        ],
+                        "CNAME": {
+                            "www.amzn.com": "www.amazon.com",
+                            "www.amazon.com": "tp.47cf2c8c9-frontier.amazon.com",
+                            "tp.47cf2c8c9-frontier.amazon.com": "d3ag4hukkh62yn.cloudfront.net",
+                            "d3ag4hukkh62yn.cloudfront.net": [
+                                "108.138.182.221"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "52.85.111.158"
+                        ],
+                        "CNAME": {
+                            "www.amzn.com": "www.amazon.com",
+                            "www.amazon.com": "tp.47cf2c8c9-frontier.amazon.com",
+                            "tp.47cf2c8c9-frontier.amazon.com": "d3ag4hukkh62yn.cloudfront.net",
+                            "d3ag4hukkh62yn.cloudfront.net": [
+                                "52.85.111.158"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560947.9976354,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.amzn.com",
+                    "ip_address": "52.85.111.158",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560948.7614818,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "52.85.111.158",
+                        0,
+                        "57.715 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        1,
+                        "57.065 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        2,
+                        "56.711 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        3,
+                        "56.875 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        4,
+                        "56.803 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        5,
+                        "56.378 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        6,
+                        "56.792 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        7,
+                        "57.933 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        8,
+                        "57.693 ms"
+                    ],
+                    [
+                        64,
+                        "52.85.111.158",
+                        9,
+                        "57.147 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.509 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "44.553 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.667 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "46.706 ms"
+                    ],
+                    [
+                        "212.221.89.142",
+                        "xe-2-0-2.cr1-zur2.ip4.gtt.net",
+                        "45.377 ms"
+                    ],
+                    [
+                        "141.136.111.174",
+                        "ae25.cr5-mrs1.ip4.gtt.net",
+                        "77.871 ms"
+                    ],
+                    [
+                        "77.67.83.110",
+                        "ip4.gtt.net",
+                        "57.276 ms"
+                    ],
+                    [
+                        "52.93.21.22",
+                        "52.93.21.22",
+                        "61.35 ms"
+                    ],
+                    [
+                        "52.93.21.33",
+                        "52.93.21.33",
+                        "56.827 ms"
+                    ],
+                    null,
+                    [
+                        "150.222.85.74",
+                        "150.222.85.74",
+                        "66.976 ms"
+                    ],
+                    [
+                        "150.222.239.37",
+                        "150.222.239.37",
+                        "62.917 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "52.85.111.158",
+                        "server-52-85-111-158.mrs52.r.cloudfront.net",
+                        "57.272 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "www.amzn.com",
+                    "ip_address": "52.85.111.158",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560952.0045142,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            }
+        },
+        "amazon.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "54.239.28.85",
+                            "52.94.236.248",
+                            "205.251.242.103"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "205.251.242.103",
+                            "54.239.28.85",
+                            "52.94.236.248"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560952.7473702,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "amazon.com",
+                    "ip_address": "205.251.242.103",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560954.4240186,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "205.251.242.103",
+                        0,
+                        "150.418 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        1,
+                        "151.085 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        2,
+                        "150.548 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        3,
+                        "150.789 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        4,
+                        "151.173 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        5,
+                        "150.964 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        6,
+                        "150.239 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        7,
+                        "152.291 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        8,
+                        "151.137 ms"
+                    ],
+                    [
+                        64,
+                        "205.251.242.103",
+                        9,
+                        "151.716 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.176 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.003 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.756 ms"
+                    ],
+                    [
+                        "77.109.134.101",
+                        "r2glb3.core.init7.net",
+                        "46.73 ms"
+                    ],
+                    [
+                        "5.180.135.142",
+                        "r1zrh13.core.init7.net",
+                        "46.026 ms"
+                    ],
+                    [
+                        "5.180.135.109",
+                        "r1zrh7.core.init7.net",
+                        "46.824 ms"
+                    ],
+                    [
+                        "5.180.132.228",
+                        "r1zrh11.core.init7.net",
+                        "45.393 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "amazon.com",
+                    "ip_address": "205.251.242.103",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560960.1197186,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "us2723.nordvpn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "104.149.135.12"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "104.149.135.12"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560960.88367,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "us2723.nordvpn.com",
+                    "ip_address": "104.149.135.12",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560962.8887658,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "104.149.135.12",
+                        0,
+                        "189.682 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        1,
+                        "185.117 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        2,
+                        "185.115 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        3,
+                        "184.007 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        4,
+                        "185.264 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        5,
+                        "186.087 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        6,
+                        "185.431 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        7,
+                        "184.903 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        8,
+                        "184.851 ms"
+                    ],
+                    [
+                        64,
+                        "104.149.135.12",
+                        9,
+                        "184.755 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.193 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.206 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "46.484 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "46.129 ms"
+                    ],
+                    [
+                        "212.221.89.142",
+                        "xe-2-0-2.cr1-zur2.ip4.gtt.net",
+                        "44.843 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "us2723.nordvpn.com",
+                    "ip_address": "104.149.135.12",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560970.5636802,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        },
+        "jp590.nordvpn.com": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "212.102.50.86"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "212.102.50.86"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560971.2869515,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "jp590.nordvpn.com",
+                    "ip_address": "212.102.50.86",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560973.777119,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.106 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "45.025 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "44.454 ms"
+                    ],
+                    [
+                        "185.54.162.254",
+                        "185.54.162.254",
+                        "45.842 ms"
+                    ],
+                    [
+                        "212.221.89.142",
+                        "xe-2-0-2.cr1-zur2.ip4.gtt.net",
+                        "47.55 ms"
+                    ],
+                    [
+                        "89.149.185.78",
+                        "et-8-3-0.cr0-mil2.ip4.gtt.net",
+                        "47.974 ms"
+                    ],
+                    [
+                        "154.14.128.142",
+                        "ip4.gtt.net",
+                        "49.809 ms"
+                    ],
+                    [
+                        "129.250.3.84",
+                        "ae-1.r20.mlanit02.it.bb.gin.ntt.net",
+                        "49.142 ms"
+                    ],
+                    [
+                        "129.250.4.188",
+                        "ae-10.r21.parsfr04.fr.bb.gin.ntt.net",
+                        "66.04 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    [
+                        "129.250.5.77",
+                        "ae-21.r30.tokyjp05.jp.bb.gin.ntt.net",
+                        "82.474 ms"
+                    ],
+                    null,
+                    [
+                        "117.103.177.146",
+                        "117.103.177.146",
+                        "56.882 ms"
+                    ],
+                    null,
+                    [
+                        "212.102.50.86",
+                        "unn-212-102-50-86.cdn77.com",
+                        "17.335 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "jp590.nordvpn.com",
+                    "ip_address": "212.102.50.86",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560976.4524086,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": true
+                }
+            }
+        },
+        "fbi.gov": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "104.16.149.244",
+                            "104.16.148.244"
+                        ]
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "104.16.149.244",
+                            "104.16.148.244"
+                        ]
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560977.493078,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "fbi.gov",
+                    "ip_address": "104.16.149.244",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560978.076172,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    [
+                        64,
+                        "104.16.149.244",
+                        0,
+                        "44.323 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        1,
+                        "43.818 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        2,
+                        "43.937 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        3,
+                        "44.493 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        4,
+                        "44.375 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        5,
+                        "44.406 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        6,
+                        "44.399 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        7,
+                        "44.472 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        8,
+                        "44.732 ms"
+                    ],
+                    [
+                        64,
+                        "104.16.149.244",
+                        9,
+                        "46.217 ms"
+                    ]
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 10,
+                    "packet_loss": 0.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.123 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "44.454 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.979 ms"
+                    ],
+                    [
+                        "77.109.134.101",
+                        "r2glb3.core.init7.net",
+                        "46.121 ms"
+                    ],
+                    [
+                        "5.180.135.155",
+                        "r1glb3.core.init7.net",
+                        "45.846 ms"
+                    ],
+                    [
+                        "5.180.135.69",
+                        "r2zrh5.core.init7.net",
+                        "46.429 ms"
+                    ],
+                    [
+                        "5.180.135.2",
+                        "r1zrh5.core.init7.net",
+                        "45.831 ms"
+                    ],
+                    [
+                        "194.42.48.14",
+                        "194.42.48.14",
+                        "45.432 ms"
+                    ],
+                    [
+                        "104.16.149.244",
+                        "104.16.149.244",
+                        "45.801 ms"
+                    ]
+                ],
+                "parameters": {
+                    "address": "fbi.gov",
+                    "ip_address": "104.16.149.244",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560979.0239737,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": true,
+                    "network_issue": false
+                }
+            }
+        },
+        "www.ic3.gov": {
+            "resolve": {
+                "nslookup": {
+                    "1.1.1.1": {
+                        "A": [
+                            "20.141.10.212"
+                        ],
+                        "CNAME": {
+                            "www.ic3.gov": "ic3web.azurefd.us",
+                            "ic3web.azurefd.us": "t-0001.msedge.azure.us",
+                            "t-0001.msedge.azure.us": "eafd-3p-profile.usgovtrafficmanager.net",
+                            "eafd-3p-profile.usgovtrafficmanager.net": "eafd-ffgov-phx01.elasticafd.msedge.azure.us",
+                            "eafd-ffgov-phx01.elasticafd.msedge.azure.us": [
+                                "20.141.10.212"
+                            ]
+                        }
+                    },
+                    "8.8.4.4": {
+                        "A": [
+                            "20.140.147.201"
+                        ],
+                        "CNAME": {
+                            "www.ic3.gov": "ic3web.azurefd.us",
+                            "ic3web.azurefd.us": "t-0001.msedge.azure.us",
+                            "t-0001.msedge.azure.us": "eafd-3p-profile.usgovtrafficmanager.net",
+                            "eafd-3p-profile.usgovtrafficmanager.net": "eafd-ffgov-sn02.elasticafd.msedge.azure.us",
+                            "eafd-ffgov-sn02.elasticafd.msedge.azure.us": [
+                                "20.140.147.201"
+                            ]
+                        }
+                    }
+                },
+                "parameters": {
+                    "Unix Epoch Time": 1673560981.128885,
+                    "timezone": "UTC",
+                    "Public IP Address": "79.142.69.236",
+                    "pcname": "6a20383aeed3",
+                    "username": "jozbox",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "ASN": "51430"
+                }
+            },
+            "verbose_ping": {
+                "parameters": {
+                    "address": "www.ic3.gov",
+                    "ip_address": "20.140.147.201",
+                    "count": 10,
+                    "interval": 0.1,
+                    "timeout": 1,
+                    "id": 37,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560983.6780002,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "ping": [
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "statistics": {
+                    "packets_transmitted": 10,
+                    "packets_received": 0,
+                    "packet_loss": 100.0,
+                    "completed": true,
+                    "network_issue": false
+                }
+            },
+            "verbose_traceroute": {
+                "traceroute": [
+                    [
+                        "172.20.0.1",
+                        "172.20.0.1",
+                        "0.33 ms"
+                    ],
+                    [
+                        "10.8.1.1",
+                        "10.8.1.1",
+                        "44.489 ms"
+                    ],
+                    [
+                        "79.142.69.3",
+                        "79.142.69.3",
+                        "45.233 ms"
+                    ],
+                    [
+                        "77.109.134.101",
+                        "r2glb3.core.init7.net",
+                        "45.931 ms"
+                    ],
+                    [
+                        "5.180.135.155",
+                        "r1glb3.core.init7.net",
+                        "51.726 ms"
+                    ],
+                    [
+                        "5.180.135.136",
+                        "r1glb1.core.init7.net",
+                        "51.013 ms"
+                    ],
+                    [
+                        "77.109.134.6",
+                        "gw-microsoft.init7.net",
+                        "71.791 ms"
+                    ],
+                    [
+                        "104.44.232.104",
+                        "ae28-0.icr02.zrh20.ntwk.msn.net",
+                        "51.329 ms"
+                    ],
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null,
+                    null
+                ],
+                "parameters": {
+                    "address": "www.ic3.gov",
+                    "ip_address": "20.140.147.201",
+                    "max_hops": 30,
+                    "timeout": "1.0",
+                    "interval": 500,
+                    "payload_size": 56,
+                    "username": "jozbox",
+                    "pcname": "6a20383aeed3",
+                    "currentdirectory": "/src/app/hostname_advanced_testing",
+                    "Unix Epoch Time": 1673560989.7076347,
+                    "Public IP Address": "79.142.69.236",
+                    "ASN": {
+                        "asn_id": "51430",
+                        "asn_name": "AltusHost Inc."
+                    }
+                },
+                "statistics": {
+                    "completed": true,
+                    "host_reached": false,
+                    "network_issue": true
+                }
+            }
+        }
+    }
+}
