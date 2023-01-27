@@ -16,6 +16,7 @@ else:
 	import utilities.file as file
 	import utilities.utility as utility
 	import utilities.dns_nameserver as dns_nameserver
+	import utilities.helper_ip_ipinfo as ip_info
 import re
 import os
 import pathlib
@@ -39,7 +40,18 @@ def get_asn_for_a_given_ip_dict(ip_address, print_result = False):#twoip
 		# map(lambda x: print(x, asn_twoip[x]) for asn_twoip)
 	# if asn_twoip_dict['name_ripe'].startswith('Proxy route object for'):
 	# 	result = re.search(r'AS(?P<as1>\d+) by AS(?P<as2>\d+)', asn_twoip_dict['name_ripe'])
-	return asn_twoip_dict
+	if 'name_ripe' in asn_twoip_dict:
+		return asn_twoip_dict
+	else:
+		asn_ipinfo_dict = ip_info.get_lookup_ip_dict(ip_address=ip_address)
+		name_ripe = asn_ipinfo_dict.get('org')
+		pattern_result = r'(?P<as>AS\d+)(?P<asn>.*)'
+		result_asn = re.search(pattern_result, name_ripe)
+		if result_asn: name_ripe = result_asn['asn'].strip()
+		asn_twoip_dict['name_ripe'] = name_ripe
+		return asn_twoip_dict
+		
+
 
 
 def __get_asn_prefixes_list__(asn_id, print_result = False):
@@ -118,7 +130,8 @@ def get_asn_dict(ip_address_public = None, print_result = True, get_asn_id = Fal
 				if print_result: print('\n\n\tOpened asn file:', asn_files_dict[asn_id]['asn_file_path'], '\n\n')
 				#return asn_files_dict[asn_id] | {'asn_ip_subnet': asn_ip_subnet, 'ip_address_public': ip_address_public}
 				if get_asn_id and get_asn_name:
-					data_dict = {'asn_id':asn_dict['info']['as'], 'asn_name':asn_dict['info']['name_ripe']}
+					data_dict = {'asn_id':asn_dict['info'].get('as'),
+								'asn_name':asn_dict['info'].get('name_ripe')}
 				elif get_asn_id:
 					data_dict = asn_dict['info']['as']
 				elif get_asn_name:

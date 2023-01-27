@@ -39,8 +39,8 @@ def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
     # asn_as_list = {}
     # for asn_file in asn_files_dict:
     #    asn_file_dict = File.open_json(asn_files_dict[asn_file]['asn_file_path'])
-    # for (key, value) in asn_id_list_dict:
-    #     asn
+        # for (key, value) in asn_id_list_dict:
+        #     asn
 
     
 
@@ -48,15 +48,21 @@ def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
     if asn_id is None:
         return nameservers
     else:
-        # asn = asn['asn_id_name']
-        # if asn_id == 'lanet': 
-        if asn_id == 39608: 
-            nameservers.append('194.50.85.5')
-            nameservers.remove('1.1.1.1')
-            nameservers.remove('8.8.4.4')
-            nameservers.remove('9.9.9.9')
-            nameservers.remove('64.6.64.6')
-            nameservers.remove('209.244.0.3')
+        if asn_id == 39608: #'lanet'
+            nameservers.append('194.50.85.5')# Lanet.ua
+            # nameservers.remove('1.1.1.1')# Cloudflare
+            # nameservers.remove('8.8.4.4')# Google
+            # nameservers.remove('9.9.9.9')# Quad9
+            # nameservers.remove('64.6.64.6')# Neustar
+            # nameservers.remove('209.244.0.3')
+            nameservers.append('76.76.2.0')# Control D
+            nameservers.append('208.67.222.222')# OpenDNS Home
+            nameservers.append('185.228.168.9')# CleanBrowsing
+            nameservers.append('94.140.14.14')# AdGuard DNS
+            nameservers.append('84.200.69.80')# DNS.WATCH
+            nameservers.append('8.26.56.26')# Comodo Secure DNS
+            nameservers.append('77.88.8.8')# Yandex DNS
+            nameservers.append('205.171.3.65')# CenturyLimk (Level3)
         elif asn_id == 'vodafone':
             #nameservers.append('9.9.9.9')
             nameservers.remove('1.1.1.1')
@@ -67,8 +73,7 @@ def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
             # nameservers.append('88.214.96.116')
             # nameservers.append('80.255.73.116')
             # nameservers.append('80.255.64.1172')
-        #elif asn_id == 'kyivstar':
-        elif asn_id == 15895:
+        elif asn_id == 15895:#'kyivstar'
             nameservers.append("193.41.60.1")
             #nameservers.append("81.23.24.66")
             #nameservers.append("88.214.96.116")
@@ -85,6 +90,13 @@ def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
         elif asn_id == 'o3': pass # Retroville WiFi Retroville Guest, Master Burger
         elif asn_id == 'ukrtelecom': pass #IP address of the domain: 95.132.129.254 Retroille WiFi Multiplex
         elif asn_id == 'wnet': pass #IP address of the domain: 217.20.182.17 Retroville WiFi Rozetka
+        elif asn_id == 34056:
+            # https://kievnet.ua/uk/technical-settings
+            nameservers.append('92.244.96.117')
+            nameservers.append('92.244.96.10')
+            #nameservers.append('ns3.kievnet.ua')
+            #nameservers.append('ns2.kievnet.ua')
+            #nameservers.append('ns1.kievnet.ua')
         else:
             nameservers.append("103.86.99.99")
             nameservers.append("103.86.96.100")
@@ -219,6 +231,44 @@ def get_nameserver(nameservers=["1.1.1.1"], asn_id = None):
 #     # '103.26.250.4', '1.1.1.1', '61.8.0.113', '210.48.77.68', '164.124.101.2', '202.46.34.75', '31.7.37.37',
 #     # '115.178.96.2', '58.27.149.60', '185.83.212.30', '103.146.221.20', '8.8.4.4', '64.6.64.6', '208.67.220.220',
 #     # '209.244.0.3', '1.0.0.1', '208.67.222.222']
+
+
+"""
+https://www.lifewire.com/free-and-public-dns-servers-2626062
+
+Best Free & Public DNS Servers
+Provider    Primary DNS Secondary DNS
+Google  8.8.8.8 8.8.4.4
+Control D   76.76.2.0   76.76.10.0
+Quad9   9.9.9.9 149.112.112.112
+OpenDNS Home    208.67.222.222  208.67.220.220
+Cloudflare  1.1.1.1 1.0.0.1
+CleanBrowsing   185.228.168.9   185.228.169.9
+Alternate DNS   76.76.19.19 76.223.122.150
+AdGuard DNS 94.140.14.14    94.140.15.15
+
+Additional DNS Servers
+Here are several more public DNS servers from major providers.
+
+More Free DNS Servers
+Provider    Primary DNS Secondary DNS
+DNS.WATCH   84.200.69.80    84.200.70.40
+Comodo Secure DNS   8.26.56.26  8.20.247.20
+CenturyLink (Level3)    205.171.3.65    205.171.2.65
+CIRA Canadian Shield    149.112.121.10  149.112.122.10
+SafeDNS 195.46.39.39    195.46.39.40
+OpenNIC 159.89.120.99   134.195.4.2
+Dyn 216.146.35.35   216.146.36.36
+Yandex DNS  77.88.8.8   77.88.8.1
+Hurricane Electric  74.82.42.42  
+Neustar 64.6.64.6   64.6.65.6
+Freenom World   80.80.80.80 80.80.81.81
+DNS for Family  94.130.180.225  78.47.64.161
+FlashStart  185.236.104.104 185.236.105.105
+"""
+
+
+
 
 
 
