@@ -8,7 +8,7 @@ This API client will retrieve DNS provider information for host name (resolve DN
 
 """
 
-__version__ = "4.0"
+__version__ = "4.1"
 
 import utilities.dns_resolve as dns_resolve
 import utilities.ping as ping
@@ -19,6 +19,7 @@ import utilities.utility as utility
 import utilities.file as file
 import utilities.helper_asn as helper_asn
 import utilities.helper_ip_ipinfo as helper_ip_info
+import hosts.nordvpn.servers_nordvpn as servers_nordvpn
 
 import time
 import os
@@ -60,7 +61,20 @@ class Advanced_testing:
 		if len(hostnames_dict) > 0:
 			self.recv_records = hostnames_dict
 		else:
-			self.recv_records = {"parameters" : {"Unix Epoch Time" : utility.get_time_unix(), 'timezone':'UTC', 'time': time.ctime(), 'continue': False, 'continuing chellanges': []}}
+			self.recv_records = {'parameters' : {'unix_epoch_time' : utility.get_time_unix(),
+												'timezone':'utc', 'time': time.ctime(),
+												'continue': False, 'continuing_chellanges': [],
+												'username': utility.get_username(),
+												'pcname': utility.get_pcname(),
+												'currentdirectory': utility.get_currentdirectory()},
+								'parameters_ping': {'count': 10,
+												'interval': 0.1,
+												'timeout': 1,
+												'payload_size': 56},
+								'parameters_traceroute': {'max_hops': 30,
+												'timeout': 1,
+												'interval': 500,
+												'payload_size': 56}}
 		self.parent_dir = os.path.dirname(__file__)
 
 		self.path_results_name = path_results_name
@@ -107,7 +121,8 @@ class Advanced_testing:
 			dir_results_files_list = File.dir_listing_files_in_this_directory_tree(path = self.parent_dir + '/' + 'results', file_extension = 'json')
 			pattern_result_files_asn_list = []
 			pattern_asn_file_name = r'(?P<file_name_prefix>^results_)(?P<date>\d*\-\d*\-\d*)(?P<separator>_)(?P<time>\d*\-\d*-\d*)(?P<file_name_as_prefix>_AS-)(?P<as>\d+)((?P<separator2>_)(?P<country>[A-Z]{2})(_hosts_)|(_hosts_))(?P<host>\w+[a-z])(\.json$)'
-			#fulfilling pattern_result_files_asn_list
+			#pattern_asn_file_name = r'(^results_)([0-9-]+)(_)([0-9-]+)(_)(AS-)(\d+)(_)(?P<country>[A-Z]{2})(_hosts_)(\w+)((_\w*\.\w+)?)(\.json$)'
+			# fulfilling pattern_result_files_asn_list
 			for file_path in dir_results_files_list:# find # ip_network_asn
 				result_asn = re.search(pattern_asn_file_name, file_path.name)
 				if result_asn and int(result_asn['as']) == int(asn_subnet_id) and ip_country == result_asn['country'] and result_asn['host'] == self.path_results_name:
@@ -120,15 +135,16 @@ class Advanced_testing:
 				last_file_path = list(reversed(files_list))[0]
 				if self.print_result: print('\n\n\tLast file path:', last_file_path, '\n\n')
 				if File.check_is_file_need_update(path = last_file_path, days_ago = 5) is False:# 3
-					if self.print_result: print('\n\n\tFile is updated:', last_file_path, '\n\n')
+					if self.print_result: print('\n\n\tFile is actual (updated):', last_file_path, '\n\n')
 					return last_file_path
 				else:
-					if self.print_result: print('\n\n\tFile need update:', last_file_path, '\n\n')
+					if self.print_result: print('\n\n\tFile needs update:', last_file_path, '\n\n')
+			else: 
+				if self.print_result: print('No last file result')
 		
 
 		def __check_is_result_file_status_completed__(last_file_json_length, hosts_list_length):
-			if last_file_json_length >= hosts_list_length: return True
-			else: return False
+			return True if last_file_json_length >= hosts_list_length else False
 
 
 		def check_file_status_complete(last_file_json):
@@ -161,8 +177,15 @@ class Advanced_testing:
 			hostnames_new_list.sort()
 
 			if self.print_result: print('\n\n\tHostnames new list length', len(hostnames_new_list), '\n\n')
+
 			if check_file_status_complete(last_file_json) is False:
-				return {'last_file_path_results': last_file_path, 'job_done': False, 'last_file_json': last_file_json, 'hostnames_new_sorted_list': hostnames_new_list, 'hostname_continue_index': hostnames_original_sorted_list.index(hostnames_last_sorted_list[-1])}
+				return {'last_file_path_results': last_file_path,
+						'job_done': False,
+						'last_file_json': last_file_json,
+						'hostnames_new_sorted_list': hostnames_new_list,
+						# 'hostname_continue_index': hostnames_original_sorted_list.index(hostnames_last_sorted_list[-1])
+						'hostname_continue_index': self.hostnames.index(list(last_file_json['advanced_test'])[-1])
+						}
 
 		last_file_asn_path = get_last_file_path(files_list = find_result_files_list())
 		if last_file_asn_path: return get_fulfilling_hostnames_continue_dict(last_file_asn_path)
@@ -205,13 +228,14 @@ class Advanced_testing:
 		Response = dns_resolve.Dns_response(host = qname, records = self.records, nameserver = self.nameserver, ip_address_public_answer = self.ip_address_public, asn_id = asn_id)
 		result = Response.get_nslookup()
 		recv_records = {"resolve":{"nslookup":result[qname]}}
-		recv_records["resolve"]["parameters"] = {'Unix Epoch Time': utility.get_time_unix(),
-												'timezone':'UTC',
-												'Public IP Address': ip,
-												'pcname': utility.get_pcname(),
-												'username': utility.get_username(),
-												'currentdirectory': utility.get_currentdirectory(),
-												'ASN': asn_id}
+		recv_records["resolve"]["parameters"] = {'unix_epoch_time': utility.get_time_unix(),
+												#'timezone':'UTC',
+												'public_ip_address': ip,
+												#'pcname': utility.get_pcname(),
+												#'username': utility.get_username(),
+												#'currentdirectory': utility.get_currentdirectory(),
+												#'ASN': asn_id
+												}
 		return recv_records['resolve']
 
 
@@ -219,9 +243,9 @@ class Advanced_testing:
 		result = ping.verbose_ping(address = qname, ip_address_resolved = self.ip_address_resolved)
 		if result is not None:
 			recv_records = {'verbose_ping':result[qname]}
-			recv_records['verbose_ping']['parameters']['Unix Epoch Time'] = utility.get_time_unix()
-			recv_records['verbose_ping']['parameters']['Public IP Address'] = ip
-			recv_records['verbose_ping']['parameters']['ASN'] = asn
+			recv_records['verbose_ping']['parameters']['unix_epoch_time'] = utility.get_time_unix()
+			recv_records['verbose_ping']['parameters']['public_ip_address'] = ip
+			#recv_records['verbose_ping']['parameters']['ASN'] = asn
 			return recv_records["verbose_ping"]
 
 
@@ -229,9 +253,9 @@ class Advanced_testing:
 		result = traceroute.verbose_traceroute(address = qname, ip_address_resolved = self.ip_address_resolved, interval=0.05, timeout=0.01)# timeout 0.1 -> 0.01
 		if result is not None:
 			recv_records = {'verbose_traceroute':result[qname]}
-			recv_records['verbose_traceroute']['parameters']['Unix Epoch Time'] = utility.get_time_unix()
-			recv_records['verbose_traceroute']['parameters']['Public IP Address'] = ip
-			recv_records['verbose_traceroute']['parameters']['ASN'] = asn
+			recv_records['verbose_traceroute']['parameters']['unix_epoch_time'] = utility.get_time_unix()
+			recv_records['verbose_traceroute']['parameters']['public_ip_address'] = ip
+			#recv_records['verbose_traceroute']['parameters']['ASN'] = asn
 			return recv_records['verbose_traceroute']
 
 
@@ -278,25 +302,44 @@ class Advanced_testing:
 		elif isinstance(hostnames, list): self.hostnames = hostnames
 		else: print("Are list of hostname(s) str, list?"); sys.exit(1)
 		# hostnames_start = check_hostnames_start_index()
+		ip_public = self.__get_ip_public__(ip_address_check = True)
+		asn_subnet = helper_asn.get_asn_dict(ip_address_public = ip_public, print_result = self.print_result, get_asn_id = True, get_asn_name = True)
+		self.ip_info = self.get_ip_ipinfo_dict(ip_public)
 		if self.path_results_name is not None and self.continue_option:
-			ip_public = self.__get_ip_public__(ip_address_check = True)
-			asn_subnet = helper_asn.get_asn_dict(ip_address_public = ip_public, print_result = self.print_result, get_asn_id = True, get_asn_name = True)
-			self.ip_info = self.get_ip_ipinfo_dict(ip_public)
+			
 			self.start_job_dict = self.get_hostnames_continue_list_dict(asn_subnet_id = asn_subnet['asn_id'], ip_country = self.ip_info['country'])
 			if self.start_job_dict:
 				self.hostnames_path_results = self.start_job_dict['last_file_path_results']
 				self.job_done = self.start_job_dict['job_done']
 				self.recv_records = self.start_job_dict['last_file_json']
 				if self.start_job_dict['job_done'] is False:
-					if len(self.recv_records['parameters']['continuing chellanges'])>0:
+					if self.recv_records['parameters']['continue'] == False:
+						# len(self.recv_records['parameters']['continuing_chellanges'])>0:
 						self.recv_records['parameters']['continue'] = True
-					self.recv_records['parameters']['continuing chellanges'].append({'Unix Epoch Time' : utility.get_time_unix(), 'timezone':'UTC', 'time': time.ctime(), 'Public IP Address': ip_public, 'ASN': asn_subnet, 'hostname_continue_index': self.start_job_dict['hostname_continue_index'], 'ip_info': self.ip_info})
+					self.recv_records['parameters']['continuing_chellanges'].append({'unix_epoch_time' : utility.get_time_unix(),
+						'timezone':'utc',
+						'time': time.ctime(),
+						'public_ip_address': ip_public,
+						'asn': asn_subnet,
+						'hostname_continue_index': self.start_job_dict['hostname_continue_index'],
+						'ip_info': self.ip_info,
+						'username': utility.get_username(),
+						'pcname': utility.get_pcname(),
+						'currentdirectory': utility.get_currentdirectory()
+						})
+					self.recv_records['parameters']['continue'] = True
+					if 'server_nordvpn' not in self.recv_records['parameters']['continuing_chellanges'][-1]:
+						server_nordvpn_dict = servers_nordvpn.Servers_NordVPN().find_server_by_ip_address(ip_public)
+						if server_nordvpn_dict:
+							self.recv_records['parameters']['continuing_chellanges'][-1]['server_nordvpn'] = server_nordvpn_dict
 				if len(self.start_job_dict['hostnames_new_sorted_list']) > 0 :
 					self.hostnames = self.start_job_dict['hostnames_new_sorted_list']
-		else:
-			ip_public = self.__get_ip_public__(ip_address_check = True)
-			asn_subnet = helper_asn.get_asn_dict(ip_address_public = ip_public, print_result = self.print_result, get_asn_id = True, get_asn_name = True)
-			self.ip_info = self.get_ip_ipinfo_dict(ip_public)
+		# else:
+		# 	ip_public = self.__get_ip_public__(ip_address_check = True)
+		# 	asn_subnet = helper_asn.get_asn_dict(ip_address_public = ip_public, print_result = self.print_result, get_asn_id = True, get_asn_name = True)
+		# 	self.ip_info = self.get_ip_ipinfo_dict(ip_public)
+			
+			
 		self.hostnames_len = len(self.hostnames)
 		if self.hostnames_len > 1000: self.k = 100 # 100 -> 10
 			# if self.hostnames_len % 2 == 0: self.k = 100
@@ -304,17 +347,19 @@ class Advanced_testing:
 		else: self.k = 200 # 200 -> 20
 			# if self.hostnames_len % 2 == 0: self.k = 200
 			# else: self.k = 150
-		
+		if 'public_ip_address' not in self.recv_records['parameters']: self.recv_records['parameters']['public_ip_address'] = ip_public
+		if 'ASN' not in self.recv_records['parameters']: self.recv_records['parameters']['asn'] = asn_subnet
 		if 'ip_info' not in self.recv_records['parameters']: self.recv_records['parameters']['ip_info'] = self.get_ip_ipinfo_dict(ip_public)
-
+		if 'server_nordvpn' not in self.recv_records['parameters']:
+			server_nordvpn_dict = servers_nordvpn.Servers_NordVPN().find_server_by_ip_address(ip_public)
+			if server_nordvpn_dict:
+				self.recv_records['parameters']['server_nordvpn'] = server_nordvpn_dict
 		for enum, qname in enumerate(self.hostnames):
 			qname = qname.lower().strip()
 			start_time_advanced_test = time.time()
 			ip_public = self.__get_ip_public__(ip_address_check = True)
 			# self.ip_network_asn
 			asn_subnet = helper_asn.get_asn_dict(ip_address_public = ip_public, print_result = self.print_result, get_asn_id = True, get_asn_name = True)
-			if 'Public IP Address' not in self.recv_records['parameters']: self.recv_records['parameters']['Public IP Address'] = ip_public
-			if 'ASN' not in self.recv_records['parameters']: self.recv_records['parameters']['ASN'] = asn_subnet
 			if self.print_result: print('\n\nhostname qname:', enum, qname, '\n')
 			if len(qname)>3 and qname not in self.can_not_be_resolve and self.__get_ip_address_resolved__(qname):
 				self.recv_records['advanced_test'][qname] = {}
@@ -347,9 +392,9 @@ class Advanced_testing:
 					self.recv_records["advanced_test"][qname]["verbose_ssl_cert"] = {
 						'ssl_cert_info': self.__get_ssl_check__(qname, ip = ip_public, asn = asn_subnet),
 						'parameters':{
-							'Public IP Address': ip_public,
-							'Unix Epoch Time': utility.get_time_unix(),
-							'ASN': asn_subnet
+							'public_ip_address': ip_public,
+							'unix_epoch_time': utility.get_time_unix(),
+							#'ASN': asn_subnet
 						}
 					}
 
@@ -379,7 +424,8 @@ class Advanced_testing:
 	def __get_dump__(self, ip_network_asn):
 		if self.get_dump:
 			path_results = self.__get_path_results__(ip_network_asn = ip_network_asn) 
-			json.dump(self.recv_records, fp = open(path_results, 'w'), indent=4)
+			#json.dump(self.recv_records, fp = open(path_results, 'w'), indent=4)
+			json.dump(self.recv_records, fp = open(path_results, 'w'))
 			if self.print_result: utility.print_green2("Results dumped:" + path_results)
 			if self.say_result: utility.get_say('Results dumped')
 
@@ -395,7 +441,7 @@ class Advanced_testing:
 		if self.print_result:
 			duration_seconds = time.time() - self.start_time
 			duration = time.strftime("%H:%M:%S", time.gmtime(duration_seconds))
-			self.recv_records["parameters"]["Execution time Duration"] = str('{:.3f}'.format(duration_seconds))
+			self.recv_records["parameters"]["execution_time_duration"] = str('{:.3f}'.format(duration_seconds))
 			print("Duration:", duration)
 		if self.say_result: utility.get_say("Dns hostnames advanced tests jobs done, time taken: " + duration)
 
